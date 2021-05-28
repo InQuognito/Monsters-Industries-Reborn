@@ -24,6 +24,7 @@ Special Thanks:
 - vdvman1
 - Ael
 - Everyone else at the Minecraft Commands Discord for all your help!
+
 Alpha Testers:
 - 3DSCarnaje
 - Mystic_Gamer123

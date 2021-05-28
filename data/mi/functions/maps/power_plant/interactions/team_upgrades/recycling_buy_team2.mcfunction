@@ -9,5 +9,4 @@ title @s actionbar ["",{"text":"You have purchased ","color":"green"},{"text":"R
 tellraw @a[team=team2,tag=!self] ["",{"text":"Your teammate has purchased ","color":"green"},{"text":"Recycling","color":"gold"},{"text":"!","color":"green"}]
 tag @s remove self
 
-clear @s paper 768
-clear @s emerald 6
+clear @s paper 256

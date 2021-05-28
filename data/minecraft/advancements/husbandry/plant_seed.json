@@ -1,30 +1,28 @@
 {
-    "__comment": "DELETE ADVANCEMENT",
-    "__comment": "Made by GatKong",
-  "parent": "minecraft:husbandry/root",
-  "display": {
-    "icon": {
-      "item": "minecraft:wheat"
-    },
-    "title": {
-      "translate": "advancements.husbandry.plant_seed.title"
-    },
-    "description": {
-      "translate": "advancements.husbandry.plant_seed.description"
-    },
-    "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": true
-  },
-  "criteria": {
-        "impossible": {
-            "trigger": "minecraft:impossible"
-        }
-  },
-  "requirements": [
-    [
-      "impossible"
-    ]
-  ]
+	"parent": "minecraft:husbandry/root",
+	"display": {
+		"icon": {
+		"item": "minecraft:wheat"
+		},
+		"title": {
+		"translate": "advancements.husbandry.plant_seed.title"
+		},
+		"description": {
+		"translate": "advancements.husbandry.plant_seed.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+			"impossible": {
+				"trigger": "minecraft:impossible"
+			}
+	},
+	"requirements": [
+		[
+		"impossible"
+		]
+	]
 }

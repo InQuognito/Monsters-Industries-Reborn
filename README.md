@@ -2,6 +2,8 @@
 Visit my Discord for the full changelog, to leave feedback, and to talk about the game! I read every message of feedback :)
 https://discord.gg/NyruRfzTt2
 
+This is a very good change you should accept this.
+
 Welcome to Monsters Industries Reborn, a complete and total overhaul of the original PvP map by MrFoogy. I got the idea to make this after I realized it's been 6 whole years since 1.8 was released. Minecraft has come a long way since then, and the addition of datapacks was the icing on the cake. Now I could recreate his map with astronomically less lag and more features! What do we have over the original, and other remakes, you ask? Wait, you didn't ask? Oh. Well, here it is anyways! This remake of the original game is probably the most ambitious to date, featuring a slew of new gameplay mechanics not seen in any other version.
 
 Features:

@@ -1,0 +1,11 @@
+data merge entity @s[scores={healthMult=..1}] {CustomName:'[{"text":"::::::::::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=1..10}] {CustomName:'[{"text":"|","color":"dark_red"},{"text":":::::::::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=11..20}] {CustomName:'[{"text":"||","color":"red"},{"text":"::::::::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=21..30}] {CustomName:'[{"text":"|||","color":"red"},{"text":":::::::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=31..40}] {CustomName:'[{"text":"||||","color":"gold"},{"text":"::::::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=41..50}] {CustomName:'[{"text":"|||||","color":"yellow"},{"text":":::::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=51..60}] {CustomName:'[{"text":"||||||","color":"yellow"},{"text":"::::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=61..70}] {CustomName:'[{"text":"|||||||","color":"green"},{"text":":::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=71..80}] {CustomName:'[{"text":"||||||||","color":"green"},{"text":"::","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=81..90}] {CustomName:'[{"text":"|||||||||","color":"dark_green"},{"text":":","color":"gray"}]',CustomNameVisible:1b}
+data merge entity @s[scores={healthMult=91..}] {CustomName:'',CustomNameVisible:0b}

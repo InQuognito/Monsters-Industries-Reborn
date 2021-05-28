@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "You Really Are... The Worst Player",
+			"color": "yellow",
+			"bold": true
+		},
+		"description": {
+			"text": "Somehow manage to get every single death on your team in one round...",
+			"color": "white"
+		},
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "mi:deaths_100"
+}

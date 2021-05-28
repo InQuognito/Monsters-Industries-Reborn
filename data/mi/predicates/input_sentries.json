@@ -1,0 +1,43 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+				"offsetX": 0,
+				"offsetY": 0,
+				"offsetZ": 0,
+			"predicate": {
+				"position": {
+					"x": 79,
+					"y": 29,
+					"z": -103
+				},
+				"block": {
+					"tag": "minecraft:buttons",
+					"state": {
+						"powered": true
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+				"offsetX": 0,
+				"offsetY": 0,
+				"offsetZ": 0,
+			"predicate": {
+				"position": {
+					"x": 201,
+					"y": 29,
+					"z": -148
+				},
+				"block": {
+					"tag": "minecraft:buttons",
+					"state": {
+						"powered": true
+					}
+				}
+			}
+		}
+	]
+}

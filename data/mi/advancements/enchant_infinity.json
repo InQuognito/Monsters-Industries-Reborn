@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Luck of the Draw",
+            "color": "yellow",
+			"bold": true
+        },
+        "description": {
+            "text": "Enchant your bow with Infinity.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:enchant_tool"
+}

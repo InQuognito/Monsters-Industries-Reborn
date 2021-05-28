@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Supervisor",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Win 5 games.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:win_1_game"
+}

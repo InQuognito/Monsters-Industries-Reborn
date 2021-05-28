@@ -1,0 +1,33 @@
+{
+	"pools": [
+		{
+		"rolls": {
+			"min": 3,
+			"max": 12
+		},
+		"entries": [
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:paper"
+			},
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:slime_ball"
+			},
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:gunpowder"
+			}
+		],
+		"conditions": [
+			{
+			"condition": "minecraft:entity_scores",
+			"entity": "direct_killer",
+			"scores": {
+				"recycling": 1
+			}
+			}
+		]
+		}
+	]
+}

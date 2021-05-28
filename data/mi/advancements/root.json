@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Monsters Industries",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "v0.76",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:1}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

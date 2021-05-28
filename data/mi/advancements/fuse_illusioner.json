@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "Master Scientist",
+			"color": "yellow",
+			"bold": true
+		},
+		"description": {
+			"text": "Fuse the legendary Illusioner.",
+			"color": "white"
+		},
+		"icon": {
+			"item": "minecraft:experience_bottle"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "mi:do_fusion"
+}

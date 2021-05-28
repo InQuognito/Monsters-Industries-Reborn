@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"team1": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:lever"
+					},
+					"position": {
+						"x": {
+							"min": 102.5,
+							"max": 102.5
+						},
+						"y": {
+							"min": 28.5,
+							"max": 28.5
+						},
+						"z": {
+							"min": -129.5,
+							"max": -121.5
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "mi:logic/pull_lever"
+	}
+}

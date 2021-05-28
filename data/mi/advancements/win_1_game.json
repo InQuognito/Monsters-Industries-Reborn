@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Associate",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Win your first game.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:play_1_game"
+}

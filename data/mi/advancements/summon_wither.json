@@ -1,0 +1,27 @@
+{
+	"display": {
+		"title": {
+			"text": "Stock Market Crash",
+			"color": "dark_gray",
+			"bold": true
+		},
+		"description": {
+			"text": "Summon the Wither.",
+			"color": "white"
+		},
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:2}"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "mi:root"
+}

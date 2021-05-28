@@ -1,0 +1,116 @@
+{
+	"pools": [
+		{
+		"rolls": 1,
+		"entries": [
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:paper"
+			}
+		],
+		"conditions": [
+			{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				"team": "spectators"
+				}
+			}
+			},
+			{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"paperProd": 0
+			}
+			}
+		]
+		},
+		{
+		"rolls": 2,
+		"entries": [
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:paper"
+			}
+		],
+		"conditions": [
+			{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				"team": "spectators"
+				}
+			}
+			},
+			{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"paperProd": 1
+			}
+			}
+		]
+		},
+		{
+		"rolls": 3,
+		"entries": [
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:paper"
+			}
+		],
+		"conditions": [
+			{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				"team": "spectators"
+				}
+			}
+			},
+			{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"paperProd": 2
+			}
+			}
+		]
+		},
+		{
+		"rolls": 4,
+		"entries": [
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:paper"
+			}
+		],
+		"conditions": [
+			{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				"team": "spectators"
+				}
+			}
+			},
+			{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"paperProd": 3
+			}
+			}
+		]
+		}
+	]
+}

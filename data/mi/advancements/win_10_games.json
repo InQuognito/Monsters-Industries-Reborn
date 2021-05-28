@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Manager",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Win 10 games.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:win_5_games"
+}

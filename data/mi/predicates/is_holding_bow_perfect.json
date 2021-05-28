@@ -1,0 +1,29 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"item": "minecraft:bow",
+				"enchantments": [
+					{
+						"enchantment": "minecraft:power",
+						"levels": 5
+					},
+					{
+						"enchantment": "minecraft:punch",
+						"levels": 2
+					},
+					{
+						"enchantment": "minecraft:flame",
+						"levels": 2
+					},
+					{
+						"enchantment": "minecraft:infinity",
+						"levels": 1
+					}
+				]
+			}
+		}
+	}
+}

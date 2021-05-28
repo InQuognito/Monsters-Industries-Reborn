@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "Cannon Fodder",
+			"color": "yellow",
+			"bold": true
+		},
+		"description": {
+			"text": "Die 100 times.",
+			"color": "white"
+		},
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "mi:deaths_10"
+}

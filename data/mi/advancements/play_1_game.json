@@ -1,0 +1,25 @@
+{
+	"display": {
+		"title": {
+			"text": "New Hire",
+			"color": "yellow"
+		},
+		"description": {
+			"text": "Play your first game.",
+			"color": "white"
+		},
+		"icon": {
+			"item": "minecraft:clay_ball"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "mi:root"
+}

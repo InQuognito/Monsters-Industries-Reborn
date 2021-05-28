@@ -1,0 +1,47 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"item": "minecraft:crossbow",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:piercing",
+								"levels": 4
+							},
+							{
+								"enchantment": "minecraft:quick_charge",
+								"levels": 3
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"item": "minecraft:crossbow",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:quick_charge",
+								"levels": 3
+							},
+							{
+								"enchantment": "minecraft:multishot",
+								"levels": 1
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"values": [
+		"minecraft:cave_spider",
+		"minecraft:creeper",
+		"minecraft:endermite",
+		"minecraft:evoker",
+		"minecraft:husk",
+		"minecraft:illusioner",
+		"minecraft:phantom",
+		"minecraft:pillager",
+		"minecraft:ravager",
+		"minecraft:skeleton",
+		"minecraft:slime",
+		"minecraft:spider",
+		"minecraft:stray",
+		"minecraft:vex",
+		"minecraft:villager",
+		"minecraft:vindicator",
+		"minecraft:witch",
+		"minecraft:zombie",
+		"minecraft:zombie_villager"
+	]
+}

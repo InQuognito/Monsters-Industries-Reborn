@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Factory Benefactor",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Play 25 games.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:play_10_games"
+}

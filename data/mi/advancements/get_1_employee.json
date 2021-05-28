@@ -1,0 +1,25 @@
+{
+	"display": {
+		"title": {
+			"text": "Hired Help",
+			"color": "yellow"
+		},
+		"description": {
+			"text": "Get your first employee! They aren't the smartest, but they'll do.",
+			"color": "white"
+		},
+		"icon": {
+			"item": "minecraft:rotten_flesh"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "mi:root"
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Factory Chairman",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Play 50 games.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:gilded_blackstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:play_25_games"
+}

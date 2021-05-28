@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "Invincible",
+			"color": "yellow",
+			"bold": true
+		},
+		"description": {
+			"text": "You didn't die a single time in a classic match!",
+			"color": "white"
+		},
+		"icon": {
+			"item": "minecraft:totem_of_undying"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "mi:deaths_100"
+}

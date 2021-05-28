@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "The Grind Begins",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Enchant your first tool.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword",
+			"nbt": "{Enchantments:[{id:infinity,lvl:1}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:root"
+}

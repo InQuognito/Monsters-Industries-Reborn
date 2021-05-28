@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Vice President",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Win 25 games.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mi:win_10_games"
+}

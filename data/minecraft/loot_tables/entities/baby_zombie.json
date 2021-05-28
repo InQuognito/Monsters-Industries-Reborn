@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+		"rolls": {
+			"min": 1,
+			"max": 10
+		},
+		"entries": [
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:paper"
+			},
+			{
+			"type": "minecraft:item",
+			"name": "minecraft:coal"
+			}
+		],
+		"conditions": [
+			{
+			"condition": "minecraft:entity_scores",
+			"entity": "direct_killer",
+			"scores": {
+				"recycling": 1
+			}
+			}
+		]
+		}
+	]
+}

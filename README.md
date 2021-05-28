@@ -7,7 +7,8 @@ Join our Discord to follow development:
 https://discord.gg/NyruRfzTt2
 
 Our Team:
-- InQuognito - Programmer
+- InQuognito - Head Programmer
+- BlueRains - Programmer
 - Ji_xM10 - Head Builder
 - Sonicslime235 - Co-Head Builder
 

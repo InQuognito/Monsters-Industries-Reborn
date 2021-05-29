@@ -1,5 +1,5 @@
-give @s[team=team1] wandering_trader_spawn_egg{display:{Name:"[{\"text\":\"Illusioner\",\"italic\":false,\"color\":\"aqua\"}]"},EntityTag:{id:"minecraft:illusioner",Health:60,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048f},{Name:"generic.max_health",Base:60f}],Team:team1},CanPlaceOn:["smooth_stone_slab"]} 1
-give @s[team=team2] wandering_trader_spawn_egg{display:{Name:"[{\"text\":\"Illusioner\",\"italic\":false,\"color\":\"red\"}]"},EntityTag:{id:"minecraft:illusioner",Health:60,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048f},{Name:"generic.max_health",Base:60f}],Team:team2},CanPlaceOn:["smooth_quartz_slab"]} 1
+give @s[team=team1] wandering_trader_spawn_egg{display:{Name:'[{"text":"Illusioner","italic":false,"color":"aqua"}]'},EntityTag:{id:"minecraft:illusioner",Health:60,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:60d}],Team:team1},CanPlaceOn:["smooth_stone_slab"]} 1
+give @s[team=team2] wandering_trader_spawn_egg{display:{Name:'[{"text":"Illusioner","italic":false,"color":"red"}]'},EntityTag:{id:"minecraft:illusioner",Health:60,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:60d}],Team:team2},CanPlaceOn:["smooth_quartz_slab"]} 1
 
 advancement grant @s only mi:fuse_illusioner
 execute as @s run function mi:logic/fusion/fusion_success

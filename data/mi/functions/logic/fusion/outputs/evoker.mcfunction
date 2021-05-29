@@ -1,5 +1,5 @@
-give @s[team=team1] evoker_spawn_egg{display:{Name:"[{\"text\":\"Evoker\",\"italic\":false,\"color\":\"aqua\"}]"},EntityTag:{id:"minecraft:evoker",Health:45,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048f},{Name:"generic.max_health",Base:45f}],Team:team1},CanPlaceOn:["smooth_stone_slab","lapis_block"]} 1
-give @s[team=team2] evoker_spawn_egg{display:{Name:"[{\"text\":\"Evoker\",\"italic\":false,\"color\":\"red\"}]"},EntityTag:{id:"minecraft:evoker",Health:45,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048f},{Name:"generic.max_health",Base:45f}],Team:team2},CanPlaceOn:["smooth_quartz_slab","lapis_block"]} 1
+give @s[team=team1] evoker_spawn_egg{display:{Name:'[{"text":"Evoker","italic":false,"color":"aqua"}]'},EntityTag:{id:"minecraft:evoker",Health:45,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:45d}],Team:team1},CanPlaceOn:["smooth_stone_slab","lapis_block"]} 1
+give @s[team=team2] evoker_spawn_egg{display:{Name:'[{"text":"Evoker","italic":false,"color":"red"}]'},EntityTag:{id:"minecraft:evoker",Health:45,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:45d}],Team:team2},CanPlaceOn:["smooth_quartz_slab","lapis_block"]} 1
 
 execute as @s run function mi:logic/fusion/fusion_success
 

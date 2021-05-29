@@ -1,5 +1,5 @@
-execute as @e[type=#mi:mobs,team=team1] run attribute @s minecraft:generic.armor modifier add 11111111-1111-1111-1111-111111111112 bulwark 15 add
-execute as @e[type=iron_golem,team=team1] run attribute @s minecraft:generic.armor modifier add 11111111-1111-1111-1111-111111111112 bulwark 15 add
+execute as @e[type=#mi:mobs,team=team1] run attribute @s minecraft:generic.armor modifier add 11111111-1111-1111-1111-111111111112 "bulwark" 15 add
+execute as @e[type=iron_golem,team=team1] run attribute @s minecraft:generic.armor modifier add 11111111-1111-1111-1111-111111111112 "bulwark" 15 add
 
 tag @s add self
 title @s actionbar {"text":"You have activated Bulwark!","color":"green"}

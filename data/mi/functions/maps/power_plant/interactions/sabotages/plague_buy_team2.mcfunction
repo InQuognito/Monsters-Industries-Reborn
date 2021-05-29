@@ -1,4 +1,4 @@
-execute as @a[team=team1] run attribute @s minecraft:generic.max_health modifier add 11111111-1111-1111-1111-111111111111 plague -.5 multiply
+execute as @a[team=team1] run attribute @s minecraft:generic.max_health modifier add 11111111-1111-1111-1111-111111111111 "plague" -.5 multiply
 
 tag @s add self
 title @s actionbar {"text":"You have activated Plague!","color":"green"}

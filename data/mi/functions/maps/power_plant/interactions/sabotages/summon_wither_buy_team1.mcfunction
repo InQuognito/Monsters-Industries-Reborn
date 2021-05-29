@@ -1,4 +1,4 @@
-summon wither 160 28 -126 {CustomName:"\"Wither\"",CustomNameVisible:1b,PersistenceRequired:1b,Glowing:1b,Attributes:[{Name:"generic.followRange",Base:500}],Team:team1}
+summon wither 160 28 -126 {CustomName:'"Wither"',CustomNameVisible:1b,PersistenceRequired:1b,Glowing:1b,Attributes:[{Name:"generic.follow_range",Base:500}],Team:team1}
 advancement grant @s only mi:summon_wither
 
 tag @s add self

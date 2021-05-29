@@ -1,5 +1,5 @@
-give @s[team=team1] witch_spawn_egg{display:{Name:"[{\"text\":\"Witch\",\"italic\":false,\"color\":\"aqua\"}]"},EntityTag:{id:"minecraft:witch",Health:16,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048f},{Name:"generic.max_health",Base:16f}],Team:team1},CanPlaceOn:["smooth_stone_slab","lapis_block"]} 8
-give @s[team=team2] witch_spawn_egg{display:{Name:"[{\"text\":\"Witch\",\"italic\":false,\"color\":\"red\"}]"},EntityTag:{id:"minecraft:witch",Health:16,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048f},{Name:"generic.max_health",Base:16f}],Team:team2},CanPlaceOn:["smooth_quartz_slab","lapis_block"]} 8
+give @s[team=team1] witch_spawn_egg{display:{Name:'[{"text":"Witch","italic":false,"color":"aqua"}]'},EntityTag:{id:"minecraft:witch",Health:16,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:16d}],Team:team1},CanPlaceOn:["smooth_stone_slab","lapis_block"]} 8
+give @s[team=team2] witch_spawn_egg{display:{Name:'[{"text":"Witch","italic":false,"color":"red"}]'},EntityTag:{id:"minecraft:witch",Health:16,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:16d}],Team:team2},CanPlaceOn:["smooth_quartz_slab","lapis_block"]} 8
 
 execute as @s run function mi:logic/fusion/fusion_success
 

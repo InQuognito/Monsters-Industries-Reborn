@@ -1,5 +1,5 @@
-execute as @e[type=#mi:mobs,team=team1] at @s run function mi:maps/power_plant/interactions/sabotages/mob_swap_team1
-execute as @e[type=#mi:mobs,team=team2] at @s run function mi:maps/power_plant/interactions/sabotages/mob_swap_team2
+execute as @e[type=#mi:mobs,type=!minecraft:villager,team=team1] at @s run function mi:maps/power_plant/interactions/sabotages/mob_swap_team1
+execute as @e[type=#mi:mobs,type=!minecraft:villager,team=team2] at @s run function mi:maps/power_plant/interactions/sabotages/mob_swap_team2
 
 tag @s add self
 title @s actionbar {"text":"You have activated Mob Swap!","color":"green"}

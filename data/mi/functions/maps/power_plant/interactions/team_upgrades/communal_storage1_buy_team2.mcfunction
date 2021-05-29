@@ -1,4 +1,4 @@
-setblock 206 28 -131 chest[facing=west,type=left]{CustomName:'[{"text":"Communal Storage","italic":false,"color":"white","bold":true}]'} replace
+setblock 206 28 -131 chest[facing=west,type=right]{CustomName:'[{"text":"Communal Storage","italic":false,"color":"white","bold":true}]'} replace
 
 data merge block 205 20 -134 {Text2:'{"text":"[ 1 / 2 ]"}',Text3:'{"text":"576 Paper"}'}
 

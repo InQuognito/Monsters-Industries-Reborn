@@ -10,4 +10,4 @@ scoreboard players operation @s temp += $middle.z temp
 execute store result entity @s Pos[2] double 0.5 run scoreboard players get @s temp
 scoreboard players reset @s
 tp @s[y=0,dy=15] ~ 19 ~
-team join team2
+team join team2 @s

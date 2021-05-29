@@ -10,21 +10,21 @@ execute positioned -29 37 -104 if block ~ ~ ~ #minecraft:buttons[powered=true] r
 execute positioned -25 37 -106 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run function mi:logic/teams/spectators_join
 execute positioned -25 37 -106 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ stone_button[face=wall,facing=west]
 
-# Info (From Lobby)
-execute positioned -25 37 -111 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -29 36 -98
-execute positioned -25 37 -111 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ stone_button[face=wall,facing=west]
-
-# Lobby (From Info)
-execute positioned -29 37 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -29 36 -109
-execute positioned -29 37 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ stone_button[face=wall,facing=south]
-
 # Settings (From Lobby)
-execute positioned -25 37 -112 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -29 36 -120
+execute positioned -25 37 -112 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -28.5 36.0 -119.5 180.0 0.0
 execute positioned -25 37 -112 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ stone_button[face=wall,facing=west]
 
 # Lobby (From Settings)
-execute positioned -29 37 -118 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -29 36 -109
+execute positioned -29 37 -118 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -28.5 36.0 -108.5 270.0 0.0
 execute positioned -29 37 -118 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ stone_button[face=wall,facing=north]
+
+# Info (From Lobby)
+execute positioned -25 37 -111 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -28.5 36.0 -97.5 0.0 0.0
+execute positioned -25 37 -111 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ stone_button[face=wall,facing=west]
+
+# Lobby (From Info)
+execute positioned -29 37 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run tp @s -28.5 36.0 -108.5 270.0 0.0
+execute positioned -29 37 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ stone_button[face=wall,facing=south]
 
 # Show My Stats
 execute positioned -25 37 -107 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run function mi:logic/stats

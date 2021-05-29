@@ -5,8 +5,8 @@ setblock 206 20 -134 sea_lantern replace
 setblock 205 19 -134 air replace
 
 tag @s add self
-title @s actionbar ["",{"text":"You have purchased ","color":"green"},{"text":"Communal Storage 2","color":"gold"},{"text":"!","color":"green"}]
-tellraw @a[team=team2,tag=!self] ["",{"text":"Your teammate has purchased ","color":"green"},{"text":"Communal Storage 2","color":"gold"},{"text":"!","color":"green"}]
+title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Communal Storage 2","color":"gold"},{"text":"!","color":"green"}]
+tellraw @a[team=team2,tag=!self] [{"text":"Your teammate has purchased ","color":"green"},{"text":"Communal Storage 2","color":"gold"},{"text":"!","color":"green"}]
 tag @s remove self
 
 clear @s paper 576

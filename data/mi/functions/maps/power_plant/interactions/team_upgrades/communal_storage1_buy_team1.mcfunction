@@ -2,8 +2,8 @@ setblock 74 28 -120 chest[facing=east,type=right]{CustomName:'[{"text":"Communal
 
 data merge block 75 20 -117 {Text2:'{"text":"[ 1 / 2 ]"}',Text3:'{"text":"576 Paper"}'}
 tag @s add self
-title @s actionbar ["",{"text":"You have purchased ","color":"green"},{"text":"Communal Storage 1","color":"gold"},{"text":"!","color":"green"}]
-tellraw @a[team=team1,tag=!self] ["",{"text":"Your teammate has purchased ","color":"green"},{"text":"Communal Storage 1","color":"gold"},{"text":"!","color":"green"}]
+title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Communal Storage 1","color":"gold"},{"text":"!","color":"green"}]
+tellraw @a[team=team1,tag=!self] [{"text":"Your teammate has purchased ","color":"green"},{"text":"Communal Storage 1","color":"gold"},{"text":"!","color":"green"}]
 tag @s remove self
 
 clear @s paper 384

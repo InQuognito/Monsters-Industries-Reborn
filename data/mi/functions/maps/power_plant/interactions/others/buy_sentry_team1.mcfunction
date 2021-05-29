@@ -16,8 +16,8 @@ execute if score #team1 sentryCount matches 10 run data merge block 79 28 -103 {
 execute if score #team1 sentryCount matches 10 run setblock 79 29 -103 air replace
 
 tag @s add self
-title @s actionbar ["",{"text":"You have deployed a sentry!","color":"green"}]
-tellraw @a[team=team1,tag=!self] ["",{"text":"Your teammate has deployed a sentry!","color":"green"}]
+title @s actionbar [{"text":"You have deployed a sentry!","color":"green"}]
+tellraw @a[team=team1,tag=!self] [{"text":"Your teammate has deployed a sentry!","color":"green"}]
 tag @s remove self
 
 clear @s emerald 5

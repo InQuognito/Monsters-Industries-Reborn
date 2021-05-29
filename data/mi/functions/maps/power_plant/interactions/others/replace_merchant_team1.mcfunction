@@ -5,8 +5,8 @@ summon villager 78 19 -153 {VillagerData:{type:"savanna",profession:"librarian",
 particle minecraft:happy_villager 78 19.5 -153 0.5 0.5 0.5 0.75 5 normal @a[team=team1]
 
 tag @s add self
-title @s actionbar ["",{"text":"You have refreshed the merchant's trades!","color":"green"}]
-tellraw @a[team=team1,tag=!self] ["",{"text":"Your teammate has refreshed the Merchant's trades!","color":"green"}]
+title @s actionbar [{"text":"You have refreshed the merchant's trades!","color":"green"}]
+tellraw @a[team=team1,tag=!self] [{"text":"Your teammate has refreshed the Merchant's trades!","color":"green"}]
 tag @s remove self
 
 clear @s paper 256

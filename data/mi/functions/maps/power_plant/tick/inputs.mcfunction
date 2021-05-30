@@ -190,17 +190,13 @@ execute positioned 144 19 -127 if block ~ ~ ~ #minecraft:buttons[powered=true] r
 execute positioned 107 22 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~-2 ~1 air destroy
 execute positioned 107 22 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/cover_forfeit_button 3s
 execute positioned 107 22 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ air replace
-execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] run scoreboard players set #forfeit resetType 1
 execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team1Amount temp matches 1 as @p[team=team1] run function mi:logic/teams/forfeit_confirm
 execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team1Amount temp matches 1 as @p[team=team1] run function mi:logic/teams/forfeit_ask
-execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] run scoreboard players set #forfeit resetType 0
 execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=north]
 
 execute positioned 173 22 -151 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~-2 ~-1 air destroy
 execute positioned 173 22 -151 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/cover_forfeit_button 3s
 execute positioned 173 22 -151 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ air replace
-execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] run scoreboard players set #forfeit resetType 1
 execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team2Amount temp matches 1 as @p[team=team2] run function mi:logic/teams/forfeit_confirm
 execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team2Amount temp matches 1 as @p[team=team2] run function mi:logic/teams/forfeit_ask
-execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] run scoreboard players set #forfeit resetType 0
 execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=south]

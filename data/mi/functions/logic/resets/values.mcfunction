@@ -1,3 +1,6 @@
+scoreboard players reset * map
+scoreboard players set $none map 1
+
 scoreboard players set #team1 stock 0
 scoreboard players set #team2 stock 0
 
@@ -36,9 +39,6 @@ scoreboard players set @a[team=!spectators] spadeLevel 1
 
 scoreboard players reset @a[team=spectators] lighterLevel
 scoreboard players set @a[team=!spectators] lighterLevel 1
-
-scoreboard players reset * map
-scoreboard players set $none map 1
 
 scoreboard players set $100 healthPer 100
 

@@ -40,9 +40,6 @@ item replace entity @a[team=team2] armor.legs with leather_leggings{Unbreakable:
 item replace entity @a[team=team2] armor.feet with leather_boots{Unbreakable:1,display:{color:11546150,Name:'[{"text":"Leather Armor","italic":false,"color":"red"}]',Lore:['[{"text":"Offers ","italic":false,"color":"gray"},{"text":"no","color":"dark_red"},{"text":" protection"}]']},Enchantments:[{id:"binding_curse",lvl:1}],HideFlags:95,AttributeModifiers:[{AttributeName:"generic.armor",Amount:0,Operation:0,UUID:[I;-111111,11111,111111,-11114],Slot:feet,Name:"generic.armor"}]} 1
 function mi:logic/book
 
-tag @r[team=team1] add team1Receptor
-tag @r[team=team2] add team2Receptor
-
 function mi:logic/reset_lever
 function mi:logic/timer_tick
 

@@ -1,0 +1,21 @@
+{
+	"pools": [
+	{
+		"rolls": {
+		"type": "minecraft:score",
+		"target": {
+			"type": "minecraft:fixed",
+			"name": "#team1"
+		},
+		"score": "employees",
+		"scale": 3
+		},
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:paper"
+		}
+		]
+	}
+	]
+}

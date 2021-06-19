@@ -4,7 +4,7 @@ scoreboard objectives remove employees
 scoreboard objectives remove enchantment
 scoreboard objectives remove forge
 scoreboard objectives remove harvest.Bone
-scoreboard objectives remove havest.Coal
+scoreboard objectives remove harvest.Coal
 scoreboard objectives remove harvest.Gp
 scoreboard objectives remove health
 scoreboard objectives remove healthMax

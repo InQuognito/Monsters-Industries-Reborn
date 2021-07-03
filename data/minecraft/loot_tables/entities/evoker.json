@@ -1,4 +1,5 @@
 {
+	"type": "minecraft:entity",
 	"pools": [
 		{
 		"rolls": {
@@ -34,7 +35,7 @@
 		"conditions": [
 			{
 			"condition": "minecraft:entity_scores",
-			"entity": "direct_killer",
+			"entity": "killer",
 			"scores": {
 				"recycling": 1
 			}

@@ -1,3 +1,4 @@
+scoreboard players set #team2MaxHealth temp 5
 execute as @a[team=team2] run attribute @s minecraft:generic.max_health base set 40
 execute as @a[team=team2] run function mi:logic/heal
 

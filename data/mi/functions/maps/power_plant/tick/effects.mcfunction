@@ -1,3 +1,5 @@
+effect give @a saturation 1000000 255 true
+
 effect clear @e[x=75,y=19,z=-124,dx=0,dy=1,dz=0] levitation
 effect give @e[x=74,y=19,z=-124,dx=0,dy=11,dz=0] levitation 1 2 true
 effect clear @e[x=75,y=28,z=-124,dx=0,dy=3,dz=0] levitation

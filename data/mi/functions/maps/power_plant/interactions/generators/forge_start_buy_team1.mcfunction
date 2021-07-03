@@ -6,7 +6,7 @@ setblock 79 15 -121 piston[facing=down] replace
 setblock 82 14 -118 blast_furnace[facing=west,lit=true] replace
 
 setblock 80 15 -122 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Dropper Interval:"}',Text3:'{"text":"30s"}'} replace
-setblock 81 15 -122 oak_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Upgrade Interval"}',Text2:'{"text":"[ 0 / 10 ]"}',Text3:'{"text":"4 Monster Tokens"}',Text4:'{"text":"32 Netherite Ingots"}'} replace
+setblock 81 15 -122 oak_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Upgrade Interval"}',Text2:'{"text":"[ 0 / 10 ]"}',Text3:'{"text":"4 Monster Tokens"}',Text4:'{"text":"12 Netherite Ingots"}'} replace
 setblock 81 14 -122 oak_button[face=wall,facing=south] replace
 
 tag @s add self

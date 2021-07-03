@@ -272,12 +272,12 @@ summon item_frame 105 15 -119 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,I
 summon item_frame 91 23 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
 summon item_frame 91 19 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
 
-summon minecart 78 19.1 -140 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -142 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -144 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -146 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -148 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -150 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
+summon minecart 78 19.1 -140 {Invulnerable:1b,NoGravity:1b}
+summon minecart 78 19.1 -142 {Invulnerable:1b,NoGravity:1b}
+summon minecart 78 19.1 -144 {Invulnerable:1b,NoGravity:1b}
+summon minecart 78 19.1 -146 {Invulnerable:1b,NoGravity:1b}
+summon minecart 78 19.1 -148 {Invulnerable:1b,NoGravity:1b}
+summon minecart 78 19.1 -150 {Invulnerable:1b,NoGravity:1b}
 
 summon item_frame 177 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
 summon item_frame 177 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
@@ -290,11 +290,11 @@ summon item_frame 175 15 -132 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,I
 summon item_frame 189 23 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
 summon item_frame 189 19 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
 
-summon minecart 202 19.1 -111 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -109 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -107 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -105 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -103 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -101 {Fixed:1b,Invulnerable:1b,NoGravity:1b}
+summon minecart 202 19.1 -111 {Invulnerable:1b,NoGravity:1b}
+summon minecart 202 19.1 -109 {Invulnerable:1b,NoGravity:1b}
+summon minecart 202 19.1 -107 {Invulnerable:1b,NoGravity:1b}
+summon minecart 202 19.1 -105 {Invulnerable:1b,NoGravity:1b}
+summon minecart 202 19.1 -103 {Invulnerable:1b,NoGravity:1b}
+summon minecart 202 19.1 -101 {Invulnerable:1b,NoGravity:1b}
 
 kill @e[type=item]

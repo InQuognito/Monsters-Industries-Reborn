@@ -19,6 +19,9 @@ scoreboard players set #team2Interval forge 0
 scoreboard players set #team1 enchantment 0
 scoreboard players set #team2 enchantment 0
 
+scoreboard players set #team1MaxHealth temp 0
+scoreboard players set #team2MaxHealth temp 0
+
 scoreboard players reset @a[team=spectators] paperProd
 scoreboard players set @a[team=!spectators] paperProd 0
 

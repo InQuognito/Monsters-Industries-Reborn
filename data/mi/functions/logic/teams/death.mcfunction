@@ -15,4 +15,4 @@ execute if score #team2MaxHealth temp matches 5 as @a[team=team2,scores={isDead=
 effect give @a[scores={isDead=1..}] saturation 1000000 255 true
 effect give @a[scores={isDead=1..}] instant_health 1 50 true
 
-scoreboard players set @a[scores={isDead=1..}] isDead 0
+scoreboard players reset @a[scores={isDead=1..}] isDead

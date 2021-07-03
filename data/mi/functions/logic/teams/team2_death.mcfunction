@@ -9,3 +9,5 @@ execute if score $mode mode matches 2 run scoreboard players add #team2dead temp
 execute if score $mode mode matches 2 as @a[team=team2,scores={isDead=1..}] run gamemode spectator @s
 
 execute if score $mode mode matches 2 if score #team2dead temp >= #team2Amount temp run function mi:logic/teams/team1_win
+
+function mi:logic/teams/death

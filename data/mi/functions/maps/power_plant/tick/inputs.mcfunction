@@ -24,8 +24,8 @@ execute positioned 132 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] as
 execute positioned 132 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=west]
 #execute positioned 132 19 -93 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/
 #execute positioned 132 19 -93 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=west]
-execute positioned 132 19 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/mob_swap_buy_try
-execute positioned 132 19 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=west]
+#execute positioned 132 19 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/
+#execute positioned 132 19 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=west]
 
 execute positioned 148 21 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/factory_shutdown_buy_try
 execute positioned 148 21 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=east]
@@ -45,8 +45,8 @@ execute positioned 148 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] a
 execute positioned 148 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=east]
 #execute positioned 148 19 -161 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/
 #execute positioned 148 19 -161 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=east]
-execute positioned 148 19 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/mob_swap_buy_try
-execute positioned 148 19 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=east]
+#execute positioned 148 19 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/
+#execute positioned 148 19 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=east]
 
 # Team Upgrades
 execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 4 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health5_buy_try

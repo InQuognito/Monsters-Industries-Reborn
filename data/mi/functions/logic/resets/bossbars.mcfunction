@@ -1,3 +1,8 @@
+bossbar remove minecraft:1
+bossbar remove minecraft:2
+bossbar add minecraft:1 "1"
+bossbar add minecraft:2 "2"
+
 bossbar set minecraft:1 color blue
 bossbar set minecraft:1 max 1000
 bossbar set minecraft:1 name "Stock - Team 1"

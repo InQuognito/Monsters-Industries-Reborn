@@ -32,7 +32,7 @@ setblock 126 19 -167 rail[shape=north_west]
 setblock 124 19 -167 rail[shape=north_east]
 setblock 125 19 -167 powered_rail[shape=east_west]
 setblock 129 20 -167 redstone_lamp replace
-setblock 129 20 -166 birch_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"256 Paper"}',Text4:'{"text":"16 Spider Eyes"}'} destroy
+setblock 129 20 -166 birch_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"64x4 Paper"}',Text4:'{"text":"16 Spider Eyes"}'} destroy
 setblock 129 19 -166 polished_blackstone_button[face=wall,facing=south] replace
 
 setblock 155 19 -83 detector_rail[powered=false,shape=east_west] destroy
@@ -45,21 +45,30 @@ setblock 154 19 -87 rail[shape=south_east]
 setblock 156 19 -87 rail[shape=south_west]
 setblock 155 19 -87 powered_rail[shape=east_west]
 setblock 151 20 -87 redstone_lamp replace
-setblock 151 20 -88 spruce_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"256 Paper"}',Text4:'{"text":"16 Spider Eyes"}'} destroy
+setblock 151 20 -88 spruce_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"64x4 Paper"}',Text4:'{"text":"16 Spider Eyes"}'} destroy
 setblock 151 19 -88 polished_blackstone_button[face=wall,facing=north] replace
 
 # Slimeball Generators
 setblock 105 13 -119 iron_block replace
 setblock 105 14 -119 stone_pressure_plate replace
-setblock 97 16 -119 oak_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'{"text":"256 Paper"}',Text3:'{"text":"32 Slimeballs"}'} replace
+setblock 97 16 -119 oak_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'{"text":"64x4 Paper"}',Text3:'{"text":"32 Slimeballs"}'} destroy
 setblock 97 15 -119 oak_button[face=wall,facing=south] replace
 setblock 97 15 -121 slime_block replace
 
 setblock 175 13 -132 iron_block replace
 setblock 175 14 -132 stone_pressure_plate replace
-setblock 183 16 -132 oak_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'{"text":"256 Paper"}',Text3:'{"text":"32 Slimeballs"}'} replace
+setblock 183 16 -132 oak_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'{"text":"64x4 Paper"}',Text3:'{"text":"32 Slimeballs"}'} destroy
 setblock 183 15 -132 oak_button[face=wall,facing=north] replace
 setblock 183 15 -130 slime_block replace
+
+# Wall Street
+setblock 75 29 -110 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x2 Paper"}',Text3:'{"text":"5 Stock"}'} destroy
+setblock 75 29 -112 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x3+51 Paper"}',Text3:'{"text":"10 Stock"}'} destroy
+setblock 75 29 -114 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x7+14 Paper"}',Text3:'{"text":"20 Stock"}'} destroy
+
+setblock 205 29 -141 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x2 Paper"}',Text3:'{"text":"5 Stock"}'} destroy
+setblock 205 29 -139 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x3+51 Paper"}',Text3:'{"text":"10 Stock"}'} destroy
+setblock 205 29 -137 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x7+14 Paper"}',Text3:'{"text":"20 Stock"}'} destroy
 
 # Iron Forge
 setblock 79 13 -113 iron_door[facing=south,half=lower,hinge=right,open=false] destroy
@@ -68,12 +77,12 @@ setblock 79 14 -111 oak_button[face=wall,facing=west] replace
 fill 75 15 -116 75 13 -120 air replace
 fill 77 15 -122 81 13 -122 air replace
 fill 83 15 -120 83 13 -116 air replace
-setblock 76 14 -118 furnace[facing=east] replace
+setblock 76 14 -118 furnace[facing=east]{Lock:"ae88"} destroy
 setblock 79 15 -121 barrier replace
-setblock 82 14 -118 blast_furnace[facing=west] replace
-setblock 82 13 -116 hopper[facing=west] destroy
-setblock 81 13 -116 chest[facing=west] destroy
-setblock 79 15 -122 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'{"text":"512 Paper"}'} replace
+setblock 82 14 -118 blast_furnace[facing=west]{Lock:"ae88"} destroy
+setblock 82 13 -116 hopper[facing=west]{Lock:"ae88"} destroy
+setblock 81 13 -116 chest[facing=west]{Lock:"ae88"} destroy
+setblock 79 15 -122 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'{"text":"64x8 Paper"}'} destroy
 setblock 79 14 -122 oak_button[face=wall,facing=south] replace
 
 setblock 201 13 -138 iron_door[facing=north,half=lower,hinge=left,open=false] destroy
@@ -82,12 +91,12 @@ setblock 201 14 -140 oak_button[face=wall,facing=east] replace
 fill 205 15 -135 205 13 -131 air replace
 fill 203 15 -129 199 13 -129 air replace
 fill 197 15 -131 197 13 -135 air replace
-setblock 204 14 -133 furnace[facing=west] replace
+setblock 204 14 -133 furnace[facing=west]{Lock:"ae88"} destroy
 setblock 201 15 -130 barrier replace
-setblock 198 14 -133 blast_furnace[facing=east] replace
-setblock 198 13 -135 hopper[facing=east] destroy
-setblock 199 13 -135 chest[facing=east] destroy
-setblock 201 15 -129 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'{"text":"512 Paper"}'} replace
+setblock 198 14 -133 blast_furnace[facing=east]{Lock:"ae88"} destroy
+setblock 198 13 -135 hopper[facing=east]{Lock:"ae88"} destroy
+setblock 199 13 -135 chest[facing=east]{Lock:"ae88"} destroy
+setblock 201 15 -129 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'{"text":"64x8 Paper"}'} destroy
 setblock 201 14 -129 oak_button[face=wall,facing=north] replace
 
 # Barricade 1
@@ -101,7 +110,7 @@ setblock 100 16 -98 gravel replace
 setblock 101 16 -98 oak_planks replace
 setblock 102 16 -98 mossy_cobblestone replace
 setblock 101 15 -97 oak_button[face=wall,facing=south] replace
-setblock 101 16 -97 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"384 Paper"}'} replace
+setblock 101 16 -97 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"64x6 Paper"}'} destroy
 
 setblock 180 14 -153 oak_planks replace
 setblock 179 14 -153 mossy_cobblestone replace
@@ -113,7 +122,7 @@ setblock 180 16 -153 gravel replace
 setblock 179 16 -153 oak_planks replace
 setblock 178 16 -153 mossy_cobblestone replace
 setblock 179 15 -154 oak_button[face=wall,facing=north] replace
-setblock 179 16 -154 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"384 Paper"}'} replace
+setblock 179 16 -154 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"64x6 Paper"}'} destroy
 
 # Barricade 2
 setblock 93 14 -108 light_gray_terracotta replace
@@ -123,7 +132,7 @@ setblock 93 15 -109 light_gray_terracotta replace
 setblock 93 16 -108 light_gray_terracotta replace
 setblock 93 16 -109 light_gray_terracotta replace
 setblock 94 15 -109 oak_button[face=wall,facing=east] replace
-setblock 94 15 -108 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"640 Paper"}'} replace
+setblock 94 15 -108 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"64x10 Paper"}'} destroy
 
 setblock 187 14 -143 light_gray_terracotta replace
 setblock 187 14 -142 light_gray_terracotta replace
@@ -132,7 +141,7 @@ setblock 187 15 -142 light_gray_terracotta replace
 setblock 187 16 -143 light_gray_terracotta replace
 setblock 187 16 -142 light_gray_terracotta replace
 setblock 186 15 -142 oak_button[face=wall,facing=west] replace
-setblock 186 15 -143 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"640 Paper"}'} replace
+setblock 186 15 -143 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"64x10 Paper"}'} destroy
 
 # Barricade 3
 setblock 125 19 -94 oak_planks replace
@@ -143,7 +152,7 @@ setblock 124 19 -94 gravel replace
 setblock 123 19 -96 gravel replace
 setblock 122 19 -96 gravel replace
 setblock 126 19 -94 oak_button[face=wall,facing=east] replace
-setblock 126 20 -94 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"1024 Paper"}'} replace
+setblock 126 20 -94 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"64x16 Paper"}'} destroy
 
 setblock 155 19 -160 spruce_planks replace
 setblock 155 20 -160 spruce_stairs[facing=west,half=bottom,shape=straight] replace
@@ -153,35 +162,35 @@ setblock 156 19 -160 gravel replace
 setblock 157 19 -158 gravel replace
 setblock 158 19 -158 gravel replace
 setblock 154 19 -160 oak_button[face=wall,facing=west] replace
-setblock 154 20 -160 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"1024 Paper"}'} replace
+setblock 154 20 -160 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'{"text":"64x16 Paper"}'} destroy
 
 # Max Health
 setblock 74 20 -105 redstone_lamp replace
-setblock 75 20 -105 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'{"text":"384 Paper"}'} destroy
+setblock 75 20 -105 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'{"text":"64x6 Paper"}'} destroy
 setblock 75 19 -105 birch_button[facing=east] replace
 
 setblock 206 20 -146 redstone_lamp replace
-setblock 205 20 -146 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'{"text":"384 Paper"}'} destroy
+setblock 205 20 -146 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'{"text":"64x6 Paper"}'} destroy
 setblock 205 19 -146 spruce_button[facing=west] replace
 
 # Recycling
 setblock 74 20 -114 redstone_lamp replace
-setblock 75 20 -114 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'{"text":"256 Paper"}'} destroy
+setblock 75 20 -114 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'{"text":"64x4 Paper"}'} destroy
 setblock 75 19 -114 birch_button[facing=east] replace
 
 setblock 206 20 -137 redstone_lamp replace
-setblock 205 20 -137 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'{"text":"256 Paper"}'} destroy
+setblock 205 20 -137 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'{"text":"64x4 Paper"}'} destroy
 setblock 205 19 -137 spruce_button[facing=west] replace
 
 # Communal Storage
 fill 74 28 -120 74 28 -121 air replace
 setblock 74 20 -117 redstone_lamp replace
-setblock 75 20 -117 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Communal Storage","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Communal Storage\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Adds a chest to store items in.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"384 Paper"}'} destroy
+setblock 75 20 -117 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Communal Storage","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Communal Storage\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Adds a chest to store items in.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"64x6 Paper"}'} destroy
 setblock 75 19 -117 birch_button[facing=east] replace
 
 fill 206 28 -131 206 28 -130 air replace
 setblock 206 20 -134 redstone_lamp replace
-setblock 205 20 -134 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Communal Storage","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Communal Storage\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Adds a chest to store items in.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"384 Paper"}'} destroy
+setblock 205 20 -134 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Communal Storage","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Communal Storage\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Adds a chest to store items in.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'{"text":"64x6 Paper"}'} destroy
 setblock 205 19 -134 spruce_button[facing=west] replace
 
 # Sentries
@@ -190,6 +199,19 @@ setblock 79 29 -103 birch_button[facing=north] replace
 
 setblock 201 28 -148 spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Sentry Count:"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
 setblock 201 29 -148 spruce_button[facing=south] replace
+
+# Tavern
+setblock 73 19 -143 barrel[facing=east]{Lock:"1e88"} destroy
+setblock 74 19 -147 barrel[facing=east]{Lock:"1e88"} destroy
+setblock 74 19 -149 barrel[facing=east]{Lock:"1e88"} destroy
+setblock 73 20 -142 brewing_stand{Lock:"1e88"} destroy
+setblock 74 20 -150 brewing_stand{Lock:"1e88"} destroy
+
+setblock 207 19 -108 barrel[facing=west]{Lock:"1e88"} destroy
+setblock 206 19 -104 barrel[facing=west]{Lock:"1e88"} destroy
+setblock 206 19 -102 barrel[facing=west]{Lock:"1e88"} destroy
+setblock 207 20 -109 brewing_stand{Lock:"1e88"} destroy
+setblock 206 20 -101 brewing_stand{Lock:"1e88"} destroy
 
 # Sabotages
 fill 133 21 -96 133 21 -92 lime_concrete replace

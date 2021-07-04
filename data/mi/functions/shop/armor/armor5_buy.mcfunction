@@ -5,6 +5,6 @@ item replace entity @s armor.feet with netherite_boots{Unbreakable:1,display:{Na
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Netherite Armor","color":"dark_gray"},{"text":"!","color":"green"}]
 
 clear @s paper 1024
-clear @s netherite_ingot 64
+clear @s netherite_ingot 128
 
 scoreboard players set @s armorLevel 5

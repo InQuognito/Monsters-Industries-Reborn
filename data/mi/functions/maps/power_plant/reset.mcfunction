@@ -61,15 +61,6 @@ setblock 183 16 -132 oak_wall_sign[facing=north]{Color:"black",Text1:'{"text":"R
 setblock 183 15 -132 oak_button[face=wall,facing=north] replace
 setblock 183 15 -130 slime_block replace
 
-# Wall Street
-setblock 75 29 -110 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x2 Paper"}',Text3:'{"text":"5 Stock"}'} destroy
-setblock 75 29 -112 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x3+51 Paper"}',Text3:'{"text":"10 Stock"}'} destroy
-setblock 75 29 -114 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x7+14 Paper"}',Text3:'{"text":"20 Stock"}'} destroy
-
-setblock 205 29 -141 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x2 Paper"}',Text3:'{"text":"5 Stock"}'} destroy
-setblock 205 29 -139 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x3+51 Paper"}',Text3:'{"text":"10 Stock"}'} destroy
-setblock 205 29 -137 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x7+14 Paper"}',Text3:'{"text":"20 Stock"}'} destroy
-
 # Iron Forge
 setblock 79 13 -113 iron_door[facing=south,half=lower,hinge=right,open=false] destroy
 setblock 79 14 -113 iron_door[facing=south,half=upper,hinge=right,open=false] destroy
@@ -98,6 +89,19 @@ setblock 198 13 -135 hopper[facing=east]{Lock:"ae88"} destroy
 setblock 199 13 -135 chest[facing=east]{Lock:"ae88"} destroy
 setblock 201 15 -129 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'{"text":"64x8 Paper"}'} destroy
 setblock 201 14 -129 oak_button[face=wall,facing=north] replace
+
+# Fusion
+setblock 102 21 -154 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'{"text":"256 Paper"}'} destroy
+setblock 178 21 -97 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'{"text":"256 Paper"}'} destroy
+
+# Wall Street
+setblock 75 29 -110 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x2 Paper"}',Text3:'{"text":"5 Stock"}'} destroy
+setblock 75 29 -112 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x3+51 Paper"}',Text3:'{"text":"10 Stock"}'} destroy
+setblock 75 29 -114 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x7+14 Paper"}',Text3:'{"text":"20 Stock"}'} destroy
+
+setblock 205 29 -141 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x2 Paper"}',Text3:'{"text":"5 Stock"}'} destroy
+setblock 205 29 -139 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x3+51 Paper"}',Text3:'{"text":"10 Stock"}'} destroy
+setblock 205 29 -137 spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"64x7+14 Paper"}',Text3:'{"text":"20 Stock"}'} destroy
 
 # Barricade 1
 setblock 100 14 -98 oak_planks replace

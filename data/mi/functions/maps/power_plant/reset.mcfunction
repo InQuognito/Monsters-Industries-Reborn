@@ -91,8 +91,8 @@ setblock 201 15 -129 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"S
 setblock 201 14 -129 oak_button[face=wall,facing=north] replace
 
 # Fusion
-setblock 102 21 -154 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'{"text":"256 Paper"}'} destroy
-setblock 178 21 -97 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'{"text":"256 Paper"}'} destroy
+setblock 102 21 -154 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'{"text":"96 Paper"}'} destroy
+setblock 178 21 -97 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'{"text":"96 Paper"}'} destroy
 
 # Wall Street
 setblock 75 29 -110 birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"64x2 Paper"}',Text3:'{"text":"5 Stock"}'} destroy

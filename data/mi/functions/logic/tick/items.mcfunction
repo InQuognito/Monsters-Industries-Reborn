@@ -24,5 +24,5 @@ kill @e[type=item,nbt={Item:{id:"minecraft:minecart"}}]
 
 kill @e[type=item,nbt={Item:{id:"minecraft:flint_and_steel"}}]
 
-kill @e[type=arrow,nbt={InGround:1b}]
+kill @e[type=arrow,nbt={inGround:1b}]
 kill @e[type=experience_orb]

@@ -6,9 +6,10 @@ function mi:logic/resets/create_scoreboards
 function mi:logic/resets/players
 function mi:logic/resets/values
 function mi:logic/resets/schedule
-function mi:logic/resets/settings
 function mi:logic/resets/slimes
+
 function mi:logic/map_resets
+function mi:logic/resets/settings
 
 kill @e[type=!player]
 

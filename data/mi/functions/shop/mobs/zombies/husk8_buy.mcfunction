@@ -3,6 +3,10 @@ give @s[team=team2] husk_spawn_egg{display:{Name:'[{"text":"Husk","italic":false
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"green"}]
 
-clear @s paper 96
-clear @s coal 48
-clear @s spider_eye 8
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #husk8Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.coal -= #husk8Coal price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEyes -= #husk8SpiderEyes price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #husk8Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.coal -= #husk8Coal price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEyes -= #husk8SpiderEyes price
+function mi:logic/update_counters

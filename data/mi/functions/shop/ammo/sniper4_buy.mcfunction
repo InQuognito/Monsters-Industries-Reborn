@@ -3,4 +3,6 @@ give @s[team=team2] firework_rocket{Fireworks:{Flight:127,Explosions:[{Type:4,Co
 
 title @s actionbar {"text":"You have purchased 4 Snipers!","color":"green"}
 
-clear @s paper 512
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #sniper4 price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #sniper4 price
+function mi:logic/update_counters

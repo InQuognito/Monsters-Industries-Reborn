@@ -7,4 +7,5 @@ execute if entity @s[team=team1] run tellraw @a[team=team1,tag=!self] [{"text":"
 execute if entity @s[team=team2] run tellraw @a[team=team2,tag=!self] [{"text":"Your teammate has purchased 10 stock!","color":"green"}]
 tag @s remove self
 
-clear @s paper 243
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #wallstreet2 price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #wallstreet2 price

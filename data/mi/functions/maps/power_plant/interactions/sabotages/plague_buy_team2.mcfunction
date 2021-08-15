@@ -6,7 +6,7 @@ tellraw @a[team=team2,tag=!self] {"text":"Your teammate has activated Plague!","
 tellraw @a[team=team1] {"text":"The opponent has activated Plague!","color":"red"}
 tag @s remove self
 
-scoreboard players operation #team2 stock -= $price temp
+scoreboard players operation #team2 stock -= #plague price
 
 setblock 147 21 -159 red_terracotta replace
 setblock 148 21 -159 air replace

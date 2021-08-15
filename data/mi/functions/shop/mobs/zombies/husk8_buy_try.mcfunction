@@ -1,12 +1,11 @@
-execute store result score #paperCount temp run clear @s paper 0
-execute store result score #coalCount temp run clear @s coal 0
-execute store result score #spiderEyeCount temp run clear @s spider_eye 0
-
-execute unless score #paperCount temp matches 96.. run title @s actionbar [{"text":"You don't have enough paper to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
-execute unless score #coalCount temp matches 48.. run title @s actionbar [{"text":"You don't have enough coal to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
-execute unless score #spiderEyeCount temp matches 8.. run title @s actionbar [{"text":"You don't have enough spider eyes to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
-
-execute if score #paperCount temp matches 96.. if score #coalCount temp matches 48.. if score #spiderEyeCount temp matches 8.. run function mi:shop/mobs/zombies/husk8_buy
+execute if entity @s[team=team1] unless score #team1 ct.paper >= #husk8Paper price run title @s actionbar [{"text":"You don't have enough paper to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
+execute if entity @s[team=team1] unless score #team1 ct.coal >= #husk8Coal price run title @s actionbar [{"text":"You don't have enough coal to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
+execute if entity @s[team=team1] unless score #team1 ct.spiderEyes >= #husk8SpiderEyes price run title @s actionbar [{"text":"You don't have enough spider eyes to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
+execute if entity @s[team=team1] if score #team1 ct.paper >= #husk8Paper price if score #team1 ct.coal >= #husk8Coal price if score #team1 ct.spiderEyes >= #husk8SpiderEyes price run function mi:shop/mobs/zombies/husk8_buy
+execute if entity @s[team=team2] unless score #team2 ct.paper >= #husk8Paper price run title @s actionbar [{"text":"You don't have enough paper to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
+execute if entity @s[team=team2] unless score #team2 ct.coal >= #husk8Coal price run title @s actionbar [{"text":"You don't have enough coal to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
+execute if entity @s[team=team2] unless score #team2 ct.spiderEyes >= #husk8SpiderEyes price run title @s actionbar [{"text":"You don't have enough spider eyes to purchase ","color":"red"},{"text":"Husk (x8)","color":"gray"},{"text":"!","color":"red"}]
+execute if entity @s[team=team2] if score #team2 ct.paper >= #husk8Paper price if score #team2 ct.coal >= #husk8Coal price if score #team2 ct.spiderEyes >= #husk8SpiderEyes price run function mi:shop/mobs/zombies/husk8_buy
 
 scoreboard players set @s shop 0
 scoreboard players enable @a shop

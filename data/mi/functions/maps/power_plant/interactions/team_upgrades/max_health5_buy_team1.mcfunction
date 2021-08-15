@@ -11,5 +11,6 @@ title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Max 
 tellraw @a[team=team1,tag=!self] [{"text":"Your teammate has purchased ","color":"green"},{"text":"Max Health 5","color":"gold"},{"text":"!","color":"green"}]
 tag @s remove self
 
-clear @s paper 960
-clear @s slime_ball 128
+scoreboard players operation #team1 ct.paper -= #maxHealth5Paper price
+scoreboard players operation #team1 ct.slimeballs -= #maxHealth5Slimeballs price
+function mi:logic/update_counters

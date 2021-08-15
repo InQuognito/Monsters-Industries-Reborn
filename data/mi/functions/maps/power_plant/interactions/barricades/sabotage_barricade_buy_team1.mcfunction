@@ -6,4 +6,5 @@ title @s actionbar {"text":"You clear the old barricade...","color":"green"}
 tellraw @a[team=team1,tag=!self] {"text":"Your teammate cleared the sabotage room barricade!","color":"green"}
 tag @s remove self
 
-clear @s paper 1024
+scoreboard players operation #team1 ct.paper -= #sabotageBarricade price
+function mi:logic/update_counters

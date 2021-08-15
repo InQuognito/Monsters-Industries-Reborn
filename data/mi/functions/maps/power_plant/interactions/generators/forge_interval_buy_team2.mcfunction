@@ -23,5 +23,6 @@ execute if score #team2Interval forge matches 8 run data merge block 200 15 -129
 execute if score #team2Interval forge matches 9 run data merge block 200 15 -129 {Text3:'{"text":"3s"}'}
 execute if score #team2Interval forge matches 10 run data merge block 200 15 -129 {Text3:'{"text":"1s"}'}
 
-clear @s emerald 4
-clear @s netherite_ingot 12
+scoreboard players operation #team2 ct.tokens -= #forgeIntervalTokens price
+scoreboard players operation #team2 ct.netherite -= #forgeIntervalNetherite price
+function mi:logic/update_counters

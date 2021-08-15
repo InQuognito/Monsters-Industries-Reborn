@@ -3,5 +3,8 @@ give @s[team=team2] skeleton_spawn_egg{display:{Name:'[{"text":"Skeleton","itali
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Skeleton (x1)","color":"white"},{"text":"!","color":"green"}]
 
-clear @s paper 24
-clear @s bone 6
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #skeleton1Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.bones -= #skeleton1Bones price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #skeleton1Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.bones -= #skeleton1Bones price
+function mi:logic/update_counters

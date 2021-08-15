@@ -3,5 +3,8 @@ give @s[team=team2] spider_spawn_egg{display:{Name:'[{"text":"Spider","italic":f
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Spider (x8)","color":"dark_gray"},{"text":"!","color":"green"}]
 
-clear @s paper 64
-clear @s spider_eye 32
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #spider8Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEyes -= #spider8SpiderEyes price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #spider8Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEyes -= #spider8SpiderEyes price
+function mi:logic/update_counters

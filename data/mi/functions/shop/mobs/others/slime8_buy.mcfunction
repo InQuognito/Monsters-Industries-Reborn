@@ -6,5 +6,8 @@ execute if score @s slimeballProd matches 1 run give @s[team=team2] slime_spawn_
 
 title @s actionbar [{"text":"You have purchased Slime (x8)!","color":"green"}]
 
-clear @s paper 512
-clear @s slime_ball 128
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #slime8Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.slimeballs -= #slime8Slimeballs price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #slime8Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.slimeballs -= #slime8Slimeballs price
+function mi:logic/update_counters

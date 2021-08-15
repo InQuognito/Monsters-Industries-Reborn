@@ -3,5 +3,8 @@ give @s[team=team2] creeper_spawn_egg{display:{Name:'[{"text":"Creeper","italic"
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Creeper (x1)","color":"dark_green"},{"text":"!","color":"green"}]
 
-clear @s paper 48
-clear @s gunpowder 12
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #creeper1Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.gunpowder -= #creeper1Gunpowder price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #creeper1Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.gunpowder -= #creeper1Gunpowder price
+function mi:logic/update_counters

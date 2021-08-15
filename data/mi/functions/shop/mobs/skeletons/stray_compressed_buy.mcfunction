@@ -3,6 +3,10 @@ give @s[team=team2] stray_spawn_egg{display:{Name:'[{"text":"Compressed Stray","
 
 title @s actionbar [{"text":"You have purchased a ","color":"green"},{"text":"Compressed Stray","color":"dark_gray"},{"text":"!","color":"green"}]
 
-clear @s paper 256
-clear @s bone 64
-clear @s spider_eye 8
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #strayCPaper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.bones -= #strayCBones price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEyes -= #strayCSpiderEyes price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #strayCPaper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.bones -= #strayCBones price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEyes -= #strayCSpiderEyes price
+function mi:logic/update_counters

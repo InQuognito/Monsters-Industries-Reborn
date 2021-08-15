@@ -7,6 +7,7 @@ function mi:logic/resets/players
 function mi:logic/resets/values
 function mi:logic/resets/schedule
 function mi:logic/resets/slimes
+function mi:logic/resets/variables
 
 function mi:logic/map_resets
 function mi:logic/resets/settings

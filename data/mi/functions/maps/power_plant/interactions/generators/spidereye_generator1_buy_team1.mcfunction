@@ -10,5 +10,6 @@ title @s actionbar {"text":"You shortened the track!","color":"green"}
 tellraw @a[team=team1,tag=!self] {"text":"Your teammate shortened the mineshaft track!","color":"green"}
 tag @s remove self
 
-clear @s paper 256
-clear @s spider_eye 16
+scoreboard players operation #team1 ct.paper -= #spiderEyeTrack1Paper price
+scoreboard players operation #team1 ct.spiderEyes -= #spiderEyeTrack1SpiderEyes price
+function mi:logic/update_counters

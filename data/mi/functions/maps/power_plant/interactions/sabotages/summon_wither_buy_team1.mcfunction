@@ -7,7 +7,7 @@ tellraw @a[team=team1,tag=!self] {"text":"Your teammate has summoned the Wither!
 tellraw @a[team=team2] {"text":"The opponent has summoned the Wither!","color":"red"}
 tag @s remove self
 
-scoreboard players operation #team1 stock -= $price temp
+scoreboard players operation #team1 stock -= #summonWither price
 
 setblock 133 21 -93 red_concrete replace
 setblock 132 21 -93 air replace

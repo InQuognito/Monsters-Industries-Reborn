@@ -3,6 +3,10 @@ give @s[team=team2] phantom_spawn_egg{display:{Name:'[{"text":"Phantom","italic"
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Phantom (x8)","color":"blue"},{"text":"!","color":"green"}]
 
-clear @s paper 512
-clear @s slime_ball 160
-clear @s gunpowder 96
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #phantom8Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.slimeballs -= #phantom8Slimeballs price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.gunpowder -= #phantom8Gunpowder price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #phantom8Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.slimeballs -= #phantom8Slimeballs price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.gunpowder -= #phantom8Gunpowder price
+function mi:logic/update_counters

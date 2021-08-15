@@ -1,0 +1,11 @@
+scoreboard players set @s pickaxeLevel 2
+
+title @s actionbar [{"text":"You have purchased a ","color":"green"},{"text":"Crude Pickaxe","color":"gray"},{"text":"!","color":"green"}]
+
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #pickaxe1Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.coal -= #pickaxe1Coal price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #pickaxe1Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.coal -= #pickaxe1Coal price
+function mi:logic/update_counters
+
+clear @s #mi:pickaxes

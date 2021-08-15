@@ -3,4 +3,6 @@ give @s[team=team2] firework_rocket{dragonsBreath:1b,Fireworks:{Flight:127},Life
 
 title @s actionbar {"text":"You have purchased a Dragon's Breath!","color":"green"}
 
-clear @s paper 1024
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #dragonsBreath price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #dragonsBreath price
+function mi:logic/update_counters

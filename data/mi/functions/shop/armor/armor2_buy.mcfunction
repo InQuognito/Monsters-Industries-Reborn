@@ -4,6 +4,8 @@ item replace entity @s armor.feet with chainmail_boots{Unbreakable:1,display:{Na
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Chainmail Armor","color":"gray"},{"text":"!","color":"green"}]
 
-clear @s paper 64
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #armor2 price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #armor2 price
+function mi:logic/update_counters
 
 scoreboard players set @s armorLevel 2

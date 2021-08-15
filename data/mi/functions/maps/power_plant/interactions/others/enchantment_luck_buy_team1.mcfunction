@@ -5,5 +5,6 @@ execute if score #team1 enchantment matches 2 run data merge block 136 20 -124 {
 execute if score #team1 enchantment matches 3 run data merge block 136 20 -124 {Text2:'{"text":"[ MAX ]"}'}
 execute if score #team1 enchantment matches 3 run setblock 136 19 -124 air replace
 
-clear @s paper 1024
-clear @s netherite_ingot 64
+scoreboard players operation #team1 ct.paper -= #enchantmentLuckPaper price
+scoreboard players operation #team1 ct.netherite -= #enchantmentLuckNetherite price
+function mi:logic/update_counters

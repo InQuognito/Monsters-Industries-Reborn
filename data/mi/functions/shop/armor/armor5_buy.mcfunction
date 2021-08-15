@@ -4,7 +4,10 @@ item replace entity @s armor.feet with netherite_boots{Unbreakable:1,display:{Na
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Netherite Armor","color":"dark_gray"},{"text":"!","color":"green"}]
 
-clear @s paper 1024
-clear @s netherite_ingot 128
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #armor5Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.netherite -= #armor5Netherite price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #armor5Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.netherite -= #armor5Netherite price
+function mi:logic/update_counters
 
 scoreboard players set @s armorLevel 5

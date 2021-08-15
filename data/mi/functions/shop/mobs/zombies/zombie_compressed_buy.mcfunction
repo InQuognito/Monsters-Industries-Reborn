@@ -3,5 +3,8 @@ give @s[team=team2] zombie_spawn_egg{display:{Name:'[{"text":"Compressed Zombie"
 
 title @s actionbar [{"text":"You have purchased a ","color":"green"},{"text":"Compressed Zombie","color":"dark_green"},{"text":"!","color":"green"}]
 
-clear @s paper 64
-clear @s coal 32
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #zombieCPaper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.coal -= #zombieCCoal price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #zombieCPaper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.coal -= #zombieCCoal price
+function mi:logic/update_counters

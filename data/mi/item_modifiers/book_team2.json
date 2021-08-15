@@ -1,0 +1,11 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Items // Mob Shop",
+			"color": "red",
+			"italic": false
+		}
+	}
+]

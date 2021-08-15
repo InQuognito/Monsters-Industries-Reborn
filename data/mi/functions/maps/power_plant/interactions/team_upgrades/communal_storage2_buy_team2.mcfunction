@@ -9,4 +9,5 @@ title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Comm
 tellraw @a[team=team2,tag=!self] [{"text":"Your teammate has purchased ","color":"green"},{"text":"Communal Storage 2","color":"gold"},{"text":"!","color":"green"}]
 tag @s remove self
 
-clear @s paper 576
+scoreboard players operation #team2 ct.paper -= #communalStorage2 price
+function mi:logic/update_counters

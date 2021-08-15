@@ -12,7 +12,7 @@ tellraw @a[team=team1,tag=!self] {"text":"Your teammate has unlocked Direct Depo
 tellraw @a[team=team2] {"text":"The opponent has unlocked Direct Deposit!","color":"red"}
 tag @s remove self
 
-scoreboard players operation #team1 stock -= $price temp
+scoreboard players operation #team1 stock -= #directDeposit price
 
 setblock 133 21 -94 red_concrete replace
 setblock 132 21 -94 air replace

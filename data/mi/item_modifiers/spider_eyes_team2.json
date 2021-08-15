@@ -1,0 +1,20 @@
+{
+	"function": "minecraft:set_name",
+	"entity": "this",
+	"name": {
+		"text": "Spider Eyes: ",
+		"color": "yellow",
+		"bold": true,
+		"italic": false,
+		"extra": [
+			{
+				"score": {
+					"name": "#team2",
+					"objective": "ct.spiderEyes"
+				},
+				"color": "green",
+				"bold": false
+			}
+		]
+	}
+}

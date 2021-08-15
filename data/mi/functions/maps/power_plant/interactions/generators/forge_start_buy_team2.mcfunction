@@ -14,6 +14,7 @@ title @s actionbar {"text":"You start up the old forge.","color":"green"}
 tellraw @a[team=team2,tag=!self] {"text":"Your teammate started up the forge!","color":"green"}
 tag @s remove self
 
-clear @s paper 512
+scoreboard players operation #team2 ct.paper -= #forgeStart price
 
 fill 201 14 -129 201 15 -129 air destroy
+function mi:logic/update_counters

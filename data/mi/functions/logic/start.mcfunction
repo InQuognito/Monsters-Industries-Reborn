@@ -2,6 +2,7 @@ function mi:logic/resets/disable_triggers
 function mi:logic/resets/enable_triggers
 function mi:logic/resets/gamerules
 function mi:logic/resets/values
+function mi:logic/resets/variables
 
 execute if score $mode mode matches 0 run gamerule keepInventory true
 execute if score $mode mode matches 1 run gamerule keepInventory false
@@ -39,6 +40,29 @@ item replace entity @a[team=team2] armor.chest with leather_chestplate{Unbreakab
 item replace entity @a[team=team2] armor.legs with leather_leggings{Unbreakable:1,display:{color:11546150,Name:'[{"text":"Leather Armor","italic":false,"color":"red"}]',Lore:['[{"text":"Offers ","italic":false,"color":"gray"},{"text":"no","color":"dark_red"},{"text":" protection"}]']},Enchantments:[{id:"binding_curse",lvl:1}],HideFlags:95,AttributeModifiers:[{AttributeName:"generic.armor",Amount:0,Operation:0,UUID:[I;-111111,11111,111111,-11113],Slot:legs,Name:"generic.armor"}]} 1
 item replace entity @a[team=team2] armor.feet with leather_boots{Unbreakable:1,display:{color:11546150,Name:'[{"text":"Leather Armor","italic":false,"color":"red"}]',Lore:['[{"text":"Offers ","italic":false,"color":"gray"},{"text":"no","color":"dark_red"},{"text":" protection"}]']},Enchantments:[{id:"binding_curse",lvl:1}],HideFlags:95,AttributeModifiers:[{AttributeName:"generic.armor",Amount:0,Operation:0,UUID:[I;-111111,11111,111111,-11114],Slot:feet,Name:"generic.armor"}]} 1
 function mi:logic/book
+
+# Resource Counters
+item replace entity @a[team=!spectators] inventory.0 with paper 1
+item modify entity @a[team=team1] inventory.0 mi:paper_team1
+item modify entity @a[team=team2] inventory.0 mi:paper_team2
+item replace entity @a[team=!spectators] inventory.1 with coal 1
+item modify entity @a[team=team1] inventory.1 mi:coal_team1
+item modify entity @a[team=team2] inventory.1 mi:coal_team2
+item replace entity @a[team=!spectators] inventory.2 with bone 1
+item modify entity @a[team=team1] inventory.2 mi:bones_team1
+item modify entity @a[team=team2] inventory.2 mi:bones_team2
+item replace entity @a[team=!spectators] inventory.3 with gunpowder 1
+item modify entity @a[team=team1] inventory.3 mi:gunpowder_team1
+item modify entity @a[team=team2] inventory.3 mi:gunpowder_team2
+item replace entity @a[team=!spectators] inventory.4 with spider_eye 1
+item modify entity @a[team=team1] inventory.4 mi:spider_eyes_team1
+item modify entity @a[team=team2] inventory.4 mi:spider_eyes_team2
+item replace entity @a[team=!spectators] inventory.5 with slime_ball 1
+item modify entity @a[team=team1] inventory.5 mi:slimeballs_team1
+item modify entity @a[team=team2] inventory.5 mi:slimeballs_team2
+item replace entity @a[team=!spectators] inventory.6 with netherite_ingot 1
+item modify entity @a[team=team1] inventory.6 mi:netherite_team1
+item modify entity @a[team=team2] inventory.6 mi:netherite_team2
 
 function mi:logic/reset_lever
 function mi:logic/timer_tick

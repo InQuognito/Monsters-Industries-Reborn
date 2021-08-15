@@ -3,6 +3,10 @@ give @s[team=team2] cave_spider_spawn_egg{display:{Name:'[{"text":"Cave Spider",
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Cave Spider (x1)","color":"dark_green"},{"text":"!","color":"green"}]
 
-clear @s paper 32
-clear @s spider_eye 8
-clear @s gunpowder 2
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #caveSpider1Paper price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEyes -= #caveSpider1SpiderEyes price
+execute if entity @s[team=team1] run scoreboard players operation #team1 ct.gunpowder -= #caveSpider1Gunpowder price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #caveSpider1Paper price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEyes -= #caveSpider1SpiderEyes price
+execute if entity @s[team=team2] run scoreboard players operation #team2 ct.gunpowder -= #caveSpider1Gunpowder price
+function mi:logic/update_counters

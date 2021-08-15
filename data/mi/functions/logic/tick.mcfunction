@@ -1,7 +1,6 @@
 execute if score $none map matches 1 run function mi:logic/tick/inputs
 execute if score $powerPlant map matches 1 run function mi:maps/power_plant/tick
 
-#execute unless score $none map matches 1 run function mi:logic/teams/death
 execute unless score $none map matches 1 run function mi:logic/tick/cloak
 execute unless score $none map matches 1 run function mi:logic/tick/dragons_breath
 execute unless score $none map matches 1 run function mi:logic/tick/items

@@ -23,7 +23,7 @@ tellraw @a[team=team2,tag=!self] {"text":"Your teammate has activated Factory Sh
 tellraw @a[team=team1] {"text":"The opponent has activated Factory Shutdown!","color":"red"}
 tag @s remove self
 
-scoreboard players operation #team2 stock -= $price temp
+scoreboard players operation #team2 stock -= #factoryShutdown price
 
 setblock 147 21 -158 red_terracotta replace
 setblock 148 21 -158 air replace

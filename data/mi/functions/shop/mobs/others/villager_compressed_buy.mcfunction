@@ -3,6 +3,14 @@ give @s[team=team2] villager_spawn_egg{display:{Name:'[{"text":"Compressed Villa
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Compressed Villager","color":"gray"},{"text":"!","color":"green"}]
 
-execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #villagerC price
-execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #villagerC price
-function mi:logic/update_counters
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearPaper temp = #villagerC price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.paper -= #villagerC price
+execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #villagerC price
+
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearPaper temp = #villagerC price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.paper -= #villagerC price
+execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #villagerC price
+
+function mi:logic/update_credit_card

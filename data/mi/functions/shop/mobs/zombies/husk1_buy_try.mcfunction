@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute if entity @s[team=team1] unless score #team1 ct.paper >= #husk1Paper price run title @s actionbar [{"text":"You don't have enough paper to purchase ","color":"red"},{"text":"Husk (x1)","color":"gray"},{"text":"!","color":"red"}]
 execute if entity @s[team=team1] unless score #team1 ct.coal >= #husk1Coal price run title @s actionbar [{"text":"You don't have enough coal to purchase ","color":"red"},{"text":"Husk (x1)","color":"gray"},{"text":"!","color":"red"}]
 execute if entity @s[team=team1] unless score #team1 ct.spiderEyes >= #husk1SpiderEyes price run title @s actionbar [{"text":"You don't have enough spider eyes to purchase ","color":"red"},{"text":"Husk (x1)","color":"gray"},{"text":"!","color":"red"}]

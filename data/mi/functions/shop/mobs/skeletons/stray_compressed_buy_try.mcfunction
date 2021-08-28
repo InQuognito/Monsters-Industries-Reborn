@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute if entity @s[team=team1] unless score #team1 ct.paper >= #strayCPaper price run title @s actionbar [{"text":"You don't have enough paper to purchase a ","color":"red"},{"text":"Compressed Stray","color":"dark_gray"},{"text":"!","color":"red"}]
 execute if entity @s[team=team1] unless score #team1 ct.bones >= #strayCBones price run title @s actionbar [{"text":"You don't have enough bones to purchase a ","color":"red"},{"text":"Compressed Stray","color":"dark_gray"},{"text":"!","color":"red"}]
 execute if entity @s[team=team1] unless score #team1 ct.spiderEyes >= #strayCSpiderEyes price run title @s actionbar [{"text":"You don't have enough spider eyes to purchase a ","color":"red"},{"text":"Compressed Stray","color":"dark_gray"},{"text":"!","color":"red"}]

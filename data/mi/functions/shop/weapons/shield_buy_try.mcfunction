@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute store result score #shieldCount temp run clear @s shield 0
 
 execute if score #shieldCount temp matches 1 run title @s actionbar [{"text":"You already own a ","color":"red"},{"text":"Shield","color":"white"},{"text":"!","color":"red"}]

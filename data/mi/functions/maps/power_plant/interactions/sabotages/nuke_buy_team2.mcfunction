@@ -10,3 +10,5 @@ scoreboard players operation #team2 stock -= #nuke price
 
 setblock 133 21 -92 red_terracotta replace
 setblock 132 21 -92 air replace
+
+playsound minecraft:entity.generic.explode player @a

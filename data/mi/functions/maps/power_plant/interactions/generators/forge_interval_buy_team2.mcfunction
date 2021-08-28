@@ -23,6 +23,11 @@ execute if score #team2Interval forge matches 8 run data merge block 200 15 -129
 execute if score #team2Interval forge matches 9 run data merge block 200 15 -129 {Text3:'{"text":"3s"}'}
 execute if score #team2Interval forge matches 10 run data merge block 200 15 -129 {Text3:'{"text":"1s"}'}
 
-scoreboard players operation #team2 ct.tokens -= #forgeIntervalTokens price
-scoreboard players operation #team2 ct.netherite -= #forgeIntervalNetherite price
-function mi:logic/update_counters
+scoreboard players operation #clearTokens temp = #forgeIntervalTokens price
+function mi:logic/clear_price
+execute if score #team2 bankAccount matches 0 run scoreboard players operation #clearNetherite temp = #forgeIntervalNetherite price
+execute if score #team2 bankAccount matches 0 run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 run scoreboard players operation @s ct.netherite -= #forgeIntervalNetherite price
+execute if score #team2 bankAccount matches 2..3 run scoreboard players operation #team2 ct.netherite -= #forgeIntervalNetherite price
+
+function mi:logic/update_credit_card

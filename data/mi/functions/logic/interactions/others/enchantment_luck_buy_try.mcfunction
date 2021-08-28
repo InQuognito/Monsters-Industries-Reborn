@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute unless score #team1 enchantment matches ..2 run title @s[team=team1] actionbar {"text":"You have reached the maximum enchantment luck!","color":"red"}
 execute if score #team1 enchantment matches ..2 unless score #team1 ct.paper >= #enchantmentLuckPaper price run title @s[team=team1] actionbar {"text":"You do not have enough paper to upgrade enchantment luck!","color":"red"}
 execute if score #team1 enchantment matches ..2 unless score #team1 ct.netherite >= #enchantmentLuckNetherite price run title @s[team=team1] actionbar {"text":"You do not have enough netherite to upgrade enchantment luck!","color":"red"}

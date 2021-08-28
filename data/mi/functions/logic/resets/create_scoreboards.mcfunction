@@ -1,4 +1,5 @@
 scoreboard objectives add armorLevel dummy
+scoreboard objectives add bankAccount dummy
 scoreboard objectives add clickLever dummy
 scoreboard objectives add ct.bones dummy
 scoreboard objectives add ct.coal dummy
@@ -9,6 +10,7 @@ scoreboard objectives add ct.slimeballs dummy
 scoreboard objectives add ct.spiderEyes dummy
 scoreboard objectives add ct.tokens dummy
 scoreboard objectives add employees dummy
+scoreboard objectives add employeePaper dummy
 scoreboard objectives add enchantment dummy
 scoreboard objectives add forge dummy
 scoreboard objectives add harvest.bone minecraft.mined:minecraft.podzol
@@ -20,6 +22,7 @@ scoreboard objectives add healthMult dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add isDead deathCount
 scoreboard objectives add lighterLevel dummy
+scoreboard objectives add lobby trigger
 scoreboard objectives add map dummy
 scoreboard objectives add mode dummy
 scoreboard objectives add paperProd dummy

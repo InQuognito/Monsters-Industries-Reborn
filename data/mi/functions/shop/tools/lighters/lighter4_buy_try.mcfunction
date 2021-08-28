@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute if score @s lighterLevel matches 5.. run title @s actionbar [{"text":"You already own a ","color":"red"},{"text":"Flint and Gold","color":"gold"},{"text":"!","color":"red"}]
 
 execute unless score @s lighterLevel matches 5.. if entity @s[team=team1] unless score #team1 ct.paper >= #lighter4Paper price run title @s actionbar [{"text":"You do not have enough paper to purchase a ","color":"red"},{"text":"Flint and Gold","color":"gold"},{"text":"!","color":"red"}]

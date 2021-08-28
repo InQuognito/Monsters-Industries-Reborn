@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute store result score #bowCount temp run clear @s bow 0
 
 execute if score #bowCount temp matches 1 run title @s actionbar [{"text":"You already own a ","color":"red"},{"text":"Bow","color":"white"},{"text":"!","color":"red"}]

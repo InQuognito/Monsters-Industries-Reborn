@@ -1,0 +1,1 @@
+tellraw @s [{"text":"=== Gunpowder ===\n","color":"white"},{"text":"Gunpowder can be harvested inside the bullet-shaped chamber, and is used to craft mobs like creepers and phantoms.","color":"green"}]

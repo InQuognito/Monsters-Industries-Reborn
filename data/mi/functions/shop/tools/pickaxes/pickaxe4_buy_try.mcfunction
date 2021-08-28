@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute if score @s pickaxeLevel matches 5.. run title @s actionbar [{"text":"You already own an ","color":"red"},{"text":"Exalted Pickaxe","color":"gold"},{"text":"!","color":"red"}]
 
 execute unless score @s pickaxeLevel matches 5.. if entity @s[team=team1] unless score #team1 ct.paper >= #pickaxe4Paper price run title @s actionbar [{"text":"You do not have enough paper to purchase an ","color":"red"},{"text":"Exalted Pickaxe","color":"gold"},{"text":"!","color":"red"}]

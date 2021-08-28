@@ -12,4 +12,4 @@ execute as @a run function mi:logic/advancement_check
 
 scoreboard players set #resetType resetType 0
 scoreboard players set #forfeit resetType 0
-schedule function mi:logic/load 15s
+schedule function mi:logic/load_post 15s

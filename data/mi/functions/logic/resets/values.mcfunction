@@ -1,14 +1,14 @@
 scoreboard players reset * map
 scoreboard players set $none map 1
 
-scoreboard players set #team1 stock 0
-scoreboard players set #team2 stock 0
-
-scoreboard players set #team1 sentryCount 0
-scoreboard players set #team2 sentryCount 0
+scoreboard players set #team1 bankAccount 0
+scoreboard players set #team2 bankAccount 0
 
 scoreboard players set #team1 employees 0
 scoreboard players set #team2 employees 0
+
+scoreboard players set #team1 enchantment 0
+scoreboard players set #team2 enchantment 0
 
 scoreboard players set #team1 forge 0
 scoreboard players set #team2 forge 0
@@ -16,17 +16,20 @@ scoreboard players set #team2 forge 0
 scoreboard players set #team1Interval forge 0
 scoreboard players set #team2Interval forge 0
 
-scoreboard players set #team1 enchantment 0
-scoreboard players set #team2 enchantment 0
+scoreboard players set #team1 sentryCount 0
+scoreboard players set #team2 sentryCount 0
+
+scoreboard players set #team1 slimeballProd 0
+scoreboard players set #team2 slimeballProd 0
+
+scoreboard players set #team1 stock 0
+scoreboard players set #team2 stock 0
 
 scoreboard players set #team1MaxHealth temp 0
 scoreboard players set #team2MaxHealth temp 0
 
 scoreboard players reset @a[team=spectators] paperProd
 scoreboard players set @a[team=!spectators] paperProd 0
-
-scoreboard players reset @a[team=spectators] slimeballProd
-scoreboard players set @a[team=!spectators] slimeballProd 0
 
 scoreboard players reset @a[team=spectators] swordLevel
 scoreboard players set @a[team=!spectators] swordLevel 0
@@ -42,6 +45,14 @@ scoreboard players set @a[team=!spectators] spadeLevel 1
 
 scoreboard players reset @a[team=spectators] lighterLevel
 scoreboard players set @a[team=!spectators] lighterLevel 1
+
+scoreboard players set @a[team=!spectators] ct.paper 0
+scoreboard players set @a[team=!spectators] ct.coal 0
+scoreboard players set @a[team=!spectators] ct.bones 0
+scoreboard players set @a[team=!spectators] ct.gunpowder 0
+scoreboard players set @a[team=!spectators] ct.spiderEyes 0
+scoreboard players set @a[team=!spectators] ct.slimeballs 0
+scoreboard players set @a[team=!spectators] ct.netherite 0
 
 scoreboard players set #team1 ct.paper 0
 scoreboard players set #team2 ct.paper 0

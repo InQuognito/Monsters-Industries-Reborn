@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute if entity @s[team=team1] unless score #team1 ct.paper >= #slime1Paper price run title @s actionbar [{"text":"You don't have enough paper to purchase ","color":"red"},{"text":"Slime (x1)","color":"green"},{"text":"!","color":"red"}]
 execute if entity @s[team=team1] unless score #team1 ct.slimeballs >= #slime1Slimeballs price run title @s actionbar [{"text":"You don't have enough slimeballs to purchase ","color":"red"},{"text":"Slime (x1)","color":"green"},{"text":"!","color":"red"}]
 execute if entity @s[team=team1] if score #team1 ct.paper >= #slime1Paper price if score #team1 ct.slimeballs >= #slime1Slimeballs price run function mi:shop/mobs/others/slime1_buy

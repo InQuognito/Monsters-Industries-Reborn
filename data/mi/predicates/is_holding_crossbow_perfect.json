@@ -7,7 +7,7 @@
 			"predicate": {
 				"equipment": {
 					"mainhand": {
-						"item": "minecraft:crossbow",
+						"items": ["minecraft:crossbow"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:piercing",
@@ -28,7 +28,7 @@
 			"predicate": {
 				"equipment": {
 					"mainhand": {
-						"item": "minecraft:crossbow",
+						"items": ["minecraft:crossbow"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:quick_charge",

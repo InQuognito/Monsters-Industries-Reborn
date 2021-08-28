@@ -18,7 +18,7 @@
 		"predicate": {
 			"equipment": {
 				"mainhand": {
-					"item": "minecraft:bow"
+					"items": ["minecraft:bow"]
 				}
 			}
 		}
@@ -29,7 +29,7 @@
 		"predicate": {
 			"equipment": {
 				"mainhand": {
-					"item": "minecraft:crossbow"
+					"items": ["minecraft:crossbow"]
 				}
 			}
 		}
@@ -40,7 +40,7 @@
 		"predicate": {
 			"equipment": {
 				"mainhand": {
-					"item": "minecraft:trident"
+					"items": ["minecraft:trident"]
 				}
 			}
 		}

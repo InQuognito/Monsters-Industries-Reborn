@@ -72,9 +72,9 @@ scoreboard players set #lighter4Paper price 160
 scoreboard players set #lighter4Gunpowder price 128
 
 # Book - Upgrades
-scoreboard players set #paperProduction1 price 128
-scoreboard players set #paperProduction2 price 384
-scoreboard players set #paperProduction3 price 512
+scoreboard players set #paperProduction1 price 64
+scoreboard players set #paperProduction2 price 128
+scoreboard players set #paperProduction3 price 256
 
 scoreboard players set #lever price 768
 
@@ -195,7 +195,7 @@ scoreboard players set #barricade2 price 640
 scoreboard players set #sabotageBarricade price 1024
 
 # Forge
-scoreboard players set #startForge price 512
+scoreboard players set #forgeStart price 512
 scoreboard players set #forgeIntervalTokens price 4
 scoreboard players set #forgeIntervalNetherite price 12
 
@@ -211,9 +211,47 @@ scoreboard players set #spiderEyeTrack2SpiderEyes price 32
 scoreboard players set #enchanting price 2
 scoreboard players set #enchantmentLuckPaper price 1024
 scoreboard players set #enchantmentLuckNetherite price 64
+scoreboard players set #neuronWorm price 3
 scoreboard players set #randomRecipe price 96
 scoreboard players set #replaceMerchant price 256
-scoreboard players set #sentry price 5
+scoreboard players set #sentry price 4
+
+# Resources
+scoreboard players set #paperMax vars 1000
+scoreboard players operation #paperMaxTeam1 vars = #paperMax vars
+scoreboard players operation #paperMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #paperMaxTeam2 vars = #paperMax vars
+scoreboard players operation #paperMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #coalMax vars 100
+scoreboard players operation #coalMaxTeam1 vars = #coalMax vars
+scoreboard players operation #coalMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #coalMaxTeam2 vars = #coalMax vars
+scoreboard players operation #coalMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #bonesMax vars 100
+scoreboard players operation #bonesMaxTeam1 vars = #bonesMax vars
+scoreboard players operation #bonesMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #bonesMaxTeam2 vars = #bonesMax vars
+scoreboard players operation #bonesMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #gunpowderMax vars 100
+scoreboard players operation #gunpowderMaxTeam1 vars = #gunpowderMax vars
+scoreboard players operation #gunpowderMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #gunpowderMaxTeam2 vars = #gunpowderMax vars
+scoreboard players operation #gunpowderMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #spiderEyesMax vars 100
+scoreboard players operation #spiderEyesMaxTeam1 vars = #spiderEyesMax vars
+scoreboard players operation #spiderEyesMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #spiderEyesMaxTeam2 vars = #spiderEyesMax vars
+scoreboard players operation #spiderEyesMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #slimeballMax vars 100
+scoreboard players operation #slimeballMaxTeam1 vars = #slimeballMax vars
+scoreboard players operation #slimeballMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #slimeballMaxTeam2 vars = #slimeballMax vars
+scoreboard players operation #slimeballMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #netheriteMax vars 50
+scoreboard players operation #netheriteMaxTeam1 vars = #netheriteMax vars
+scoreboard players operation #netheriteMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #netheriteMaxTeam2 vars = #netheriteMax vars
+scoreboard players operation #netheriteMaxTeam2 vars *= #team2Amount temp
 
 # Sabotages
 scoreboard players set #factoryShutdown price 200
@@ -258,8 +296,9 @@ scoreboard players set #maxHealth5Slimeballs price 128
 
 scoreboard players set #recycling price 256
 
-scoreboard players set #communalStorage1 price 384
-scoreboard players set #communalStorage2 price 576
+scoreboard players set #bankAccount price 576
+scoreboard players set #sharedBankAccount price 384
+scoreboard players set #unlimitedBankAccount price 768
 
 # Wall Street
 scoreboard players set #wallStreetMax vars 350

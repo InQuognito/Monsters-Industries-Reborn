@@ -1,0 +1,1 @@
+tellraw @s [{"text":"=== Spider Eyes ===\n","color":"white"},{"text":"Spider Eyes can be harvested inside the mineshaft, and is used to craft mobs like spiders and as a secondary resource for Strays and Husks.","color":"green"}]

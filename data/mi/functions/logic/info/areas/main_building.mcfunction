@@ -1,0 +1,1 @@
+tellraw @s [{"text":"=== Main Building ===\n","color":"white"},{"text":"The Main Building is your base of operations; It's where you are going to generate paper, assign employees, buy sentries and stock, and find the Tavern and upgrades. This is will you will be spending most of your time, so learn this area!","color":"green"}]

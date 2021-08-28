@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute if entity @s[team=team1] run scoreboard players operation $currentStock stock = #team1 stock
 execute if entity @s[team=team2] run scoreboard players operation $currentStock stock = #team2 stock
 

@@ -9,5 +9,9 @@ title @s actionbar [{"text":"You have refreshed the merchant's trades!","color":
 tellraw @a[team=team1,tag=!self] [{"text":"Your teammate has refreshed the Merchant's trades!","color":"green"}]
 tag @s remove self
 
-scoreboard players operation #team1 ct.paper -= #replaceMerchant price
-function mi:logic/update_counters
+execute if score #team1 bankAccount matches 0 run scoreboard players operation #clearPaper temp = #replaceMerchant price
+execute if score #team1 bankAccount matches 0 run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 1 run scoreboard players operation @s ct.paper -= #replaceMerchant price
+execute if score #team1 bankAccount matches 2..3 run scoreboard players operation #team1 ct.paper -= #replaceMerchant price
+
+function mi:logic/update_credit_card

@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute if score @s armorLevel matches 5.. run title @s actionbar [{"text":"You already own ","color":"red"},{"text":"Netherite Armor","color":"dark_gray"},{"text":"!","color":"red"}]
 
 execute if score @s armorLevel matches ..4 if entity @s[team=team1] unless score #team1 ct.paper >= #armor5Paper price run title @s actionbar [{"text":"You do not have enough paper to purchase ","color":"red"},{"text":"Netherite Armor","color":"dark_gray"},{"text":"!","color":"red"}]

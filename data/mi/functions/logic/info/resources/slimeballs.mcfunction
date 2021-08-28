@@ -1,0 +1,1 @@
+tellraw @s [{"text":"=== Slimeballs ===\n","color":"white"},{"text":"Slimeballs can be harvested inside the basement at the reactor, and is used to craft mobs like slimes and phantoms, and to upgrade higher levels of max health.","color":"green"}]

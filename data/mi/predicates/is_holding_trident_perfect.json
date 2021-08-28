@@ -7,7 +7,7 @@
 			"predicate": {
 				"equipment": {
 					"mainhand": {
-						"item": "minecraft:trident",
+						"items": ["minecraft:trident"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
@@ -32,7 +32,7 @@
 			"predicate": {
 				"equipment": {
 					"mainhand": {
-						"item": "minecraft:trident",
+						"items": ["minecraft:trident"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",

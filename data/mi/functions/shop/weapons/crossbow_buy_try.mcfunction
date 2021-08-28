@@ -1,3 +1,5 @@
+function mi:logic/convert_currency_scoreboards
+
 execute store result score #crossbowCount temp run clear @s crossbow 0
 
 execute if score #crossbowCount temp matches 1 run title @s actionbar [{"text":"You already own a ","color":"red"},{"text":"Crossbow","color":"white"},{"text":"!","color":"red"}]

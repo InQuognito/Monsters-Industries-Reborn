@@ -1,4 +1,5 @@
 scoreboard objectives remove armorLevel
+scoreboard objectives remove bankAccount
 scoreboard objectives remove clickLever
 scoreboard objectives remove ct.bones
 scoreboard objectives remove ct.coal
@@ -9,6 +10,7 @@ scoreboard objectives remove ct.slimeballs
 scoreboard objectives remove ct.spiderEyes
 scoreboard objectives remove ct.tokens
 scoreboard objectives remove employees
+scoreboard objectives remove employeePaper
 scoreboard objectives remove enchantment
 scoreboard objectives remove forge
 scoreboard objectives remove harvest.bone
@@ -20,6 +22,7 @@ scoreboard objectives remove healthMult
 scoreboard objectives remove integers
 scoreboard objectives remove isDead
 scoreboard objectives remove lighterLevel
+scoreboard objectives remove lobby
 scoreboard objectives remove map
 scoreboard objectives remove mode
 scoreboard objectives remove paperProd

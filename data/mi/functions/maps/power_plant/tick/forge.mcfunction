@@ -21,14 +21,17 @@ tag @e[tag=team1,tag=forgeConveyor2,x=82.7,y=12.06,z=-120.3,distance=..1] remove
 tag @e[tag=team1,tag=forgeRawIngot,x=82.7,y=12.06,z=-117.3,distance=..1] add forgeRefinedIngot
 tag @e[tag=team1,tag=forgeRefinedIngot,x=82.7,y=12.06,z=-117.3,distance=..1] remove forgeRawIngot
 
-execute if entity @e[tag=team1,tag=forgeRefinedIngot,x=82.7,y=12.06,z=-115.4,distance=..1] run loot insert 81 13 -116 loot mi:netherite_ingot
+execute if score #team1 bankAccount matches 0 if entity @e[tag=team1,tag=forgeRefinedIngot,x=82.7,y=12.06,z=-115.4,distance=..1] run loot insert 81 13 -116 loot mi:netherite_ingot
+execute if score #team1 bankAccount matches 1 if entity @e[tag=team1,tag=forgeRefinedIngot,x=82.7,y=12.06,z=-115.4,distance=..1] run scoreboard players add @r[team=team1,scores={ct.netherite=..99}] ct.netherite 1
+execute if score #team1 bankAccount matches 2 if score #team1 ct.netherite matches ..99 if entity @e[tag=team1,tag=forgeRefinedIngot,x=82.7,y=12.06,z=-115.4,distance=..1] run scoreboard players add #team1 ct.netherite 1
+execute if score #team1 bankAccount matches 3 if entity @e[tag=team1,tag=forgeRefinedIngot,x=82.7,y=12.06,z=-115.4,distance=..1] run scoreboard players add #team1 ct.netherite 1
 kill @e[tag=team1,tag=forgeRefinedIngot,x=82.7,y=12.06,z=-115.4,distance=..1]
 
 # Stage Changes
-execute as @e[tag=team1,tag=forgeRawBlock,nbt=!{HandItems:[{id:"iron_block",Count:1b}]}] run data merge entity @s {HandItems:[{id:"iron_block",Count:1b}]}
-execute as @e[tag=team1,tag=forgeRawIngot,nbt=!{HandItems:[{id:"iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}] run data merge entity @s {HandItems:[{id:"iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}
+execute as @e[tag=team1,tag=forgeRawBlock,nbt=!{HandItems:[{id:"minecraft:iron_block",Count:1b}]}] run data merge entity @s {HandItems:[{id:"iron_block",Count:1b}]}
+execute as @e[tag=team1,tag=forgeRawIngot,nbt=!{HandItems:[{id:"minecraft:iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}] run data merge entity @s {HandItems:[{id:"iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}
 execute as @e[tag=team1,tag=forgeRawIngot] at @s run tp @s ~ 13.06 ~
-execute as @e[tag=team1,tag=forgeRefinedIngot,nbt=!{HandItems:[{id:"netherite_ingot",Count:1b}]}] run data merge entity @s {HandItems:[{id:"netherite_ingot",Count:1b}]}
+execute as @e[tag=team1,tag=forgeRefinedIngot,nbt=!{HandItems:[{id:"minecraft:netherite_ingot",Count:1b}]}] run data merge entity @s {HandItems:[{id:"netherite_ingot",Count:1b}]}
 
 # Conveyor Changes
 execute as @e[tag=team1,tag=forgeFalling] at @s run tp @s ~ ~-0.05 ~
@@ -60,14 +63,18 @@ tag @e[tag=team2,tag=forgeConveyor2,x=198.7,y=13.06,z=-130.3,distance=..1] remov
 tag @e[tag=team2,tag=forgeRawIngot,x=198.7,y=13.06,z=-133.3,distance=..1] add forgeRefinedIngot
 tag @e[tag=team2,tag=forgeRefinedIngot,x=198.7,y=13.06,z=-133.3,distance=..1] remove forgeRawIngot
 
-execute if entity @e[tag=team2,tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1] run loot insert 199 13 -135 loot mi:netherite_ingot
+
+execute if score #team2 bankAccount matches 0 if entity @e[tag=team2,tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1] run loot insert 199 13 -135 loot mi:netherite_ingot
+execute if score #team2 bankAccount matches 1 if entity @e[tag=team2,tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1] run scoreboard players add @r[team=team2,scores={ct.netherite=..99}] ct.netherite 1
+execute if score #team2 bankAccount matches 2 if score #team2 ct.netherite matches ..99 if entity @e[tag=team2,tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1] run scoreboard players add #team2 ct.netherite 1
+execute if score #team2 bankAccount matches 3 if entity @e[tag=team2,tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1] run scoreboard players add #team2 ct.netherite 1
 kill @e[tag=team2,tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1]
 
 # Stage Changes
-execute as @e[tag=team2,tag=forgeRawBlock,nbt=!{HandItems:[{id:"iron_block",Count:1b}]}] run data merge entity @s {HandItems:[{id:"iron_block",Count:1b}]}
-execute as @e[tag=team2,tag=forgeRawIngot,nbt=!{HandItems:[{id:"iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}] run data merge entity @s {HandItems:[{id:"iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}
+execute as @e[tag=team2,tag=forgeRawBlock,nbt=!{HandItems:[{id:"minecraft:iron_block",Count:1b}]}] run data merge entity @s {HandItems:[{id:"iron_block",Count:1b}]}
+execute as @e[tag=team2,tag=forgeRawIngot,nbt=!{HandItems:[{id:"minecraft:iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}] run data merge entity @s {HandItems:[{id:"minecraft:iron_ingot",Count:1b}],Pose:{RightArm:[180f,0f,0f]}}
 execute as @e[tag=team2,tag=forgeRawIngot] at @s run tp @s ~ 13.06 ~
-execute as @e[tag=team2,tag=forgeRefinedIngot,nbt=!{HandItems:[{id:"netherite_ingot",Count:1b}]}] run data merge entity @s {HandItems:[{id:"netherite_ingot",Count:1b}]}
+execute as @e[tag=team2,tag=forgeRefinedIngot,nbt=!{HandItems:[{id:"minecraft:netherite_ingot",Count:1b}]}] run data merge entity @s {HandItems:[{id:"minecraft:netherite_ingot",Count:1b}]}
 
 # Conveyor Changes
 execute as @e[tag=team2,tag=forgeFalling] at @s run tp @s ~ ~-0.05 ~

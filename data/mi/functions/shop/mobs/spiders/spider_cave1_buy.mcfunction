@@ -3,10 +3,30 @@ give @s[team=team2] cave_spider_spawn_egg{display:{Name:'[{"text":"Cave Spider",
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Cave Spider (x1)","color":"dark_green"},{"text":"!","color":"green"}]
 
-execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #caveSpider1Paper price
-execute if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEyes -= #caveSpider1SpiderEyes price
-execute if entity @s[team=team1] run scoreboard players operation #team1 ct.gunpowder -= #caveSpider1Gunpowder price
-execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #caveSpider1Paper price
-execute if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEyes -= #caveSpider1SpiderEyes price
-execute if entity @s[team=team2] run scoreboard players operation #team2 ct.gunpowder -= #caveSpider1Gunpowder price
-function mi:logic/update_counters
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearPaper temp = #caveSpider1Paper price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.paper -= #caveSpider1Paper price
+execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #caveSpider1Paper price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearSpiderEyes temp = #caveSpider1SpiderEyes price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.spiderEyes -= #caveSpider1SpiderEyes price
+execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEyes -= #caveSpider1SpiderEyes price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearSpiderEyes temp = #caveSpider1Gunpowder price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.gunpowder -= #caveSpider1Gunpowder price
+execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.gunpowder -= #caveSpider1Gunpowder price
+
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearPaper temp = #caveSpider1Paper price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.paper -= #caveSpider1Paper price
+execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #caveSpider1Paper price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearSpiderEyes temp = #caveSpider1SpiderEyes price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.spiderEyes -= #caveSpider1SpiderEyes price
+execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEyes -= #caveSpider1SpiderEyes price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearSpiderEyes temp = #caveSpider1Gunpowder price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.gunpowder -= #caveSpider1Gunpowder price
+execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.gunpowder -= #caveSpider1Gunpowder price
+
+function mi:logic/update_credit_card

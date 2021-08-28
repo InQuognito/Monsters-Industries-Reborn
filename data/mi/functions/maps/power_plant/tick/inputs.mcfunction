@@ -67,8 +67,9 @@ execute positioned 75 19 -114 if block ~ ~ ~ #minecraft:buttons[powered=true] as
 execute positioned 75 19 -114 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=east]
 execute positioned 74 20 -114 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
-execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 2 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/communal_storage2_buy_try
-execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 2 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/communal_storage1_buy_try
+execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account_unlimited_buy_try
+execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account_shared_buy_try
+execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account_personal_buy_try
 execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=east]
 execute positioned 74 20 -117 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
@@ -85,8 +86,9 @@ execute positioned 205 19 -137 if block ~ ~ ~ #minecraft:buttons[powered=true] a
 execute positioned 205 19 -137 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=west]
 execute positioned 206 20 -137 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
-execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 2 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/communal_storage2_buy_try
-execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 2 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/communal_storage1_buy_try
+execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account_unlimited_buy_try
+execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account_shared_buy_try
+execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account_personal_buy_try
 execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=west]
 execute positioned 206 20 -134 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 

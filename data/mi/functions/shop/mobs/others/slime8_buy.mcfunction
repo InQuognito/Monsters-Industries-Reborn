@@ -6,8 +6,22 @@ execute if score @s slimeballProd matches 1 run give @s[team=team2] slime_spawn_
 
 title @s actionbar [{"text":"You have purchased Slime (x8)!","color":"green"}]
 
-execute if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #slime8Paper price
-execute if entity @s[team=team1] run scoreboard players operation #team1 ct.slimeballs -= #slime8Slimeballs price
-execute if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #slime8Paper price
-execute if entity @s[team=team2] run scoreboard players operation #team2 ct.slimeballs -= #slime8Slimeballs price
-function mi:logic/update_counters
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearPaper temp = #slime8Paper price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.paper -= #slime8Paper price
+execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #slime8Paper price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearSlimeballs temp = #slime8Slimeballs price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.slimeballs -= #slime8Slimeballs price
+execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.slimeballs -= #slime8Slimeballs price
+
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearPaper temp = #slime8Paper price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.paper -= #slime8Paper price
+execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #slime8Paper price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearSlimeballs temp = #slime8Slimeballs price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.slimeballs -= #slime8Slimeballs price
+execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.slimeballs -= #slime8Slimeballs price
+
+function mi:logic/update_credit_card

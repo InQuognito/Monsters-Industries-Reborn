@@ -9,5 +9,9 @@ title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Max 
 tellraw @a[team=team2,tag=!self] [{"text":"Your teammate has purchased ","color":"green"},{"text":"Max Health 1","color":"gold"},{"text":"!","color":"green"}]
 tag @s remove self
 
-scoreboard players operation #team2 ct.paper -= #maxHealth1 price
-function mi:logic/update_counters
+execute if score #team2 bankAccount matches 0 run scoreboard players operation #clearPaper temp = #maxHealth1 price
+execute if score #team2 bankAccount matches 0 run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 1 run scoreboard players operation @s ct.paper -= #maxHealth1 price
+execute if score #team2 bankAccount matches 2..3 run scoreboard players operation #team2 ct.paper -= #maxHealth1 price
+
+function mi:logic/update_credit_card

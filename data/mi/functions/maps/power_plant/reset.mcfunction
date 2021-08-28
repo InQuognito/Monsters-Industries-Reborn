@@ -73,7 +73,7 @@ setblock 79 15 -121 barrier replace
 setblock 82 14 -118 blast_furnace[facing=west]{Lock:"ae88"} destroy
 setblock 82 13 -116 hopper[facing=west]{Lock:"ae88"} destroy
 setblock 81 13 -116 chest[facing=west]{Lock:"ae88"} destroy
-setblock 79 15 -122 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#startForge","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 79 15 -122 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 79 14 -122 oak_button[face=wall,facing=south] replace
 
 setblock 201 13 -138 iron_door[facing=north,half=lower,hinge=left,open=false] destroy
@@ -87,7 +87,7 @@ setblock 201 15 -130 barrier replace
 setblock 198 14 -133 blast_furnace[facing=east]{Lock:"ae88"} destroy
 setblock 198 13 -135 hopper[facing=east]{Lock:"ae88"} destroy
 setblock 199 13 -135 chest[facing=east]{Lock:"ae88"} destroy
-setblock 201 15 -129 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#startForge","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 201 15 -129 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 201 14 -129 oak_button[face=wall,facing=north] replace
 
 # Fusion
@@ -102,6 +102,10 @@ setblock 75 29 -114 birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":
 setblock 205 29 -141 spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet1","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"5 Stock"}'} destroy
 setblock 205 29 -139 spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet2","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"10 Stock"}'} destroy
 setblock 205 29 -137 spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet3","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"20 Stock"}'} destroy
+
+# Employees
+setblock 87 28 -136 chest[facing=south] destroy
+setblock 193 28 -116 chest[facing=north] destroy
 
 # Barricade 1
 setblock 100 14 -98 oak_planks replace
@@ -186,15 +190,15 @@ setblock 206 20 -137 redstone_lamp replace
 setblock 205 20 -137 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'[{"score":{"name":"#recycling","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 205 19 -137 spruce_button[facing=west] replace
 
-# Communal Storage
+# Bank Account
 fill 74 28 -120 74 28 -121 air replace
 setblock 74 20 -117 redstone_lamp replace
-setblock 75 20 -117 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Communal Storage","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Communal Storage\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Adds a chest to store items in.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'[{"score":{"name":"#communalStorage1","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 75 20 -117 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 75 19 -117 birch_button[facing=east] replace
 
 fill 206 28 -131 206 28 -130 air replace
 setblock 206 20 -134 redstone_lamp replace
-setblock 205 20 -134 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Communal Storage","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Communal Storage\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Adds a chest to store items in.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'[{"score":{"name":"#communalStorage1","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 205 20 -134 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 205 19 -134 spruce_button[facing=west] replace
 
 # Sentries
@@ -270,11 +274,11 @@ fill 172 28 -127 172 28 -124 black_stained_glass_pane[north=true,south=true] rep
 fill 172 29 -127 172 30 -124 red_stained_glass_pane[north=true,south=true] replace
 
 # Enchantments
-setblock 136 20 -127 warped_wall_sign[facing=south]{Color:"black",Text2:'[{"score":{"name":"#enchantment","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 136 20 -127 warped_wall_sign[facing=south]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
 setblock 136 20 -124 warped_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
 setblock 136 19 -124 warped_button[facing=north] replace
 
-setblock 144 20 -124 crimson_wall_sign[facing=north]{Color:"black",Text2:'[{"score":{"name":"#enchantment","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 144 20 -124 crimson_wall_sign[facing=north]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
 setblock 144 20 -127 crimson_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
 setblock 144 19 -127 crimson_button[facing=south] replace
 

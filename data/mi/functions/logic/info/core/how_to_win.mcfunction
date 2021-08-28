@@ -1,0 +1,1 @@
+tellraw @s [{"text":"=== How to Win ===\n","color":"white"},{"text":"There is one main objective in Monsters Industries: To produce monsters that kill your opponent in order to reach the stock limit and win. The steps you take to do so, however, is where the strategy comes in.","color":"green"}]

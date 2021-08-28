@@ -1,6 +1,6 @@
-execute if score $mode mode matches 0 run scoreboard players remove #team1 stock 10
-execute if score $mode mode matches 1 run scoreboard players remove #team1 stock 25
-execute if score $mode mode matches 0..1 run scoreboard players add #team2 stock 50
+execute if score $mode mode matches 0 run scoreboard players remove #team1 stock 25
+execute if score $mode mode matches 1 run scoreboard players remove #team1 stock 50
+execute if score $mode mode matches 0..1 run scoreboard players add #team2 stock 100
 
 execute if score $mode mode matches 2 if score $maxStock stock matches 250 run scoreboard players add #team2 stock 125
 execute if score $mode mode matches 2 if score $maxStock stock matches 500 run scoreboard players add #team2 stock 250
@@ -10,4 +10,6 @@ execute if score $mode mode matches 2 as @a[team=team1,scores={isDead=1..}] run 
 
 execute if score $mode mode matches 2 if score #team1dead temp >= #team1Amount temp run function mi:logic/teams/team2_win
 
-function mi:logic/teams/death
+tag @a[scores={isDead=1..}] add isDead
+schedule function mi:logic/teams/death 5t replace
+scoreboard players reset @a[scores={isDead=1..}] isDead

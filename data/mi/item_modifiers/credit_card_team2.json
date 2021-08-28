@@ -1,0 +1,1096 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Stock: ",
+				"color": "red",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "stock"
+						},
+						"color": "white",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Paper: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "ct.paper"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#paperMax",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Paper: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.paper"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#paperMaxTeam2",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Paper: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.paper"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 3
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Coal: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "ct.coal"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#coalMax",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Coal: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.coal"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#coalMaxTeam2",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Coal: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.coal"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 3
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Bones: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "ct.bones"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#bonesMax",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Bones: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.bones"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#bonesMaxTeam2",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Bones: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.bones"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 3
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Gunpowder: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "ct.gunpowder"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#gunpowderMax",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Gunpowder: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.gunpowder"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#gunpowderMaxTeam2",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Gunpowder: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.gunpowder"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 3
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Spider Eyes: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "ct.spiderEyes"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#spiderEyesMax",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Spider Eyes: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.spiderEyes"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#spiderEyesMaxTeam2",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Spider Eyes: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.spiderEyes"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 3
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Slimeballs: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "ct.slimeballs"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#slimeballMax",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Slimeballs: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.slimeballs"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#slimeballMaxTeam2",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Slimeballs: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.slimeballs"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 3
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Netherite: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "ct.netherite"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#netheriteMax",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Netherite: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.netherite"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false,
+						"extra": [
+							{
+								"text": "/",
+								"color": "gold",
+								"bold": false,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "#netheriteMaxTeam2",
+											"objective": "vars"
+										},
+										"color": "gold",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Netherite: ",
+				"color": "yellow",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#team2",
+							"objective": "ct.netherite"
+						},
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#team2"
+					},
+					"score": "bankAccount"
+				},
+				"range": 3
+			}
+		]
+	}
+]

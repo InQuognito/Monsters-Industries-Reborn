@@ -4,7 +4,7 @@ scoreboard objectives remove stats.gPlayed
 scoreboard objectives remove stats.gWon
 
 scoreboard players set #resetType resetType 2
-function mi:logic/load
+function mi:logic/load_post
 
 xp set @a 0 levels
 xp set @a 0 points

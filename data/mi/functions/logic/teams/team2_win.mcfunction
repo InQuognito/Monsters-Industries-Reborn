@@ -1,3 +1,5 @@
+scoreboard players reset * stock
+
 function mi:logic/timer_calculate
 
 title @a subtitle [{"text":"Game Duration","color":"gray"},{"text":":","color":"gold"},{"text":" "},{"score":{"name":"#timer.Minutes","objective":"timer"},"color":"green"},{"text":"m"},{"text":" "},{"score":{"name":"#timer.Seconds","objective":"timer"},"color":"green"},{"text":"s"}]
@@ -11,7 +13,12 @@ scoreboard players add @a[team=team2] stats.gWon 1
 
 time set noon
 
-tp @a[team=team2] 1.0 5 -15.0
-tp @a[team=team1] 1 4 9
+schedule function mi:logic/teams/teleport_players_win_team2 5t replace
 
-function mi:logic/end
+schedule function mi:logic/end 6t replace
+
+execute at @a[team=team2] run playsound minecraft:ui.toast.challenge_complete music @s
+execute at @a[team=team1] run playsound minecraft:entity.zombie.ambient music @s
+execute at @a[team=team1] run playsound minecraft:entity.zombie.ambient music @s
+execute at @a[team=team1] run playsound minecraft:entity.husk.ambient music @s
+execute at @a[team=team1] run playsound minecraft:entity.husk.ambient music @s

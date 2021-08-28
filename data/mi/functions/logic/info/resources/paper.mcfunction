@@ -1,0 +1,1 @@
+tellraw @s [{"text":"=== Paper ===\n","color":"white"},{"text":"Paper can be generated at the desk by signing papers. You will always spawn close to this desk. Paper is a very important resource, as it is used for just about everything, so it is highly recommended you making establishing a solid income of it a high priority.","color":"green"}]

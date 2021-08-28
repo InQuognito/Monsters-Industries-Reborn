@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#team2"
+				},
+				"score": "employees",
+				"scale": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

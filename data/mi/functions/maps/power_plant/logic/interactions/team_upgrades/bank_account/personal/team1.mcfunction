@@ -2,7 +2,7 @@ scoreboard players set #team1 bankAccount 1
 
 data merge block 75 20 -117 {Text2:'{"text":"[ 1 / 3 ]"}',Text3:'[{"score":{"name":"#sharedBankAccount","objective":"price"}},{"text":" Paper"}]'}
 
-function mi:maps/power_plant/resources/transfer_to_bank_account_employees_team1
+function mi:maps/power_plant/logic/resources/transfer_to_bank_account_employees_team1
 setblock 87 28 -136 white_wool replace
 
 tag @s add self

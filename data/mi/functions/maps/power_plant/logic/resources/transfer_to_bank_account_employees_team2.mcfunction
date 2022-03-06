@@ -27,7 +27,7 @@ execute store result score $25 employeePaper run data get block 193 28 -116 Item
 execute store result score $26 employeePaper run data get block 193 28 -116 Items[{Slot:26b,id:"minecraft:paper",tag:{new:1}}].Count
 
 scoreboard players operation #employeePaper temp += * employeePaper
-
-scoreboard players operation @r[team=team2] ct.paper = #employeePaper temp
+scoreboard players operation #employeePaper temp /= #team2Amount temp
+execute as @a[team=team2] if score @s ct.paper < #paperMax vars run scoreboard players operation @s ct.paper += #employeePaper temp
 scoreboard players reset #employeePaper temp
 scoreboard players reset * employeePaper

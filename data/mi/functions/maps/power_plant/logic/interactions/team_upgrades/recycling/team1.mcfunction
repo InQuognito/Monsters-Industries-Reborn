@@ -1,4 +1,4 @@
-scoreboard players set @a[team=team1] recycling 1
+scoreboard players set #team1 recycling 1
 
 data merge block 75 20 -114 {Text2:'{"text":"[ MAX ]"}',Text3:'{"text":""}'}
 setblock 74 20 -114 sea_lantern replace

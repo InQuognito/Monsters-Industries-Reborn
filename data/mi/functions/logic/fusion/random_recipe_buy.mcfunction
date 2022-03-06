@@ -1,5 +1,5 @@
 scoreboard players set max random 10
-function mi:logic/rng/lcg
+function mi:math/rng/lcg
 
 execute if score result random matches 0 run function mi:logic/fusion/recipes/baby_zombie
 execute if score result random matches 1 run function mi:logic/fusion/recipes/employee

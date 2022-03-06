@@ -1,13 +1,13 @@
-function mi:logic/resets/disable_triggers
-function mi:logic/resets/enable_triggers
-function mi:logic/resets/gamerules
+function mi:logic/resets/game/triggers/disable
+function mi:logic/resets/game/triggers/enable
+function mi:logic/resets/game/gamerules
 function mi:logic/resets/values
 
 execute store result score #team1Amount temp run team list team1
 execute store result score #team2Amount temp run team list team2
 execute store result score #specAmount temp run team list spectators
 
-function mi:logic/resets/variables
+function mi:logic/resets/game/scoreboards/variables
 
 execute if score $mode mode matches 0 run gamerule keepInventory true
 execute if score $mode mode matches 1 run gamerule keepInventory false
@@ -45,4 +45,4 @@ function mi:logic/book
 function mi:logic/reset_lever
 function mi:logic/timer_tick
 
-function mi:logic/map_select_random
+function mi:logic/pre_game/map_voting/random

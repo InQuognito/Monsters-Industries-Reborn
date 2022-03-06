@@ -1,5 +1,5 @@
 scoreboard players set #team1 forge 1
-function mi:maps/power_plant/forge_summon_iron_ore_team1
+function mi:maps/power_plant/logic/forge/summon_resource_team1
 
 setblock 76 14 -118 furnace[facing=east,lit=true]{Lock:"ae88"} destroy
 setblock 79 15 -121 piston[facing=down] replace

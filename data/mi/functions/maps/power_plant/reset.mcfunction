@@ -1,155 +1,98 @@
 # Paper Generators
-setblock 102 27 -129 gold_block replace
-setblock 102 28 -129 stone_pressure_plate replace
-setblock 102 27 -122 gold_block replace
-setblock 102 28 -122 stone_pressure_plate replace
+clone 68 27 -129 68 28 -122 102 27 -129
 
-setblock 178 27 -122 gold_block replace
-setblock 178 28 -122 stone_pressure_plate replace
-setblock 178 27 -129 gold_block replace
-setblock 178 28 -129 stone_pressure_plate replace
+clone 212 27 -129 212 28 -122 178 27 -129
 
 # Coal Generators
-setblock 93 16 -159 air replace
-setblock 187 16 -92 air replace
+setblock 93 16 -159 minecraft:air replace
+
+setblock 187 16 -92 minecraft:air replace
 
 # Bone Generators
-setblock 113 19 -85 birch_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
-setblock 168 19 -170 spruce_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
+setblock 113 19 -85 minecraft:birch_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
+
+setblock 168 19 -170 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
 
 # Gunpowder Generators
-setblock 134 19 -154 coal_block replace
-setblock 146 19 -100 coal_block replace
+setblock 134 19 -154 minecraft:coal_block replace
+
+setblock 146 19 -100 minecraft:coal_block replace
 
 # Spider Eye Generators
-setblock 125 19 -171 detector_rail[powered=false,shape=east_west] destroy
-fill 124 19 -169 126 19 -167 air
-setblock 126 19 -169 rail[shape=north_south]
-setblock 124 19 -169 rail[shape=north_south]
-setblock 126 19 -168 rail[shape=north_south]
-setblock 124 19 -168 rail[shape=north_south]
-setblock 126 19 -167 rail[shape=north_west]
-setblock 124 19 -167 rail[shape=north_east]
-setblock 125 19 -167 powered_rail[shape=east_west]
-setblock 129 20 -167 redstone_lamp replace
-setblock 129 20 -166 birch_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'[{"score":{"name":"#spiderEyeTrack1Paper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#spiderEyeTrack1SpiderEyes","objective":"price"}},{"text":" Spider Eyes"}]'} destroy
-setblock 129 19 -166 polished_blackstone_button[face=wall,facing=south] replace
+clone 124 19 -179 129 20 -174 124 19 -171
+setblock 129 20 -166 minecraft:birch_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'[{"score":{"name":"#spiderEyeTrack1Paper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#spiderEyeTrack1SpiderEyes","objective":"price"}},{"text":" Spider Eyes"}]'} destroy
 
-setblock 155 19 -83 detector_rail[powered=false,shape=east_west] destroy
-fill 154 19 -87 156 19 -85 air
-setblock 154 19 -85 rail[shape=north_south]
-setblock 156 19 -85 rail[shape=north_south]
-setblock 154 19 -86 rail[shape=north_south]
-setblock 156 19 -86 rail[shape=north_south]
-setblock 154 19 -87 rail[shape=south_east]
-setblock 156 19 -87 rail[shape=south_west]
-setblock 155 19 -87 powered_rail[shape=east_west]
-setblock 151 20 -87 redstone_lamp replace
-setblock 151 20 -88 spruce_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'[{"score":{"name":"#spiderEyeTrack1Paper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#spiderEyeTrack1SpiderEyes","objective":"price"}},{"text":" Spider Eyes"}]'} destroy
-setblock 151 19 -88 polished_blackstone_button[face=wall,facing=north] replace
+clone 151 19 -80 156 20 -75 151 19 -88
+setblock 151 20 -88 minecraft:spruce_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Shorten Track"}',Text2:'{"text":"[ 0 / 2 ]"}',Text3:'[{"score":{"name":"#spiderEyeTrack1Paper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#spiderEyeTrack1SpiderEyes","objective":"price"}},{"text":" Spider Eyes"}]'} destroy
 
 # Slimeball Generators
-setblock 105 13 -119 iron_block replace
-setblock 105 14 -119 stone_pressure_plate replace
-setblock 97 16 -119 oak_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'[{"score":{"name":"#slimeballReactorPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slimeballReactorSlimeballs","objective":"price"}},{"text":" Slimeballs"}]'} destroy
-setblock 97 15 -119 oak_button[face=wall,facing=south] replace
-setblock 97 15 -121 slime_block replace
+clone 97 13 -176 105 15 -174 97 13 -121
+setblock 97 16 -119 minecraft:oak_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'[{"score":{"name":"#slimeballReactorPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slimeballReactorSlimeballs","objective":"price"}},{"text":" Slimeballs"}]'} destroy
 
-setblock 175 13 -132 iron_block replace
-setblock 175 14 -132 stone_pressure_plate replace
-setblock 183 16 -132 oak_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'[{"score":{"name":"#slimeballReactorPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slimeballReactorSlimeballs","objective":"price"}},{"text":" Slimeballs"}]'} destroy
-setblock 183 15 -132 oak_button[face=wall,facing=north] replace
-setblock 183 15 -130 slime_block replace
+clone 175 13 -80 183 15 -78 175 13 -132
+setblock 183 16 -132 minecraft:oak_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'[{"score":{"name":"#slimeballReactorPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slimeballReactorSlimeballs","objective":"price"}},{"text":" Slimeballs"}]'} destroy
 
 # Iron Forge
-setblock 79 13 -113 iron_door[facing=south,half=lower,hinge=right,open=false] destroy
-setblock 79 14 -113 iron_door[facing=south,half=upper,hinge=right,open=false] destroy
-setblock 79 14 -111 oak_button[face=wall,facing=west] replace
-fill 75 15 -116 75 13 -120 air replace
-fill 77 15 -122 81 13 -122 air replace
-fill 83 15 -120 83 13 -116 air replace
-setblock 76 14 -118 furnace[facing=east]{Lock:"ae88"} destroy
-setblock 79 15 -121 barrier replace
-setblock 82 14 -118 blast_furnace[facing=west]{Lock:"ae88"} destroy
-setblock 82 13 -116 hopper[facing=west]{Lock:"ae88"} destroy
-setblock 81 13 -116 chest[facing=west]{Lock:"ae88"} destroy
-setblock 79 15 -122 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 79 14 -122 oak_button[face=wall,facing=south] replace
+setblock 79 13 -113 minecraft:iron_door[facing=south,half=lower,hinge=right,open=false] destroy
+setblock 79 14 -113 minecraft:iron_door[facing=south,half=upper,hinge=right,open=false] destroy
+setblock 79 14 -111 minecraft:oak_button[face=wall,facing=west] replace
+fill 75 15 -116 75 13 -120 minecraft:air replace
+fill 77 15 -122 81 13 -122 minecraft:air replace
+fill 83 15 -120 83 13 -116 minecraft:air replace
+setblock 76 14 -118 minecraft:furnace[facing=east]{Lock:"ae88"} destroy
+setblock 79 15 -121 minecraft:barrier replace
+setblock 82 14 -118 minecraft:blast_furnace[facing=west]{Lock:"ae88"} destroy
+setblock 82 13 -116 minecraft:hopper[facing=west]{Lock:"ae88"} destroy
+setblock 81 13 -116 minecraft:chest[facing=west]{Lock:"ae88"} destroy
+setblock 79 15 -122 minecraft:oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 79 14 -122 minecraft:oak_button[face=wall,facing=south] replace
 
-setblock 201 13 -138 iron_door[facing=north,half=lower,hinge=left,open=false] destroy
-setblock 201 14 -138 iron_door[facing=north,half=upper,hinge=left,open=false] destroy
-setblock 201 14 -140 oak_button[face=wall,facing=east] replace
-fill 205 15 -135 205 13 -131 air replace
-fill 203 15 -129 199 13 -129 air replace
-fill 197 15 -131 197 13 -135 air replace
-setblock 204 14 -133 furnace[facing=west]{Lock:"ae88"} destroy
-setblock 201 15 -130 barrier replace
-setblock 198 14 -133 blast_furnace[facing=east]{Lock:"ae88"} destroy
-setblock 198 13 -135 hopper[facing=east]{Lock:"ae88"} destroy
-setblock 199 13 -135 chest[facing=east]{Lock:"ae88"} destroy
-setblock 201 15 -129 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 201 14 -129 oak_button[face=wall,facing=north] replace
+setblock 201 13 -138 minecraft:iron_door[facing=north,half=lower,hinge=left,open=false] destroy
+setblock 201 14 -138 minecraft:iron_door[facing=north,half=upper,hinge=left,open=false] destroy
+setblock 201 14 -140 minecraft:oak_button[face=wall,facing=east] replace
+fill 205 15 -135 205 13 -131 minecraft:air replace
+fill 203 15 -129 199 13 -129 minecraft:air replace
+fill 197 15 -131 197 13 -135 minecraft:air replace
+setblock 204 14 -133 minecraft:furnace[facing=west]{Lock:"ae88"} destroy
+setblock 201 15 -130 minecraft:barrier replace
+setblock 198 14 -133 minecraft:blast_furnace[facing=east]{Lock:"ae88"} destroy
+setblock 198 13 -135 minecraft:hopper[facing=east]{Lock:"ae88"} destroy
+setblock 199 13 -135 minecraft:chest[facing=east]{Lock:"ae88"} destroy
+setblock 201 15 -129 minecraft:oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 201 14 -129 minecraft:oak_button[face=wall,facing=north] replace
 
 # Fusion
-setblock 102 21 -154 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'[{"score":{"name":"#randomRecipe","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 178 21 -97 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'[{"score":{"name":"#randomRecipe","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 102 21 -154 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'[{"score":{"name":"#randomRecipe","objective":"price"}},{"text":" Paper"}]'} destroy
+
+setblock 178 21 -97 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'[{"score":{"name":"#randomRecipe","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Wall Street
-setblock 75 29 -110 birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#wallStreet1","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"5 Stock"}'} destroy
-setblock 75 29 -112 birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#wallStreet2","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"10 Stock"}'} destroy
-setblock 75 29 -114 birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#wallStreet3","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"20 Stock"}'} destroy
+setblock 75 29 -110 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#wallStreet1","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"5 Stock"}'} destroy
+setblock 75 29 -112 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#wallStreet2","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"10 Stock"}'} destroy
+setblock 75 29 -114 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#wallStreet3","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"20 Stock"}'} destroy
 
-setblock 205 29 -141 spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet1","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"5 Stock"}'} destroy
-setblock 205 29 -139 spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet2","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"10 Stock"}'} destroy
-setblock 205 29 -137 spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet3","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"20 Stock"}'} destroy
+setblock 205 29 -141 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet1","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"5 Stock"}'} destroy
+setblock 205 29 -139 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet2","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"10 Stock"}'} destroy
+setblock 205 29 -137 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#wallStreet3","objective":"price"}},{"text":" Paper"}]',Text3:'{"text":"20 Stock"}'} destroy
 
 # Employees
-setblock 87 28 -136 chest[facing=south] destroy
-setblock 193 28 -116 chest[facing=north] destroy
+setblock 87 28 -136 minecraft:chest[facing=south] destroy
+
+setblock 193 28 -116 minecraft:chest[facing=north] destroy
 
 # Barricade 1
-setblock 100 14 -98 oak_planks replace
-setblock 101 14 -98 mossy_cobblestone replace
-setblock 102 14 -98 gravel replace
-setblock 100 15 -98 gravel replace
-setblock 101 15 -98 mossy_cobblestone replace
-setblock 102 15 -98 oak_planks replace
-setblock 100 16 -98 gravel replace
-setblock 101 16 -98 oak_planks replace
-setblock 102 16 -98 mossy_cobblestone replace
-setblock 101 15 -97 oak_button[face=wall,facing=south] replace
-setblock 101 16 -97 oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade1","objective":"price"}},{"text":" Paper"}]'} destroy
+clone 100 14 -79 102 16 -78 100 14 -98
+setblock 101 16 -97 minecraft:oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade1","objective":"price"}},{"text":" Paper"}]'} destroy
 
-setblock 180 14 -153 oak_planks replace
-setblock 179 14 -153 mossy_cobblestone replace
-setblock 178 14 -153 gravel replace
-setblock 180 15 -153 gravel replace
-setblock 179 15 -153 mossy_cobblestone replace
-setblock 178 15 -153 oak_planks replace
-setblock 180 16 -153 gravel replace
-setblock 179 16 -153 oak_planks replace
-setblock 178 16 -153 mossy_cobblestone replace
-setblock 179 15 -154 oak_button[face=wall,facing=north] replace
-setblock 179 16 -154 oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade1","objective":"price"}},{"text":" Paper"}]'} destroy
+clone 178 14 -175 180 16 -174 178 14 -154
+setblock 179 16 -154 minecraft:oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade1","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Barricade 2
-setblock 93 14 -108 light_gray_terracotta replace
-setblock 93 14 -109 light_gray_terracotta replace
-setblock 93 15 -108 light_gray_terracotta replace
-setblock 93 15 -109 light_gray_terracotta replace
-setblock 93 16 -108 light_gray_terracotta replace
-setblock 93 16 -109 light_gray_terracotta replace
-setblock 94 15 -109 oak_button[face=wall,facing=east] replace
-setblock 94 15 -108 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade2","objective":"price"}},{"text":" Paper"}]'} destroy
+clone 93 14 -80 94 16 -79 93 14 -109
+setblock 94 15 -108 minecraft:oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade2","objective":"price"}},{"text":" Paper"}]'} destroy
 
-setblock 187 14 -143 light_gray_terracotta replace
-setblock 187 14 -142 light_gray_terracotta replace
-setblock 187 15 -143 light_gray_terracotta replace
-setblock 187 15 -142 light_gray_terracotta replace
-setblock 187 16 -143 light_gray_terracotta replace
-setblock 187 16 -142 light_gray_terracotta replace
-setblock 186 15 -142 oak_button[face=wall,facing=west] replace
-setblock 186 15 -143 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade2","objective":"price"}},{"text":" Paper"}]'} destroy
+clone 186 14 -175 187 16 -174 186 14 -143
+setblock 186 15 -143 minecraft:oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade2","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Barricade 3
 setblock 125 19 -94 oak_planks replace
@@ -160,7 +103,7 @@ setblock 124 19 -94 gravel replace
 setblock 123 19 -96 gravel replace
 setblock 122 19 -96 gravel replace
 setblock 126 19 -94 oak_button[face=wall,facing=east] replace
-setblock 126 20 -94 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade3","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 126 20 -94 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
 setblock 155 19 -160 spruce_planks replace
 setblock 155 20 -160 spruce_stairs[facing=west,half=bottom,shape=straight] replace
@@ -170,7 +113,7 @@ setblock 156 19 -160 gravel replace
 setblock 157 19 -158 gravel replace
 setblock 158 19 -158 gravel replace
 setblock 154 19 -160 oak_button[face=wall,facing=west] replace
-setblock 154 20 -160 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade3","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 154 20 -160 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Max Health
 setblock 74 20 -105 redstone_lamp replace
@@ -290,40 +233,40 @@ setblock 173 22 -151 spruce_button[face=wall,facing=south] replace
 setblock 173 20 -152 red_terracotta replace
 
 # Entities
-summon item_frame 103 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon item_frame 103 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon item_frame 79 29 -145 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:3}}}
-summon item_frame 103 22 -159 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:coal",Count:1b,tag:{display:{Name:'{"text":"Mine Coal"}'}}}}
-summon item_frame 113 23 -90 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:bone",Count:1b,tag:{display:{Name:'{"text":"Dig Up Bones"}'}}}}
-summon item_frame 125 21 -164 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:spider_eye",Count:1b,tag:{display:{Name:'{"text":"Gather Spider Eyes"}'}}}}
-summon item_frame 130 25 -154 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
-summon item_frame 105 15 -119 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
-summon item_frame 91 23 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
-summon item_frame 91 19 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
+summon minecraft:item_frame 103 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
+summon minecraft:item_frame 103 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
+summon minecraft:item_frame 79 29 -145 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:3}}}
+summon minecraft:item_frame 103 22 -159 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:coal",Count:1b,tag:{display:{Name:'{"text":"Mine Coal"}'}}}}
+summon minecraft:item_frame 113 23 -90 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:bone",Count:1b,tag:{display:{Name:'{"text":"Dig Up Bones"}'}}}}
+summon minecraft:item_frame 125 21 -164 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:spider_eye",Count:1b,tag:{display:{Name:'{"text":"Gather Spider Eyes"}'}}}}
+summon minecraft:item_frame 130 25 -154 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
+summon minecraft:item_frame 105 15 -119 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
+summon minecraft:item_frame 91 23 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
+summon minecraft:item_frame 91 19 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
 
-summon minecart 78 19.1 -140 {Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -142 {Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -144 {Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -146 {Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -148 {Invulnerable:1b,NoGravity:1b}
-summon minecart 78 19.1 -150 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 78 19.1 -140 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 78 19.1 -142 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 78 19.1 -144 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 78 19.1 -146 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 78 19.1 -148 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 78 19.1 -150 {Invulnerable:1b,NoGravity:1b}
 
-summon item_frame 177 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon item_frame 177 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon item_frame 201 29 -107 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:3}}}
-summon item_frame 177 22 -92 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:coal",Count:1b,tag:{display:{Name:'{"text":"Mine Coal"}'}}}}
-summon item_frame 168 23 -165 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:bone",Count:1b,tag:{display:{Name:'{"text":"Dig Up Bones"}'}}}}
-summon item_frame 155 21 -90 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:spider_eye",Count:1b,tag:{display:{Name:'{"text":"Gather Spider Eyes"}'}}}}
-summon item_frame 150 25 -100 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
-summon item_frame 175 15 -132 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
-summon item_frame 189 23 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
-summon item_frame 189 19 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
+summon minecraft:item_frame 177 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
+summon minecraft:item_frame 177 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
+summon minecraft:item_frame 201 29 -107 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:3}}}
+summon minecraft:item_frame 177 22 -92 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:coal",Count:1b,tag:{display:{Name:'{"text":"Mine Coal"}'}}}}
+summon minecraft:item_frame 168 23 -165 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:bone",Count:1b,tag:{display:{Name:'{"text":"Dig Up Bones"}'}}}}
+summon minecraft:item_frame 155 21 -90 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:spider_eye",Count:1b,tag:{display:{Name:'{"text":"Gather Spider Eyes"}'}}}}
+summon minecraft:item_frame 150 25 -100 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
+summon minecraft:item_frame 175 15 -132 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
+summon minecraft:item_frame 189 23 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
+summon minecraft:item_frame 189 19 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
 
-summon minecart 202 19.1 -111 {Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -109 {Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -107 {Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -105 {Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -103 {Invulnerable:1b,NoGravity:1b}
-summon minecart 202 19.1 -101 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 202 19.1 -111 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 202 19.1 -109 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 202 19.1 -107 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 202 19.1 -105 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 202 19.1 -103 {Invulnerable:1b,NoGravity:1b}
+summon minecraft:minecart 202 19.1 -101 {Invulnerable:1b,NoGravity:1b}
 
-kill @e[type=item]
+kill @e[type=minecraft:item]

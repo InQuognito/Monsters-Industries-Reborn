@@ -1,8 +1,8 @@
 # Fusion
-execute positioned 91 21 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:maps/power_plant/fusion/fusion_start_team1
+execute positioned 91 21 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:maps/power_plant/logic/fusion/start_team1
 execute positioned 91 21 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=south]
 
-execute positioned 189 21 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/fusion/fusion_start_team2
+execute positioned 189 21 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/logic/fusion/start_team2
 execute positioned 189 21 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=north]
 
 execute positioned 102 20 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/fusion/random_recipe_buy_try
@@ -169,18 +169,18 @@ execute positioned 151 19 -162 if block ~ ~ ~ #minecraft:pressure_plates[powered
 execute positioned 151 19 -162 if block ~ ~ ~ #minecraft:pressure_plates[powered=true] run setblock ~ ~ ~ stone_pressure_plate
 
 # Barricades
-execute positioned 101 15 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/barricades/barricade1_buy_try
+execute positioned 101 15 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/barricades/1_buy_try
 execute positioned 101 15 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ oak_button[face=wall,facing=south]
-execute positioned 94 15 -109 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/barricades/barricade2_buy_try
+execute positioned 94 15 -109 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/barricades/2_buy_try
 execute positioned 94 15 -109 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ oak_button[face=wall,facing=east]
-execute positioned 126 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/barricades/sabotage_barricade_buy_try
+execute positioned 126 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/barricades/sabotage_buy_try
 execute positioned 126 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ oak_button[face=wall,facing=east]
 
-execute positioned 179 15 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/barricades/barricade1_buy_try
+execute positioned 179 15 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/barricades/1_buy_try
 execute positioned 179 15 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ oak_button[face=wall,facing=north]
-execute positioned 186 15 -142 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/barricades/barricade2_buy_try
+execute positioned 186 15 -142 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/barricades/2_buy_try
 execute positioned 186 15 -142 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ oak_button[face=wall,facing=west]
-execute positioned 154 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/barricades/sabotage_barricade_buy_try
+execute positioned 154 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/barricades/sabotage_buy_try
 execute positioned 154 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ oak_button[face=wall,facing=west]
 
 # Enchanting

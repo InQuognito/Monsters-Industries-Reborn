@@ -1,4 +1,4 @@
-scoreboard players set @a[team=team1] slimeballProd 1
+scoreboard players set #team1 slimeballProd 1
 
 tag @s add self
 title @s actionbar {"text":"You repair the old reactor.","color":"green"}

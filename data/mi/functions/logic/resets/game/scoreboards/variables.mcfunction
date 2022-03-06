@@ -214,6 +214,7 @@ scoreboard players set #spiderEyeTrack2SpiderEyes price 32
 scoreboard players set #enchanting price 2
 scoreboard players set #enchantmentLuckPaper price 1024
 scoreboard players set #enchantmentLuckNetherite price 64
+scoreboard players set #leverCps vars 5
 scoreboard players set #neuronWorm price 3
 scoreboard players set #randomRecipe price 96
 scoreboard players set #replaceMerchant price 256

@@ -76,5 +76,6 @@ scoreboard players set #-1 integers -1
 scoreboard players set #2 integers 2
 scoreboard players set #4 integers 4
 scoreboard players set #8 integers 8
+scoreboard players set #10 integers 10
 scoreboard players set #60 integers 60
 scoreboard players set #100 integers 100

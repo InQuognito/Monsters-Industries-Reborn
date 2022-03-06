@@ -10,7 +10,7 @@ tellraw @a[team=team1,tag=!self] [{"text":"Your teammate has refreshed the Merch
 tag @s remove self
 
 execute if score #team1 bankAccount matches 0 run scoreboard players operation #clearPaper temp = #replaceMerchant price
-execute if score #team1 bankAccount matches 0 run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 0 run function mi:logic/currency/clear_items
 execute if score #team1 bankAccount matches 1 run scoreboard players operation @s ct.paper -= #replaceMerchant price
 execute if score #team1 bankAccount matches 2..3 run scoreboard players operation #team1 ct.paper -= #replaceMerchant price
 

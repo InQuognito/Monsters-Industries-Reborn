@@ -13,5 +13,6 @@ tag @s remove self
 give @a[team=team2] copper_ingot{credit_card:1,display:{Name:'[{"text":"Credit Card","italic":false,"color":"red","underlined":true,"bold":true}]'}} 1
 execute as @a[team=team2] run function mi:logic/resources/transfer_to_bank_account
 
-scoreboard players operation @s ct.paper -= #bankAccount price
-function mi:logic/update_credit_card
+function mi:logic/currency/reset_temp_prices
+scoreboard players operation #clearPaper temp = #bankAccount price
+function mi:logic/currency/apply_price

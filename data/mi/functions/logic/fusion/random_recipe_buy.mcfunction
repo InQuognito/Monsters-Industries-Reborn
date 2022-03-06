@@ -16,12 +16,12 @@ execute if score $powerPlant map matches 1 if entity @s[team=team1] unless entit
 execute if score $powerPlant map matches 1 if entity @s[team=team2] unless entity @e[type=item_frame,x=181,y=22,z=-96,dx=0,dy=0,dz=0] run summon item_frame 181 22 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Fusion Recipes:"}'}}}}
 
 execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearPaper temp = #randomRecipe price
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/currency/clear_items
 execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.paper -= #randomRecipe price
 execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #randomRecipe price
 
 execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearPaper temp = #randomRecipe price
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/currency/clear_items
 execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.paper -= #randomRecipe price
 execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #randomRecipe price
 

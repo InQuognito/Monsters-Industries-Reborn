@@ -4,12 +4,12 @@ give @s[team=team2] firework_rocket{Fireworks:{Flight:-2,Explosions:[{Type:2,Col
 title @s actionbar {"text":"You have purchased 16 Bayonets!","color":"green"}
 
 execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run scoreboard players operation #clearPaper temp = #bayonet16 price
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 0 if entity @s[team=team1] run function mi:logic/currency/clear_items
 execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation @s ct.paper -= #bayonet16 price
 execute if score #team1 bankAccount matches 2..3 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper -= #bayonet16 price
 
 execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run scoreboard players operation #clearPaper temp = #bayonet16 price
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/clear_price
+execute if score #team2 bankAccount matches 0 if entity @s[team=team2] run function mi:logic/currency/clear_items
 execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation @s ct.paper -= #bayonet16 price
 execute if score #team2 bankAccount matches 2..3 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper -= #bayonet16 price
 

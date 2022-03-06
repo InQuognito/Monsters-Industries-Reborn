@@ -55,40 +55,40 @@ execute positioned 148 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] r
 #execute positioned 148 19 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=east]
 
 # Team Upgrades
-execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 4 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health5_buy_try
-execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 3 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health4_buy_try
-execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health3_buy_try
-execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health2_buy_try
-execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health1_buy_try
+execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 4 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health/5_try
+execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 3 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health/4_try
+execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health/3_try
+execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health/2_try
+execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 5 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/max_health/1_try
 execute positioned 75 19 -105 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=east]
 execute positioned 74 20 -105 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
-execute positioned 75 19 -114 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/team_upgrades/recycling_buy_try
+execute positioned 75 19 -114 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/team_upgrades/recycling_try
 execute positioned 75 19 -114 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=east]
 execute positioned 74 20 -114 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
-execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account_unlimited_buy_try
-execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account_shared_buy_try
-execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account_personal_buy_try
+execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account/unlimited_try
+execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account/shared_try
+execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 3 ]"}'} as @p[team=team1] run function mi:logic/interactions/team_upgrades/bank_account/personal_try
 execute positioned 75 19 -117 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ birch_button[face=wall,facing=east]
 execute positioned 74 20 -117 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
 
-execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 4 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health5_buy_try
-execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 3 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health4_buy_try
-execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health3_buy_try
-execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health2_buy_try
-execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health1_buy_try
+execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 4 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health/5_try
+execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 3 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health/4_try
+execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health/3_try
+execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health/2_try
+execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/max_health/1_try
 execute positioned 205 19 -146 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=west]
 execute positioned 206 20 -146 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
-execute positioned 205 19 -137 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/team_upgrades/recycling_buy_try
+execute positioned 205 19 -137 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/team_upgrades/recycling/try
 execute positioned 205 19 -137 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=west]
 execute positioned 206 20 -137 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 
-execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account_unlimited_buy_try
-execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account_shared_buy_try
-execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account_personal_buy_try
+execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account/unlimited_try
+execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account/shared_try
+execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/bank_account/personal_try
 execute positioned 205 19 -134 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ spruce_button[face=wall,facing=west]
 execute positioned 206 20 -134 if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ redstone_lamp
 

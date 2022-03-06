@@ -30,5 +30,6 @@ scoreboard players reset @a[team=team2] ct.slimeballs
 scoreboard players operation #team2 ct.netherite += @a[team=team2] ct.netherite
 scoreboard players reset @a[team=team2] ct.netherite
 
-scoreboard players operation #team2 ct.paper -= #sharedBankAccount price
-function mi:logic/update_credit_card
+function mi:logic/currency/reset_temp_prices
+scoreboard players operation #clearPaper temp = #sharedBankAccount price
+function mi:logic/currency/apply_price

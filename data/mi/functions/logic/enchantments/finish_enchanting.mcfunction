@@ -1,5 +1,5 @@
 scoreboard players operation #clearTokens temp = #enchanting price
-function mi:logic/clear_price
+function mi:logic/currency/clear_items
 
 advancement grant @s only mi:enchant_tool
 execute if entity @s[predicate=mi:is_holding_sword_perfect] run advancement grant @s only mi:enchant_perfect

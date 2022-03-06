@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": {
+				"min": 64,
+				"max": 256
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spider_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_ingot"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "killer",
+					"scores": {
+						"recycling": 1
+					}
+				}
+			]
+		}
+	]
+}

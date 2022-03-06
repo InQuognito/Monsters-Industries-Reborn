@@ -18,7 +18,7 @@ tag @s remove self
 fill 79 14 -122 79 15 -122 air destroy
 
 execute if score #team1 bankAccount matches 0 run scoreboard players operation #clearPaper temp = #forgeStart price
-execute if score #team1 bankAccount matches 0 run function mi:logic/clear_price
+execute if score #team1 bankAccount matches 0 run function mi:logic/currency/clear_items
 execute if score #team1 bankAccount matches 1 run scoreboard players operation @s ct.paper -= #forgeStart price
 execute if score #team1 bankAccount matches 2..3 run scoreboard players operation #team1 ct.paper -= #forgeStart price
 

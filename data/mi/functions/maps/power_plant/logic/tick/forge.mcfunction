@@ -11,7 +11,7 @@ tag @e[tag=team1,tag=forgeConveyor1,x=76.7,y=12.15,z=-120.3,distance=..1] remove
 execute if entity @e[tag=team1,tag=forgeRawBlock,x=79.7,y=12.15,z=-120.3,distance=..1] run setblock 79 15 -121 piston[facing=down,extended=true] replace
 execute if entity @e[tag=team1,tag=forgeRawBlock,x=79.7,y=12.15,z=-120.3,distance=..1] run setblock 79 14 -121 piston_head[facing=down] replace
 execute if entity @e[tag=team1,tag=forgeRawBlock,x=79.7,y=12.15,z=-120.3,distance=..1] run setblock 79 15 -121 piston[facing=down,extended=false] replace
-execute if entity @e[tag=team1,tag=forgeRawBlock,x=79.7,y=12.15,z=-120.3,distance=..1] run setblock 79 14 -121 air replace
+execute if entity @e[tag=team1,tag=forgeRawBlock,x=79.7,y=12.15,z=-120.3,distance=..1] run setblock 79 14 -121 minecraft:air replace
 tag @e[tag=team1,tag=forgeRawBlock,x=79.7,y=12.15,z=-120.3,distance=..1] add forgeRawIngot
 tag @e[tag=team1,tag=forgeRawIngot,x=79.7,y=12.15,z=-120.3,distance=..1] remove forgeRawBlock
 
@@ -55,7 +55,7 @@ execute if entity @e[tag=team2,tag=forgeRawBlock,x=201.7,y=12.15,z=-129.3,distan
 tag @e[tag=team2,tag=forgeRawBlock,x=201.7,y=12.15,z=-129.3,distance=..1] add forgeRawIngot
 tag @e[tag=team2,tag=forgeRawIngot,x=201.7,y=12.15,z=-129.3,distance=..1] remove forgeRawBlock
 execute if entity @e[tag=team2,tag=forgeRawIngot,x=201.7,y=13.06,z=-129.3,distance=..1] run setblock 201 15 -130 piston[facing=down,extended=false] replace
-execute if entity @e[tag=team2,tag=forgeRawIngot,x=201.7,y=13.06,z=-129.3,distance=..1] run setblock 201 14 -130 air replace
+execute if entity @e[tag=team2,tag=forgeRawIngot,x=201.7,y=13.06,z=-129.3,distance=..1] run setblock 201 14 -130 minecraft:air replace
 
 tag @e[tag=team2,tag=forgeConveyor2,x=198.7,y=13.06,z=-130.3,distance=..1] add forgeConveyor3
 tag @e[tag=team2,tag=forgeConveyor2,x=198.7,y=13.06,z=-130.3,distance=..1] remove forgeConveyor2

@@ -4,7 +4,7 @@ execute as @a[team=team2] run function mi:logic/heal
 
 data merge block 205 20 -146 {Text2:'{"text":"[ MAX ]"}',Text3:'{"text":""}',Text4:'{"text":""}'}
 setblock 206 20 -146 sea_lantern replace
-setblock 205 19 -146 air replace
+setblock 205 19 -146 minecraft:air replace
 
 tag @s add self
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Max Health 5","color":"gold"},{"text":"!","color":"green"}]

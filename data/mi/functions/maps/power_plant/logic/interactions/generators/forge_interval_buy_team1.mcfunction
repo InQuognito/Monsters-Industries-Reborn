@@ -10,7 +10,7 @@ execute if score #team1Interval forge matches 7 run data merge block 81 15 -122 
 execute if score #team1Interval forge matches 8 run data merge block 81 15 -122 {Text2:'{"text":"[ 8 / 10 ]"}'}
 execute if score #team1Interval forge matches 9 run data merge block 81 15 -122 {Text2:'{"text":"[ 9 / 10 ]"}'}
 execute if score #team1Interval forge matches 10 run data merge block 81 15 -122 {Text2:'{"text":"[ MAX ]"}'}
-execute if score #team1Interval forge matches 10 run setblock 81 14 -122 air replace
+execute if score #team1Interval forge matches 10 run setblock 81 14 -122 minecraft:air replace
 
 execute if score #team1Interval forge matches 1 run data merge block 80 15 -122 {Text3:'{"text":"27s"}'}
 execute if score #team1Interval forge matches 2 run data merge block 80 15 -122 {Text3:'{"text":"24s"}'}
@@ -23,11 +23,7 @@ execute if score #team1Interval forge matches 8 run data merge block 80 15 -122 
 execute if score #team1Interval forge matches 9 run data merge block 80 15 -122 {Text3:'{"text":"3s"}'}
 execute if score #team1Interval forge matches 10 run data merge block 80 15 -122 {Text3:'{"text":"1s"}'}
 
+function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearTokens temp = #forgeIntervalTokens price
-function mi:logic/currency/clear_items
-execute if score #team1 bankAccount matches 0 run scoreboard players operation #clearNetherite temp = #forgeIntervalNetherite price
-execute if score #team1 bankAccount matches 0 run function mi:logic/currency/clear_items
-execute if score #team1 bankAccount matches 1 run scoreboard players operation @s ct.netherite -= #forgeIntervalNetherite price
-execute if score #team1 bankAccount matches 2..3 run scoreboard players operation #team1 ct.netherite -= #forgeIntervalNetherite price
-
-function mi:logic/update_credit_card
+scoreboard players operation #clearNetherite temp = #forgeIntervalNetherite price
+function mi:logic/currency/apply_price

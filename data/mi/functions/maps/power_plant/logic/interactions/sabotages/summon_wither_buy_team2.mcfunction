@@ -1,4 +1,4 @@
-summon wither 120 28 -125 {CustomName:'"Wither"',CustomNameVisible:1b,PersistenceRequired:1b,Glowing:1b,Attributes:[{Name:"generic.follow_range",Base:500}],Team:team2}
+summon wither 120 28 -125 {CustomName:'"Wither"',CustomNameVisible:1b,PersistenceRequired:1b,Glowing:1b,Attributes:[{Name:"generic.follow_range",Base:500}],Team:team2,DeathLootTable:"mi:entities/others/wither"}
 advancement grant @s only mi:summon_wither
 
 tag @s add self
@@ -9,5 +9,5 @@ tag @s remove self
 
 scoreboard players operation #team2 stock -= #summonWither price
 
-setblock 147 21 -161 red_terracotta replace
-setblock 148 21 -161 air replace
+setblock 147 21 -161 minecraft:red_terracotta replace
+setblock 148 21 -161 minecraft:air replace

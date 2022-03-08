@@ -14,11 +14,8 @@ title @s actionbar {"text":"You start up the old forge.","color":"green"}
 tellraw @a[team=team2,tag=!self] {"text":"Your teammate started up the forge!","color":"green"}
 tag @s remove self
 
-fill 201 14 -129 201 15 -129 air destroy
+fill 201 14 -129 201 15 -129 minecraft:air destroy
 
-execute if score #team2 bankAccount matches 0 run scoreboard players operation #clearPaper temp = #forgeStart price
-execute if score #team2 bankAccount matches 0 run function mi:logic/currency/clear_items
-execute if score #team2 bankAccount matches 1 run scoreboard players operation @s ct.paper -= #forgeStart price
-execute if score #team2 bankAccount matches 2..3 run scoreboard players operation #team2 ct.paper -= #forgeStart price
-
-function mi:logic/update_credit_card
+function mi:logic/currency/reset_temp_prices
+scoreboard players operation #clearPaper temp = #forgeStart price
+function mi:logic/currency/apply_price

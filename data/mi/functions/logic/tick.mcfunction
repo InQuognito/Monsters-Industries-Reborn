@@ -10,4 +10,4 @@ execute unless score $none map matches 1 run function mi:logic/tick/stock
 execute unless score $none map matches 1 run function mi:logic/tick/vex
 
 execute as @e[type=#mi:mobs] run function mi:logic/health/health_check
-execute as @e[type=iron_golem] run function mi:logic/health/health_check
+execute as @e[type=minecraft:iron_golem] run function mi:logic/health/health_check

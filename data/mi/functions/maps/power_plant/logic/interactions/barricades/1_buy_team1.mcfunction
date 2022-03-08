@@ -1,4 +1,4 @@
-fill 100 14 -97 102 16 -98 air
+fill 100 14 -97 102 16 -98 minecraft:air
 
 tag @s add self
 title @s actionbar {"text":"You clear the old barricade...","color":"green"}

@@ -116,121 +116,121 @@ setblock 154 19 -160 oak_button[face=wall,facing=west] replace
 setblock 154 20 -160 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Max Health
-setblock 74 20 -105 redstone_lamp replace
-setblock 75 20 -105 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'[{"score":{"name":"#maxHealth1","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 75 19 -105 birch_button[facing=east] replace
+setblock 74 20 -105 minecraft:redstone_lamp replace
+setblock 75 20 -105 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'[{"score":{"name":"#maxHealth1","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 75 19 -105 minecraft:birch_button[facing=east] replace
 
-setblock 206 20 -146 redstone_lamp replace
-setblock 205 20 -146 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'[{"score":{"name":"#maxHealth1","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 205 19 -146 spruce_button[facing=west] replace
+setblock 206 20 -146 minecraft:redstone_lamp replace
+setblock 205 20 -146 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases the maximum hearts by 2/level for all players on your team.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'[{"score":{"name":"#maxHealth1","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 205 19 -146 minecraft:spruce_button[facing=west] replace
 
 # Recycling
-setblock 74 20 -114 redstone_lamp replace
-setblock 75 20 -114 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'[{"score":{"name":"#recycling","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 75 19 -114 birch_button[facing=east] replace
+setblock 74 20 -114 minecraft:redstone_lamp replace
+setblock 75 20 -114 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'[{"score":{"name":"#recycling","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 75 19 -114 minecraft:birch_button[facing=east] replace
 
-setblock 206 20 -137 redstone_lamp replace
-setblock 205 20 -137 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'[{"score":{"name":"#recycling","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 205 19 -137 spruce_button[facing=west] replace
+setblock 206 20 -137 minecraft:redstone_lamp replace
+setblock 205 20 -137 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'[{"score":{"name":"#recycling","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 205 19 -137 minecraft:spruce_button[facing=west] replace
 
 # Bank Account
-fill 74 28 -120 74 28 -121 air replace
-setblock 74 20 -117 redstone_lamp replace
-setblock 75 20 -117 birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 75 19 -117 birch_button[facing=east] replace
+fill 74 28 -120 74 28 -121 minecraft:air replace
+setblock 74 20 -117 minecraft:redstone_lamp replace
+setblock 75 20 -117 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 75 19 -117 minecraft:birch_button[facing=east] replace
 
-fill 206 28 -131 206 28 -130 air replace
-setblock 206 20 -134 redstone_lamp replace
-setblock 205 20 -134 spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 205 19 -134 spruce_button[facing=west] replace
+fill 206 28 -131 206 28 -130 minecraft:air replace
+setblock 206 20 -134 minecraft:redstone_lamp replace
+setblock 205 20 -134 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 205 19 -134 minecraft:spruce_button[facing=west] replace
 
 # Sentries
-setblock 79 30 -103 birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
-setblock 79 28 -103 birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
-setblock 79 29 -103 birch_button[facing=north] replace
+setblock 79 30 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 79 28 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
+setblock 79 29 -103 minecraft:birch_button[facing=north] replace
 
-setblock 201 30 -148 spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
-setblock 201 28 -148 spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
-setblock 201 29 -148 spruce_button[facing=south] replace
+setblock 201 30 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 201 28 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
+setblock 201 29 -148 minecraft:spruce_button[facing=south] replace
 
 # Tavern
-setblock 79 20 -153 birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Replace Merchant"}',Text3:'[{"score":{"name":"#replaceMerchant","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 73 19 -143 barrel[facing=east]{Lock:"1e88"} destroy
-setblock 74 19 -147 barrel[facing=east]{Lock:"1e88"} destroy
-setblock 74 19 -149 barrel[facing=east]{Lock:"1e88"} destroy
-setblock 73 20 -142 brewing_stand{Lock:"1e88"} destroy
-setblock 74 20 -150 brewing_stand{Lock:"1e88"} destroy
+setblock 79 20 -153 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Replace Merchant"}',Text3:'[{"score":{"name":"#replaceMerchant","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 73 19 -143 minecraft:barrel[facing=east]{Lock:"1e88"} destroy
+setblock 74 19 -147 minecraft:barrel[facing=east]{Lock:"1e88"} destroy
+setblock 74 19 -149 minecraft:barrel[facing=east]{Lock:"1e88"} destroy
+setblock 73 20 -142 minecraft:brewing_stand{Lock:"1e88"} destroy
+setblock 74 20 -150 minecraft:brewing_stand{Lock:"1e88"} destroy
 
-setblock 201 20 -98 spruce_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Replace Merchant"}',Text3:'[{"score":{"name":"#replaceMerchant","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 207 19 -108 barrel[facing=west]{Lock:"1e88"} destroy
-setblock 206 19 -104 barrel[facing=west]{Lock:"1e88"} destroy
-setblock 206 19 -102 barrel[facing=west]{Lock:"1e88"} destroy
-setblock 207 20 -109 brewing_stand{Lock:"1e88"} destroy
-setblock 206 20 -101 brewing_stand{Lock:"1e88"} destroy
+setblock 201 20 -98 minecraft:spruce_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Replace Merchant"}',Text3:'[{"score":{"name":"#replaceMerchant","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 207 19 -108 minecraft:barrel[facing=west]{Lock:"1e88"} destroy
+setblock 206 19 -104 minecraft:barrel[facing=west]{Lock:"1e88"} destroy
+setblock 206 19 -102 minecraft:barrel[facing=west]{Lock:"1e88"} destroy
+setblock 207 20 -109 minecraft:brewing_stand{Lock:"1e88"} destroy
+setblock 206 20 -101 minecraft:brewing_stand{Lock:"1e88"} destroy
 
 # Sabotages
-fill 133 21 -96 133 21 -92 lime_concrete replace
-fill 132 21 -96 132 21 -92 birch_button[face=wall,facing=west] replace
-fill 133 19 -96 133 19 -92 lime_concrete replace
-fill 132 19 -96 132 19 -92 birch_button[face=wall,facing=west] replace
-setblock 132 22 -96 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Factory Shutdown","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Factory Shutdown\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Disables the enemy\'s resource production for 90 seconds.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#factoryShutdown","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 22 -95 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Plague","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Plague\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Halves all enemy players\' health for 5 minutes.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#plague","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 22 -94 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Direct Deposit","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Deposit\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Permanently unlocks the Zipline, a way to deposit mobs into the upstairs room.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directDeposit","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 22 -93 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Summon Wither","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Summon Wither\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Do I really need to explain this one?.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#summonWither","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 22 -92 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Nuke","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Nuke\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Last resort. Kills all baddies on your side. Irradiates your side of the field.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#nuke","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 20 -96 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Cloaking Field","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Cloaking Field\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Makes all friendly enemies invisible for a short time.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#cloaking","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 20 -95 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Bulwark","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bulwark\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Significantly increases friendly mob armor temporarily.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#bulwark","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 20 -94 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Direct Exposure","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Exposure\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Teleports the enemies outside their base. Camper no camping!\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directExposure","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 20 -93 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 132 20 -92 birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
+fill 133 21 -96 133 21 -92 minecraft:lime_concrete replace
+fill 132 21 -96 132 21 -92 minecraft:birch_button[face=wall,facing=west] replace
+fill 133 19 -96 133 19 -92 minecraft:lime_concrete replace
+fill 132 19 -96 132 19 -92 minecraft:birch_button[face=wall,facing=west] replace
+setblock 132 22 -96 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Factory Shutdown","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Factory Shutdown\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Disables the enemy\'s resource production for 90 seconds.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#factoryShutdown","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 22 -95 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Plague","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Plague\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Halves all enemy players\' health for 5 minutes.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#plague","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 22 -94 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Direct Deposit","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Deposit\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Permanently unlocks the Zipline, a way to deposit mobs into the upstairs room.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directDeposit","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 22 -93 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Summon Wither","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Summon Wither\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Do I really need to explain this one?.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#summonWither","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 22 -92 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Nuke","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Nuke\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Last resort. Kills all baddies on your side. Irradiates your side of the field.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#nuke","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 20 -96 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Cloaking Field","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Cloaking Field\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Makes all friendly enemies invisible for a short time.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#cloaking","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 20 -95 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Bulwark","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bulwark\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Significantly increases friendly mob armor temporarily.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#bulwark","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 20 -94 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Direct Exposure","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Exposure\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Teleports the enemies outside their base. Camper no camping!\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directExposure","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 20 -93 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 132 20 -92 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
 
-fill 147 21 -158 147 21 -162 lime_terracotta replace
-fill 148 21 -158 148 21 -162 spruce_button[face=wall,facing=east] replace
-fill 147 19 -158 147 19 -162 lime_terracotta replace
-fill 148 19 -158 148 19 -162 spruce_button[face=wall,facing=east] replace
-setblock 148 22 -158 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Factory Shutdown","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Factory Shutdown\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Disables the enemy\'s resource production for 90 seconds.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#factoryShutdown","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 22 -159 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Plague","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Plague\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Halves all enemy players\' health for 5 minutes.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#plague","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 22 -160 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Direct Deposit","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Deposit\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Permanently unlocks the Zipline, a way to deposit mobs into the upstairs room.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directDeposit","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 22 -161 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Summon Wither","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Summon Wither\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Do I really need to explain this one?.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#summonWither","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 22 -162 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Nuke","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Nuke\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Last resort. Kills all baddies on your side. Don\'t worry, you\'re safe.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#nuke","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 20 -158 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Cloaking Field","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Cloaking Field\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Makes all friendly enemies invisible for a short time.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#cloaking","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 20 -159 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Bulwark","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bulwark\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Significantly increases friendly mob armor temporarily.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#bulwark","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 20 -160 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Direct Exposure","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Exposure\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Teleports the enemies outside their base. Camper no camping!\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directexposure","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 20 -161 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
-setblock 148 20 -162 spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
+fill 147 21 -158 147 21 -162 minecraft:lime_terracotta replace
+fill 148 21 -158 148 21 -162 minecraft:spruce_button[face=wall,facing=east] replace
+fill 147 19 -158 147 19 -162 minecraft:lime_terracotta replace
+fill 148 19 -158 148 19 -162 minecraft:spruce_button[face=wall,facing=east] replace
+setblock 148 22 -158 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Factory Shutdown","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Factory Shutdown\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Disables the enemy\'s resource production for 90 seconds.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#factoryShutdown","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 22 -159 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Plague","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Plague\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Halves all enemy players\' health for 5 minutes.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#plague","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 22 -160 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Direct Deposit","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Deposit\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Permanently unlocks the Zipline, a way to deposit mobs into the upstairs room.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directDeposit","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 22 -161 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Summon Wither","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Summon Wither\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Do I really need to explain this one?.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#summonWither","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 22 -162 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Nuke","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Nuke\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Last resort. Kills all baddies on your side. Don\'t worry, you\'re safe.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#nuke","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 20 -158 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Cloaking Field","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Cloaking Field\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Makes all friendly enemies invisible for a short time.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#cloaking","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 20 -159 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Bulwark","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bulwark\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Significantly increases friendly mob armor temporarily.\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#bulwark","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 20 -160 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Direct Exposure","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Direct Exposure\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Teleports the enemies outside their base. Camper no camping!\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#directexposure","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 20 -161 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
+setblock 148 20 -162 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"WIP","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"WIP\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"WIP\\",\\"color\\":\\"yellow\\"}]"}}',Text3:'[{"score":{"name":"#wip","objective":"price"}},{"text":" Stock"}]'} destroy
 
 # Direct Deposit (Upstairs Blocks)
-setblock 110 27 -124 white_concrete replace
-setblock 110 27 -127 white_concrete replace
+setblock 110 27 -124 minecraft:white_concrete replace
+setblock 110 27 -127 minecraft:white_concrete replace
 
-setblock 170 27 -124 stone_bricks replace
-setblock 170 27 -127 stone_bricks replace
+setblock 170 27 -124 minecraft:stone_bricks replace
+setblock 170 27 -127 minecraft:stone_bricks replace
 
-fill 109 31 -124 171 31 -124 air replace
-fill 171 31 -127 109 31 -127 air replace
-fill 140 30 -128 140 31 -123 barrier replace
+fill 109 31 -124 171 31 -124 minecraft:air replace
+fill 171 31 -127 109 31 -127 minecraft:air replace
+fill 140 30 -128 140 31 -123 minecraft:barrier replace
 
-fill 108 28 -124 108 29 -127 white_stained_glass_pane[north=true,south=true] replace
-fill 108 30 -124 108 30 -127 light_blue_stained_glass_pane[north=true,south=true] replace
+fill 108 28 -124 108 29 -127 minecraft:white_stained_glass_pane[north=true,south=true] replace
+fill 108 30 -124 108 30 -127 minecraft:light_blue_stained_glass_pane[north=true,south=true] replace
 
-fill 172 28 -127 172 28 -124 black_stained_glass_pane[north=true,south=true] replace
-fill 172 29 -127 172 30 -124 red_stained_glass_pane[north=true,south=true] replace
+fill 172 28 -127 172 28 -124 minecraft:black_stained_glass_pane[north=true,south=true] replace
+fill 172 29 -127 172 30 -124 minecraft:red_stained_glass_pane[north=true,south=true] replace
 
 # Enchantments
-setblock 136 20 -127 warped_wall_sign[facing=south]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
-setblock 136 20 -124 warped_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
-setblock 136 19 -124 warped_button[facing=north] replace
+setblock 136 20 -127 minecraft:warped_wall_sign[facing=south]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 136 20 -124 minecraft:warped_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
+setblock 136 19 -124 minecraft:warped_button[facing=north] replace
 
-setblock 144 20 -124 crimson_wall_sign[facing=north]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
-setblock 144 20 -127 crimson_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
-setblock 144 19 -127 crimson_button[facing=south] replace
+setblock 144 20 -124 minecraft:crimson_wall_sign[facing=north]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 144 20 -127 minecraft:crimson_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
+setblock 144 19 -127 minecraft:crimson_button[facing=south] replace
 
 # Forfeit
-setblock 107 22 -100 birch_button[face=wall,facing=north] replace
-setblock 107 20 -99 red_concrete replace
+setblock 107 22 -100 minecraft:birch_button[face=wall,facing=north] replace
+setblock 107 20 -99 minecraft:red_concrete replace
 
-setblock 173 22 -151 spruce_button[face=wall,facing=south] replace
-setblock 173 20 -152 red_terracotta replace
+setblock 173 22 -151 minecraft:spruce_button[face=wall,facing=south] replace
+setblock 173 20 -152 minecraft:red_terracotta replace
 
 # Entities
 summon minecraft:item_frame 103 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}

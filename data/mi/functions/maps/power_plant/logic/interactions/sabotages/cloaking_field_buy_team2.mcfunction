@@ -10,6 +10,6 @@ tag @s remove self
 scoreboard players operation #team2 stock -= #cloaking price
 
 setblock 147 19 -158 yellow_terracotta replace
-setblock 148 19 -158 air replace
+setblock 148 19 -158 minecraft:air replace
 schedule function mi:logic/interactions/sabotages/cloaking_field_remove_team2 45s
-schedule function mi:maps/power_plant/interactions/sabotages/cloaking_field_cooldown_team2 300s
+schedule function mi:maps/power_plant/logic/interactions/sabotages/cloaking_field_cooldown_team2 300s

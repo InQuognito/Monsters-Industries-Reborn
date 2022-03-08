@@ -2,22 +2,17 @@
 	"type": "minecraft:entity",
 	"pools": [
 		{
-			"rolls": {
-				"min": 4,
-				"max": 16
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:coal"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bone"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:spider_eye"
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1b,CustomModelData:1,display:{Name:'[{\"text\":\"Monster Token\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"-- Universal Currency --\",\"italic\":false,\"color\":\"gray\"}]']}}"
+						}
+					]
 				}
 			],
 			"conditions": [

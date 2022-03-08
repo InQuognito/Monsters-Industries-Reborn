@@ -13,12 +13,13 @@ execute if score #team2 sentryCount matches 7 run data merge block 201 28 -148 {
 execute if score #team2 sentryCount matches 8 run data merge block 201 28 -148 {Text3:'{"text":"[ 8 / 10 ]"}'}
 execute if score #team2 sentryCount matches 9 run data merge block 201 28 -148 {Text3:'{"text":"[ 9 / 10 ]"}'}
 execute if score #team2 sentryCount matches 10 run data merge block 201 28 -148 {Text3:'{"text":"[ MAX ]"}'}
-execute if score #team2 sentryCount matches 10 run setblock 201 29 -148 air replace
+execute if score #team2 sentryCount matches 10 run setblock 201 29 -148 minecraft:air replace
 
 tag @s add self
 title @s actionbar [{"text":"You have deployed a sentry!","color":"green"}]
 tellraw @a[team=team2,tag=!self] [{"text":"Your teammate has deployed a sentry!","color":"green"}]
 tag @s remove self
 
+function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearTokens temp = #sentry price
-function mi:logic/currency/clear_items
+function mi:logic/currency/apply_price

@@ -8,6 +8,6 @@ tag @s remove self
 
 scoreboard players operation #team2 stock -= #plague price
 
-setblock 147 21 -159 red_terracotta replace
-setblock 148 21 -159 air replace
+setblock 147 21 -159 minecraft:red_terracotta replace
+setblock 148 21 -159 minecraft:air replace
 schedule function mi:logic/interactions/sabotages/plague_remove_team1 300s

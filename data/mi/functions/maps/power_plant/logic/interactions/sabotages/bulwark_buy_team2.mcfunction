@@ -1,5 +1,5 @@
 execute as @e[type=#mi:mobs,team=team2] run attribute @s minecraft:generic.armor modifier add 11111111-1111-1111-1111-111111111112 "bulwark" 15 add
-execute as @e[type=iron_golem,team=team2] run attribute @s minecraft:generic.armor modifier add 11111111-1111-1111-1111-111111111112 "bulwark" 15 add
+execute as @e[type=minecraft:iron_golem,team=team2] run attribute @s minecraft:generic.armor modifier add 11111111-1111-1111-1111-111111111112 "bulwark" 15 add
 
 tag @s add self
 title @s actionbar {"text":"You have activated Bulwark!","color":"green"}
@@ -10,6 +10,6 @@ tag @s remove self
 scoreboard players operation #team2 stock -= #bulwark price
 
 setblock 147 19 -159 yellow_terracotta replace
-setblock 148 19 -159 air replace
+setblock 148 19 -159 minecraft:air replace
 schedule function mi:logic/interactions/sabotages/bulwark_remove_team2 45s
-schedule function mi:maps/power_plant/interactions/sabotages/bulwark_cooldown_team1 300s
+schedule function mi:maps/power_plant/logic/interactions/sabotages/bulwark_cooldown_team1 300s

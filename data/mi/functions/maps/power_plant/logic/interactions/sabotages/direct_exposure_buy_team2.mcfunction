@@ -10,5 +10,5 @@ tag @s remove self
 scoreboard players operation #team2 stock -= #directExposure price
 
 setblock 147 19 -160 yellow_terracotta replace
-setblock 148 19 -160 air replace
-schedule function mi:maps/power_plant/interactions/sabotages/direct_exposure_cooldown_team2 300s
+setblock 148 19 -160 minecraft:air replace
+schedule function mi:maps/power_plant/logic/interactions/sabotages/direct_exposure_cooldown_team2 300s

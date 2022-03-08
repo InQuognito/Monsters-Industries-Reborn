@@ -22,4 +22,4 @@ tag @s remove self
 
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearTokens temp = #sentry price
-function mi:logic/currency/apply_price
+function mi:logic/currency/clear_tokens

@@ -1,5 +1,5 @@
 tag @e[type=#mi:mobs,team=team2] add cloaked
-effect give @e[tag=cloaked,team=team2] invisibility 45 255 true
+effect give @e[tag=cloaked,team=team2] minecraft:invisibility 45 255 true
 
 tag @s add self
 title @s actionbar {"text":"You have activated Cloaking Field!","color":"green"}

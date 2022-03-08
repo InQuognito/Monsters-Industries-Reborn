@@ -28,8 +28,8 @@ gamemode adventure @a
 gamemode spectator @a[team=spectators]
 clear @a
 effect clear @a
-effect give @a saturation 1000000 255 true
-effect give @a instant_health 1 50 true
+effect give @a minecraft:saturation 1000000 255 true
+effect give @a minecraft:instant_health 1 50 true
 
 item replace entity @a[team=!spectators] hotbar.0 with wooden_sword{Unbreakable:1,HideFlags:126} 1
 item replace entity @a[team=team1] armor.head with leather_helmet{Unbreakable:1,display:{color:3847130,Name:'[{"text":"Leather Armor","italic":false,"color":"aqua"}]',Lore:['[{"text":"Offers ","italic":false,"color":"gray"},{"text":"no","color":"dark_red"},{"text":" protection"}]']},Enchantments:[{id:"binding_curse",lvl:1}],HideFlags:127,AttributeModifiers:[{AttributeName:"generic.armor",Amount:0,Operation:0,UUID:[I;-111111,11111,111111,-11111],Slot:head,Name:"generic.armor"}]} 1

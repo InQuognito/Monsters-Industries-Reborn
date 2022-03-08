@@ -1,5 +1,5 @@
 tp @a[team=team2] 165 27 -126
-effect give @a[team=team2] slow_falling 3 10 true
+effect give @a[team=team2] minecraft:slow_falling 3 10 true
 
 tag @s add self
 title @s actionbar {"text":"You have activated Direct Exposure!","color":"green"}

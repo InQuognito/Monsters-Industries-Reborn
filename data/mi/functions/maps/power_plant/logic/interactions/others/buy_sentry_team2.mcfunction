@@ -1,7 +1,7 @@
 scoreboard players add #team2 sentryCount 1
 
-execute if score #team2 sentryCount matches 1..9 run summon iron_golem 149 19 -125 {CustomName:'[{"text":"Sentry","color":"red"}]',Health:150,PersistenceRequired:1b,Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:150d}],Team:team2}
-execute if score #team2 sentryCount matches 10 run summon iron_golem 149 19 -125 {CustomName:'[{"text":"Veteran Sentry","color":"red"}]',Invulnerable:1b,PersistenceRequired:1b,Attributes:[{Name:"generic.follow_range",Base:2048d}],Team:team2}
+execute if score #team2 sentryCount matches 1..9 run summon minecraft:iron_golem 149 19 -125 {CustomName:'[{"text":"Sentry","color":"red"}]',Health:125,PersistenceRequired:1b,Attributes:[{Name:"generic.armor",Base:10d},{Name:"generic.follow_range",Base:2048d},{Name:"generic.max_health",Base:125d}],Team:team2}
+execute if score #team2 sentryCount matches 10 run summon minecraft:iron_golem 149 19 -125 {CustomName:'[{"text":"Veteran Sentry","color":"red"}]',Invulnerable:1b,PersistenceRequired:1b,Attributes:[{Name:"generic.follow_range",Base:2048d}],Team:team2}
 
 execute if score #team2 sentryCount matches 1 run data merge block 201 28 -148 {Text3:'{"text":"[ 1 / 10 ]"}'}
 execute if score #team2 sentryCount matches 2 run data merge block 201 28 -148 {Text3:'{"text":"[ 2 / 10 ]"}'}

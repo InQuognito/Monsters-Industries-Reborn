@@ -3,7 +3,7 @@ execute as @a[team=team2] run attribute @s minecraft:generic.max_health base set
 execute as @a[team=team2] run function mi:logic/heal
 
 data merge block 205 20 -146 {Text2:'{"text":"[ MAX ]"}',Text3:'{"text":""}',Text4:'{"text":""}'}
-setblock 206 20 -146 sea_lantern replace
+setblock 206 20 -146 minecraft:sea_lantern replace
 setblock 205 19 -146 minecraft:air replace
 
 tag @s add self

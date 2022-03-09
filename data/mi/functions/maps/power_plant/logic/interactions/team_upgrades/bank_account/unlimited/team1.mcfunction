@@ -1,7 +1,7 @@
 scoreboard players set #team1 bankAccount 3
 
 data merge block 75 20 -117 {Text2:'{"text":"[ MAX ]"}',Text3:''}
-setblock 74 20 -117 sea_lantern replace
+setblock 74 20 -117 minecraft:sea_lantern replace
 setblock 75 19 -117 minecraft:air replace
 
 tag @s add self

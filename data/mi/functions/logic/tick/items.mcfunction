@@ -1,10 +1,10 @@
-clear @a bucket
+clear @a minecraft:bucket
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:bucket"}}]
 
-clear @a glass_bottle
+clear @a minecraft:glass_bottle
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:glass_bottle"}}]
 
-clear @a wither_rose
+clear @a minecraft:wither_rose
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:wither_rose"}}]
 
 
@@ -24,5 +24,5 @@ kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:minecart"}}]
 
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:flint_and_steel"}}]
 
-kill @e[type=arrow,nbt={inGround:1b}]
-kill @e[type=experience_orb]
+kill @e[type=minecraft:arrow,nbt={inGround:1b}]
+kill @e[type=minecraft:experience_orb]

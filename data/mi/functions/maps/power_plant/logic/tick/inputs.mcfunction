@@ -12,42 +12,42 @@ execute positioned 178 20 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] as
 execute positioned 178 20 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
 
 # Sabotages
-execute positioned 132 21 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/factory_shutdown_buy_try
+execute positioned 132 21 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/factory_shutdown/try
 execute positioned 132 21 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
-execute positioned 132 21 -95 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/plague_buy_try
+execute positioned 132 21 -95 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/plague/try
 execute positioned 132 21 -95 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
-execute positioned 132 21 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/direct_deposit_buy_try
+execute positioned 132 21 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/direct_deposit/try
 execute positioned 132 21 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
-execute positioned 132 21 -93 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/summon_wither_buy_try
+execute positioned 132 21 -93 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/summon_wither/try
 execute positioned 132 21 -93 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
-execute positioned 132 21 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/nuke_buy_try
+execute positioned 132 21 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/nuke/try
 execute positioned 132 21 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
-execute positioned 132 19 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/cloaking_field_buy_try
+execute positioned 132 19 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/cloaking_field/try
 execute positioned 132 19 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
-execute positioned 132 19 -95 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/bulwark_buy_try
+execute positioned 132 19 -95 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/bulwark/try
 execute positioned 132 19 -95 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
-execute positioned 132 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/direct_exposure_buy_try
+execute positioned 132 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/direct_exposure/try
 execute positioned 132 19 -94 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
 #execute positioned 132 19 -93 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/
 #execute positioned 132 19 -93 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
 #execute positioned 132 19 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/
 #execute positioned 132 19 -92 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west]
 
-execute positioned 148 21 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/factory_shutdown_buy_try
+execute positioned 148 21 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/factory_shutdown/try
 execute positioned 148 21 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
-execute positioned 148 21 -159 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/plague_buy_try
+execute positioned 148 21 -159 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/plague/try
 execute positioned 148 21 -159 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
-execute positioned 148 21 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/direct_deposit_buy_try
+execute positioned 148 21 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/direct_deposit/try
 execute positioned 148 21 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
-execute positioned 148 21 -161 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/summon_wither_buy_try
+execute positioned 148 21 -161 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/summon_wither/try
 execute positioned 148 21 -161 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
-execute positioned 148 21 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/nuke_buy_try
+execute positioned 148 21 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/nuke/try
 execute positioned 148 21 -162 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
-execute positioned 148 19 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/cloaking_field_buy_try
+execute positioned 148 19 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/cloaking_field/try
 execute positioned 148 19 -158 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
-execute positioned 148 19 -159 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/bulwark_buy_try
+execute positioned 148 19 -159 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/bulwark/try
 execute positioned 148 19 -159 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
-execute positioned 148 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/direct_exposure_buy_try
+execute positioned 148 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/direct_exposure/try
 execute positioned 148 19 -160 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
 #execute positioned 148 19 -161 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/
 #execute positioned 148 19 -161 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east]
@@ -196,14 +196,14 @@ execute positioned 144 19 -127 if block ~ ~ ~ #minecraft:buttons[powered=true] r
 
 # Forfeit
 execute positioned 107 22 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~-2 ~1 minecraft:air destroy
-execute positioned 107 22 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/cover_forfeit_button 3s
+execute positioned 107 22 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/logic/cover_forfeit_button 3s
 execute positioned 107 22 -100 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:air replace
 execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team1Amount temp matches 1 as @p[team=team1] run function mi:logic/teams/forfeit_confirm
 execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team1Amount temp matches 1 as @p[team=team1] run function mi:logic/teams/forfeit_ask
 execute positioned 107 20 -98 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=north]
 
 execute positioned 173 22 -151 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~-2 ~-1 minecraft:air destroy
-execute positioned 173 22 -151 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/cover_forfeit_button 3s
+execute positioned 173 22 -151 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/logic/cover_forfeit_button 3s
 execute positioned 173 22 -151 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:air replace
 execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team2Amount temp matches 1 as @p[team=team2] run function mi:logic/teams/forfeit_confirm
 execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team2Amount temp matches 1 as @p[team=team2] run function mi:logic/teams/forfeit_ask

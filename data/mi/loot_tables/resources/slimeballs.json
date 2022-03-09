@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#temp"
+				},
+				"score": "production.slimeballs"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{new:1}"
+				}
+			]
+		}
+	]
+}

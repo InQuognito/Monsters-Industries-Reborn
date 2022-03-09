@@ -25,9 +25,14 @@ scoreboard objectives add lighterLevel dummy
 scoreboard objectives add lobby trigger
 scoreboard objectives add map dummy
 scoreboard objectives add mode dummy
-scoreboard objectives add paperProd dummy
 scoreboard objectives add pickaxeLevel dummy
 scoreboard objectives add price dummy
+scoreboard objectives add production.bones dummy
+scoreboard objectives add production.coal dummy
+scoreboard objectives add production.gunpowder dummy
+scoreboard objectives add production.paper dummy
+scoreboard objectives add production.slimeballs dummy
+scoreboard objectives add production.spiderEyes dummy
 scoreboard objectives add random dummy
 scoreboard objectives add recycling dummy
 scoreboard objectives add resetType dummy

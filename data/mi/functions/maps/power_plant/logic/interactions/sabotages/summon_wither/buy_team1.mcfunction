@@ -1,4 +1,4 @@
-summon minecraft:wither 160 28 -126 {CustomName:'"Wither"',CustomNameVisible:1b,PersistenceRequired:1b,Glowing:1b,Attributes:[{Name:"generic.follow_range",Base:500}],Team:team1,DeathLootTable:"mi:entities/others/wither"}
+summon minecraft:wither 160 28 -126 {CustomName:'"Wither"',CustomNameVisible:1b,PersistenceRequired:1b,Glowing:1b,Attributes:[{Name:"minecraft:generic.follow_range",Base:500}],Team:team1,DeathLootTable:"mi:entities/others/wither"}
 advancement grant @s only mi:summon_wither
 
 tag @s add self

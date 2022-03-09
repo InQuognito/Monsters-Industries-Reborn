@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "production.bones"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{new:1}"
+				}
+			]
+		}
+	]
+}

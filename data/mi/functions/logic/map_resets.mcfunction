@@ -1,5 +1,5 @@
-kill @e[type=!player]
+kill @e[type=!minecraft:player]
 
-function mi:logic/end_area_reset
-function mi:logic/lobby_reset
+function mi:logic/resets/areas/end
+function mi:logic/resets/areas/lobby
 function mi:maps/power_plant/reset

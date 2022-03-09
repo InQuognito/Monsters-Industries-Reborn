@@ -1,4 +1,4 @@
-scoreboard players set @s paperProd 1
+scoreboard players set @s production.paper 2
 
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Paper Production 1","color":"gray"},{"text":"!","color":"green"}]
 

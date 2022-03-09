@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "production.coal"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{new:1}"
+				}
+			]
+		}
+	]
+}

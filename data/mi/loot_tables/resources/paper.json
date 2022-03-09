@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "production.paper"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{new:1}"
+				}
+			]
+		}
+	]
+}

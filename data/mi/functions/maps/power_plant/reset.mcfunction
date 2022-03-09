@@ -32,9 +32,7 @@ setblock 97 16 -119 minecraft:oak_wall_sign[facing=south]{Color:"black",Text1:'{
 clone 175 13 -80 183 15 -78 175 13 -132
 setblock 183 16 -132 minecraft:oak_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'[{"score":{"name":"#slimeballReactorPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slimeballReactorSlimeballs","objective":"price"}},{"text":" Slimeballs"}]'} destroy
 
-# Iron Forge
-setblock 79 13 -113 minecraft:iron_door[facing=south,half=lower,hinge=right,open=false] destroy
-setblock 79 14 -113 minecraft:iron_door[facing=south,half=upper,hinge=right,open=false] destroy
+# Forge
 setblock 79 14 -111 minecraft:oak_button[face=wall,facing=west] replace
 fill 75 15 -116 75 13 -120 minecraft:air replace
 fill 77 15 -122 81 13 -122 minecraft:air replace
@@ -47,8 +45,6 @@ setblock 81 13 -116 minecraft:chest[facing=west]{Lock:"ae88"} destroy
 setblock 79 15 -122 minecraft:oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 79 14 -122 minecraft:oak_button[face=wall,facing=south] replace
 
-setblock 201 13 -138 minecraft:iron_door[facing=north,half=lower,hinge=left,open=false] destroy
-setblock 201 14 -138 minecraft:iron_door[facing=north,half=upper,hinge=left,open=false] destroy
 setblock 201 14 -140 minecraft:oak_button[face=wall,facing=east] replace
 fill 205 15 -135 205 13 -131 minecraft:air replace
 fill 203 15 -129 199 13 -129 minecraft:air replace

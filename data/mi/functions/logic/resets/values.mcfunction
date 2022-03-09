@@ -28,8 +28,12 @@ scoreboard players set #team2 stock 0
 scoreboard players set #team1MaxHealth temp 0
 scoreboard players set #team2MaxHealth temp 0
 
-scoreboard players reset @a[team=spectators] paperProd
-scoreboard players set @a[team=!spectators] paperProd 0
+scoreboard players set @a[team=!spectators] production.bones 1
+scoreboard players set @a[team=!spectators] production.coal 1
+scoreboard players set @a[team=!spectators] production.gunpowder 1
+scoreboard players set @a[team=!spectators] production.paper 1
+scoreboard players set @a[team=!spectators] production.slimeballs 1
+scoreboard players set @a[team=!spectators] production.spiderEyes 1
 
 scoreboard players reset @a[team=spectators] swordLevel
 scoreboard players set @a[team=!spectators] swordLevel 0

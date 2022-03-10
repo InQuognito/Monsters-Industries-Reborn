@@ -6,10 +6,9 @@
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "#team2"
+					"name": "#employeeGain"
 				},
-				"score": "employees",
-				"scale": 3
+				"score": "temp"
 			},
 			"entries": [
 				{

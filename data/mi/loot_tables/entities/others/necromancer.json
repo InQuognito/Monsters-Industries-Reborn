@@ -2,10 +2,24 @@
 	"type": "minecraft:entity",
 	"pools": [
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 4,
+				"max": 16
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 24,
+					"name": "minecraft:spider_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
 					"name": "minecraft:emerald",
 					"functions": [
 						{

@@ -33,7 +33,6 @@ clone 175 13 -80 183 15 -78 175 13 -132
 setblock 183 16 -132 minecraft:oak_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Repair Reactor"}',Text2:'[{"score":{"name":"#slimeballReactorPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slimeballReactorSlimeballs","objective":"price"}},{"text":" Slimeballs"}]'} destroy
 
 # Forge
-setblock 79 14 -111 minecraft:oak_button[face=wall,facing=west] replace
 fill 75 15 -116 75 13 -120 minecraft:air replace
 fill 77 15 -122 81 13 -122 minecraft:air replace
 fill 83 15 -120 83 13 -116 minecraft:air replace
@@ -45,7 +44,6 @@ setblock 81 13 -116 minecraft:chest[facing=west]{Lock:"ae88"} destroy
 setblock 79 15 -122 minecraft:oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 79 14 -122 minecraft:oak_button[face=wall,facing=south] replace
 
-setblock 201 14 -140 minecraft:oak_button[face=wall,facing=east] replace
 fill 205 15 -135 205 13 -131 minecraft:air replace
 fill 203 15 -129 199 13 -129 minecraft:air replace
 fill 197 15 -131 197 13 -135 minecraft:air replace
@@ -141,13 +139,21 @@ setblock 205 20 -134 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1
 setblock 205 19 -134 minecraft:spruce_button[facing=west] replace
 
 # Sentries
-setblock 79 30 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
-setblock 79 28 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
-setblock 79 29 -103 minecraft:birch_button[facing=north] replace
+execute unless score $speedMode mode matches 1 run setblock 79 30 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+execute unless score $speedMode mode matches 1 run setblock 79 28 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
+execute unless score $speedMode mode matches 1 run setblock 79 29 -103 minecraft:birch_button[facing=north] replace
 
-setblock 201 30 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
-setblock 201 28 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
-setblock 201 29 -148 minecraft:spruce_button[facing=south] replace
+execute unless score $speedMode mode matches 1 run setblock 201 30 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+execute unless score $speedMode mode matches 1 run setblock 201 28 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
+execute unless score $speedMode mode matches 1 run setblock 201 29 -148 minecraft:spruce_button[facing=south] replace
+
+execute if score $speedMode mode matches 1 run setblock 79 30 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Sentries"}',Text3:'{"text":"Disabled"}'} destroy
+execute if score $speedMode mode matches 1 run setblock 79 28 -103 minecraft:air replace
+execute if score $speedMode mode matches 1 run setblock 79 29 -103 minecraft:air replace
+
+execute if score $speedMode mode matches 1 run setblock 201 30 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Sentries"}',Text3:'{"text":"Disabled"}'} destroy
+execute if score $speedMode mode matches 1 run setblock 201 28 -148 minecraft:air
+execute if score $speedMode mode matches 1 run setblock 201 29 -148 minecraft:air
 
 # Tavern
 setblock 79 20 -153 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Replace Merchant"}',Text3:'[{"score":{"name":"#replaceMerchant","objective":"price"}},{"text":" Paper"}]'} destroy

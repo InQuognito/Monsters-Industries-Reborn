@@ -9,7 +9,19 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 124,
 					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1,CustomModelData:1,display:{Name:'[{\"text\":\"Monster Token\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"-- Universal Currency --\",\"italic\":false,\"color\":\"gray\"}]']}}"
+						}
+					]
 				}
 			],
 			"conditions": [

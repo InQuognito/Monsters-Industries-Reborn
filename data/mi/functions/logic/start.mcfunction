@@ -12,15 +12,15 @@ function mi:logic/resets/game/scoreboards/variables
 execute if score $mode mode matches 0 run gamerule keepInventory true
 execute if score $mode mode matches 1 run gamerule keepInventory false
 
-execute if score $maxStock stock matches 250 run bossbar set minecraft:1 max 250
-execute if score $maxStock stock matches 500 run bossbar set minecraft:1 max 500
-execute if score $maxStock stock matches 1000 run bossbar set minecraft:1 max 1000
+execute if score $stockLimit stock matches 250 run bossbar set minecraft:1 max 250
+execute if score $stockLimit stock matches 500 run bossbar set minecraft:1 max 500
+execute if score $stockLimit stock matches 1000 run bossbar set minecraft:1 max 1000
 bossbar set minecraft:1 players @a
 bossbar set minecraft:1 visible true
 
-execute if score $maxStock stock matches 250 run bossbar set minecraft:2 max 250
-execute if score $maxStock stock matches 500 run bossbar set minecraft:2 max 500
-execute if score $maxStock stock matches 1000 run bossbar set minecraft:2 max 1000
+execute if score $stockLimit stock matches 250 run bossbar set minecraft:2 max 250
+execute if score $stockLimit stock matches 500 run bossbar set minecraft:2 max 500
+execute if score $stockLimit stock matches 1000 run bossbar set minecraft:2 max 1000
 bossbar set minecraft:2 players @a
 bossbar set minecraft:2 visible true
 

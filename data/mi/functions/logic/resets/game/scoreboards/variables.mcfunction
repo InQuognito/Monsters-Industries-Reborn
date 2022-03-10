@@ -170,35 +170,35 @@ scoreboard players operation #netheriteMaxScaled vars *= #team1Amount temp
 
 # Sabotages
 scoreboard players set #factoryShutdown price 100
-execute if score $maxStock stock matches ..500 run scoreboard players operation #factoryShutdown price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #factoryShutdown price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #factoryShutdown price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #factoryShutdown price /= #2 integers
 scoreboard players set #plague price 150
-execute if score $maxStock stock matches ..500 run scoreboard players operation #plague price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #plague price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #plague price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #plague price /= #2 integers
 scoreboard players set #directDeposit price 200
-execute if score $maxStock stock matches ..500 run scoreboard players operation #directDeposit price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #directDeposit price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #directDeposit price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #directDeposit price /= #2 integers
 scoreboard players set #summonWither price 250
-execute if score $maxStock stock matches ..500 run scoreboard players operation #summonWither price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #summonWither price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #summonWither price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #summonWither price /= #2 integers
 scoreboard players set #nuke price 300
-execute if score $maxStock stock matches ..500 run scoreboard players operation #nuke price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #nuke price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #nuke price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #nuke price /= #2 integers
 scoreboard players set #cloaking price 50
-execute if score $maxStock stock matches ..500 run scoreboard players operation #cloaking price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #cloaking price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #cloaking price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #cloaking price /= #2 integers
 scoreboard players set #bulwark price 50
-execute if score $maxStock stock matches ..500 run scoreboard players operation #bulwark price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #bulwark price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #bulwark price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #bulwark price /= #2 integers
 scoreboard players set #directExposure price 75
-execute if score $maxStock stock matches ..500 run scoreboard players operation #directExposure price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #directExposure price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #directExposure price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #directExposure price /= #2 integers
 scoreboard players set #wip price 0
-execute if score $maxStock stock matches ..500 run scoreboard players operation #wip price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #wip price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #wip price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #wip price /= #2 integers
 scoreboard players set #wip price 0
-execute if score $maxStock stock matches ..500 run scoreboard players operation #wip price /= #2 integers
-execute if score $maxStock stock matches ..250 run scoreboard players operation #wip price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #wip price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #wip price /= #2 integers
 
 # Team Upgrades
 scoreboard players set #maxHealth1 price 384

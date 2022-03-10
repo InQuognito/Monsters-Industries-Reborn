@@ -7,5 +7,5 @@ execute store result bossbar minecraft:2 value run scoreboard players get #team2
 execute if score #team1 stock matches ..0 run scoreboard players set #team1 stock 0
 execute if score #team2 stock matches ..0 run scoreboard players set #team2 stock 0
 
-execute if score #team1 stock >= $maxStock stock run function mi:logic/teams/team1_win
-execute if score #team2 stock >= $maxStock stock run function mi:logic/teams/team2_win
+execute if score #team1 stock >= $stockLimit stock run function mi:logic/teams/team1_win
+execute if score #team2 stock >= $stockLimit stock run function mi:logic/teams/team2_win

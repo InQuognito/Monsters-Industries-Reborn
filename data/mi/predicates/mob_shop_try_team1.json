@@ -1,0 +1,27 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"position": {
+					"x": {
+						"min": 91,
+						"max": 92
+					},
+					"y": {
+						"min": 20,
+						"max": 22
+					},
+					"z": -99
+				},
+				"block": {
+					"tag": "minecraft:buttons",
+					"state": {
+						"powered": true
+					}
+				}
+			}
+		}
+	]
+}

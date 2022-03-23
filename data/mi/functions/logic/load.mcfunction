@@ -3,9 +3,9 @@ function mi:logic/resets/game/gamerules
 function mi:logic/resets/game/teams
 function mi:logic/resets/game/scoreboards/delete
 function mi:logic/resets/game/scoreboards/create
+function mi:logic/resets/game/scoreboards/values
 function mi:logic/resets/game/scoreboards/variables
 function mi:logic/resets/players
-function mi:logic/resets/values
 function mi:logic/resets/game/schedule
 function mi:logic/resets/slimes
 

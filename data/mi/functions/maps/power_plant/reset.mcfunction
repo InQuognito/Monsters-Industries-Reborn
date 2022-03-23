@@ -96,7 +96,7 @@ setblock 125 20 -95 oak_stairs[facing=north,half=bottom,shape=straight] replace
 setblock 124 19 -94 gravel replace
 setblock 123 19 -96 gravel replace
 setblock 122 19 -96 gravel replace
-setblock 126 19 -94 oak_button[face=wall,facing=east] replace
+setblock 126 19 -94 minecraft:oak_button[face=wall,facing=east] replace
 setblock 126 20 -94 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
 setblock 155 19 -160 spruce_planks replace
@@ -106,7 +106,7 @@ setblock 155 20 -159 spruce_stairs[facing=south,half=bottom,shape=inner_right] r
 setblock 156 19 -160 gravel replace
 setblock 157 19 -158 gravel replace
 setblock 158 19 -158 gravel replace
-setblock 154 19 -160 oak_button[face=wall,facing=west] replace
+setblock 154 19 -160 minecraft:oak_button[face=wall,facing=west] replace
 setblock 154 20 -160 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Max Health
@@ -234,41 +234,5 @@ setblock 107 20 -99 minecraft:red_concrete replace
 setblock 173 22 -151 minecraft:spruce_button[face=wall,facing=south] replace
 setblock 173 20 -152 minecraft:red_terracotta replace
 
-# Entities
-summon minecraft:item_frame 103 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon minecraft:item_frame 103 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon minecraft:item_frame 79 29 -145 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:3}}}
-summon minecraft:item_frame 103 22 -159 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:coal",Count:1b,tag:{display:{Name:'{"text":"Mine Coal"}'}}}}
-summon minecraft:item_frame 113 23 -90 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:bone",Count:1b,tag:{display:{Name:'{"text":"Dig Up Bones"}'}}}}
-summon minecraft:item_frame 125 21 -164 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:spider_eye",Count:1b,tag:{display:{Name:'{"text":"Gather Spider Eyes"}'}}}}
-summon minecraft:item_frame 130 25 -154 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
-summon minecraft:item_frame 105 15 -119 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
-summon minecraft:item_frame 91 23 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
-summon minecraft:item_frame 91 19 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
-
-summon minecraft:minecart 78 19.1 -140 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 78 19.1 -142 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 78 19.1 -144 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 78 19.1 -146 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 78 19.1 -148 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 78 19.1 -150 {Invulnerable:1b,NoGravity:1b}
-
-summon minecraft:item_frame 177 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon minecraft:item_frame 177 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
-summon minecraft:item_frame 201 29 -107 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:3}}}
-summon minecraft:item_frame 177 22 -92 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:coal",Count:1b,tag:{display:{Name:'{"text":"Mine Coal"}'}}}}
-summon minecraft:item_frame 168 23 -165 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:bone",Count:1b,tag:{display:{Name:'{"text":"Dig Up Bones"}'}}}}
-summon minecraft:item_frame 155 21 -90 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:spider_eye",Count:1b,tag:{display:{Name:'{"text":"Gather Spider Eyes"}'}}}}
-summon minecraft:item_frame 150 25 -100 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
-summon minecraft:item_frame 175 15 -132 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
-summon minecraft:item_frame 189 23 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
-summon minecraft:item_frame 189 19 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
-
-summon minecraft:minecart 202 19.1 -111 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 202 19.1 -109 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 202 19.1 -107 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 202 19.1 -105 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 202 19.1 -103 {Invulnerable:1b,NoGravity:1b}
-summon minecraft:minecart 202 19.1 -101 {Invulnerable:1b,NoGravity:1b}
-
-kill @e[type=minecraft:item]
+# Mob Shop
+fill 90 20 -99 93 22 -99 minecraft:air replace

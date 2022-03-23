@@ -1,0 +1,6 @@
+data merge block 93 22 -99 {Text2:'[{"score":{"name":"#slime1Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slime1Slimeballs","objective":"price"}},{"text":" Slimeballs"}]'}
+data merge block 90 22 -99 {Text2:'[{"score":{"name":"#slime4Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slime4Slimeballs","objective":"price"}},{"text":" Slimeballs"}]'}
+data merge block 93 21 -99 {Text2:'[{"score":{"name":"#slime8Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slime8Slimeballs","objective":"price"}},{"text":" Slimeballs"}]'}
+data merge block 90 21 -99 {Text2:'[{"score":{"name":"#slime16Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slime16Slimeballs","objective":"price"}},{"text":" Slimeballs"}]'}
+data merge block 93 20 -99 {Text2:'[{"score":{"name":"#slime32Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slime32Slimeballs","objective":"price"}},{"text":" Slimeballs"}]'}
+data merge block 90 20 -99 {Text2:'[{"score":{"name":"#slime64Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#slime64Slimeballs","objective":"price"}},{"text":" Slimeballs"}]'}

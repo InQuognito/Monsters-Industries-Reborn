@@ -22,8 +22,8 @@ scoreboard players set #team2 sentryCount 0
 scoreboard players set #team1 slimeballProd 0
 scoreboard players set #team2 slimeballProd 0
 
-scoreboard players set #team1 stock 0
-scoreboard players set #team2 stock 0
+scoreboard players set $team1 stock 0
+scoreboard players set $team2 stock 0
 
 scoreboard players set #team1MaxHealth temp 0
 scoreboard players set #team2MaxHealth temp 0

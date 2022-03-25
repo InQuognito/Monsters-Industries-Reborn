@@ -78,7 +78,7 @@ scoreboard players set #paperProduction3 price 256
 
 scoreboard players set #lever price 768
 
-# Book - Mobs
+# Mobs
 scoreboard players set #zombieBasePaper price 8
 scoreboard players set #zombieBaseCoal price 4
 
@@ -118,7 +118,7 @@ scoreboard players set #barricade2 price 640
 scoreboard players set #sabotageBarricade price 1024
 
 # Employees
-scoreboard players set #employeeGenerationAmount vars 10
+scoreboard players set #employeeGenerationAmount vars 5
 
 # Forge
 scoreboard players set #forgeStart price 512
@@ -143,7 +143,7 @@ scoreboard players set #randomRecipe price 96
 scoreboard players set #replaceMerchant price 256
 scoreboard players set #sentry price 4
 
-# Resources
+# Resource Maximums
 scoreboard players set #paperMax vars 1000
 scoreboard players operation #paperMaxTeam1 vars = #paperMax vars
 scoreboard players operation #paperMaxTeam1 vars *= #team1Amount temp
@@ -216,7 +216,7 @@ scoreboard players set #sharedBankAccount price 384
 scoreboard players set #unlimitedBankAccount price 768
 
 # Wall Street
-scoreboard players set #wallStreetMax vars 350
+scoreboard players set #wallStreetMax vars 75
 scoreboard players set #wallStreet1 price 128
 scoreboard players set #wallStreet2 price 243
 scoreboard players set #wallStreet3 price 462

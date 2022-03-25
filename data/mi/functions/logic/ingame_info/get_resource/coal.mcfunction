@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Coal","color":"green"},{"text":" is a resource that takes a little while to gather at the beginning, but it's worth it and a solid first step! It is needed to produce zombie-class mobs, which are a very cheap early-game source of mobs! You can upgrade your pickaxe in the Item Shop.","color":"gray"}]

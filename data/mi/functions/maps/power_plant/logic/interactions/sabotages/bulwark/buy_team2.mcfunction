@@ -7,7 +7,7 @@ tellraw @a[team=team2,tag=!self] {"text":"Your teammate has activated Bulwark!",
 tellraw @a[team=team1] {"text":"The opponent has activated Bulwark!","color":"red"}
 tag @s remove self
 
-scoreboard players operation #team2 stock -= #bulwark price
+scoreboard players operation $team2 stock -= #bulwark price
 
 setblock 147 19 -159 yellow_terracotta replace
 setblock 148 19 -159 minecraft:air replace

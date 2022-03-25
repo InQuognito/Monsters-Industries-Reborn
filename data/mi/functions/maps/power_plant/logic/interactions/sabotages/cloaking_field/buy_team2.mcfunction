@@ -7,7 +7,7 @@ tellraw @a[team=team2,tag=!self] {"text":"Your teammate has activated Cloaking F
 tellraw @a[team=team1] {"text":"The opponent has activated Cloaking Field!","color":"red"}
 tag @s remove self
 
-scoreboard players operation #team2 stock -= #cloaking price
+scoreboard players operation $team2 stock -= #cloaking price
 
 setblock 147 19 -158 yellow_terracotta replace
 setblock 148 19 -158 minecraft:air replace

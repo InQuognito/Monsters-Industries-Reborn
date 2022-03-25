@@ -13,8 +13,8 @@ execute as @e[type=minecraft:zombified_piglin,x=84,y=27,z=-136,distance=..1] if 
 execute as @e[type=minecraft:zombified_piglin,x=84,y=27,z=-136,distance=..1] if score #team1 employees matches 10 run tp @s 79 28 -145 270 0
 execute as @e[type=minecraft:zombified_piglin,x=84,y=27,z=-136,distance=..1] if score #team1 employees matches 11 run tp @s 79 28 -140 270 0
 
-execute unless score $speedMode mode matches 1 if score #team1 employees matches 1.. run advancement grant @a[team=team1] only mi:get_1_employee
-execute if score $speedMode mode matches 1 if score #team1 employees matches 2.. run advancement grant @a[team=team1] only mi:get_1_employee
+execute unless score $rushMode mode matches 1 if score #team1 employees matches 1.. run advancement grant @a[team=team1] only mi:get_1_employee
+execute if score $rushMode mode matches 1 if score #team1 employees matches 2.. run advancement grant @a[team=team1] only mi:get_1_employee
 execute if score #team1 employees matches 11.. run advancement grant @a[team=team1] only mi:get_max_employees
 execute if entity @e[type=minecraft:zombified_piglin,predicate=mi:is_baby,x=77,y=28,z=-152,dx=22,dy=1,dz=14] run advancement grant @a[team=team1] only mi:get_baby_employee
 
@@ -38,8 +38,8 @@ execute as @e[type=minecraft:zombified_piglin,x=196,y=27,z=-116,distance=..1] if
 execute as @e[type=minecraft:zombified_piglin,x=196,y=27,z=-116,distance=..1] if score #team2 employees matches 10 run tp @s 201 28 -107 90 0
 execute as @e[type=minecraft:zombified_piglin,x=196,y=27,z=-116,distance=..1] if score #team2 employees matches 11 run tp @s 201 28 -112 90 0
 
-execute unless score $speedMode mode matches 1 if score #team2 employees matches 1.. run advancement grant @a[team=team2] only mi:get_1_employee
-execute if score $speedMode mode matches 1 if score #team2 employees matches 2.. run advancement grant @a[team=team2] only mi:get_1_employee
+execute unless score $rushMode mode matches 1 if score #team2 employees matches 1.. run advancement grant @a[team=team2] only mi:get_1_employee
+execute if score $rushMode mode matches 1 if score #team2 employees matches 2.. run advancement grant @a[team=team2] only mi:get_1_employee
 execute if score #team2 employees matches 11.. run advancement grant @a[team=team2] only mi:get_max_employees
 execute if entity @e[type=minecraft:zombified_piglin,predicate=mi:is_baby,x=181,y=28,z=-114,dx=22,dy=1,dz=14] run advancement grant @a[team=team2] only mi:get_baby_employee
 

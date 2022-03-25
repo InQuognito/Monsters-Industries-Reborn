@@ -28,6 +28,11 @@ execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run score
 execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.netherite = @s ct.netherite
 execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.netherite = @s ct.netherite
 
+execute if entity @s[team=team1] run scoreboard players operation #temp stock = $team1 stock
+execute if entity @s[team=team2] run scoreboard players operation #temp stock = $team2 stock
+execute if entity @s[team=team1] run scoreboard players operation #stockPercent temp = $team1StockPercent temp
+execute if entity @s[team=team2] run scoreboard players operation #stockPercent temp = $team2StockPercent temp
+
 execute if entity @s[team=team1] run scoreboard players operation #temp ct.paper = #team1 ct.paper
 execute if entity @s[team=team2] run scoreboard players operation #temp ct.paper = #team2 ct.paper
 execute if entity @s[team=team1] run scoreboard players operation #temp ct.coal = #team1 ct.coal
@@ -45,3 +50,6 @@ execute if entity @s[team=team2] run scoreboard players operation #temp ct.nethe
 
 execute if entity @s[team=team1] run scoreboard players operation #mobShopMult temp = #team1MobShopMult temp
 execute if entity @s[team=team2] run scoreboard players operation #mobShopMult temp = #team2MobShopMult temp
+
+execute if entity @s[team=team1] run scoreboard players operation #temp enchantment = #team1 enchantment
+execute if entity @s[team=team2] run scoreboard players operation #temp enchantment = #team2 enchantment

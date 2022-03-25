@@ -1,0 +1,1 @@
+tellraw @s [{"text":"It looks like you got your Forge working! ","color":"gray"},{"text":"Netherite","color":"green"},{"text":" takes an extremely long time to produce at first, but gets exponentially faster the earlier you start it since it takes itself to upgrade. Netherite isn't used for mobs, instead being used to get powerful end-game equipment.","color":"gray"}]

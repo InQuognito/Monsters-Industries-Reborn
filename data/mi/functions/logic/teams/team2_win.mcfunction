@@ -2,7 +2,7 @@ scoreboard players reset * stock
 
 function mi:logic/timer_calculate
 
-title @a subtitle [{"text":"Game Duration","color":"gray"},{"text":":","color":"gold"},{"text":" "},{"score":{"name":"#timer.Minutes","objective":"timer"},"color":"green"},{"text":"m"},{"text":" "},{"score":{"name":"#timer.Seconds","objective":"timer"},"color":"green"},{"text":"s"}]
+title @a subtitle [{"text":"Game Duration","color":"gray"},{"text":":","color":"gold"},{"text":" "},{"score":{"name":"$timer.Minutes","objective":"timer"},"color":"green"},{"text":"m"},{"text":" "},{"score":{"name":"$timer.Seconds","objective":"timer"},"color":"green"},{"text":"s"}]
 execute unless score #forfeit resetType matches 1 run title @a title {"text":"Team 2 Wins!","color":"red"}
 execute if score #forfeit resetType matches 1 run title @a title {"text":"Team 1 Forfeits!","color":"red"}
 

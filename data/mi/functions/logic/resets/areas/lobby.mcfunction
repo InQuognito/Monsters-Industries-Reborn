@@ -13,8 +13,8 @@ setblock -32 6 -119 minecraft:blue_concrete replace
 setblock -32 6 -120 minecraft:white_concrete replace
 setblock -32 6 -121 minecraft:white_concrete replace
 
-# Speed Mode
-setblock -29 7 -122 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Speed Mode:","clickEvent":{"action":"run_command","value":"tellraw @s [{\\"text\\":\\"Speed Mode:\\",\\"color\\":\\"gold\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Begin the game with 1 employee\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Placing mobs grants Stock\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Disables cost scaling\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Sentries are disabled\\",\\"color\\":\\"gray\\"}]"}}',Text3:'{"text":"OFF"}'} destroy
+# Rush Mode
+setblock -29 7 -122 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Rush Mode:","clickEvent":{"action":"run_command","value":"tellraw @s [{\\"text\\":\\"Rush Mode:\\",\\"color\\":\\"gold\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Begin the game with 1 employee\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Placing mobs grants Stock\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Disables cost scaling\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Sentries are disabled\\",\\"color\\":\\"gray\\"}]"}}',Text3:'{"text":"OFF"}'} destroy
 
 setblock -29 6 -123 minecraft:red_concrete replace
 

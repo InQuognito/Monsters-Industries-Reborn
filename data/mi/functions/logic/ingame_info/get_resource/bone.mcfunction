@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Bones","color":"green"},{"text":" are slightly faster to produce than Coal and are used to produce skeleton-class mobs. These mobs are generally more expensive than zombie-class mobs, but that doesn't make them better! You can upgrade your shovel in the Item Shop.","color":"gray"}]

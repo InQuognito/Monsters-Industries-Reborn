@@ -1,5 +1,5 @@
-execute if entity @s[team=team1] run scoreboard players add #team1 stock 10
-execute if entity @s[team=team2] run scoreboard players add #team2 stock 10
+execute if entity @s[team=team1] run scoreboard players add $team1 stock 10
+execute if entity @s[team=team2] run scoreboard players add $team2 stock 10
 
 tag @s add self
 title @s actionbar [{"text":"You have purchased 10 stock!","color":"green"}]

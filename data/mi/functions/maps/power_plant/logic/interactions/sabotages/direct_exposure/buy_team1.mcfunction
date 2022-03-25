@@ -7,7 +7,7 @@ tellraw @a[team=team1,tag=!self] {"text":"Your teammate has activated Direct Exp
 tellraw @a[team=team2] {"text":"The opponent has activated Direct Exposure!","color":"red"}
 tag @s remove self
 
-scoreboard players operation #team1 stock -= #directExposure price
+scoreboard players operation $team1 stock -= #directExposure price
 
 setblock 133 19 -94 minecraft:yellow_concrete replace
 setblock 132 19 -94 minecraft:air replace

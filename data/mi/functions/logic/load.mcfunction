@@ -9,8 +9,8 @@ function mi:logic/resets/players
 function mi:logic/resets/game/schedule
 function mi:logic/resets/slimes
 
-function mi:logic/map_resets
 function mi:logic/resets/settings
+function mi:logic/map_resets
 
 function mi:logic/resets/game/entities
 function mi:logic/resets/areas/info

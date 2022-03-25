@@ -43,5 +43,5 @@ execute if entity @s[team=team2] run scoreboard players operation #temp ct.slime
 execute if entity @s[team=team1] run scoreboard players operation #temp ct.netherite = #team1 ct.netherite
 execute if entity @s[team=team2] run scoreboard players operation #temp ct.netherite = #team2 ct.netherite
 
-execute if entity @s[team=team1] run scoreboard players operation #tempMobShopMult temp = #team1MobShopMult temp
-execute if entity @s[team=team2] run scoreboard players operation #tempMobShopMult temp = #team2MobShopMult temp
+execute if entity @s[team=team1] run scoreboard players operation #mobShopMult temp = #team1MobShopMult temp
+execute if entity @s[team=team2] run scoreboard players operation #mobShopMult temp = #team2MobShopMult temp

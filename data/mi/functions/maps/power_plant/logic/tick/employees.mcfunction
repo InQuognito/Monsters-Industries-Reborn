@@ -16,10 +16,10 @@ execute as @e[type=minecraft:zombified_piglin,x=84,y=27,z=-136,distance=..1] if 
 execute unless score $speedMode mode matches 1 if score #team1 employees matches 1.. run advancement grant @a[team=team1] only mi:get_1_employee
 execute if score $speedMode mode matches 1 if score #team1 employees matches 2.. run advancement grant @a[team=team1] only mi:get_1_employee
 execute if score #team1 employees matches 11.. run advancement grant @a[team=team1] only mi:get_max_employees
-execute if entity @e[type=minecraft:zombified_piglin,predicate=mi:zombified_piglin_baby,x=77,y=28,z=-152,dx=22,dy=1,dz=14] run advancement grant @a[team=team1] only mi:get_baby_employee
+execute if entity @e[type=minecraft:zombified_piglin,predicate=mi:is_baby,x=77,y=28,z=-152,dx=22,dy=1,dz=14] run advancement grant @a[team=team1] only mi:get_baby_employee
 
 execute if score #team1 employees matches 12.. run kill @e[type=minecraft:zombified_piglin,x=84,y=27,z=-136,distance=..1]
-execute if score #team1 employees matches 12.. run give @p[x=196,y=27,z=-116,team=team1] zombified_piglin_spawn_egg{display:{Name:'[{"text":"Employee","italic":false,"color":"aqua"}]'},EntityTag:{id:"minecraft:zombified_piglin",Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team1},CanPlaceOn:["cauldron"]} 1
+execute if score #team1 employees matches 12.. run give @p[x=196,y=27,z=-116,team=team1] minecraft:zombified_piglin_spawn_egg{display:{Name:'[{"text":"Employee","italic":false,"color":"aqua"}]'},EntityTag:{id:"minecraft:zombified_piglin",Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team1},CanPlaceOn:["cauldron"]} 1
 execute if score #team1 employees matches 12.. run tellraw @p[x=196,y=27,z=-116,team=team1] {"text":"You have reached the maximum amount of employees you can hire!","color":"red"}
 execute if score #team1 employees matches 12.. run scoreboard players set #team1 employees 11
 
@@ -41,9 +41,9 @@ execute as @e[type=minecraft:zombified_piglin,x=196,y=27,z=-116,distance=..1] if
 execute unless score $speedMode mode matches 1 if score #team2 employees matches 1.. run advancement grant @a[team=team2] only mi:get_1_employee
 execute if score $speedMode mode matches 1 if score #team2 employees matches 2.. run advancement grant @a[team=team2] only mi:get_1_employee
 execute if score #team2 employees matches 11.. run advancement grant @a[team=team2] only mi:get_max_employees
-execute if entity @e[type=minecraft:zombified_piglin,predicate=mi:zombified_piglin_baby,x=181,y=28,z=-114,dx=22,dy=1,dz=14] run advancement grant @a[team=team2] only mi:get_baby_employee
+execute if entity @e[type=minecraft:zombified_piglin,predicate=mi:is_baby,x=181,y=28,z=-114,dx=22,dy=1,dz=14] run advancement grant @a[team=team2] only mi:get_baby_employee
 
 execute if score #team2 employees matches 12.. run kill @e[type=minecraft:zombified_piglin,x=196,y=27,z=-116,distance=..1]
-execute if score #team2 employees matches 12.. run give @p[x=196,y=27,z=-116,team=team2] zombified_piglin_spawn_egg{display:{Name:'[{"text":"Employee","italic":false,"color":"red"}]'},EntityTag:{id:"minecraft:zombified_piglin",Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team2},CanPlaceOn:["cauldron"]} 1
+execute if score #team2 employees matches 12.. run give @p[x=196,y=27,z=-116,team=team2] minecraft:zombified_piglin_spawn_egg{display:{Name:'[{"text":"Employee","italic":false,"color":"red"}]'},EntityTag:{id:"minecraft:zombified_piglin",Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team2},CanPlaceOn:["cauldron"]} 1
 execute if score #team2 employees matches 12.. run tellraw @p[x=196,y=27,z=-116,team=team2] {"text":"You have reached the maximum amount of employees you can hire!","color":"red"}
 execute if score #team2 employees matches 12.. run scoreboard players set #team2 employees 11

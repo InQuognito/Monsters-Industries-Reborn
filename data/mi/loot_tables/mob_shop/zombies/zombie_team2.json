@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#mobShopMult"
+				},
+				"score": "temp"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:zombie_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Zombie\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:zombie\",Health:12,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:12d}],IsBaby:0,Team:team2,DeathLootTable:\"mi:entity_drops/zombies/zombie\"},CanPlaceOn:[\"smooth_quartz_slab\",\"lapis_block\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

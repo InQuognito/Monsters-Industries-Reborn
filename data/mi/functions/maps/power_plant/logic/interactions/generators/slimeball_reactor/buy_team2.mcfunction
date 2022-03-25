@@ -10,5 +10,5 @@ setblock 183 15 -130 minecraft:glowstone replace
 
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #slimeballReactorPaper price
-scoreboard players operation #clearSlimeballs temp = #slimeballReactorSlimeballs price
+scoreboard players operation #clearSlimeballs temp = #slimeballReactorSlimeball price
 function mi:logic/currency/apply_price

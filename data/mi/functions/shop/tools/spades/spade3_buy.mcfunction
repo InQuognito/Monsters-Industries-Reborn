@@ -4,7 +4,7 @@ title @s actionbar [{"text":"You have purchased a ","color":"green"},{"text":"Re
 
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #spade3Paper price
-scoreboard players operation #clearBones temp = #spade3Bones price
+scoreboard players operation #clearBones temp = #spade3Bone price
 function mi:logic/currency/apply_price
 
 clear @s #mi:shovels

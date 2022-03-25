@@ -1,8 +1,8 @@
-scoreboard players reset #clearPaper price
-scoreboard players reset #clearCoal price
-scoreboard players reset #clearBones price
-scoreboard players reset #clearSpiderEyes price
-scoreboard players reset #clearGunpowder price
-scoreboard players reset #clearSlimeballs price
-scoreboard players reset #clearNetherite price
-scoreboard players reset #clearTokens price
+scoreboard players reset #clearPaper temp
+scoreboard players reset #clearCoal temp
+scoreboard players reset #clearBones temp
+scoreboard players reset #clearSpiderEyes temp
+scoreboard players reset #clearGunpowder temp
+scoreboard players reset #clearSlimeballs temp
+scoreboard players reset #clearNetherite temp
+scoreboard players reset #clearTokens temp

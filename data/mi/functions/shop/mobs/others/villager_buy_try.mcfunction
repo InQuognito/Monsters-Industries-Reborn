@@ -1,7 +1,7 @@
 function mi:logic/convert_currency_scoreboards
 
-execute unless score #temp ct.paper >= #villager1Paper price run title @s actionbar [{"text":"You don't have enough resources to purchase a ","color":"red"},{"text":"Villager","color":"gray"},{"text":"!","color":"red"}]
-execute if score #temp ct.paper >= #villager1Paper price run function mi:shop/mobs/others/villager_buy
+scoreboard players operation #paperPrice temp = #villagerBasePaper price
+scoreboard players operation #paperPrice temp *= #mobShopMult temp
 
-scoreboard players set @s shop 0
-scoreboard players enable @a shop
+execute unless score #temp ct.paper >= #paperPrice temp run title @s actionbar [{"text":"You don't have enough resources to purchase this many ","color":"red"},{"text":"Villagers","color":"gray"},{"text":"!","color":"red"}]
+execute if score #temp ct.paper >= #paperPrice temp run function mi:shop/mobs/others/villager_buy

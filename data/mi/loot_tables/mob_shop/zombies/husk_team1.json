@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#mobShopMult"
+				},
+				"score": "temp"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:husk_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Husk\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:husk\",Health:14,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:14d}],Team:team1,DeathLootTable:\"mi:entity_drops/zombies/husk\"},CanPlaceOn:[\"smooth_stone_slab\",\"lapis_block\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

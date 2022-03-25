@@ -54,13 +54,13 @@ scoreboard players set #pickaxe4Paper price 160
 scoreboard players set #pickaxe4Coal price 128
 
 scoreboard players set #spade1Paper price 32
-scoreboard players set #spade1Bones price 16
+scoreboard players set #spade1Bone price 16
 scoreboard players set #spade2Paper price 64
-scoreboard players set #spade2Bones price 32
+scoreboard players set #spade2Bone price 32
 scoreboard players set #spade3Paper price 96
-scoreboard players set #spade3Bones price 64
+scoreboard players set #spade3Bone price 64
 scoreboard players set #spade4Paper price 160
-scoreboard players set #spade4Bones price 128
+scoreboard players set #spade4Bone price 128
 
 scoreboard players set #lighter1Paper price 32
 scoreboard players set #lighter1Gunpowder price 16
@@ -84,30 +84,30 @@ scoreboard players set #zombieBaseCoal price 4
 
 scoreboard players set #huskBasePaper price 12
 scoreboard players set #huskBaseCoal price 6
-scoreboard players set #huskBaseSpiderEyes price 1
+scoreboard players set #huskBaseSpiderEye price 1
 
 scoreboard players set #skeletonBasePaper price 24
-scoreboard players set #skeletonBaseBones price 6
+scoreboard players set #skeletonBaseBone price 6
 
 scoreboard players set #strayBasePaper price 32
-scoreboard players set #strayBaseBones price 8
-scoreboard players set #strayBaseSpiderEyes price 1
+scoreboard players set #strayBaseBone price 8
+scoreboard players set #strayBaseSpiderEye price 1
 
 scoreboard players set #spiderBasePaper price 8
-scoreboard players set #spiderBaseSpiderEyes price 4
+scoreboard players set #spiderBaseSpiderEye price 4
 
 scoreboard players set #caveSpiderBasePaper price 32
-scoreboard players set #caveSpiderBaseSpiderEyes price 8
+scoreboard players set #caveSpiderBaseSpiderEye price 8
 scoreboard players set #caveSpiderBaseGunpowder price 2
 
 scoreboard players set #creeperBasePaper price 48
 scoreboard players set #creeperBaseGunpowder price 12
 
 scoreboard players set #slimeBasePaper price 64
-scoreboard players set #slimeBaseSlimeballs price 16
+scoreboard players set #slimeBaseSlimeball price 16
 
 scoreboard players set #phantomBasePaper price 128
-scoreboard players set #phantomBaseSlimeballs price 24
+scoreboard players set #phantomBaseSlimeball price 24
 scoreboard players set #phantomBaseGunpowder price 16
 
 scoreboard players set #villagerBasePaper price 128
@@ -127,11 +127,11 @@ scoreboard players set #forgeIntervalNetherite price 12
 
 # Generators
 scoreboard players set #slimeballReactorPaper price 256
-scoreboard players set #slimeballReactorSlimeballs price 32
+scoreboard players set #slimeballReactorSlimeball price 32
 scoreboard players set #spiderEyeTrack1Paper price 256
-scoreboard players set #spiderEyeTrack1SpiderEyes price 16
+scoreboard players set #spiderEyeTrack1SpiderEye price 16
 scoreboard players set #spiderEyeTrack2Paper price 512
-scoreboard players set #spiderEyeTrack2SpiderEyes price 32
+scoreboard players set #spiderEyeTrack2SpiderEye price 32
 
 # Others
 scoreboard players set #enchanting price 2
@@ -205,9 +205,9 @@ scoreboard players set #maxHealth1 price 384
 scoreboard players set #maxHealth2 price 576
 scoreboard players set #maxHealth3 price 704
 scoreboard players set #maxHealth4Paper price 832
-scoreboard players set #maxHealth4Slimeballs price 64
+scoreboard players set #maxHealth4Slimeball price 64
 scoreboard players set #maxHealth5Paper price 960
-scoreboard players set #maxHealth5Slimeballs price 128
+scoreboard players set #maxHealth5Slimeball price 128
 
 scoreboard players set #recycling price 256
 

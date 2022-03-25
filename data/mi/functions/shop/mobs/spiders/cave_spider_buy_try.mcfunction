@@ -1,8 +1,8 @@
 function mi:logic/convert_currency_scoreboards
 
-scoreboard players operation #paperPrice temp = #caveSpiderBasePaper price
+scoreboard players operation #paperPrice temp = #caveSpiderScaledPaper price
 scoreboard players operation #paperPrice temp *= #mobShopMult temp
-scoreboard players operation #spiderEyePrice temp = #caveSpiderBaseSpiderEye price
+scoreboard players operation #spiderEyePrice temp = #caveSpiderScaledSpiderEye price
 scoreboard players operation #spiderEyePrice temp *= #mobShopMult temp
 scoreboard players operation #gunpowderPrice temp = #caveSpiderGunpowder price
 scoreboard players operation #gunpowderPrice temp *= #mobShopMult temp

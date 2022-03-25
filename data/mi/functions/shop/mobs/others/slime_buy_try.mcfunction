@@ -1,8 +1,8 @@
 function mi:logic/convert_currency_scoreboards
 
-scoreboard players operation #paperPrice temp = #slimeBasePaper price
+scoreboard players operation #paperPrice temp = #slimeScaledPaper price
 scoreboard players operation #paperPrice temp *= #mobShopMult temp
-scoreboard players operation #slimeballPrice temp = #slimeBaseSlimeball price
+scoreboard players operation #slimeballPrice temp = #slimeScaledSlimeball price
 scoreboard players operation #slimeballPrice temp *= #mobShopMult temp
 
 execute unless score #temp ct.paper >= #paperPrice temp run title @s actionbar [{"text":"You don't have enough paper to purchase this many ","color":"red"},{"text":"Slimes","color":"green"},{"text":"!","color":"red"}]

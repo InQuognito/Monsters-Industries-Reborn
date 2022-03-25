@@ -1,10 +1,10 @@
 function mi:logic/convert_currency_scoreboards
 
-scoreboard players operation #paperPrice temp = #strayBasePaper price
+scoreboard players operation #paperPrice temp = #strayScaledPaper price
 scoreboard players operation #paperPrice temp *= #mobShopMult temp
-scoreboard players operation #bonePrice temp = #strayBaseBone price
+scoreboard players operation #bonePrice temp = #strayScaledBone price
 scoreboard players operation #bonePrice temp *= #mobShopMult temp
-scoreboard players operation #spiderEyePrice temp = #strayBaseBone price
+scoreboard players operation #spiderEyePrice temp = #strayScaledBone price
 scoreboard players operation #spiderEyePrice temp *= #mobShopMult temp
 
 execute unless score #temp ct.paper >= #paperPrice temp run title @s actionbar [{"text":"You don't have enough paper to purchase this many ","color":"red"},{"text":"Strays","color":"dark_gray"},{"text":"!","color":"red"}]

@@ -1,5 +1,5 @@
 # Monsters Industries Reborn
-## This is not a download spot (If you're reading this after downloading from Planet Minecraft, then don't worry, you have everything you need to play). This is SOLELY for datapack development and doesn't include the full map or resource pack. Please visit the Planet Minecraft Page if you're interested in the map.
+## If you are reading this on GitHub: **This is not a download spot**. This is SOLELY for datapack development and doesn't include the full map or resource pack. Please visit the Planet Minecraft Page if you're interested in the map.
 Planet Minecraft:
 https://www.planetminecraft.com/project/monsters-industries-1-15-2-pvp-map/
 

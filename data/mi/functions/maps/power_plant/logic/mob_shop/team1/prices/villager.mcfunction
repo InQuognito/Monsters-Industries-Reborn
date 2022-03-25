@@ -1,3 +1,5 @@
+function mi:maps/power_plant/logic/mob_shop/team1/prices/clear_signs
+
 data merge block 93 22 -99 {Text2:'[{"score":{"name":"#villager1Paper","objective":"price"}},{"text":" Paper"}]'}
 data merge block 90 22 -99 {Text2:'[{"score":{"name":"#villager4Paper","objective":"price"}},{"text":" Paper"}]'}
 data merge block 93 21 -99 {Text2:'[{"score":{"name":"#villager8Paper","objective":"price"}},{"text":" Paper"}]'}

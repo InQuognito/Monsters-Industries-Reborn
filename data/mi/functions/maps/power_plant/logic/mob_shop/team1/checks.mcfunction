@@ -6,4 +6,4 @@ execute positioned 92.5 20.5 -98.5 if block ~ ~ ~ #minecraft:buttons[powered=tru
 execute positioned 91.5 20.5 -98.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run scoreboard players set #team1MobShopMult temp 64
 
 execute positioned 92.5 22.5 -98.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:maps/power_plant/logic/mob_shop/team1/check_mob
-fill 91 20 -99 92 22 -99 minecraft:birch_button[powered=false] replace
+fill 91 20 -99 92 22 -99 minecraft:birch_button[face=wall,facing=north,powered=false] replace

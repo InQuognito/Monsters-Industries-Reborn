@@ -1,0 +1,10 @@
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=zombie] run function mi:shop/mobs/zombies/zombie_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=husk] run function mi:shop/mobs/zombies/husk_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=skeleton] run function mi:shop/mobs/skeletons/skeleton_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=stray] run function mi:shop/mobs/skeletons/stray_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=spider] run function mi:shop/mobs/spiders/spider_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=caveSpider] run function mi:shop/mobs/spiders/cave_spider_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=creeper] run function mi:shop/mobs/others/creeper_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=slime] run function mi:shop/mobs/others/slime_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=phantom] run function mi:shop/mobs/others/phantom_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=villager] run function mi:shop/mobs/others/villager_buy_try

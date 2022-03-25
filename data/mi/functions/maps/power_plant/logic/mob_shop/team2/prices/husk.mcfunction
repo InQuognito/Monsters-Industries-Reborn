@@ -1,0 +1,8 @@
+function mi:maps/power_plant/logic/mob_shop/team2/prices/clear_signs
+
+data merge block 187 22 -152 {Text2:'[{"score":{"name":"#husk1Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#husk1Coal","objective":"price"}},{"text":" Coal"}]',Text4:'[{"score":{"name":"#husk1SpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'}
+data merge block 190 22 -152 {Text2:'[{"score":{"name":"#husk4Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#husk4Coal","objective":"price"}},{"text":" Coal"}]',Text4:'[{"score":{"name":"#husk4SpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'}
+data merge block 187 21 -152 {Text2:'[{"score":{"name":"#husk8Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#husk8Coal","objective":"price"}},{"text":" Coal"}]',Text4:'[{"score":{"name":"#husk8SpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'}
+data merge block 190 21 -152 {Text2:'[{"score":{"name":"#husk16Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#husk16Coal","objective":"price"}},{"text":" Coal"}]',Text4:'[{"score":{"name":"#husk16SpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'}
+data merge block 187 20 -152 {Text2:'[{"score":{"name":"#husk32Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#husk32Coal","objective":"price"}},{"text":" Coal"}]',Text4:'[{"score":{"name":"#husk32SpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'}
+data merge block 190 20 -152 {Text2:'[{"score":{"name":"#husk64Paper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#husk64Coal","objective":"price"}},{"text":" Coal"}]',Text4:'[{"score":{"name":"#husk64SpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'}

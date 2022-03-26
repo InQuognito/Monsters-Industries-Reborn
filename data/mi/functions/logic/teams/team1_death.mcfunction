@@ -1,10 +1,13 @@
-execute if score $mode mode matches 0 run scoreboard players remove $team1 stock 25
-execute if score $mode mode matches 1 run scoreboard players remove $team1 stock 50
-execute if score $mode mode matches 0..1 run scoreboard players add $team2 stock 100
+scoreboard players operation #stockLoss temp = $stockLimit stock
+execute if score $mode mode matches 0 run scoreboard players operation #stockLoss temp /= #deathOnCasual vars
+execute if score $mode mode matches 1.. run scoreboard players operation #stockLoss temp /= #deathOnHarder vars
+scoreboard players operation #stockGain temp = $stockLimit stock
+execute if score $mode mode matches 0..1 run scoreboard players operation #stockGain temp /= #kill vars
+execute if score $mode mode matches 2 run scoreboard players operation #stockGain temp /= #team1Amount temp
 
-execute if score $mode mode matches 2 if score $stockLimit stock matches 250 run scoreboard players add $team2 stock 125
-execute if score $mode mode matches 2 if score $stockLimit stock matches 500 run scoreboard players add $team2 stock 250
-execute if score $mode mode matches 2 if score $stockLimit stock matches 1000 run scoreboard players add $team2 stock 500
+scoreboard players operation $team1 stock -= #stockLoss temp
+scoreboard players operation $team2 stock += #stockGain temp
+
 execute if score $mode mode matches 2 run scoreboard players add #team1dead temp 1
 execute if score $mode mode matches 2 as @a[team=team1,scores={isDead=1..}] run gamemode spectator @s
 

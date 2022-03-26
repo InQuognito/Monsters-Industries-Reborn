@@ -133,6 +133,11 @@ scoreboard players set #spiderEyeTrack1SpiderEye price 16
 scoreboard players set #spiderEyeTrack2Paper price 512
 scoreboard players set #spiderEyeTrack2SpiderEye price 32
 
+# Kill/Death Stock Values
+scoreboard players set #deathOnCasual vars 40
+scoreboard players set #deathOnHarder vars 20
+scoreboard players set #kill vars 10
+
 # Others
 scoreboard players set #enchanting price 2
 scoreboard players set #enchantmentLuckPaper price 1024
@@ -217,6 +222,9 @@ scoreboard players set #unlimitedBankAccount price 768
 
 # Wall Street
 scoreboard players set #wallStreetMax vars 75
+scoreboard players set #wallStreet1 vars 200
+scoreboard players set #wallStreet1 vars 100
+scoreboard players set #wallStreet1 vars 50
 scoreboard players set #wallStreet1 price 128
 scoreboard players set #wallStreet2 price 243
 scoreboard players set #wallStreet3 price 462

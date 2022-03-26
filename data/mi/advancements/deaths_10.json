@@ -9,7 +9,7 @@
 			"color": "white"
 		},
 		"icon": {
-			"item": "minecraft:skeleton_skull"
+			"item": "minecraft:bone"
 		},
 		"frame": "task",
 		"show_toast": true,

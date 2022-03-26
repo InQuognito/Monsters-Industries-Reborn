@@ -1,26 +1,25 @@
 {
 	"display": {
 		"title": {
-			"text": "Cannon Fodder",
-			"color": "yellow",
-			"bold": true
+			"text": "Industrial Age",
+			"color": "yellow"
 		},
 		"description": {
-			"text": "Die 100 times.",
+			"text": "Restart the old forge.",
 			"color": "white"
 		},
 		"icon": {
-			"item": "minecraft:skeleton_skull"
+			"item": "minecraft:blast_furnace"
 		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": false
+		"hidden": true
 	},
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
-	"parent": "mi:deaths_10"
+	"parent": "mi:root"
 }

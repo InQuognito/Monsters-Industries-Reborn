@@ -25,6 +25,10 @@ summon minecraft:item_frame 130 25 -154 {Facing:4b,Fixed:1b,Invisible:1b,Invulne
 summon minecraft:item_frame 105 15 -119 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
 summon minecraft:item_frame 91 23 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
 summon minecraft:item_frame 91 19 -154 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
+summon minecraft:item_frame 99 22 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Fusion Recipes:"}'}}}}
+summon minecraft:item_frame 97 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Baby Zombie = Zombie + Zombie"}'}}}}
+summon minecraft:item_frame 100 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:witch_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Witch = Husk + Stray"}'}}}}
+summon minecraft:item_frame 101 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_villager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Zombie Villager = Villager + Zombie"}'}}}}
 
 summon minecraft:minecart 78 19.1 -140 {Invulnerable:1b,NoGravity:1b}
 summon minecraft:minecart 78 19.1 -142 {Invulnerable:1b,NoGravity:1b}
@@ -43,6 +47,10 @@ summon minecraft:item_frame 150 25 -100 {Facing:5b,Fixed:1b,Invisible:1b,Invulne
 summon minecraft:item_frame 175 15 -132 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
 summon minecraft:item_frame 189 23 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Prototype Fusion Splicing Machine"}'}}}}
 summon minecraft:item_frame 189 19 -97 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Experiment to find recipes!"}'}}}}
+summon minecraft:item_frame 181 22 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Fusion Recipes:"}'}}}}
+summon minecraft:item_frame 183 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Baby Zombie = Zombie + Zombie"}'}}}}
+summon minecraft:item_frame 180 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:witch_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Witch = Husk + Stray"}'}}}}
+summon minecraft:item_frame 179 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_villager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Zombie Villager = Villager + Zombie"}'}}}}
 
 summon minecraft:minecart 202 19.1 -111 {Invulnerable:1b,NoGravity:1b}
 summon minecraft:minecart 202 19.1 -109 {Invulnerable:1b,NoGravity:1b}

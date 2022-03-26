@@ -10,7 +10,7 @@
         },
         "icon": {
             "item": "minecraft:iron_sword",
-			"nbt": "{Enchantments:[{id:infinity,lvl:1}]}"
+			"nbt": "{Enchantments:[]}"
         },
         "frame": "task",
         "show_toast": true,

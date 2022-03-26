@@ -134,9 +134,13 @@ scoreboard players set #spiderEyeTrack2Paper price 512
 scoreboard players set #spiderEyeTrack2SpiderEye price 32
 
 # Kill/Death Stock Values
-scoreboard players set #deathOnCasual vars 40
-scoreboard players set #deathOnHarder vars 20
-scoreboard players set #kill vars 10
+execute if score $mode mode matches 0 run scoreboard players set #deathPercent vars 40
+execute if score $mode mode matches 0 run scoreboard players set #deathPercent vars 20
+scoreboard players operation #death vars = $stockLimit stock
+scoreboard players operation #death vars /= #deathPercent vars
+scoreboard players set #killPercent vars 10
+scoreboard players operation #kill vars = $stockLimit stock
+scoreboard players operation #kill vars /= #killPercent vars
 
 # Others
 scoreboard players set #enchanting price 2
@@ -222,9 +226,15 @@ scoreboard players set #unlimitedBankAccount price 768
 
 # Wall Street
 scoreboard players set #wallStreetMax vars 75
-scoreboard players set #wallStreet1 vars 200
-scoreboard players set #wallStreet1 vars 100
-scoreboard players set #wallStreet1 vars 50
+scoreboard players set #wallStreet1Percent vars 200
+scoreboard players operation #wallStreet1 vars = $stockLimit stock
+scoreboard players operation #wallStreet1 vars /= #wallStreet1 vars
+scoreboard players set #wallStreet2Percent vars 100
+scoreboard players operation #wallStreet2 vars = $stockLimit stock
+scoreboard players operation #wallStreet2 vars /= #wallStreet2 vars
+scoreboard players set #wallStreet3Percent vars 50
+scoreboard players operation #wallStreet3 vars = $stockLimit stock
+scoreboard players operation #wallStreet3 vars /= #wallStreet3 vars
 scoreboard players set #wallStreet1 price 128
 scoreboard players set #wallStreet2 price 243
 scoreboard players set #wallStreet3 price 462

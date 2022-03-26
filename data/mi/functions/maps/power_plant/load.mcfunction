@@ -11,9 +11,6 @@ function mi:maps/power_plant/reset
 
 function mi:maps/power_plant/entities
 
-execute if score $rushMode mode matches 1 run summon minecraft:zombified_piglin 84 27 -136 {CustomName:'[{"text":"Employee","color":"aqua"}]',CustomNameVisible:1b,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team1,DeathLootTable:"mi:entity_drops/empty"}
-execute if score $rushMode mode matches 1 run summon minecraft:zombified_piglin 196 27 -116 {CustomName:'[{"text":"Employee","color":"red"}]',CustomNameVisible:1b,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team2,DeathLootTable:"mi:entity_drops/empty"}
-
 time set noon
 
 spawnpoint @a[team=team1] 97 28 -125 0.0

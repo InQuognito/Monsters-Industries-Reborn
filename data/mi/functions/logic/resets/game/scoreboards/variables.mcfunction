@@ -75,7 +75,6 @@ scoreboard players set #lighter4Gunpowder price 128
 scoreboard players set #paperProduction1 price 64
 scoreboard players set #paperProduction2 price 128
 scoreboard players set #paperProduction3 price 256
-
 scoreboard players set #lever price 768
 
 # Mobs
@@ -122,8 +121,8 @@ scoreboard players set #employeeGenerationAmount vars 5
 
 # Forge
 scoreboard players set #forgeStart price 512
-scoreboard players set #forgeIntervalTokens price 4
-scoreboard players set #forgeIntervalNetherite price 12
+scoreboard players set #forgeIntervalTokens price 1
+scoreboard players set #forgeIntervalNetherite price 8
 
 # Generators
 scoreboard players set #slimeballReactorPaper price 256
@@ -143,14 +142,14 @@ scoreboard players operation #kill vars = $stockLimit stock
 scoreboard players operation #kill vars /= #killPercent vars
 
 # Others
-scoreboard players set #enchanting price 2
-scoreboard players set #enchantmentLuckPaper price 1024
-scoreboard players set #enchantmentLuckNetherite price 64
+scoreboard players set #enchanting price 1
+scoreboard players set #enchantmentLuckPaper price 896
+scoreboard players set #enchantmentLuckNetherite price 48
 scoreboard players set #leverCps vars 5
-scoreboard players set #neuronWorm price 3
+scoreboard players set #neuronWorm price 2
 scoreboard players set #randomRecipe price 96
 scoreboard players set #replaceMerchant price 256
-scoreboard players set #sentry price 4
+scoreboard players set #sentry price 2
 
 # Resource Maximums
 scoreboard players set #paperMax vars 1000
@@ -228,13 +227,13 @@ scoreboard players set #unlimitedBankAccount price 768
 scoreboard players set #wallStreetMax vars 75
 scoreboard players set #wallStreet1Percent vars 200
 scoreboard players operation #wallStreet1 vars = $stockLimit stock
-scoreboard players operation #wallStreet1 vars /= #wallStreet1 vars
+scoreboard players operation #wallStreet1 vars /= #wallStreet1Percent vars
 scoreboard players set #wallStreet2Percent vars 100
 scoreboard players operation #wallStreet2 vars = $stockLimit stock
-scoreboard players operation #wallStreet2 vars /= #wallStreet2 vars
+scoreboard players operation #wallStreet2 vars /= #wallStreet2Percent vars
 scoreboard players set #wallStreet3Percent vars 50
 scoreboard players operation #wallStreet3 vars = $stockLimit stock
-scoreboard players operation #wallStreet3 vars /= #wallStreet3 vars
+scoreboard players operation #wallStreet3 vars /= #wallStreet3Percent vars
 scoreboard players set #wallStreet1 price 128
 scoreboard players set #wallStreet2 price 243
 scoreboard players set #wallStreet3 price 462

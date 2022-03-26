@@ -14,6 +14,10 @@ summon minecraft:villager 205.5 19.0 -109.5 {VillagerData:{type:"minecraft:jungl
 function mi:maps/power_plant/logic/mob_shop/team1/load_zombies_skeletons
 function mi:maps/power_plant/logic/mob_shop/team2/load_zombies_skeletons
 
+# Rush Mode Employees
+execute if score $rushMode mode matches 1 run summon minecraft:zombified_piglin 84 27 -136 {CustomName:'[{"text":"Employee","color":"aqua"}]',CustomNameVisible:1b,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team1,DeathLootTable:"mi:entity_drops/empty"}
+execute if score $rushMode mode matches 1 run summon minecraft:zombified_piglin 196 27 -116 {CustomName:'[{"text":"Employee","color":"red"}]',CustomNameVisible:1b,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],ArmorItems:[{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0},{id:"minecraft:air",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team2,DeathLootTable:"mi:entity_drops/empty"}
+
 # Decor
 summon minecraft:item_frame 103 29 -129 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}
 summon minecraft:item_frame 103 29 -122 {Facing:1b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Sign Papers"}'}}},ItemRotation:1b}

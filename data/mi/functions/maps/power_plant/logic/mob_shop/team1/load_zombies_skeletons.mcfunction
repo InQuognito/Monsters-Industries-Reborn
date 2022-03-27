@@ -1,4 +1,4 @@
-function mi:maps/power_plant/logic/mob_shop/clear
+function mi:maps/power_plant/logic/mob_shop/team1/clear
 
 summon minecraft:area_effect_cloud 104.5 21.6 -98.5 {Tags:["team1","mobShop"],Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Zombies / Skeletons","color":"gold","bold":true}',CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 104.5 21.4 -98.5 {Tags:["team1","mobShop"],Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Others","color":"yellow","bold":false}',CustomNameVisible:1b}

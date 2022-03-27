@@ -1,4 +1,4 @@
-kill @e[type=#mi:mobs,team=team1]
+kill @e[type=#mi:hostile_mobs,team=team1]
 
 tag @s add self
 title @s actionbar {"text":"You have activated the Nuke!","color":"green"}

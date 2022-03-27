@@ -113,7 +113,7 @@
 								"extra": [
 									{
 										"score": {
-											"name": "#paperMaxScaled",
+											"name": "#paperMaxTeam1",
 											"objective": "vars"
 										},
 										"color": "gold",
@@ -265,7 +265,7 @@
 								"extra": [
 									{
 										"score": {
-											"name": "#coalMaxScaled",
+											"name": "#coalMaxTeam1",
 											"objective": "vars"
 										},
 										"color": "gold",
@@ -417,7 +417,7 @@
 								"extra": [
 									{
 										"score": {
-											"name": "#bonesMaxScaled",
+											"name": "#bonesMaxTeam1",
 											"objective": "vars"
 										},
 										"color": "gold",
@@ -569,7 +569,7 @@
 								"extra": [
 									{
 										"score": {
-											"name": "#gunpowderMaxScaled",
+											"name": "#gunpowderMaxTeam1",
 											"objective": "vars"
 										},
 										"color": "gold",
@@ -721,7 +721,7 @@
 								"extra": [
 									{
 										"score": {
-											"name": "#spiderEyesMaxScaled",
+											"name": "#spiderEyesMaxTeam1",
 											"objective": "vars"
 										},
 										"color": "gold",
@@ -873,7 +873,7 @@
 								"extra": [
 									{
 										"score": {
-											"name": "#slimeballMaxScaled",
+											"name": "#slimeballMaxTeam1",
 											"objective": "vars"
 										},
 										"color": "gold",
@@ -1025,7 +1025,7 @@
 								"extra": [
 									{
 										"score": {
-											"name": "#netheriteMaxScaled",
+											"name": "#netheriteMaxTeam1",
 											"objective": "vars"
 										},
 										"color": "gold",

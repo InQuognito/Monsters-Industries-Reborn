@@ -158,23 +158,35 @@ scoreboard players operation #paperMaxTeam1 vars *= #team1Amount temp
 scoreboard players operation #paperMaxTeam2 vars = #paperMax vars
 scoreboard players operation #paperMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #coalMax vars 100
-scoreboard players operation #coalMaxScaled vars = #coalMax vars
-scoreboard players operation #coalMaxScaled vars *= #team1Amount temp
+scoreboard players operation #coalMaxTeam1 vars = #coalMax vars
+scoreboard players operation #coalMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #coalMaxTeam2 vars = #coalMax vars
+scoreboard players operation #coalMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #bonesMax vars 100
-scoreboard players operation #bonesMaxScaled vars = #bonesMax vars
-scoreboard players operation #bonesMaxScaled vars *= #team1Amount temp
+scoreboard players operation #bonesMaxTeam1 vars = #bonesMax vars
+scoreboard players operation #bonesMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #bonesMaxTeam2 vars = #bonesMax vars
+scoreboard players operation #bonesMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #gunpowderMax vars 100
-scoreboard players operation #gunpowderMaxScaled vars = #gunpowderMax vars
-scoreboard players operation #gunpowderMaxScaled vars *= #team1Amount temp
+scoreboard players operation #gunpowderMaxTeam1 vars = #gunpowderMax vars
+scoreboard players operation #gunpowderMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #gunpowderMaxTeam2 vars = #gunpowderMax vars
+scoreboard players operation #gunpowderMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #spiderEyesMax vars 100
-scoreboard players operation #spiderEyesMaxScaled vars = #spiderEyesMax vars
-scoreboard players operation #spiderEyesMaxScaled vars *= #team1Amount temp
+scoreboard players operation #spiderEyesMaxTeam1 vars = #spiderEyesMax vars
+scoreboard players operation #spiderEyesMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #spiderEyesMaxTeam2 vars = #spiderEyesMax vars
+scoreboard players operation #spiderEyesMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #slimeballMax vars 100
-scoreboard players operation #slimeballMaxScaled vars = #slimeballMax vars
-scoreboard players operation #slimeballMaxScaled vars *= #team1Amount temp
+scoreboard players operation #slimeballMaxTeam1 vars = #slimeballMax vars
+scoreboard players operation #slimeballMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #slimeballMaxTeam2 vars = #slimeballMax vars
+scoreboard players operation #slimeballMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #netheriteMax vars 50
-scoreboard players operation #netheriteMaxScaled vars = #netheriteMax vars
-scoreboard players operation #netheriteMaxScaled vars *= #team1Amount temp
+scoreboard players operation #netheriteMaxTeam1 vars = #netheriteMax vars
+scoreboard players operation #netheriteMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #netheriteMaxTeam2 vars = #netheriteMax vars
+scoreboard players operation #netheriteMaxTeam2 vars *= #team2Amount temp
 
 # Sabotages
 scoreboard players set #factoryShutdown price 100

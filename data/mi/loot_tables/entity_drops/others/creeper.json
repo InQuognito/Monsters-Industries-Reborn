@@ -10,7 +10,13 @@
 				{
 					"type": "minecraft:item",
 					"weight": 124,
-					"name": "minecraft:gunpowder"
+					"name": "minecraft:gunpowder",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",

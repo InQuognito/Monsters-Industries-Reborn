@@ -10,7 +10,13 @@
 				{
 					"type": "minecraft:item",
 					"weight": 149,
-					"name": "minecraft:coal"
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",

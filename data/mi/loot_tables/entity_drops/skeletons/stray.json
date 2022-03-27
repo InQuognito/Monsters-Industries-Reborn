@@ -10,12 +10,24 @@
 				{
 					"type": "minecraft:item",
 					"weight": 85,
-					"name": "minecraft:bone"
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 39,
-					"name": "minecraft:spider_eye"
+					"name": "minecraft:spider_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",

@@ -10,12 +10,24 @@
 				{
 					"type": "minecraft:item",
 					"weight": 50,
-					"name": "minecraft:coal"
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 24,
-					"name": "minecraft:spider_eye"
+					"name": "minecraft:spider_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",

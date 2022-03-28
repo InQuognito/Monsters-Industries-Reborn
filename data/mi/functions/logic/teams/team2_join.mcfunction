@@ -1,4 +1,4 @@
-title @a[team=!team2,scores={lobby=2}] actionbar [{"text":"You have joined "},{"text":"Team 2","color":"red"},{"text":"!"}]
-team join team2 @a[team=!team2,scores={lobby=2}]
+title @s[team=!team2] actionbar [{"text":"You have joined "},{"text":"Team 2","color":"red"},{"text":"!"}]
+team join team2 @s
 
-tp @a[scores={lobby=2}] -28.5 5.0 -108.5 270.0 0.0
+tp @s -28.5 5.0 -108.5 270.0 0.0

@@ -1,19 +1,20 @@
 # Join Team 1
 execute positioned -28.5 6.5 -113.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run trigger lobby set 1
-execute as @p[scores={lobby=1}] run function mi:logic/teams/team1_join
 execute positioned -28.5 6.5 -113.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:stone_button[face=wall,facing=south]
+
+function mi:logic/teams/team1_join
 
 # Join Team 2
 execute positioned -28.5 6.5 -103.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run trigger lobby set 2
 execute positioned -28.5 6.5 -103.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:stone_button[face=wall,facing=north]
 
-execute as @p[scores={lobby=2}] run function mi:logic/teams/team2_join
+function mi:logic/teams/team2_join
 
 # Join Spectators
 execute positioned -24.5 6.5 -105.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run trigger lobby set 3
 execute positioned -24.5 6.5 -105.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:stone_button[face=wall,facing=west]
 
-execute as @p[scores={lobby=3}] run function mi:logic/teams/spectators_join
+function mi:logic/teams/spectators_join
 
 # Settings (From Lobby)
 execute positioned -24.5 6.5 -111.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run trigger lobby set 4

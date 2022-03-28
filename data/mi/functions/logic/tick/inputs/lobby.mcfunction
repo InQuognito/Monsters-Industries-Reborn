@@ -1,8 +1,6 @@
 # Join Team 1
-execute positioned -28.5 6.5 -113.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run trigger lobby set 1
+execute positioned -28.5 6.5 -113.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run function mi:logic/teams/team1_join
 execute positioned -28.5 6.5 -113.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:stone_button[face=wall,facing=south]
-
-function mi:logic/teams/team1_join
 
 # Join Team 2
 execute positioned -28.5 6.5 -103.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p run trigger lobby set 2

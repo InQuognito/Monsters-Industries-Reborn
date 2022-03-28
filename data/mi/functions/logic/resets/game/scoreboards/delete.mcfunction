@@ -22,7 +22,6 @@ scoreboard objectives remove healthMult
 scoreboard objectives remove integers
 scoreboard objectives remove isDead
 scoreboard objectives remove lighterLevel
-scoreboard objectives remove lobby
 scoreboard objectives remove map
 scoreboard objectives remove mode
 scoreboard objectives remove pickaxeLevel

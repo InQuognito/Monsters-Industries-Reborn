@@ -11,7 +11,7 @@ tellraw @a[team=team1,tag=!self] [{"text":"Your teammate has purchased a ","colo
 tag @s remove self
 
 give @a[team=team1] minecraft:copper_ingot{credit_card:1,display:{Name:'[{"text":"Credit Card","italic":false,"color":"aqua","underlined":true,"bold":true}]'}} 1
-execute as @a[team=team1] run function mi:logic/resources/transfer_to_bank_account
+execute as @a[team=team1] run function mi:logic/resources/transfer_to_bank_account/check
 
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #bankAccount price

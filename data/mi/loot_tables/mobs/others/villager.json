@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#mobShopMult"
+				},
+				"score": "temp"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:villager_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Villager\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:villager\",Invulnerable:1b,PersistenceRequired:1b,Team:team1,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team1"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Villager\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:villager\",Invulnerable:1b,PersistenceRequired:1b,Team:team2,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team2"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,4 +1,3 @@
-give @s[team=team1] minecraft:witch_spawn_egg{display:{Name:'[{"text":"Witch","italic":false,"color":"aqua"}]'},EntityTag:{id:"minecraft:witch",Health:16,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"minecraft:generic.follow_range",Base:2048d},{Name:"minecraft:generic.max_health",Base:16d}],Team:team1,DeathLootTable:"mi:entity_drops/illagers/witch"},CanPlaceOn:["smooth_stone_slab","lapis_block"]} 1
-give @s[team=team2] minecraft:witch_spawn_egg{display:{Name:'[{"text":"Witch","italic":false,"color":"red"}]'},EntityTag:{id:"minecraft:witch",Health:16,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"minecraft:generic.follow_range",Base:2048d},{Name:"minecraft:generic.max_health",Base:16d}],Team:team2,DeathLootTable:"mi:entity_drops/illagers/witch"},CanPlaceOn:["smooth_quartz_slab","lapis_block"]} 1
+loot give @s loot mi:mobs/illagers/witch
 
-execute as @s run function mi:logic/fusion/fusion_success
+function mi:logic/fusion/fusion_success

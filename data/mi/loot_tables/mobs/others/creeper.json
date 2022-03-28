@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#mobShopMult"
+				},
+				"score": "temp"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:creeper_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Creeper\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:creeper\",Health:30,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:30d}],Team:team1,DeathLootTable:\"mi:entity_drops/others/creeper\"},CanPlaceOn:[\"smooth_stone_slab\",\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team1"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Creeper\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:creeper\",Health:30,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:30d}],Team:team2,DeathLootTable:\"mi:entity_drops/others/creeper\"},CanPlaceOn:[\"smooth_quartz_slab\",\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team2"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

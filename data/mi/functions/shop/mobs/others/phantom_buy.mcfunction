@@ -1,5 +1,4 @@
-loot give @s[team=team1] loot mi:mob_shop/others/phantom_team1
-loot give @s[team=team2] loot mi:mob_shop/others/phantom_team2
+loot give @s loot mi:mobs/others/phantom
 
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #phantomScaledPaper price

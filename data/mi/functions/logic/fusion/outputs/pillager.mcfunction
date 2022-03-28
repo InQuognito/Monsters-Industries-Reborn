@@ -1,7 +1,6 @@
-give @s[team=team1] minecraft:pillager_spawn_egg{display:{Name:'[{"text":"Pillager","italic":false,"color":"aqua"}]'},EntityTag:{id:"minecraft:pillager",Health:24,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"minecraft:generic.follow_range",Base:2048d},{Name:"minecraft:generic.max_health",Base:24d}],Team:team1,DeathLootTable:"mi:entity_drops/illagers/pillager"},CanPlaceOn:["smooth_stone_slab","lapis_block"]} 1
-give @s[team=team2] minecraft:pillager_spawn_egg{display:{Name:'[{"text":"Pillager","italic":false,"color":"red"}]'},EntityTag:{id:"minecraft:pillager",Health:24,PersistenceRequired:1b,Tags:["newMob"],Attributes:[{Name:"minecraft:generic.follow_range",Base:2048d},{Name:"minecraft:generic.max_health",Base:24d}],Team:team2,DeathLootTable:"mi:entity_drops/illagers/pillager"},CanPlaceOn:["smooth_quartz_slab","lapis_block"]} 1
+loot give @s loot mi:mobs/illagers/pillager
 
-execute as @s run function mi:logic/fusion/fusion_success
+function mi:logic/fusion/fusion_success
 
 execute if score $powerPlant map matches 1 if entity @s[team=team1] unless entity @e[type=minecraft:item_frame,x=97,y=20,z=-155,dx=0,dy=0,dz=0] run summon minecraft:item_frame 97 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:pillager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Pillager = Skeleton + Zombie Villager"}'}}}}
 execute if score $powerPlant map matches 1 if entity @s[team=team2] unless entity @e[type=minecraft:item_frame,x=183,y=20,z=-96,dx=0,dy=0,dz=0] run summon minecraft:item_frame 183 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:pillager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Pillager = Skeleton + Zombie Villager"}'}}}}

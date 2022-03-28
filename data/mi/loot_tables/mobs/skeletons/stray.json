@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#mobShopMult"
+				},
+				"score": "temp"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stray_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Stray\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:stray\",Health:10,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"bow\",Count:1},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:10d}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team1,DeathLootTable:\"mi:entity_drops/skeletons/stray\"},CanPlaceOn:[\"smooth_stone_slab\",\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team1"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Stray\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:stray\",Health:10,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"bow\",Count:1},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:10d}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team2,DeathLootTable:\"mi:entity_drops/skeletons/stray\"},CanPlaceOn:[\"smooth_quartz_slab\",\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team2"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

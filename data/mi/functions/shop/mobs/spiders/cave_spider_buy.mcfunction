@@ -1,5 +1,4 @@
-loot give @s[team=team1] loot mi:mob_shop/spiders/cave_spider_team1
-loot give @s[team=team2] loot mi:mob_shop/spiders/cave_spider_team2
+loot give @s loot mi:mobs/spiders/cave_spider
 
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #caveSpiderScaledPaper price

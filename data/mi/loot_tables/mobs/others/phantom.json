@@ -16,7 +16,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Phantom\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:phantom\",Health:25,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:25d}],Team:team1,DeathLootTable:\"mi:entity_drops/others/phantom\"},CanPlaceOn:[\"smooth_stone_slab\",\"lapis_block\"]}",
+							"tag": "{phantom:1,display:{Name:'[{\"text\":\"Phantom\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:phantom\",Health:25,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:25d}],Team:team1,DeathLootTable:\"mi:entity_drops/others/phantom\"},CanPlaceOn:[\"smooth_stone_slab\",\"lapis_block\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -29,7 +29,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Phantom\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:phantom\",Health:25,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:25d}],Team:team2,DeathLootTable:\"mi:entity_drops/others/phantom\"},CanPlaceOn:[\"smooth_quartz_slab\",\"lapis_block\"]}",
+							"tag": "{phantom:1,display:{Name:'[{\"text\":\"Phantom\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:phantom\",Health:25,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:25d}],Team:team2,DeathLootTable:\"mi:entity_drops/others/phantom\"},CanPlaceOn:[\"smooth_quartz_slab\",\"lapis_block\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

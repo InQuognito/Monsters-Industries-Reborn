@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Illusioner\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:illusioner\",Health:60,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:60d}],Team:team1,DeathLootTable:\"mi:entity_drops/illagers/illusioner\"},CanPlaceOn:[\"smooth_stone_slab\"]}",
+							"tag": "{illusioner:1,display:{Name:'[{\"text\":\"Illusioner\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:illusioner\",Health:60,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:60d}],Team:team1,DeathLootTable:\"mi:entity_drops/illagers/illusioner\"},CanPlaceOn:[\"smooth_stone_slab\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Illusioner\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:illusioner\",Health:60,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:60d}],Team:team2,DeathLootTable:\"mi:entity_drops/illagers/illusioner\"},CanPlaceOn:[\"smooth_quartz_slab\"]}",
+							"tag": "{illusioner:1,display:{Name:'[{\"text\":\"Illusioner\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:illusioner\",Health:60,PersistenceRequired:1b,Tags:[\"newMob\"],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:60d}],Team:team2,DeathLootTable:\"mi:entity_drops/illagers/illusioner\"},CanPlaceOn:[\"smooth_quartz_slab\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

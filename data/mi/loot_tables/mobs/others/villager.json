@@ -16,7 +16,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Villager\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:villager\",Invulnerable:1b,PersistenceRequired:1b,Team:team1,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
+							"tag": "{villager:1,display:{Name:'[{\"text\":\"Villager\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:villager\",Invulnerable:1b,PersistenceRequired:1b,Team:team1,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -29,7 +29,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Villager\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:villager\",Invulnerable:1b,PersistenceRequired:1b,Team:team2,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
+							"tag": "{villager:1,display:{Name:'[{\"text\":\"Villager\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:villager\",Invulnerable:1b,PersistenceRequired:1b,Team:team2,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

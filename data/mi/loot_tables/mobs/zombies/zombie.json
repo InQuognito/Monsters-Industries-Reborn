@@ -16,7 +16,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Zombie\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:zombie\",Health:12,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:12d}],IsBaby:0,Team:team1,DeathLootTable:\"mi:entity_drops/zombies/zombie\"},CanPlaceOn:[\"smooth_stone_slab\",\"lapis_block\"]}",
+							"tag": "{zombie:1,display:{Name:'[{\"text\":\"Zombie\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:zombie\",Health:12,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:12d}],IsBaby:0,Team:team1,DeathLootTable:\"mi:entity_drops/zombies/zombie\"},CanPlaceOn:[\"smooth_stone_slab\",\"lapis_block\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -29,7 +29,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Zombie\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:zombie\",Health:12,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:12d}],IsBaby:0,Team:team2,DeathLootTable:\"mi:entity_drops/zombies/zombie\"},CanPlaceOn:[\"smooth_quartz_slab\",\"lapis_block\"]}",
+							"tag": "{zombie:1,display:{Name:'[{\"text\":\"Zombie\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:zombie\",Health:12,PersistenceRequired:1b,Tags:[\"newMob\"],HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.max_health\",Base:12d}],IsBaby:0,Team:team2,DeathLootTable:\"mi:entity_drops/zombies/zombie\"},CanPlaceOn:[\"smooth_quartz_slab\",\"lapis_block\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

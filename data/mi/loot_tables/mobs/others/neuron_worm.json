@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:endermite_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{neuronWorm:1,display:{Name:'[{\"text\":\"Neuron Worm\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:endermite\",Invulnerable:1b,PersistenceRequired:1b,Team:team1,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team1"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{neuronWorm:1,display:{Name:'[{\"text\":\"Neuron Worm\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:endermite\",Invulnerable:1b,PersistenceRequired:1b,Team:team2,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"team": "team2"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

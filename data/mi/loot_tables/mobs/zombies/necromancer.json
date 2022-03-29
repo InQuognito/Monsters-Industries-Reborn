@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Necromancer\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{Health:25,PersistenceRequired:1b,Tags:[\"necromancer\",\"newMob\"],ArmorItems:[{id:\"leather_boots\",tag:{display:{color:1908001}},Count:1},{id:\"leather_leggings\",tag:{display:{color:1908001}},Count:1},{id:\"leather_chestplate\",tag:{display:{color:1908001}},Count:1},{id:\"leather_helmet\",tag:{display:{color:1908001}},Count:1}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.movement_speed\",Base:0.17d},{Name:\"minecraft:generic.max_health\",Base:25d}],ArmorDropChances:[0F,0F,0F,0F],IsBaby:0,Team:team1,DeathLootTable:\"mi:entity_drops/others/necromancer\"},CanPlaceOn:[\"smooth_stone_slab\"]}",
+							"tag": "{necromancer:1,display:{Name:'[{\"text\":\"Necromancer\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{Health:25,PersistenceRequired:1b,Tags:[\"necromancer\",\"newMob\"],ArmorItems:[{id:\"leather_boots\",tag:{display:{color:1908001}},Count:1},{id:\"leather_leggings\",tag:{display:{color:1908001}},Count:1},{id:\"leather_chestplate\",tag:{display:{color:1908001}},Count:1},{id:\"leather_helmet\",tag:{display:{color:1908001}},Count:1}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.movement_speed\",Base:0.17d},{Name:\"minecraft:generic.max_health\",Base:25d}],ArmorDropChances:[0F,0F,0F,0F],IsBaby:0,Team:team1,DeathLootTable:\"mi:entity_drops/others/necromancer\"},CanPlaceOn:[\"smooth_stone_slab\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Necromancer\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{Health:25,PersistenceRequired:1b,Tags:[\"necromancer\",\"newMob\"],ArmorItems:[{id:\"leather_boots\",tag:{display:{color:1908001}},Count:1},{id:\"leather_leggings\",tag:{display:{color:1908001}},Count:1},{id:\"leather_chestplate\",tag:{display:{color:1908001}},Count:1},{id:\"leather_helmet\",tag:{display:{color:1908001}},Count:1}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.movement_speed\",Base:0.17d},{Name:\"minecraft:generic.max_health\",Base:25d}],ArmorDropChances:[0F,0F,0F,0F],IsBaby:0,Team:team2,DeathLootTable:\"mi:entity_drops/others/necromancer\"},CanPlaceOn:[\"smooth_quartz_slab\"]}",
+							"tag": "{necromancer:1,display:{Name:'[{\"text\":\"Necromancer\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{Health:25,PersistenceRequired:1b,Tags:[\"necromancer\",\"newMob\"],ArmorItems:[{id:\"leather_boots\",tag:{display:{color:1908001}},Count:1},{id:\"leather_leggings\",tag:{display:{color:1908001}},Count:1},{id:\"leather_chestplate\",tag:{display:{color:1908001}},Count:1},{id:\"leather_helmet\",tag:{display:{color:1908001}},Count:1}],Attributes:[{Name:\"minecraft:generic.follow_range\",Base:2048d},{Name:\"minecraft:generic.movement_speed\",Base:0.17d},{Name:\"minecraft:generic.max_health\",Base:25d}],ArmorDropChances:[0F,0F,0F,0F],IsBaby:0,Team:team2,DeathLootTable:\"mi:entity_drops/others/necromancer\"},CanPlaceOn:[\"smooth_quartz_slab\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

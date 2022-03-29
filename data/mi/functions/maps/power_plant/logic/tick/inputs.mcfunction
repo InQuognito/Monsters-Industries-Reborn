@@ -5,12 +5,6 @@ execute positioned 91 21 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] ru
 execute positioned 189 21 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/logic/fusion/start_team2
 execute positioned 189 21 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=north] replace
 
-execute positioned 102 20 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/fusion/random_recipe_buy_try
-execute positioned 102 20 -154 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west] replace
-
-execute positioned 178 20 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/fusion/random_recipe_buy_try
-execute positioned 178 20 -97 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east] replace
-
 # Sabotages
 execute positioned 132 21 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/factory_shutdown/try
 execute positioned 132 21 -96 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=west] replace

@@ -55,11 +55,6 @@ setblock 199 13 -135 minecraft:chest[facing=east]{Lock:"ae88"} destroy
 setblock 201 15 -129 minecraft:oak_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Start Forge"}',Text3:'[{"score":{"name":"#forgeStart","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 201 14 -129 minecraft:oak_button[face=wall,facing=north] replace
 
-# Fusion
-setblock 102 21 -154 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'[{"score":{"name":"#randomRecipe","objective":"price"}},{"text":" Paper"}]'} destroy
-
-setblock 178 21 -97 minecraft:spruce_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Random Recipe"}',Text3:'[{"score":{"name":"#randomRecipe","objective":"price"}},{"text":" Paper"}]'} destroy
-
 # Wall Street
 execute unless score $rushMode mode matches 1 run setblock 75 30 -112 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Wall Street"}',Text3:'{"text":"Exchange"}'} destroy
 

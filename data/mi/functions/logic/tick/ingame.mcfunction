@@ -3,7 +3,7 @@ execute if score $powerPlant map matches 1 run function mi:maps/power_plant/logi
 function mi:logic/tick/cloak
 function mi:logic/tick/dragons_breath
 function mi:logic/tick/items
-function mi:logic/tick/necromancer
+execute as @e[type=minecraft:zombie,tag=necromancer] run function mi:logic/tick/necromancer
 function mi:logic/tick/shop
 function mi:logic/tick/stock
 function mi:logic/tick/vex

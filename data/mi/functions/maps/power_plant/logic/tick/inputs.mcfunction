@@ -202,3 +202,12 @@ execute positioned 173 20 -153 if block ~ ~ ~ #minecraft:buttons[powered=true] r
 # Mob Shop
 function mi:maps/power_plant/logic/mob_shop/team1/inputs
 function mi:maps/power_plant/logic/mob_shop/team2/inputs
+
+# Quantum Tunnel
+execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team1QuantumTunnel temp matches 1 as @p run function mi:logic/interactions/others/quantum_tunnel_buy_try
+execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team1QuantumTunnel temp matches 1 as @p run function mi:logic/fusion/repeat_previous
+execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=south] replace
+
+execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team2QuantumTunnel temp matches 1 as @p run function mi:logic/interactions/others/quantum_tunnel_buy_try
+execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team2QuantumTunnel temp matches 1 as @p run function mi:logic/fusion/repeat_previous
+execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=north] replace

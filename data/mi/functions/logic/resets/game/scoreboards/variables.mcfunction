@@ -150,6 +150,7 @@ scoreboard players set #neuronWorm price 2
 scoreboard players set #randomRecipe price 96
 scoreboard players set #replaceMerchant price 256
 scoreboard players set #sentry price 2
+scoreboard players set #quantumTunnel price 4
 
 # Resource Maximums
 scoreboard players set #paperMax vars 1000

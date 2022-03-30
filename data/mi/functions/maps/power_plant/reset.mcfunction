@@ -250,3 +250,12 @@ setblock 173 20 -152 minecraft:red_terracotta replace
 # Mob Shop
 fill 90 20 -99 93 22 -99 minecraft:air replace
 fill 187 20 -152 190 22 -152 minecraft:air replace
+
+# Quantum Tunnel
+setblock 86 20 -156 minecraft:red_concrete replace
+setblock 86 20 -155 minecraft:birch_button[face=wall,facing=south] replace
+setblock 86 21 -155 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Quantum Tunnel"}',Text3:'[{"score":{"name":"#quantumTunnel","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+
+setblock 194 20 -95 minecraft:red_terracotta replace
+setblock 194 20 -96 minecraft:spruce_button[face=wall,facing=north] replace
+setblock 194 21 -96 minecraft:spruce_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Quantum Tunnel"}',Text3:'[{"score":{"name":"#quantumTunnel","objective":"price"}},{"text":" Monster Tokens"}]'} destroy

@@ -1,6 +1,8 @@
 function mi:logic/convert_currency_scoreboards
 function mi:logic/count_mob_eggs
 
+execute if score #fusion temp matches 0 run title @s actionbar {"text":"You have no logged previous operation!","color":"red"}
+
 execute if score #fusion temp matches 1 unless score #zombieEggCount temp matches 2.. run title @s actionbar {"text":"You don't have the required mobs to perform this fusion!","color":"red"}
 execute if score #fusion temp matches 1 if score #zombieEggCount temp matches 2.. run clear @s minecraft:zombie_spawn_egg{zombie:1} 2
 execute if score #fusion temp matches 1 if score #zombieEggCount temp matches 2.. run loot give @s loot mi:mobs/zombies/baby_zombie

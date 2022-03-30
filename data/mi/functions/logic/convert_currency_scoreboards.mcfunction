@@ -12,6 +12,7 @@ execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store res
 execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.slimeballs run clear @s minecraft:slime_ball{new:1} 0
 execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.netherite run clear @s minecraft:netherite_ingot{new:1} 0
 execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.netherite run clear @s minecraft:netherite_ingot{new:1} 0
+execute store result score #tokenCount temp run clear @s minecraft:emerald 0
 
 execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper = @s ct.paper
 execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper = @s ct.paper
@@ -49,11 +50,16 @@ execute if entity @s[team=team1] run scoreboard players operation #temp ct.nethe
 execute if entity @s[team=team2] run scoreboard players operation #temp ct.netherite = #team2 ct.netherite
 
 # Misc
-execute if entity @s[team=team1] run scoreboard players operation #mobShopMult temp = #team1MobShopMult temp
-execute if entity @s[team=team2] run scoreboard players operation #mobShopMult temp = #team2MobShopMult temp
-
+execute unless score #team1Fusion temp matches 1.. run scoreboard players set #team1Fusion temp 0
+execute unless score #team2Fusion temp matches 1.. run scoreboard players set #team2Fusion temp 0
 execute if entity @s[team=team1] run scoreboard players operation #fusion temp = #team1Fusion temp
 execute if entity @s[team=team2] run scoreboard players operation #fusion temp = #team2Fusion temp
 
+execute if entity @s[team=team1] run scoreboard players operation #mobShopMult temp = #team1MobShopMult temp
+execute if entity @s[team=team2] run scoreboard players operation #mobShopMult temp = #team2MobShopMult temp
+
 execute if entity @s[team=team1] run scoreboard players operation #temp enchantment = #team1 enchantment
 execute if entity @s[team=team2] run scoreboard players operation #temp enchantment = #team2 enchantment
+
+execute if entity @s[team=team1] run scoreboard players operation #temp sentryCount = #team1 sentryCount
+execute if entity @s[team=team2] run scoreboard players operation #temp sentryCount = #team2 sentryCount

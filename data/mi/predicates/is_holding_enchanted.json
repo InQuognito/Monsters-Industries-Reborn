@@ -4,9 +4,7 @@
 	"predicate": {
 		"equipment": {
 			"mainhand": {
-				"enchantments": [
-					{}
-				]
+				"nbt": "{Enchantments:[{}]}"
 			}
 		}
 	}

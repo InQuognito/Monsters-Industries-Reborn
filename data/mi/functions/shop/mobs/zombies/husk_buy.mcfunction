@@ -5,6 +5,6 @@ scoreboard players operation #clearPaper temp = #huskScaledPaper price
 scoreboard players operation #clearPaper temp *= #mobShopMult temp
 scoreboard players operation #clearCoal temp = #huskScaledCoal price
 scoreboard players operation #clearCoal temp *= #mobShopMult temp
-scoreboard players operation #clearSpiderEyes temp = #huskScaledSpiderEye price
-scoreboard players operation #clearSpiderEyes temp *= #mobShopMult temp
+scoreboard players operation #clearSpiderEye temp = #huskScaledSpiderEye price
+scoreboard players operation #clearSpiderEye temp *= #mobShopMult temp
 function mi:logic/currency/apply_price

@@ -52,24 +52,24 @@ scoreboard players set @a[team=!spectators] lighterLevel 1
 
 scoreboard players set @a[team=!spectators] ct.paper 0
 scoreboard players set @a[team=!spectators] ct.coal 0
-scoreboard players set @a[team=!spectators] ct.bones 0
+scoreboard players set @a[team=!spectators] ct.bone 0
 scoreboard players set @a[team=!spectators] ct.gunpowder 0
-scoreboard players set @a[team=!spectators] ct.spiderEyes 0
-scoreboard players set @a[team=!spectators] ct.slimeballs 0
+scoreboard players set @a[team=!spectators] ct.spiderEye 0
+scoreboard players set @a[team=!spectators] ct.slimeball 0
 scoreboard players set @a[team=!spectators] ct.netherite 0
 
 scoreboard players set #team1 ct.paper 0
 scoreboard players set #team2 ct.paper 0
 scoreboard players set #team1 ct.coal 0
 scoreboard players set #team2 ct.coal 0
-scoreboard players set #team1 ct.bones 0
-scoreboard players set #team2 ct.bones 0
+scoreboard players set #team1 ct.bone 0
+scoreboard players set #team2 ct.bone 0
 scoreboard players set #team1 ct.gunpowder 0
 scoreboard players set #team2 ct.gunpowder 0
-scoreboard players set #team1 ct.spiderEyes 0
-scoreboard players set #team2 ct.spiderEyes 0
-scoreboard players set #team1 ct.slimeballs 0
-scoreboard players set #team2 ct.slimeballs 0
+scoreboard players set #team1 ct.spiderEye 0
+scoreboard players set #team2 ct.spiderEye 0
+scoreboard players set #team1 ct.slimeball 0
+scoreboard players set #team2 ct.slimeball 0
 scoreboard players set #team1 ct.netherite 0
 scoreboard players set #team2 ct.netherite 0
 

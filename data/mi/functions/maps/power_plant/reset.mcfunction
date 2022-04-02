@@ -169,14 +169,12 @@ execute if score $rushMode mode matches 1 run setblock 201 28 -148 minecraft:air
 execute if score $rushMode mode matches 1 run setblock 201 29 -148 minecraft:air
 
 # Tavern
-setblock 79 20 -153 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Replace Merchant"}',Text3:'[{"score":{"name":"#replaceMerchant","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 73 19 -143 minecraft:barrel[facing=east]{Lock:"1e88"} destroy
 setblock 74 19 -147 minecraft:barrel[facing=east]{Lock:"1e88"} destroy
 setblock 74 19 -149 minecraft:barrel[facing=east]{Lock:"1e88"} destroy
 setblock 73 20 -142 minecraft:brewing_stand{Lock:"1e88"} destroy
 setblock 74 20 -150 minecraft:brewing_stand{Lock:"1e88"} destroy
 
-setblock 201 20 -98 minecraft:spruce_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Replace Merchant"}',Text3:'[{"score":{"name":"#replaceMerchant","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 207 19 -108 minecraft:barrel[facing=west]{Lock:"1e88"} destroy
 setblock 206 19 -104 minecraft:barrel[facing=west]{Lock:"1e88"} destroy
 setblock 206 19 -102 minecraft:barrel[facing=west]{Lock:"1e88"} destroy
@@ -259,3 +257,18 @@ setblock 86 21 -155 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:
 setblock 194 20 -95 minecraft:red_terracotta replace
 setblock 194 20 -96 minecraft:spruce_button[face=wall,facing=north] replace
 setblock 194 21 -96 minecraft:spruce_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Quantum Tunnel"}',Text3:'[{"score":{"name":"#quantumTunnel","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+
+# Monster Tokens
+setblock 102 22 -166 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Monster Token"}',Text3:'{"text":"Exchange"}'} destroy
+setblock 102 21 -164 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenCoal","objective":"price"}},{"text":" Coal"}]'} destroy
+setblock 102 21 -165 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenBone","objective":"price"}},{"text":" Bones"}]'} destroy
+setblock 102 21 -166 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenGunpowder","objective":"price"}},{"text":" Gunpowder"}]'} destroy
+setblock 102 21 -167 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenSpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'} destroy
+setblock 102 21 -168 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenSlimeball","objective":"price"}},{"text":" Slimeballs"}]'} destroy
+
+setblock 178 22 -86 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Monster Token"}',Text3:'{"text":"Exchange"}'} destroy
+setblock 178 21 -88 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenCoal","objective":"price"}},{"text":" Coal"}]'} destroy
+setblock 178 21 -87 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenBone","objective":"price"}},{"text":" Bones"}]'} destroy
+setblock 178 21 -86 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenGunpowder","objective":"price"}},{"text":" Gunpowder"}]'} destroy
+setblock 178 21 -85 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenSpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'} destroy
+setblock 178 21 -84 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenSlimeball","objective":"price"}},{"text":" Slimeballs"}]'} destroy

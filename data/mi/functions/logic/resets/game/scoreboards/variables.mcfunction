@@ -1,4 +1,4 @@
-# Book - Weapons
+# Weapons
 scoreboard players set #sword1 price 32
 scoreboard players set #sword2 price 80
 scoreboard players set #sword3 price 192
@@ -12,7 +12,7 @@ scoreboard players set #crossbow price 160
 
 scoreboard players set #trident price 256
 
-# Book - Ammo
+# Ammo
 scoreboard players set #arrow16 price 32
 scoreboard players operation #mult temp = #arrow16 price
 scoreboard players operation #mult temp *= #4 integers
@@ -35,7 +35,7 @@ scoreboard players operation #sniper16 price = #mult temp
 
 scoreboard players set #dragonsBreath price 1024
 
-# Book - Armor
+# Armor
 scoreboard players set #armor1 price 32
 scoreboard players set #armor2 price 64
 scoreboard players set #armor3 price 80
@@ -43,7 +43,7 @@ scoreboard players set #armor4 price 192
 scoreboard players set #armor5Paper price 1024
 scoreboard players set #armor5Netherite price 64
 
-# Book - Tools
+# Tools
 scoreboard players set #pickaxe1Paper price 32
 scoreboard players set #pickaxe1Coal price 16
 scoreboard players set #pickaxe2Paper price 64
@@ -71,7 +71,7 @@ scoreboard players set #lighter3Gunpowder price 64
 scoreboard players set #lighter4Paper price 160
 scoreboard players set #lighter4Gunpowder price 128
 
-# Book - Upgrades
+# Upgrades
 scoreboard players set #paperProduction1 price 64
 scoreboard players set #paperProduction2 price 128
 scoreboard players set #paperProduction3 price 256
@@ -140,6 +140,14 @@ scoreboard players operation #death vars /= #deathPercent vars
 scoreboard players set #killPercent vars 10
 scoreboard players operation #kill vars = $stockLimit stock
 scoreboard players operation #kill vars /= #killPercent vars
+
+# Monster Tokens
+scoreboard players set #monsterTokenPaper price 64
+scoreboard players set #monsterTokenCoal price 64
+scoreboard players set #monsterTokenBone price 48
+scoreboard players set #monsterTokenGunpowder price 32
+scoreboard players set #monsterTokenSpiderEye price 24
+scoreboard players set #monsterTokenSlimeball price 16
 
 # Others
 scoreboard players set #enchanting price 1

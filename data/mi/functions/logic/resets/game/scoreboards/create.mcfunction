@@ -1,13 +1,13 @@
 scoreboard objectives add armorLevel dummy
 scoreboard objectives add bankAccount dummy
 scoreboard objectives add clickLever dummy
-scoreboard objectives add ct.bones dummy
+scoreboard objectives add ct.bone dummy
 scoreboard objectives add ct.coal dummy
 scoreboard objectives add ct.gunpowder dummy
 scoreboard objectives add ct.netherite dummy
 scoreboard objectives add ct.paper dummy
-scoreboard objectives add ct.slimeballs dummy
-scoreboard objectives add ct.spiderEyes dummy
+scoreboard objectives add ct.slimeball dummy
+scoreboard objectives add ct.spiderEye dummy
 scoreboard objectives add ct.tokens dummy
 scoreboard objectives add employees dummy
 scoreboard objectives add employeePaper dummy

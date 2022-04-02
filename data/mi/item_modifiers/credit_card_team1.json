@@ -346,7 +346,7 @@
 					{
 						"score": {
 							"name": "@s",
-							"objective": "ct.bones"
+							"objective": "ct.bone"
 						},
 						"color": "green",
 						"bold": false,
@@ -403,7 +403,7 @@
 					{
 						"score": {
 							"name": "#team1",
-							"objective": "ct.bones"
+							"objective": "ct.bone"
 						},
 						"color": "green",
 						"bold": false,
@@ -460,7 +460,7 @@
 					{
 						"score": {
 							"name": "#team1",
-							"objective": "ct.bones"
+							"objective": "ct.bone"
 						},
 						"color": "green",
 						"bold": false,
@@ -650,7 +650,7 @@
 					{
 						"score": {
 							"name": "@s",
-							"objective": "ct.spiderEyes"
+							"objective": "ct.spiderEye"
 						},
 						"color": "green",
 						"bold": false,
@@ -707,7 +707,7 @@
 					{
 						"score": {
 							"name": "#team1",
-							"objective": "ct.spiderEyes"
+							"objective": "ct.spiderEye"
 						},
 						"color": "green",
 						"bold": false,
@@ -764,7 +764,7 @@
 					{
 						"score": {
 							"name": "#team1",
-							"objective": "ct.spiderEyes"
+							"objective": "ct.spiderEye"
 						},
 						"color": "green",
 						"bold": false,
@@ -802,7 +802,7 @@
 					{
 						"score": {
 							"name": "@s",
-							"objective": "ct.slimeballs"
+							"objective": "ct.slimeball"
 						},
 						"color": "green",
 						"bold": false,
@@ -859,7 +859,7 @@
 					{
 						"score": {
 							"name": "#team1",
-							"objective": "ct.slimeballs"
+							"objective": "ct.slimeball"
 						},
 						"color": "green",
 						"bold": false,
@@ -916,7 +916,7 @@
 					{
 						"score": {
 							"name": "#team1",
-							"objective": "ct.slimeballs"
+							"objective": "ct.slimeball"
 						},
 						"color": "green",
 						"bold": false,

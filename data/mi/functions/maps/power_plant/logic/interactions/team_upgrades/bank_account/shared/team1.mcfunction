@@ -9,24 +9,24 @@ tag @s remove self
 
 scoreboard players reset #team1 ct.paper
 scoreboard players reset #team1 ct.coal
-scoreboard players reset #team1 ct.bones
+scoreboard players reset #team1 ct.bone
 scoreboard players reset #team1 ct.gunpowder
-scoreboard players reset #team1 ct.spiderEyes
-scoreboard players reset #team1 ct.slimeballs
+scoreboard players reset #team1 ct.spiderEye
+scoreboard players reset #team1 ct.slimeball
 scoreboard players reset #team1 ct.netherite
 
 scoreboard players operation #team1 ct.paper += @a[team=team1] ct.paper
 scoreboard players reset @a[team=team1] ct.paper
 scoreboard players operation #team1 ct.coal += @a[team=team1] ct.coal
 scoreboard players reset @a[team=team1] ct.coal
-scoreboard players operation #team1 ct.bones += @a[team=team1] ct.bones
-scoreboard players reset @a[team=team1] ct.bones
+scoreboard players operation #team1 ct.bone += @a[team=team1] ct.bone
+scoreboard players reset @a[team=team1] ct.bone
 scoreboard players operation #team1 ct.gunpowder += @a[team=team1] ct.gunpowder
 scoreboard players reset @a[team=team1] ct.gunpowder
-scoreboard players operation #team1 ct.spiderEyes += @a[team=team1] ct.spiderEyes
-scoreboard players reset @a[team=team1] ct.spiderEyes
-scoreboard players operation #team1 ct.slimeballs += @a[team=team1] ct.slimeballs
-scoreboard players reset @a[team=team1] ct.slimeballs
+scoreboard players operation #team1 ct.spiderEye += @a[team=team1] ct.spiderEye
+scoreboard players reset @a[team=team1] ct.spiderEye
+scoreboard players operation #team1 ct.slimeball += @a[team=team1] ct.slimeball
+scoreboard players reset @a[team=team1] ct.slimeball
 scoreboard players operation #team1 ct.netherite += @a[team=team1] ct.netherite
 scoreboard players reset @a[team=team1] ct.netherite
 

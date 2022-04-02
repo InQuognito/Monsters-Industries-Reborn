@@ -14,5 +14,5 @@ tag @s remove self
 
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #spiderEyeTrack2Paper price
-scoreboard players operation #clearSpiderEyes temp = #spiderEyeTrack2SpiderEye price
+scoreboard players operation #clearSpiderEye temp = #spiderEyeTrack2SpiderEye price
 function mi:logic/currency/apply_price

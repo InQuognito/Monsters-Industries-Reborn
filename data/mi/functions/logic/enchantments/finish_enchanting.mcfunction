@@ -1,4 +1,4 @@
-scoreboard players operation #clearTokens temp = #enchanting price
+scoreboard players operation #clearToken temp = #enchanting price
 function mi:logic/currency/clear_items
 
 advancement grant @s only mi:enchant_tool

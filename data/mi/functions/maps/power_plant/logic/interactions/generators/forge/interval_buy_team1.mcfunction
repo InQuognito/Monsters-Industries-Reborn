@@ -24,6 +24,6 @@ execute if score #team1Interval forge matches 9 run data merge block 80 15 -122 
 execute if score #team1Interval forge matches 10 run data merge block 80 15 -122 {Text3:'{"text":"1s"}'}
 
 function mi:logic/currency/reset_temp_prices
-scoreboard players operation #clearTokens temp = #forgeIntervalTokens price
+scoreboard players operation #clearToken temp = #forgeIntervalTokens price
 scoreboard players operation #clearNetherite temp = #forgeIntervalNetherite price
 function mi:logic/currency/apply_price

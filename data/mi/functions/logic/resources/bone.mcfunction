@@ -1,9 +1,9 @@
 function mi:logic/get_bank_account_level
 
 execute if score #temp bankAccount matches 0 run loot give @s loot mi:resources/bones
-execute if score #temp bankAccount matches 1 if score @s ct.bones < #bonesMax vars run scoreboard players operation @s ct.bones += @s production.bones
-execute if score #temp bankAccount matches 2 if score #temp ct.bones < #bonesMaxScaled vars run scoreboard players operation #add ct.bones = @s production.bones
-execute if score #temp bankAccount matches 3 run scoreboard players operation #add ct.bones = @s production.bones
+execute if score #temp bankAccount matches 1 if score @s ct.bone < #bonesMax vars run scoreboard players operation @s ct.bone += @s production.bones
+execute if score #temp bankAccount matches 2 if score #temp ct.bone < #bonesMaxScaled vars run scoreboard players operation #add ct.bone = @s production.bones
+execute if score #temp bankAccount matches 3 run scoreboard players operation #add ct.bone = @s production.bones
 
 execute if score #temp bankAccount matches 2.. run function mi:logic/currency/add_values
 

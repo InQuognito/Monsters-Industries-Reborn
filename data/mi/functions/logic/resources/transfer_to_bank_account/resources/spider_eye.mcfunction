@@ -1,8 +1,8 @@
 function mi:logic/get_bank_account_level
 
-execute if score #temp bankAccount matches 1 run scoreboard players add @s ct.spiderEyes 1
-execute if score #temp bankAccount matches 2.. if entity @s[team=team1] run scoreboard players add #team1 ct.spiderEyes 1
-execute if score #temp bankAccount matches 2.. if entity @s[team=team2] run scoreboard players add #team2 ct.spiderEyes 1
+execute if score #temp bankAccount matches 1 run scoreboard players add @s ct.spiderEye 1
+execute if score #temp bankAccount matches 2.. if entity @s[team=team1] run scoreboard players add #team1 ct.spiderEye 1
+execute if score #temp bankAccount matches 2.. if entity @s[team=team2] run scoreboard players add #team2 ct.spiderEye 1
 
 clear @s minecraft:spider_eye{new:1} 1
 execute store result score @s temp run clear @s minecraft:spider_eye{new:1} 0

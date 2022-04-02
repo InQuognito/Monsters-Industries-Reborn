@@ -21,5 +21,5 @@ tellraw @a[team=team2,tag=!self] [{"text":"Your teammate has deployed a sentry!"
 tag @s remove self
 
 function mi:logic/currency/reset_temp_prices
-scoreboard players operation #clearTokens temp = #sentry price
+scoreboard players operation #clearToken temp = #sentry price
 function mi:logic/currency/clear_tokens

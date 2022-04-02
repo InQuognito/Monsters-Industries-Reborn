@@ -47,15 +47,15 @@ execute positioned 81.5 14.5 -121.5 if block ~ ~ ~ #minecraft:buttons[powered=tr
 
 execute positioned 201.5 14.5 -128.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/generators/forge_start_buy_try
 execute positioned 201.5 14.5 -128.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=north] replace
-execute positioned 199 14.5 -128.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/generators/forge_interval_buy_try
-execute positioned 199 14.5 -128.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=north] replace
+execute positioned 199.5 14.5 -128.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/generators/forge_interval_buy_try
+execute positioned 199.5 14.5 -128.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=north] replace
 
 # Fusion
 execute positioned 91.5 21.5 -153.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:maps/power_plant/logic/fusion/start_team1
 execute positioned 91.5 21.5 -153.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=south] replace
 
-execute positioned 189 21.5 -96.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/logic/fusion/start_team2
-execute positioned 189 21.5 -96.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=north] replace
+execute positioned 189.5 21.5 -96.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/logic/fusion/start_team2
+execute positioned 189.5 21.5 -96.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=north] replace
 
 # Monster Tokens
 execute positioned 102.5 20.5 -163.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/others/monster_tokens/coal_buy_try
@@ -85,11 +85,11 @@ function mi:maps/power_plant/logic/mob_shop/team1/inputs
 function mi:maps/power_plant/logic/mob_shop/team2/inputs
 
 # Neuron Worm Fabricator
-execute positioned 88 15.5 -104.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:shop/mobs/others/neuron_worm_buy_try
-execute positioned 88 15.5 -104.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=north] replace
+execute positioned 88.5 15.5 -104.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:shop/mobs/others/neuron_worm_buy_try
+execute positioned 88.5 15.5 -104.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=north] replace
 
-execute positioned 192 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:shop/mobs/others/neuron_worm_buy_try
-execute positioned 192 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=south] replace
+execute positioned 192.5 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:shop/mobs/others/neuron_worm_buy_try
+execute positioned 192.5 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=south] replace
 
 # Quantum Tunnel
 execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team1QuantumTunnel temp matches 1 as @p[team=team1] run function mi:logic/interactions/others/quantum_tunnel_buy_try

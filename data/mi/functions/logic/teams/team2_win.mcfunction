@@ -1,4 +1,6 @@
 scoreboard players reset * stock
+scoreboard players reset * map
+scoreboard players set $none map 1
 
 function mi:logic/timer_calculate
 
@@ -15,7 +17,7 @@ time set noon
 
 schedule function mi:logic/teams/teleport_players_win_team2 5t replace
 
-schedule function mi:logic/end 6t replace
+schedule function mi:logic/post_game/end 6t replace
 
 execute at @a[team=team2] run playsound minecraft:ui.toast.challenge_complete music @s
 execute at @a[team=team1] run playsound minecraft:entity.zombie.ambient music @s

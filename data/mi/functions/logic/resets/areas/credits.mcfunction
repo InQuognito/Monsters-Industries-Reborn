@@ -22,9 +22,9 @@ setblock -38 5 -107 minecraft:player_wall_head[facing=north]{SkullOwner:{Name:"B
 setblock -37 6 -111 minecraft:dark_oak_wall_sign[facing=south]{Color:"green",GlowingText:1b,Text2:'{"text":"C4Slime"}',Text3:'{"text":"Beta Tester"}'} destroy
 setblock -37 5 -111 minecraft:player_wall_head[facing=south]{SkullOwner:{Name:"C4Slime"}} destroy
 
-# DontTouchMee
-setblock -40 6 -108 minecraft:dark_oak_wall_sign[facing=east]{Color:"green",GlowingText:1b,Text2:'{"text":"DontTouchMee"}',Text3:'{"text":"Beta Tester"}'} destroy
-setblock -40 5 -108 minecraft:player_wall_head[facing=east]{SkullOwner:{Name:"DontTouchMee"}} destroy
+# DonttTouchhMee
+setblock -40 6 -108 minecraft:dark_oak_wall_sign[facing=east]{Color:"green",GlowingText:1b,Text2:'{"text":"DonttTouchhMee"}',Text3:'{"text":"Beta Tester"}'} destroy
+setblock -40 5 -108 minecraft:player_wall_head[facing=east]{SkullOwner:{Name:"DonttTouchhMee"}} destroy
 
 # fatemaster13
 setblock -39 6 -107 minecraft:dark_oak_wall_sign[facing=north]{Color:"green",GlowingText:1b,Text2:'{"text":"fatemaster13"}',Text3:'{"text":"Beta Tester"}'} destroy

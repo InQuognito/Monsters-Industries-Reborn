@@ -1,5 +1,4 @@
 scoreboard players set #team2MaxHealth temp 1
-execute as @a[team=team2] run attribute @s minecraft:generic.max_health base set 24
 execute as @a[team=team2] run function mi:logic/heal
 
 data merge block 205 20 -146 {Text2:'{"text":"[ 1 / 5 ]"}',Text3:'{"text":"576 Paper"}'}

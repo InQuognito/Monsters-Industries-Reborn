@@ -1,5 +1,6 @@
 execute if score $powerPlant map matches 1 run function mi:maps/power_plant/logic/tick
 
+function mi:logic/tick/attributes
 function mi:logic/tick/cloak
 function mi:logic/tick/dragons_breath
 function mi:logic/tick/items

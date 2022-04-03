@@ -1,4 +1,5 @@
 function mi:logic/get_bank_account_level
+function mi:logic/convert_currency_scoreboards
 
 execute if score #temp bankAccount matches 0 run loot give @s loot mi:resources/paper
 execute if score #temp bankAccount matches 1 if score @s ct.paper < #paperMax vars run scoreboard players operation @s ct.paper += @s production.paper

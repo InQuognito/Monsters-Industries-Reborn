@@ -26,12 +26,12 @@ scoreboard objectives add map dummy
 scoreboard objectives add mode dummy
 scoreboard objectives add pickaxeLevel dummy
 scoreboard objectives add price dummy
-scoreboard objectives add production.bones dummy
+scoreboard objectives add production.bone dummy
 scoreboard objectives add production.coal dummy
 scoreboard objectives add production.gunpowder dummy
 scoreboard objectives add production.paper dummy
 scoreboard objectives add production.slimeball dummy
-scoreboard objectives add production.spiderEyes dummy
+scoreboard objectives add production.spiderEye dummy
 scoreboard objectives add random dummy
 scoreboard objectives add recycling dummy
 scoreboard objectives add resetType dummy

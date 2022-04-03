@@ -1,4 +1,5 @@
 function mi:logic/get_bank_account_level
+function mi:logic/convert_currency_scoreboards
 
 execute if score #temp bankAccount matches 0 run loot give @s loot mi:resources/gunpowder
 execute if score #temp bankAccount matches 1 if score @s ct.gunpowder < #gunpowderMax vars run scoreboard players operation @s ct.gunpowder += @s production.gunpowder

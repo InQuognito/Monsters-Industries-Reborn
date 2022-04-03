@@ -27,9 +27,9 @@ scoreboard players set #team2MaxHealth temp 0
 
 scoreboard players set @a[team=!spectators] production.paper 1
 scoreboard players set @a[team=!spectators] production.coal 1
-scoreboard players set @a[team=!spectators] production.bones 1
+scoreboard players set @a[team=!spectators] production.bone 1
 scoreboard players set @a[team=!spectators] production.gunpowder 1
-scoreboard players set @a[team=!spectators] production.spiderEyes 1
+scoreboard players set @a[team=!spectators] production.spiderEye 1
 scoreboard players set #team1 production.slimeball 1
 scoreboard players set #team2 production.slimeball 1
 

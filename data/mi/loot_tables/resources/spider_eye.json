@@ -5,7 +5,7 @@
 			"rolls": {
 				"type": "minecraft:score",
 				"target": "this",
-				"score": "production.spiderEyes"
+				"score": "production.spiderEye"
 			},
 			"entries": [
 				{

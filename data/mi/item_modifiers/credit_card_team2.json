@@ -17,7 +17,7 @@
 				"extra": [
 					{
 						"score": {
-							"name": "#team2",
+							"name": "$team2",
 							"objective": "stock"
 						},
 						"color": "white",

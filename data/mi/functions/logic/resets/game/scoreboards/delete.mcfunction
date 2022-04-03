@@ -26,12 +26,12 @@ scoreboard objectives remove map
 scoreboard objectives remove mode
 scoreboard objectives remove pickaxeLevel
 scoreboard objectives remove price
-scoreboard objectives remove production.bones
+scoreboard objectives remove production.bone
 scoreboard objectives remove production.coal
 scoreboard objectives remove production.gunpowder
 scoreboard objectives remove production.paper
 scoreboard objectives remove production.slimeball
-scoreboard objectives remove production.spiderEyes
+scoreboard objectives remove production.spiderEye
 #scoreboard objectives remove random
 scoreboard objectives remove recycling
 #scoreboard objectives remove resetType

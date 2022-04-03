@@ -1,4 +1,5 @@
 function mi:logic/get_bank_account_level
+function mi:logic/convert_currency_scoreboards
 
 execute if score #temp bankAccount matches 0 run loot give @s loot mi:resources/coal
 execute if score #temp bankAccount matches 1 if score @s ct.coal < #coalMax vars run scoreboard players operation @s ct.coal += @s production.coal

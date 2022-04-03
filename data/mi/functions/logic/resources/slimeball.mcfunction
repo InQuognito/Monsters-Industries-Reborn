@@ -1,4 +1,5 @@
 function mi:logic/get_bank_account_level
+function mi:logic/convert_currency_scoreboards
 
 execute if entity @s[team=team1] run scoreboard players operation #temp production.slimeball = #team1 production.slimeball
 execute if entity @s[team=team2] run scoreboard players operation #temp production.slimeball = #team2 production.slimeball

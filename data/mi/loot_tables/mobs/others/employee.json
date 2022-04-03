@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{employee:1,display:{Name:'[{\"text\":\"Employee\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:zombified_piglin\",Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team1,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"cauldron\"]}",
+							"tag": "{employee:1,display:{Name:'[{\"text\":\"Employee\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:zombified_piglin\",PersistenceRequired:1b,HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team1,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"cauldron\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{employee:1,display:{Name:'[{\"text\":\"Employee\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:zombified_piglin\",Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team2,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"cauldron\"]}",
+							"tag": "{employee:1,display:{Name:'[{\"text\":\"Employee\",\"italic\":false,\"color\":\"red\"}]'},EntityTag:{id:\"minecraft:zombified_piglin\",PersistenceRequired:1b,HandItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],ArmorItems:[{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0},{id:\"minecraft:air\",Count:0}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],Team:team2,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"cauldron\"]}",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

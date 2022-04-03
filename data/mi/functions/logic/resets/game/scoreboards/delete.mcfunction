@@ -30,7 +30,7 @@ scoreboard objectives remove production.bones
 scoreboard objectives remove production.coal
 scoreboard objectives remove production.gunpowder
 scoreboard objectives remove production.paper
-scoreboard objectives remove production.slimeballs
+scoreboard objectives remove production.slimeball
 scoreboard objectives remove production.spiderEyes
 #scoreboard objectives remove random
 scoreboard objectives remove recycling

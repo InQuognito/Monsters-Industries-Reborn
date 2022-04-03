@@ -30,7 +30,7 @@ scoreboard objectives add production.bones dummy
 scoreboard objectives add production.coal dummy
 scoreboard objectives add production.gunpowder dummy
 scoreboard objectives add production.paper dummy
-scoreboard objectives add production.slimeballs dummy
+scoreboard objectives add production.slimeball dummy
 scoreboard objectives add production.spiderEyes dummy
 scoreboard objectives add random dummy
 scoreboard objectives add recycling dummy

@@ -7,17 +7,17 @@ execute if entity @s[team=team2] run scoreboard players operation #paperMaxScale
 execute if entity @s[team=team1] run scoreboard players operation #coalMaxScaled vars = #coalMaxTeam1 vars
 execute if entity @s[team=team2] run scoreboard players operation #coalMaxScaled vars = #coalMaxTeam2 vars
 
-execute if entity @s[team=team1] run scoreboard players operation #bonesMaxScaled vars = #bonesMaxTeam1 vars
-execute if entity @s[team=team2] run scoreboard players operation #bonesMaxScaled vars = #bonesMaxTeam2 vars
+execute if entity @s[team=team1] run scoreboard players operation #boneMaxScaled vars = #boneMaxTeam1 vars
+execute if entity @s[team=team2] run scoreboard players operation #boneMaxScaled vars = #boneMaxTeam2 vars
 
 execute if entity @s[team=team1] run scoreboard players operation #gunpowderMaxScaled vars = #gunpowderMaxTeam1 vars
 execute if entity @s[team=team2] run scoreboard players operation #gunpowderMaxScaled vars = #gunpowderMaxTeam2 vars
 
-execute if entity @s[team=team1] run scoreboard players operation #spiderEyesMaxScaled vars = #spiderEyesMaxTeam1 vars
-execute if entity @s[team=team2] run scoreboard players operation #spiderEyesMaxScaled vars = #spiderEyesMaxTeam2 vars
+execute if entity @s[team=team1] run scoreboard players operation #spiderEyeMaxScaled vars = #spiderEyeMaxTeam1 vars
+execute if entity @s[team=team2] run scoreboard players operation #spiderEyeMaxScaled vars = #spiderEyeMaxTeam2 vars
 
-execute if entity @s[team=team1] run scoreboard players operation #slimeballsMaxScaled vars = #slimeballsMaxTeam1 vars
-execute if entity @s[team=team2] run scoreboard players operation #slimeballsMaxScaled vars = #slimeballsMaxTeam2 vars
+execute if entity @s[team=team1] run scoreboard players operation #slimeballMaxScaled vars = #slimeballMaxTeam1 vars
+execute if entity @s[team=team2] run scoreboard players operation #slimeballMaxScaled vars = #slimeballMaxTeam2 vars
 
 execute if entity @s[team=team1] run scoreboard players operation #netheriteMaxScaled vars = #netheriteMaxTeam1 vars
 execute if entity @s[team=team2] run scoreboard players operation #netheriteMaxScaled vars = #netheriteMaxTeam2 vars

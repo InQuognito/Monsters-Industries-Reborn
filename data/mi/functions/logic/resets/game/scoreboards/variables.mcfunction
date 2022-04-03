@@ -171,21 +171,21 @@ scoreboard players operation #coalMaxTeam1 vars = #coalMax vars
 scoreboard players operation #coalMaxTeam1 vars *= #team1Amount temp
 scoreboard players operation #coalMaxTeam2 vars = #coalMax vars
 scoreboard players operation #coalMaxTeam2 vars *= #team2Amount temp
-scoreboard players set #bonesMax vars 100
-scoreboard players operation #bonesMaxTeam1 vars = #bonesMax vars
-scoreboard players operation #bonesMaxTeam1 vars *= #team1Amount temp
-scoreboard players operation #bonesMaxTeam2 vars = #bonesMax vars
-scoreboard players operation #bonesMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #boneMax vars 100
+scoreboard players operation #boneMaxTeam1 vars = #boneMax vars
+scoreboard players operation #boneMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #boneMaxTeam2 vars = #boneMax vars
+scoreboard players operation #boneMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #gunpowderMax vars 100
 scoreboard players operation #gunpowderMaxTeam1 vars = #gunpowderMax vars
 scoreboard players operation #gunpowderMaxTeam1 vars *= #team1Amount temp
 scoreboard players operation #gunpowderMaxTeam2 vars = #gunpowderMax vars
 scoreboard players operation #gunpowderMaxTeam2 vars *= #team2Amount temp
-scoreboard players set #spiderEyesMax vars 100
-scoreboard players operation #spiderEyesMaxTeam1 vars = #spiderEyesMax vars
-scoreboard players operation #spiderEyesMaxTeam1 vars *= #team1Amount temp
-scoreboard players operation #spiderEyesMaxTeam2 vars = #spiderEyesMax vars
-scoreboard players operation #spiderEyesMaxTeam2 vars *= #team2Amount temp
+scoreboard players set #spiderEyeMax vars 100
+scoreboard players operation #spiderEyeMaxTeam1 vars = #spiderEyeMax vars
+scoreboard players operation #spiderEyeMaxTeam1 vars *= #team1Amount temp
+scoreboard players operation #spiderEyeMaxTeam2 vars = #spiderEyeMax vars
+scoreboard players operation #spiderEyeMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #slimeballMax vars 100
 scoreboard players operation #slimeballMaxTeam1 vars = #slimeballMax vars
 scoreboard players operation #slimeballMaxTeam1 vars *= #team1Amount temp

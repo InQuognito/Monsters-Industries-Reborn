@@ -33,7 +33,7 @@
 											"type": "minecraft:fixed",
 											"name": "#team1"
 										},
-										"score": "production.slimeballs"
+										"score": "production.slimeball"
 									},
 									"range": 1
 								}
@@ -58,7 +58,7 @@
 											"type": "minecraft:fixed",
 											"name": "#team1"
 										},
-										"score": "production.slimeballs"
+										"score": "production.slimeball"
 									},
 									"range": 2
 								}
@@ -83,7 +83,7 @@
 											"type": "minecraft:fixed",
 											"name": "#team2"
 										},
-										"score": "production.slimeballs"
+										"score": "production.slimeball"
 									},
 									"range": 1
 								}
@@ -108,7 +108,7 @@
 											"type": "minecraft:fixed",
 											"name": "#team2"
 										},
-										"score": "production.slimeballs"
+										"score": "production.slimeball"
 									},
 									"range": 2
 								}

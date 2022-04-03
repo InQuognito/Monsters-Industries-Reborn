@@ -30,8 +30,8 @@ scoreboard players set @a[team=!spectators] production.coal 1
 scoreboard players set @a[team=!spectators] production.bones 1
 scoreboard players set @a[team=!spectators] production.gunpowder 1
 scoreboard players set @a[team=!spectators] production.spiderEyes 1
-scoreboard players set #team1 production.slimeballs 1
-scoreboard players set #team2 production.slimeballs 1
+scoreboard players set #team1 production.slimeball 1
+scoreboard players set #team2 production.slimeball 1
 
 scoreboard players reset @a[team=spectators] swordLevel
 scoreboard players set @a[team=!spectators] swordLevel 0

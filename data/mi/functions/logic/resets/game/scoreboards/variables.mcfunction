@@ -117,7 +117,7 @@ scoreboard players set #barricade2 price 640
 scoreboard players set #sabotageBarricade price 1024
 
 # Employees
-scoreboard players set #employeeGenerationAmount vars 10
+scoreboard players set #employeeGenerationAmount vars 8
 
 # Forge
 scoreboard players set #forgeStart price 512

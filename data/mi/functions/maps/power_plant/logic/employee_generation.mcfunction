@@ -5,7 +5,7 @@ execute store result score #team1HighTier employees run execute if entity @e[typ
 
 scoreboard players operation #team1LowTier temp = #team1LowTier employees
 scoreboard players operation #team1LowTier temp *= #employeeGenerationAmount vars
-scoreboard players operation #team1LowTier temp /= #5 integers
+scoreboard players operation #team1LowTier temp /= #4 integers
 scoreboard players operation #team1HighTier temp = #team1HighTier employees
 scoreboard players operation #team1HighTier temp *= #employeeGenerationAmount vars
 
@@ -25,7 +25,7 @@ execute store result score #team2HighTier employees run execute if entity @e[typ
 
 scoreboard players operation #team2LowTier temp = #team2LowTier employees
 scoreboard players operation #team2LowTier temp *= #employeeGenerationAmount vars
-scoreboard players operation #team2LowTier temp /= #5 integers
+scoreboard players operation #team2LowTier temp /= #4 integers
 scoreboard players operation #team2HighTier temp = #team2HighTier employees
 scoreboard players operation #team2HighTier temp *= #employeeGenerationAmount vars
 

@@ -28,3 +28,6 @@ setblock -27 7 -119 minecraft:birch_wall_sign[facing=west]{Color:"black",Text2:'
 setblock -26 6 -121 minecraft:white_concrete replace
 setblock -26 6 -120 minecraft:white_concrete replace
 setblock -26 6 -119 minecraft:blue_concrete replace
+
+# Credits
+function mi:logic/resets/areas/credits

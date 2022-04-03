@@ -1,2 +1,5 @@
 # Legacy Map
 1000 10 -500
+
+# Bman's Map
+729 4 -1111

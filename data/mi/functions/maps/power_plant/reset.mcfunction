@@ -272,3 +272,7 @@ setblock 178 21 -87 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:
 setblock 178 21 -86 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenGunpowder","objective":"price"}},{"text":" Gunpowder"}]'} destroy
 setblock 178 21 -85 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenSpiderEye","objective":"price"}},{"text":" Spider Eyes"}]'} destroy
 setblock 178 21 -84 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenSlimeball","objective":"price"}},{"text":" Slimeballs"}]'} destroy
+
+# Neuron Worms
+setblock 88 16 -105 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 192 16 -146 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy

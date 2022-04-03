@@ -37,7 +37,6 @@ scoreboard objectives remove recycling
 #scoreboard objectives remove resetType
 scoreboard objectives remove sentryCount
 scoreboard objectives remove shop
-scoreboard objectives remove slimeballProd
 scoreboard objectives remove spadeLevel
 #scoreboard objectives remove stats.currency
 #scoreboard objectives remove stats.deaths

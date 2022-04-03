@@ -1,4 +1,4 @@
-scoreboard players set #team1 slimeballProd 1
+scoreboard players set #team1 production.slimeballs 2
 
 tag @s add self
 title @s actionbar {"text":"You repair the old reactor.","color":"green"}

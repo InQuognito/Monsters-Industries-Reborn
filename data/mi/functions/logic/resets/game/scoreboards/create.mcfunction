@@ -37,7 +37,6 @@ scoreboard objectives add recycling dummy
 scoreboard objectives add resetType dummy
 scoreboard objectives add sentryCount dummy
 scoreboard objectives add shop trigger
-scoreboard objectives add slimeballProd dummy
 scoreboard objectives add spadeLevel dummy
 scoreboard objectives add stats.currency dummy
 scoreboard objectives add stats.deaths deathCount

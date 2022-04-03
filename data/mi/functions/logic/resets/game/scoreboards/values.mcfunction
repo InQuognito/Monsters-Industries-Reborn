@@ -19,21 +19,19 @@ scoreboard players set #team2Interval forge 0
 scoreboard players set #team1 sentryCount 0
 scoreboard players set #team2 sentryCount 0
 
-scoreboard players set #team1 slimeballProd 0
-scoreboard players set #team2 slimeballProd 0
-
 scoreboard players set $team1 stock 0
 scoreboard players set $team2 stock 0
 
 scoreboard players set #team1MaxHealth temp 0
 scoreboard players set #team2MaxHealth temp 0
 
-scoreboard players set @a[team=!spectators] production.bones 1
-scoreboard players set @a[team=!spectators] production.coal 1
-scoreboard players set @a[team=!spectators] production.gunpowder 1
 scoreboard players set @a[team=!spectators] production.paper 1
-scoreboard players set @a[team=!spectators] production.slimeballs 1
+scoreboard players set @a[team=!spectators] production.coal 1
+scoreboard players set @a[team=!spectators] production.bones 1
+scoreboard players set @a[team=!spectators] production.gunpowder 1
 scoreboard players set @a[team=!spectators] production.spiderEyes 1
+scoreboard players set #team1 production.slimeballs 1
+scoreboard players set #team2 production.slimeballs 1
 
 scoreboard players reset @a[team=spectators] swordLevel
 scoreboard players set @a[team=!spectators] swordLevel 0

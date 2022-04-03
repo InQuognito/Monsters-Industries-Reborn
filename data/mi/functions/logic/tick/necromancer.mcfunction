@@ -8,5 +8,5 @@ execute if score @s timer matches 151.. at @s anchored feet run particle minecra
 execute if score @s timer matches 200.. at @s run function mi:logic/tick/necromancer_minions
 scoreboard players reset @s[scores={timer=200..}] timer
 
-scoreboard players add @e[type=minecraft:skeleton,tag=necroMinion] timer 1
+execute as @e[type=minecraft:skeleton,tag=necroMinion] run scoreboard players add @s timer 1
 kill @e[type=minecraft:skeleton,tag=necroMinion,scores={timer=400..}]

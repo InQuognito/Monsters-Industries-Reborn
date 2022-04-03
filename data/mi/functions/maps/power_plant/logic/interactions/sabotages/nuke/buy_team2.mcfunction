@@ -8,7 +8,7 @@ tag @s remove self
 
 scoreboard players operation $team2 stock -= #nuke price
 
-setblock 133 21 -92 minecraft:red_terracotta replace
-setblock 132 21 -92 minecraft:air replace
+setblock 147 21 -162 minecraft:red_terracotta replace
+setblock 148 21 -162 minecraft:air replace
 
 playsound minecraft:entity.generic.explode player @a

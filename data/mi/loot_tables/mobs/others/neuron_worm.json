@@ -8,6 +8,18 @@
 					"name": "minecraft:endermite_spawn_egg",
 					"functions": [
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Can be fused with Villager",
+									"color": "yellow",
+									"bold": false,
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_nbt",
 							"tag": "{neuronWorm:1,display:{Name:'[{\"text\":\"Neuron Worm\",\"italic\":false,\"color\":\"aqua\"}]'},EntityTag:{id:\"minecraft:endermite\",Invulnerable:1b,PersistenceRequired:1b,Team:team1,DeathLootTable:\"mi:entity_drops/empty\"},CanPlaceOn:[\"lapis_block\"]}",
 							"conditions": [

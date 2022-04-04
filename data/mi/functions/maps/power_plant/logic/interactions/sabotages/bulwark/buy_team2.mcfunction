@@ -1,4 +1,4 @@
-execute as @e[type=#mi:mobs,team=team2] run attribute @s minecraft:generic.armor base set 10.0
+execute as @e[type=#mi:hostile_mobs,team=team2] run attribute @s minecraft:generic.armor base set 10.0
 execute as @e[type=minecraft:iron_golem,team=team2] run attribute @s minecraft:generic.armor base set 50.0
 
 tag @s add self

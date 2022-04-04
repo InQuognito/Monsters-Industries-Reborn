@@ -1,4 +1,4 @@
-tag @e[type=#mi:mobs,team=team1] add cloaked
+tag @e[type=#mi:hostile_mobs,team=team1] add cloaked
 effect give @e[tag=cloaked,team=team1] minecraft:invisibility 45 255 true
 
 tag @s add self

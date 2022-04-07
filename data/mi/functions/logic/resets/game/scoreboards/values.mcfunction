@@ -25,6 +25,9 @@ scoreboard players set $team2 stock 0
 scoreboard players set #team1MaxHealth temp 0
 scoreboard players set #team2MaxHealth temp 0
 
+scoreboard players set #team1Swiftness temp 0
+scoreboard players set #team2Swiftness temp 0
+
 scoreboard players set @a[team=!spectators] production.paper 1
 scoreboard players set @a[team=!spectators] production.coal 1
 scoreboard players set @a[team=!spectators] production.bone 1

@@ -1,0 +1,45 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.armor",
+				"name": "",
+				"amount": 0,
+				"operation": "addition",
+				"slot": [
+					"head",
+					"chest",
+					"legs",
+					"feet"
+				]
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:3847130}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"team": "team1"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:11546150}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"team": "team2"
+				}
+			}
+		]
+	}
+]

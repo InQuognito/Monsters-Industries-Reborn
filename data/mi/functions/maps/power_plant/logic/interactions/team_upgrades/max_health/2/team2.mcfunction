@@ -1,7 +1,7 @@
 scoreboard players set #team2MaxHealth temp 2
 execute as @a[team=team2] run function mi:logic/heal
 
-data merge block 205 20 -146 {Text2:'{"text":"[ 2 / 5 ]"}',Text3:'{"text":"704 Paper"}'}
+data merge block 205 20 -146 {Text2:'{"text":"[ 2 / 5 ]"}',Text3:'[{"score":{"name":"#maxHealth3","objective":"price"}},{"text":" Paper"}]'}
 
 tag @s add self
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Max Health 2","color":"gold"},{"text":"!","color":"green"}]

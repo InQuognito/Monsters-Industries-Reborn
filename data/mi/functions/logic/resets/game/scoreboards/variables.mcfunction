@@ -238,6 +238,10 @@ scoreboard players set #maxHealth4Slimeball price 64
 scoreboard players set #maxHealth5Paper price 960
 scoreboard players set #maxHealth5Slimeball price 128
 
+scoreboard players set #swiftness1 price 384
+scoreboard players set #swiftness2 price 576
+scoreboard players set #swiftness3 price 704
+
 scoreboard players set #recycling price 256
 
 scoreboard players set #bankAccount price 576

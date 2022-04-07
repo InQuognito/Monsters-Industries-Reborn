@@ -1,6 +1,8 @@
 scoreboard players set #team1Swiftness temp 3
 
 data merge block 75 20 -108 {Text2:'{"text":"[ MAX ]"}',Text3:'{"text":""}'}
+setblock 74 20 -108 minecraft:sea_lantern replace
+setblock 75 19 -108 minecraft:air replace
 
 tag @s add self
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Swiftness 3","color":"gold"},{"text":"!","color":"green"}]

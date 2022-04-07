@@ -1,6 +1,6 @@
 scoreboard players set #team2Swiftness temp 3
 
-data merge block 205 20 -143 {Text2:'{"text":"[ 3 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness4Paper","objective":"price"}},{"text":" Paper"}]'}
+data merge block 205 20 -143 {Text2:'{"text":"[ MAX ]"}',Text3:'{"text":""}'}
 
 tag @s add self
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Swiftness 3","color":"gold"},{"text":"!","color":"green"}]

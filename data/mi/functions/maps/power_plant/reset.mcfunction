@@ -284,9 +284,9 @@ setblock 178 21 -84 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:
 
 # Neuron Worms
 setblock 88 15 -104 minecraft:red_concrete replace
-setblock 88 15 -104 minecraft:oak_button[face=wall,facing=north] replace
+setblock 88 15 -105 minecraft:oak_button[face=wall,facing=north] replace
 setblock 88 16 -105 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
 
-setblock 192 16 -146 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
 setblock 192 15 -147 minecraft:red_terracotta replace
-setblock 192 15 -147 minecraft:oak_button[face=wall,facing=south] replace
+setblock 192 15 -146 minecraft:oak_button[face=wall,facing=south] replace
+setblock 192 16 -146 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy

@@ -10,4 +10,6 @@ summon minecraft:glow_item_frame 98.5 22.5 -98.5 {Tags:["team1","mobShop","stray
 summon minecraft:glow_item_frame 97.5 22.5 -98.5 {Tags:["team1","mobShop","spider"],Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:spider_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Spider"}'}}}}
 summon minecraft:glow_item_frame 96.5 22.5 -98.5 {Tags:["team1","mobShop","caveSpider"],Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:cave_spider_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Cave Spider"}'}}}}
 
+fill 96 21 -99 101 21 -99 minecraft:birch_button[face=wall,facing=north] replace
+
 scoreboard players set #team1MobShop temp 0

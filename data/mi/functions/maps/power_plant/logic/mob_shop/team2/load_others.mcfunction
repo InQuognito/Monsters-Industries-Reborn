@@ -9,6 +9,7 @@ summon minecraft:glow_item_frame 181.5 22.5 -151.5 {Tags:["team2","mobShop","pha
 summon minecraft:glow_item_frame 182.5 22.5 -151.5 {Tags:["team2","mobShop","villager"],Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:villager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Villager"}'}}}}
 execute if score #team2NeuronWorm temp matches 1 run summon minecraft:glow_item_frame 183.5 22.5 -151.5 {Tags:["team2","mobShop","neuronWorm"],Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:endermite_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Neuron Worm"}'}}}}
 
-fill 183 21 -152 184 21 -152 minecraft:spruce_button[face=wall,facing=south] replace
+setblock 183 21 -152 minecraft:air replace
+execute if score #team2NeuronWorm temp matches 1 run setblock 183 21 -152 minecraft:spruce_button[face=wall,facing=south] replace
 
 scoreboard players set #team2MobShop temp 1

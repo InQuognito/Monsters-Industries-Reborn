@@ -154,7 +154,7 @@ scoreboard players set #enchanting price 1
 scoreboard players set #enchantmentLuckPaper price 896
 scoreboard players set #enchantmentLuckNetherite price 48
 scoreboard players set #leverCps vars 5
-scoreboard players set #neuronWorm price 2
+scoreboard players set #neuronWorm price 4
 scoreboard players set #randomRecipe price 96
 scoreboard players set #replaceMerchant price 256
 scoreboard players set #sentry price 2

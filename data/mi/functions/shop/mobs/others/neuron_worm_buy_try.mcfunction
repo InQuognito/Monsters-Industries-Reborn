@@ -1,5 +1,7 @@
-execute store result score #tokenCount temp run clear @s minecraft:emerald 0
+function mi:logic/convert_currency_scoreboards
 
-execute unless score #tokenCount temp >= #neuronWorm price run title @s actionbar [{"text":"You don't have enough tokens to purchase a ","color":"red"},{"text":"Neuron Worm","color":"dark_purple"},{"text":"!","color":"red"}]
+scoreboard players operation #tokenPrice temp = #neuronWormScaledToken price
+scoreboard players operation #tokenPrice temp *= #mobShopMult temp
 
-execute if score #tokenCount temp >= #neuronWorm price run function mi:shop/mobs/others/neuron_worm_buy
+execute unless score #tokenCount temp >= #tokenPrice temp run title @s actionbar [{"text":"You don't have enough tokens to purchase this many ","color":"red"},{"text":"Creepers","color":"dark_green"},{"text":"!","color":"red"}]
+execute if score #tokenCount temp >= #tokenPrice temp run function mi:shop/mobs/others/neuron_worm_buy

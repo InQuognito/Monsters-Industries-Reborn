@@ -85,10 +85,10 @@ function mi:maps/power_plant/logic/mob_shop/team1/inputs
 function mi:maps/power_plant/logic/mob_shop/team2/inputs
 
 # Neuron Worm Fabricator
-execute positioned 88.5 15.5 -104.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:shop/mobs/others/neuron_worm_buy_try
+execute positioned 88.5 15.5 -104.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/others/neuron_worm_buy_try
 execute positioned 88.5 15.5 -104.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=north] replace
 
-execute positioned 192.5 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:shop/mobs/others/neuron_worm_buy_try
+execute positioned 192.5 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/others/neuron_worm_buy_try
 execute positioned 192.5 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=south] replace
 
 # Quantum Tunnel

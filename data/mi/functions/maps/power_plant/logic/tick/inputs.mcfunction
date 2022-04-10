@@ -29,6 +29,7 @@ execute positioned 107.5 22.5 -99.5 if block ~ ~ ~ #minecraft:buttons[powered=tr
 execute positioned 107.5 22.5 -99.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/logic/cover_forfeit_button 3s replace
 execute positioned 107.5 22.5 -99.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:air replace
 execute positioned 107.5 20.5 -97.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team1Amount temp matches 1 as @p[team=team1] run function mi:logic/teams/forfeit_confirm
+execute positioned 107.5 20.5 -97.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team1Amount temp matches 1 as @p[team=team1] run say team1 is confirming forfeit
 execute positioned 107.5 20.5 -97.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team1Amount temp matches 1 as @p[team=team1] run function mi:logic/teams/forfeit_ask
 execute positioned 107.5 20.5 -97.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=north] replace
 
@@ -36,6 +37,7 @@ execute positioned 173.5 22.5 -150.5 if block ~ ~ ~ #minecraft:buttons[powered=t
 execute positioned 173.5 22.5 -150.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run schedule function mi:maps/power_plant/logic/cover_forfeit_button 3s replace
 execute positioned 173.5 22.5 -150.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:air replace
 execute positioned 173.5 20.5 -152.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team2Amount temp matches 1 as @p[team=team2] run function mi:logic/teams/forfeit_confirm
+execute positioned 173.5 20.5 -152.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team2Amount temp matches 1 as @p[team=team2] run say team2 is confirming forfeit
 execute positioned 173.5 20.5 -152.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team2Amount temp matches 1 as @p[team=team2] run function mi:logic/teams/forfeit_ask
 execute positioned 173.5 20.5 -152.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=south] replace
 

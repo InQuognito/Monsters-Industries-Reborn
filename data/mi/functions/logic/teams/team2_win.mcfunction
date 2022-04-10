@@ -24,3 +24,5 @@ execute at @a[team=team1] run playsound minecraft:entity.zombie.ambient music @s
 execute at @a[team=team1] run playsound minecraft:entity.zombie.ambient music @s
 execute at @a[team=team1] run playsound minecraft:entity.husk.ambient music @s
 execute at @a[team=team1] run playsound minecraft:entity.husk.ambient music @s
+
+say team2 wins

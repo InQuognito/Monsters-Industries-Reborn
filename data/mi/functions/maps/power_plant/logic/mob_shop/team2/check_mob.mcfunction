@@ -8,3 +8,4 @@ execute if entity @e[tag=team2,tag=mobShopBuy,tag=creeper] run function mi:shop/
 execute if entity @e[tag=team2,tag=mobShopBuy,tag=slime] run function mi:shop/mobs/others/slime_buy_try
 execute if entity @e[tag=team2,tag=mobShopBuy,tag=phantom] run function mi:shop/mobs/others/phantom_buy_try
 execute if entity @e[tag=team2,tag=mobShopBuy,tag=villager] run function mi:shop/mobs/others/villager_buy_try
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=neuronWorm] run function mi:shop/mobs/others/neuron_worm_buy_try

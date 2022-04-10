@@ -56,3 +56,6 @@ execute unless score $rushMode mode matches 1 run scoreboard players operation #
 
 scoreboard players operation #villagerScaledPaper price = #villagerBasePaper price
 execute unless score $rushMode mode matches 1 run scoreboard players operation #villagerScaledPaper price += #costMult temp
+
+scoreboard players operation #neuronWormScaledToken price = #neuronWormBaseToken price
+execute unless score $rushMode mode matches 1 run scoreboard players operation #neuronWormScaledToken price += #costMult temp

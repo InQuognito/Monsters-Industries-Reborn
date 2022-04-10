@@ -111,6 +111,8 @@ scoreboard players set #phantomBaseGunpowder price 16
 
 scoreboard players set #villagerBasePaper price 128
 
+scoreboard players set #neuronWormBaseToken price 2
+
 # Barricades
 scoreboard players set #barricade1 price 384
 scoreboard players set #barricade2 price 640

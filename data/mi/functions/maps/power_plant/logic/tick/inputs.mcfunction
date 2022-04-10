@@ -26,10 +26,10 @@ execute positioned 144.5 19.5 -126.5 if block ~ ~ ~ #minecraft:buttons[powered=t
 
 # Forfeit
 execute positioned 107.5 22.5 -99.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function mi:maps/power_plant/logic/tick/inputs/forfeit/cover_team1
-execute positioned 107.5 20.5 -97.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function mi:maps/power_plant/logic/tick/inputs/forfeit/team1
+execute positioned 107.5 20.5 -97.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:maps/power_plant/logic/tick/inputs/forfeit/team1
 
 execute positioned 173.5 22.5 -150.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function mi:maps/power_plant/logic/tick/inputs/forfeit/cover_team2
-execute positioned 173.5 20.5 -152.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function mi:maps/power_plant/logic/tick/inputs/forfeit/team2
+execute positioned 173.5 20.5 -152.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/logic/tick/inputs/forfeit/team2
 
 # Forge
 execute positioned 79.5 14.5 -121.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/generators/forge_start_buy_try

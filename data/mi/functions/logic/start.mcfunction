@@ -3,9 +3,10 @@ function mi:logic/resets/game/triggers/enable
 function mi:logic/resets/game/gamerules
 function mi:logic/resets/game/scoreboards/values
 
+execute store result score #playerAmount temp if entity @a
 execute store result score #team1Amount temp run team list team1
 execute store result score #team2Amount temp run team list team2
-execute store result score #specAmount temp run team list spectators
+execute store result score #spectatorAmount temp run team list spectators
 
 function mi:logic/resets/game/scoreboards/variables
 

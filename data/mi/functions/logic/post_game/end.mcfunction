@@ -1,4 +1,4 @@
-scoreboard players add @a[team=!spectators,team=!] stats.gPlayed 1
+execute unless score #playerAmount temp matches ..1 run scoreboard players add @a[team=!spectators,team=!] stats.gPlayed 1
 
 function mi:logic/resets/areas/end
 function mi:logic/resets/game/bossbars
@@ -8,7 +8,7 @@ function mi:logic/resets/slimes
 function mi:logic/resets/game/tags
 function mi:logic/resets/game/scoreboards/values
 
-execute as @a run function mi:logic/advancement_check
+execute unless score #playerAmount temp matches ..1 as @a run function mi:logic/advancement_check
 
 scoreboard players set #resetType resetType 0
 scoreboard players set #forfeit resetType 0

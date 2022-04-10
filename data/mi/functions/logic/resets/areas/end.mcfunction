@@ -15,14 +15,14 @@ setblock -4 5 -21 dark_oak_door[facing=east,half=lower,hinge=left,open=false] de
 setblock -4 6 -20 dark_oak_door[facing=east,half=upper,hinge=right,open=false] destroy
 setblock -4 6 -21 dark_oak_door[facing=east,half=upper,hinge=left,open=false] destroy
 
-summon painting 7 6 -18 {Facing:2b,Invulnerable:1b,Motive:"minecraft:alban"}
-summon painting 6 6 -24 {Facing:3b,Invulnerable:1b,Motive:"minecraft:stage"}
+summon minecraft:painting 7 6 -18 {Facing:2b,Invulnerable:1b,Motive:"minecraft:alban"}
+summon minecraft:painting 6 6 -24 {Facing:3b,Invulnerable:1b,Motive:"minecraft:stage"}
 setblock 5 5 -21 dark_oak_door[facing=west,half=lower,hinge=right,open=false] destroy
 setblock 5 5 -20 dark_oak_door[facing=west,half=lower,hinge=left,open=false] destroy
 setblock 5 6 -21 dark_oak_door[facing=west,half=upper,hinge=right,open=false] destroy
 setblock 5 6 -20 dark_oak_door[facing=west,half=upper,hinge=left,open=false] destroy
 
-summon painting 0 11 -26 {Facing:0b,Invulnerable:1b,Motive:"minecraft:bust"}
+summon minecraft:painting 0 11 -26 {Facing:0b,Invulnerable:1b,Motive:"minecraft:bust"}
 
 setblock -0 5 -17 dark_oak_door[facing=north,half=lower,hinge=left,open=true] destroy
 setblock 1 5 -17 dark_oak_door[facing=north,half=lower,hinge=right,open=false] destroy

@@ -1,7 +1,7 @@
 # Mode
-execute positioned -30.5 6.5 -118.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score $mode mode matches 0 run function mi:logic/options/mode/casual
-execute positioned -30.5 6.5 -119.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score $mode mode matches 1 run function mi:logic/options/mode/hardened
-execute positioned -30.5 6.5 -120.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score $mode mode matches 2 run function mi:logic/options/mode/nightmare
+execute positioned -30.5 6.5 -118.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score $difficulty mode matches 0 run function mi:logic/options/mode/casual
+execute positioned -30.5 6.5 -119.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score $difficulty mode matches 1 run function mi:logic/options/mode/hardened
+execute positioned -30.5 6.5 -120.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score $difficulty mode matches 2 run function mi:logic/options/mode/nightmare
 
 # Stock Limit
 execute positioned -26.5 6.5 -120.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score $stockLimit stock matches 250 run function mi:logic/options/stock_limit/250

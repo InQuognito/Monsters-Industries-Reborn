@@ -7,6 +7,6 @@ setblock -32 6 -121 minecraft:white_concrete replace
 
 tellraw @a [{"text":"Mode: [","color":"white"},{"text":"Casual","color":"blue"},{"text":"]","color":"white"}]
 
-scoreboard players set $mode mode 0
+scoreboard players set $difficulty mode 0
 
 setblock ~ ~ ~ minecraft:stone_button[face=wall,facing=east] replace

@@ -1,5 +1,5 @@
-scoreboard players reset * stock
 scoreboard players reset * map
+scoreboard players reset * stock
 scoreboard players set $none map 1
 
 function mi:logic/timer_calculate

@@ -132,7 +132,7 @@ setblock 205 20 -146 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1
 setblock 205 19 -146 minecraft:spruce_button[facing=west] replace
 
 # Swiftness
-setblock 74 20 -1082 minecraft:redstone_lamp replace
+setblock 74 20 -108 minecraft:redstone_lamp replace
 setblock 75 20 -108 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 75 19 -108 minecraft:birch_button[facing=east] replace
 

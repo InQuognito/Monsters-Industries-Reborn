@@ -8,6 +8,7 @@ title @a subtitle [{"text":"Game Duration","color":"gray"},{"text":":","color":"
 execute unless score #forfeit resetType matches 1 run title @a title {"text":"Team 1 Wins!","color":"aqua"}
 execute if score #forfeit resetType matches 1 run title @a title {"text":"Team 2 Forfeits!","color":"aqua"}
 
+execute if score #playerAmount temp matches ..1 run tellraw @a {"text":"One-player matches do not count towards any statistics!","color":"red"}
 execute unless score #playerAmount temp matches ..1 run title @a[team=team1] actionbar [{"text":"+100 \u272a","color":"gold"},{"text":" | "},{"text":"+5 XP","color":"green"}]
 execute unless score #playerAmount temp matches ..1 run scoreboard players add @a[team=team1] stats.currency 100
 execute unless score #playerAmount temp matches ..1 run xp add @a[team=team1] 5 points
@@ -24,5 +25,3 @@ execute at @a[team=team2] run playsound minecraft:entity.zombie.ambient music @s
 execute at @a[team=team2] run playsound minecraft:entity.zombie.ambient music @s
 execute at @a[team=team2] run playsound minecraft:entity.husk.ambient music @s
 execute at @a[team=team2] run playsound minecraft:entity.husk.ambient music @s
-
-say team1 wins

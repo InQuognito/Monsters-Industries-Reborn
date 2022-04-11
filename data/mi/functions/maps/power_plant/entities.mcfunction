@@ -24,16 +24,16 @@ summon minecraft:item_frame 125 21 -164 {Facing:3b,Fixed:1b,Invisible:1b,Invulne
 summon minecraft:item_frame 130 25 -154 {Facing:4b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
 summon minecraft:item_frame 105 15 -119 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
 summon minecraft:item_frame 99 22 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Fusion Recipes:"}'}}}}
-summon minecraft:item_frame 97 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Baby Zombie = Zombie + Zombie"}'}}}}
-summon minecraft:item_frame 98 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombified_piglin_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Employee = Villager + Neuron Worm"}'}}}}
-summon minecraft:item_frame 99 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:evoker_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Evoker = Vindicator + Witch"}'}}}}
-summon minecraft:item_frame 100 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Illusioner = Evoker + Witch"}'}}}}
-summon minecraft:item_frame 101 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Necromancer = Witch + Zombie"}'}}}}
-summon minecraft:item_frame 97 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:pillager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Pillager = Skeleton + Zombie Villager"}'}}}}
-summon minecraft:item_frame 98 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:ravager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Ravager = Evoker + Pillager"}'}}}}
-summon minecraft:item_frame 99 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:vindicator_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Vindicator = Husk + Pillager"}'}}}}
-summon minecraft:item_frame 100 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:witch_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Witch = Husk + Stray"}'}}}}
-summon minecraft:item_frame 101 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_villager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Zombie Villager = Villager + Zombie"}'}}}}
+summon minecraft:item_frame 97 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{CustomModelData:2,display:{Name:'{"text":"Baby Zombie = Zombie + Zombie"}'}}}}
+summon minecraft:item_frame 98 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombified_piglin_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Employee = Villager + Neuron Worm"}'}}}}
+summon minecraft:item_frame 99 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:evoker_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Evoker = Vindicator + Witch"}'}}}}
+summon minecraft:item_frame 100 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Illusioner = Evoker + Witch"}'}}}}
+summon minecraft:item_frame 101 21 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{CustomModelData:3,display:{Name:'{"text":"Necromancer = Witch + Zombie"}'}}}}
+summon minecraft:item_frame 97 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:pillager_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Pillager = Skeleton + Zombie Villager"}'}}}}
+summon minecraft:item_frame 98 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:ravager_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Ravager = Evoker + Pillager"}'}}}}
+summon minecraft:item_frame 99 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:vindicator_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Vindicator = Husk + Pillager"}'}}}}
+summon minecraft:item_frame 100 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:witch_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Witch = Husk + Stray"}'}}}}
+summon minecraft:item_frame 101 20 -155 {Facing:3b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_villager_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Zombie Villager = Villager + Zombie"}'}}}}
 
 summon minecraft:minecart 78 19.1 -140 {Invulnerable:1b,NoGravity:1b}
 summon minecraft:minecart 78 19.1 -142 {Invulnerable:1b,NoGravity:1b}
@@ -51,16 +51,16 @@ summon minecraft:item_frame 155 21 -90 {Facing:2b,Fixed:1b,Invisible:1b,Invulner
 summon minecraft:item_frame 150 25 -100 {Facing:5b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:gunpowder",Count:1b,tag:{display:{Name:'{"text":"Burn Gunpowder"}'}}}}
 summon minecraft:item_frame 175 15 -132 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_ball",Count:1b,tag:{display:{Name:'{"text":"Congeal Slime"}'}}}}
 summon minecraft:item_frame 181 22 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'{"text":"Fusion Recipes:"}'}}}}
-summon minecraft:item_frame 183 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Baby Zombie = Zombie + Zombie"}'}}}}
-summon minecraft:item_frame 182 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombified_piglin_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Employee = Villager + Neuron Worm"}'}}}}
-summon minecraft:item_frame 181 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:evoker_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Evoker = Vindicator + Witch"}'}}}}
-summon minecraft:item_frame 180 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Illusioner = Evoker + Witch"}'}}}}
-summon minecraft:item_frame 179 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Necromancer = Witch + Zombie"}'}}}}
-summon minecraft:item_frame 183 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:pillager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Pillager = Skeleton + Zombie Villager"}'}}}}
-summon minecraft:item_frame 182 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:ravager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Ravager = Evoker + Pillager"}'}}}}
-summon minecraft:item_frame 181 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:vindicator_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Vindicator = Husk + Pillager"}'}}}}
-summon minecraft:item_frame 180 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:witch_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Witch = Husk + Stray"}'}}}}
-summon minecraft:item_frame 179 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_villager_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Zombie Villager = Villager + Zombie"}'}}}}
+summon minecraft:item_frame 183 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{CustomModelData:2,display:{Name:'{"text":"Baby Zombie = Zombie + Zombie"}'}}}}
+summon minecraft:item_frame 182 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombified_piglin_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Employee = Villager + Neuron Worm"}'}}}}
+summon minecraft:item_frame 181 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:evoker_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Evoker = Vindicator + Witch"}'}}}}
+summon minecraft:item_frame 180 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Illusioner = Evoker + Witch"}'}}}}
+summon minecraft:item_frame 179 21 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_spawn_egg",Count:1b,tag:{CustomModelData:3,display:{Name:'{"text":"Necromancer = Witch + Zombie"}'}}}}
+summon minecraft:item_frame 183 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:pillager_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Pillager = Skeleton + Zombie Villager"}'}}}}
+summon minecraft:item_frame 182 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:ravager_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Ravager = Evoker + Pillager"}'}}}}
+summon minecraft:item_frame 181 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:vindicator_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Vindicator = Husk + Pillager"}'}}}}
+summon minecraft:item_frame 180 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:witch_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Witch = Husk + Stray"}'}}}}
+summon minecraft:item_frame 179 20 -96 {Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:zombie_villager_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Zombie Villager = Villager + Zombie"}'}}}}
 
 summon minecraft:minecart 202 19.1 -111 {Invulnerable:1b,NoGravity:1b}
 summon minecraft:minecart 202 19.1 -109 {Invulnerable:1b,NoGravity:1b}

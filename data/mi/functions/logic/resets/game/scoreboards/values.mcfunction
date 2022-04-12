@@ -1,5 +1,4 @@
 scoreboard players reset * map
-scoreboard players set $none map 1
 
 scoreboard players set #team1 bankAccount 0
 scoreboard players set #team2 bankAccount 0

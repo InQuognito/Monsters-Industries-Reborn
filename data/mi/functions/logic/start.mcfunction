@@ -3,7 +3,8 @@ function mi:logic/resets/game/triggers/enable
 function mi:logic/resets/game/gamerules
 function mi:logic/resets/game/scoreboards/values
 
-scoreboard players set $none map 0
+scoreboard players set $gameStage map 2
+scoreboard players reset $countdown timer
 
 execute store result score #playerAmount temp if entity @a
 execute store result score #team1Amount temp run team list team1
@@ -36,6 +37,5 @@ effect give @a minecraft:instant_health 1 50 true
 execute as @a[team=!spectators] run function mi:logic/starting_items
 
 function mi:logic/reset_lever
-function mi:logic/timer_tick
 
 function mi:logic/pre_game/map_voting/random

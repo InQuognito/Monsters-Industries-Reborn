@@ -1,3 +1,5 @@
+scoreboard players reset * map
+
 function mi:logic/resets/game/triggers/disable
 function mi:logic/resets/game/triggers/enable
 function mi:logic/resets/game/gamerules

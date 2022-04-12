@@ -1,3 +1,5 @@
+summon minecraft:marker 74.5 20.5 -104.5 {Tags:["objectMarker"]}
+
 # Paper Generators
 clone 68 27 -129 68 28 -122 102 27 -129
 
@@ -106,32 +108,37 @@ setblock 125 19 -94 oak_planks replace
 setblock 125 20 -94 oak_stairs[facing=north,half=bottom,shape=straight] replace
 setblock 125 19 -95 oak_stairs[facing=east,half=top,shape=straight] replace
 setblock 125 20 -95 oak_stairs[facing=north,half=bottom,shape=straight] replace
-setblock 124 19 -94 gravel replace
-setblock 123 19 -96 gravel replace
-setblock 122 19 -96 gravel replace
+setblock 124 19 -94 minecraft:gravel replace
+setblock 123 19 -96 minecraft:gravel replace
+setblock 122 19 -96 minecraft:gravel replace
 setblock 126 19 -94 minecraft:oak_button[face=wall,facing=east] replace
-setblock 126 20 -94 oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 126 20 -94 minecraft:oak_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
-setblock 155 19 -160 spruce_planks replace
-setblock 155 20 -160 spruce_stairs[facing=west,half=bottom,shape=straight] replace
-setblock 155 19 -159 spruce_stairs[facing=south,half=top,shape=straight] replace
-setblock 155 20 -159 spruce_stairs[facing=south,half=bottom,shape=inner_right] replace
-setblock 156 19 -160 gravel replace
-setblock 157 19 -158 gravel replace
-setblock 158 19 -158 gravel replace
+setblock 155 19 -160 minecraft:spruce_planks replace
+setblock 155 20 -160 minecraft:spruce_stairs[facing=west,half=bottom,shape=straight] replace
+setblock 155 19 -159 minecraft:spruce_stairs[facing=south,half=top,shape=straight] replace
+setblock 155 20 -159 minecraft:spruce_stairs[facing=south,half=bottom,shape=inner_right] replace
+setblock 156 19 -160 minecraft:gravel replace
+setblock 157 19 -158 minecraft:gravel replace
+setblock 158 19 -158 minecraft:gravel replace
 setblock 154 19 -160 minecraft:oak_button[face=wall,facing=west] replace
-setblock 154 20 -160 oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
+setblock 154 20 -160 minecraft:oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Max Health
-setblock 74 20 -105 minecraft:redstone_lamp replace
-setblock 75 20 -105 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases maximum health by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'[{"score":{"name":"#maxHealth1","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 75 19 -105 minecraft:birch_button[facing=east] replace
+tp @e[type=minecraft:marker,tag=objectMarker] 74.5 20.5 -104.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
 
-setblock 206 20 -146 minecraft:redstone_lamp replace
-setblock 205 20 -146 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Max Health","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Max Health\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases maximum health by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 5 ]"}',Text3:'[{"score":{"name":"#maxHealth1","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 205 19 -146 minecraft:spruce_button[facing=west] replace
+tp @e[type=minecraft:marker,tag=objectMarker] 206.5 20.5 -145.5 90.0 0.0
+execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
 
 # Swiftness
+tp @e[type=minecraft:marker,tag=objectMarker] 74.5 20.5 -107.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
+
+tp @e[type=minecraft:marker,tag=objectMarker] 206.5 20.5 -142.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
+
+# Management
 setblock 74 20 -108 minecraft:redstone_lamp replace
 setblock 75 20 -108 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
 setblock 75 19 -108 minecraft:birch_button[facing=east] replace

@@ -1,9 +1,10 @@
-scoreboard players reset * map
 scoreboard players set $powerPlant map 1
+
 forceload add 48 -82 232 -172
 
 team modify team1 color aqua
 team modify team2 color red
+
 bossbar set minecraft:1 color blue
 bossbar set minecraft:2 color red
 

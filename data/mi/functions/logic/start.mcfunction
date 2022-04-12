@@ -3,7 +3,8 @@ function mi:logic/resets/game/triggers/enable
 function mi:logic/resets/game/gamerules
 function mi:logic/resets/game/scoreboards/values
 
-scoreboard players set $gameStage map 2
+title @a actionbar ""
+scoreboard players set $gameStage temp 2
 scoreboard players reset $countdown timer
 
 execute store result score #playerAmount temp if entity @a

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"text": "Items // Mob Shop",
+			"text": "Item Shop",
 			"color": "aqua",
 			"italic": false
 		}

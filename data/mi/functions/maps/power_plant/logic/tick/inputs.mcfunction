@@ -136,10 +136,10 @@ execute positioned 148.5 19.5 -159.5 if block ~ ~ ~ #minecraft:buttons[powered=t
 #execute positioned 148.5 19.5 -161.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=east] replace
 
 # Sabotage Room
-execute positioned 129.5 19.0 -91.5 if block ~ ~ ~ #minecraft:pressure_plates[powered=true] as @e[dx=0,tag=team1,dz=0,sort=nearest,limit=1] run tp @s 79.5 13.0 -106.5 180.0 0.0
+execute positioned 129.5 19.0 -91.5 if block ~ ~ ~ #minecraft:pressure_plates[powered=true] as @e[team=team1,distance=..1,sort=nearest,limit=1] run tp @s 79.5 13.0 -106.5 180.0 0.0
 execute positioned 129.5 19.0 -91.5 if block ~ ~ ~ #minecraft:pressure_plates[powered=true] run setblock ~ ~ ~ minecraft:stone_pressure_plate
 
-execute positioned 151.5 19.0 -161.5 if block ~ ~ ~ #minecraft:pressure_plates[powered=true] as @e[dx=0,tag=team2,dz=0,sort=nearest,limit=1] run tp @s 201.5 13.0 -143.5 0.0 0.0
+execute positioned 151.5 19.0 -161.5 if block ~ ~ ~ #minecraft:pressure_plates[powered=true] as @e[team=team2,distance=..1,sort=nearest,limit=1] run tp @s 201.5 13.0 -143.5 0.0 0.0
 execute positioned 151.5 19.0 -161.5 if block ~ ~ ~ #minecraft:pressure_plates[powered=true] run setblock ~ ~ ~ minecraft:stone_pressure_plate
 
 # Sentries

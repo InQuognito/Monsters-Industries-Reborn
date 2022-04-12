@@ -201,9 +201,9 @@ execute positioned 205.5 19.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=t
 execute positioned 205.5 19.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=west] replace
 execute positioned 206.5 20.5 -145.5 if block ~ ~ ~ minecraft:redstone_lamp[lit=true] run setblock ~ ~ ~ minecraft:redstone_lamp
 
-execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/swiftness/3_try
-execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/swiftness/2_try
-execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 5 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/swiftness/1_try
+execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 2 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/swiftness/3_try
+execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 1 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/swiftness/2_try
+execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if block ~ ~1 ~ #minecraft:wall_signs{Text2:'{"text":"[ 0 / 3 ]"}'} as @p[team=team2] run function mi:logic/interactions/team_upgrades/swiftness/1_try
 execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=west] replace
 execute positioned 206.5 20.5 -142.5 if block ~ ~ ~ minecraft:redstone_lamp[lit=true] run setblock ~ ~ ~ minecraft:redstone_lamp
 

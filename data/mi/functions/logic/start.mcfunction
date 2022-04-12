@@ -1,9 +1,9 @@
-scoreboard players set $none map 0
-
 function mi:logic/resets/game/triggers/disable
 function mi:logic/resets/game/triggers/enable
 function mi:logic/resets/game/gamerules
 function mi:logic/resets/game/scoreboards/values
+
+scoreboard players set $none map 0
 
 execute store result score #playerAmount temp if entity @a
 execute store result score #team1Amount temp run team list team1

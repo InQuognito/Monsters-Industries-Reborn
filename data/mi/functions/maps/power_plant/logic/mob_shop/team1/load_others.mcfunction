@@ -7,7 +7,7 @@ summon minecraft:glow_item_frame 101.5 22.5 -98.5 {Tags:["team1","mobShop","cree
 summon minecraft:glow_item_frame 100.5 22.5 -98.5 {Tags:["team1","mobShop","slime"],Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:slime_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Slime"}'}}}}
 summon minecraft:glow_item_frame 99.5 22.5 -98.5 {Tags:["team1","mobShop","phantom"],Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:phantom_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Phantom"}'}}}}
 summon minecraft:glow_item_frame 98.5 22.5 -98.5 {Tags:["team1","mobShop","villager"],Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:villager_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Villager"}'}}}}
-execute if score #team1NeuronWorm temp matches 1 run summon minecraft:glow_item_frame 97.5 22.5 -98.5 {Tags:["team1","mobShop","neuronWorm"],Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:endermite_spawn_egg",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":"Neuron Worm"}'}}}}
+execute if score #team1NeuronWorm temp matches 1 run summon minecraft:glow_item_frame 97.5 22.5 -98.5 {Tags:["team1","mobShop","neuronWorm"],Facing:2b,Fixed:1b,Invisible:1b,Invulnerable:1b,Item:{id:"minecraft:endermite_spawn_egg",Count:1b,tag:{CustomModelData:2,display:{Name:'{"text":"Neuron Worm"}'}}}}
 
 setblock 97 21 -99 minecraft:air replace
 execute if score #team1NeuronWorm temp matches 1 run setblock 97 21 -99 minecraft:birch_button[face=wall,facing=north] replace

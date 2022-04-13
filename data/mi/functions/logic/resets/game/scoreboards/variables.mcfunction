@@ -33,7 +33,7 @@ scoreboard players operation #mult temp = #sniper4 price
 scoreboard players operation #mult temp *= #4 integers
 scoreboard players operation #sniper16 price = #mult temp
 
-scoreboard players set #dragonsBreath price 1024
+scoreboard players set #dragonsBreath4 price 1024
 
 # Armor
 scoreboard players set #armor1 price 32

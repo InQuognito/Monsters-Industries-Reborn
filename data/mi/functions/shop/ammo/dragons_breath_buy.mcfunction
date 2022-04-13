@@ -4,5 +4,5 @@ give @s[team=team2] minecraft:firework_rocket{dragonsBreath:1b,Fireworks:{Flight
 title @s actionbar {"text":"You have purchased a Dragon's Breath!","color":"green"}
 
 function mi:logic/currency/reset_temp_prices
-scoreboard players operation #clearPaper temp = #dragonsBreath price
+scoreboard players operation #clearPaper temp = #dragonsBreath4 price
 function mi:logic/currency/apply_price

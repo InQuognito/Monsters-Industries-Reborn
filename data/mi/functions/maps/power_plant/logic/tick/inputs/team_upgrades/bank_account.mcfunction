@@ -11,4 +11,4 @@ execute if score #bankAccount temp matches 2 run function mi:logic/interactions/
 execute if entity @s[team=team1] run setblock ^ ^ ^ minecraft:birch_button[face=wall,facing=east] replace
 execute if entity @s[team=team2] run setblock ^ ^ ^ minecraft:spruce_button[face=wall,facing=west] replace
 
-setblock ^ ^1 ^-1 minecraft:redstone_lamp[lit=false] replace
+execute at @e[type=minecraft:marker,tag=inputs.objectMarker] run setblock ^ ^1 ^-1 minecraft:redstone_lamp[lit=false] replace

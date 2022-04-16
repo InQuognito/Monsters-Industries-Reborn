@@ -1,5 +1,4 @@
 scoreboard objectives remove armorLevel
-scoreboard objectives remove bankAccount
 scoreboard objectives remove clickLever
 scoreboard objectives remove ct.bone
 scoreboard objectives remove ct.coal

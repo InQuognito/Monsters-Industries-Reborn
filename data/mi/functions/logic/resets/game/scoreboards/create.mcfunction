@@ -1,5 +1,4 @@
 scoreboard objectives add armorLevel dummy
-scoreboard objectives add bankAccount dummy
 scoreboard objectives add clickLever dummy
 scoreboard objectives add ct.bone dummy
 scoreboard objectives add ct.coal dummy

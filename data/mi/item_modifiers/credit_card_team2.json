@@ -78,9 +78,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 1
 			}
@@ -135,9 +135,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 2
 			}
@@ -173,9 +173,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 3
 			}
@@ -230,9 +230,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 1
 			}
@@ -287,9 +287,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 2
 			}
@@ -325,9 +325,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 3
 			}
@@ -382,9 +382,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 1
 			}
@@ -439,9 +439,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 2
 			}
@@ -477,9 +477,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 3
 			}
@@ -534,9 +534,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 1
 			}
@@ -591,9 +591,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 2
 			}
@@ -629,9 +629,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 3
 			}
@@ -686,9 +686,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 1
 			}
@@ -743,9 +743,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 2
 			}
@@ -781,9 +781,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 3
 			}
@@ -838,9 +838,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 1
 			}
@@ -895,9 +895,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 2
 			}
@@ -933,9 +933,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 3
 			}
@@ -990,9 +990,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 1
 			}
@@ -1047,9 +1047,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 2
 			}
@@ -1085,9 +1085,9 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#team2"
+						"name": "#team2BankAccount"
 					},
-					"score": "bankAccount"
+					"score": "temp"
 				},
 				"range": 3
 			}

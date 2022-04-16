@@ -1,4 +1,4 @@
-summon minecraft:marker 74.5 20.5 -104.5 {Tags:["reset.reset.objectMarker"]}
+summon minecraft:marker 74.5 20.5 -104.5 {Tags:["reset.objectMarker"]}
 
 # Paper Generators
 clone 68 27 -129 68 28 -122 102 27 -129
@@ -139,13 +139,13 @@ tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -142.5 -90.0 0.0
 execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
 
 # Management
-setblock 74 20 -108 minecraft:redstone_lamp replace
-setblock 75 20 -108 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 75 19 -108 minecraft:birch_button[facing=east] replace
+#setblock 74 20 -108 minecraft:redstone_lamp replace
+#setblock 75 20 -108 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
+#setblock 75 19 -108 minecraft:birch_button[facing=east] replace
 
-setblock 206 20 -143 minecraft:redstone_lamp replace
-setblock 205 20 -143 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 205 19 -143 minecraft:spruce_button[facing=west] replace
+#setblock 206 20 -143 minecraft:redstone_lamp replace
+#setblock 205 20 -143 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
+#setblock 205 19 -143 minecraft:spruce_button[facing=west] replace
 
 # Recycling
 setblock 74 20 -114 minecraft:redstone_lamp replace

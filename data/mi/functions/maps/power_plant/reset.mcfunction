@@ -1,4 +1,4 @@
-summon minecraft:marker 74.5 20.5 -104.5 {Tags:["reset.objectMarker"]}
+summon minecraft:marker 74.5 20.5 -104.5 {Tags:["reset.reset.objectMarker"]}
 
 # Paper Generators
 clone 68 27 -129 68 28 -122 102 27 -129
@@ -125,18 +125,18 @@ setblock 154 19 -160 minecraft:oak_button[face=wall,facing=west] replace
 setblock 154 20 -160 minecraft:oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
 # Max Health
-tp @e[type=minecraft:marker,tag=objectMarker] 74.5 20.5 -104.5 -90.0 0.0
-execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 74.5 20.5 -104.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
 
-tp @e[type=minecraft:marker,tag=objectMarker] 206.5 20.5 -145.5 90.0 0.0
-execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -145.5 90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
 
 # Swiftness
-tp @e[type=minecraft:marker,tag=objectMarker] 74.5 20.5 -107.5 -90.0 0.0
-execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 74.5 20.5 -107.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
 
-tp @e[type=minecraft:marker,tag=objectMarker] 206.5 20.5 -142.5 -90.0 0.0
-execute as @e[type=minecraft:marker,tag=objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -142.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
 
 # Management
 setblock 74 20 -108 minecraft:redstone_lamp replace
@@ -298,4 +298,4 @@ setblock 192 15 -147 minecraft:red_terracotta replace
 setblock 192 15 -146 minecraft:oak_button[face=wall,facing=south] replace
 setblock 192 16 -146 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
 
-kill @e[type=minecraft:marker,tag=reset.objectMarker]
+kill @e[type=minecraft:marker,tag=reset.reset.objectMarker]

@@ -41,5 +41,4 @@ function mi:logic/reset_lever
 
 function mi:logic/pre_game/map_voting/random
 
-summon minecraft:marker 0.0 0.0 0.0 {Tags:["team1","inputs.objectMarker"]}
-summon minecraft:marker 0.0 0.0 0.0 {Tags:["team2","inputs.objectMarker"]}
+summon minecraft:marker 0.0 0.0 0.0 {Tags:["inputs.objectMarker"]}

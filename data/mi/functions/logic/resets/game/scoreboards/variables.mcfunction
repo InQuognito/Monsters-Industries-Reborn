@@ -232,6 +232,10 @@ execute if score $stockLimit stock matches ..500 run scoreboard players operatio
 execute if score $stockLimit stock matches ..250 run scoreboard players operation #wip price /= #2 integers
 
 # Team Upgrades
+scoreboard players set #bankAccount1 price 576
+scoreboard players set #bankAccount2 price 384
+scoreboard players set #bankAccount3 price 768
+
 scoreboard players set #maxHealth1 price 384
 scoreboard players set #maxHealth2 price 576
 scoreboard players set #maxHealth3 price 704
@@ -240,15 +244,11 @@ scoreboard players set #maxHealth4Slimeball price 64
 scoreboard players set #maxHealth5Paper price 960
 scoreboard players set #maxHealth5Slimeball price 128
 
+scoreboard players set #recycling price 256
+
 scoreboard players set #swiftness1 price 384
 scoreboard players set #swiftness2 price 576
 scoreboard players set #swiftness3 price 704
-
-scoreboard players set #recycling price 256
-
-scoreboard players set #bankAccount price 576
-scoreboard players set #sharedBankAccount price 384
-scoreboard players set #unlimitedBankAccount price 768
 
 # Wall Street
 scoreboard players set #wallStreetMax vars 75

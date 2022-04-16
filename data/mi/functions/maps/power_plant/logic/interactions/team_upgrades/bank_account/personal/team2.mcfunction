@@ -1,4 +1,4 @@
-scoreboard players set #team2 bankAccount 1
+scoreboard players set #team2BankAccount temp 1
 
 data merge block 205 20 -134 {Text2:'{"text":"[ 1 / 3 ]"}',Text3:'[{"score":{"name":"#sharedBankAccount","objective":"price"}},{"text":" Paper"}]'}
 

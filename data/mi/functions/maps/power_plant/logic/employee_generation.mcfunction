@@ -12,11 +12,11 @@ scoreboard players operation #team1HighTier temp *= #employeeGenerationAmount va
 scoreboard players operation #employeeGain temp += #team1LowTier temp
 scoreboard players operation #employeeGain temp += #team1HighTier temp
 
-execute if score #team1 bankAccount matches 0 run loot insert 87 28 -136 loot mi:employees
-execute if score #team1 bankAccount matches 1 run scoreboard players operation #employeeGain temp /= #team1Amount temp
-execute if score #team1 bankAccount matches 1 as @a[team=team1] if score @s ct.paper < #paperMax vars run scoreboard players operation @s ct.paper += #employeeGain temp
-execute if score #team1 bankAccount matches 2 if score #team1 ct.paper < #paperMaxScaled vars run scoreboard players operation #team1 ct.paper += #employeeGain temp
-execute if score #team1 bankAccount matches 3 run scoreboard players operation #team1 ct.paper += #employeeGain temp
+execute if score #team1BankAccount temp matches 0 run loot insert 87 28 -136 loot mi:employees
+execute if score #team1BankAccount temp matches 1 run scoreboard players operation #employeeGain temp /= #team1Amount temp
+execute if score #team1BankAccount temp matches 1 as @a[team=team1] if score @s ct.paper < #paperMax vars run scoreboard players operation @s ct.paper += #employeeGain temp
+execute if score #team1BankAccount temp matches 2 if score #team1 ct.paper < #paperMaxScaled vars run scoreboard players operation #team1 ct.paper += #employeeGain temp
+execute if score #team1BankAccount temp matches 3 run scoreboard players operation #team1 ct.paper += #employeeGain temp
 
 scoreboard players reset #employeeGain temp
 
@@ -32,11 +32,11 @@ scoreboard players operation #team2HighTier temp *= #employeeGenerationAmount va
 scoreboard players operation #employeeGain temp += #team2LowTier temp
 scoreboard players operation #employeeGain temp += #team2HighTier temp
 
-execute if score #team2 bankAccount matches 0 run loot insert 193 28 -116 loot mi:employees
-execute if score #team2 bankAccount matches 1 run scoreboard players operation #employeeGain temp /= #team2Amount temp
-execute if score #team2 bankAccount matches 1 as @a[team=team2] if score @s ct.paper < #paperMax vars run scoreboard players operation @s ct.paper += #employeeGain temp
-execute if score #team2 bankAccount matches 2 if score #team2 ct.paper < #paperMaxScaled vars run scoreboard players operation #team2 ct.paper += #employeeGain temp
-execute if score #team2 bankAccount matches 3 run scoreboard players operation #team2 ct.paper += #employeeGain temp
+execute if score #team2BankAccount temp matches 0 run loot insert 193 28 -116 loot mi:employees
+execute if score #team2BankAccount temp matches 1 run scoreboard players operation #employeeGain temp /= #team2Amount temp
+execute if score #team2BankAccount temp matches 1 as @a[team=team2] if score @s ct.paper < #paperMax vars run scoreboard players operation @s ct.paper += #employeeGain temp
+execute if score #team2BankAccount temp matches 2 if score #team2 ct.paper < #paperMaxScaled vars run scoreboard players operation #team2 ct.paper += #employeeGain temp
+execute if score #team2BankAccount temp matches 3 run scoreboard players operation #team2 ct.paper += #employeeGain temp
 
 scoreboard players reset #employeeGain temp
 

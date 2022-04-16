@@ -1,7 +1,7 @@
 scoreboard players reset * map
 
-scoreboard players set #team1 bankAccount 0
-scoreboard players set #team2 bankAccount 0
+scoreboard players set #team1BankAccount temp 0
+scoreboard players set #team2BankAccount temp 0
 
 scoreboard players set #team1 employees 0
 scoreboard players set #team2 employees 0

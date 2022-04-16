@@ -1,4 +1,4 @@
-scoreboard players set #team1 bankAccount 3
+scoreboard players set #team1BankAccount temp 3
 
 data merge block 75 20 -117 {Text2:'{"text":"[ MAX ]"}',Text3:''}
 setblock 74 20 -117 minecraft:sea_lantern replace

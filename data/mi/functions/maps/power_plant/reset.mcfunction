@@ -1,4 +1,4 @@
-summon minecraft:marker 74.5 20.5 -104.5 {Tags:["objectMarker"]}
+summon minecraft:marker 74.5 20.5 -104.5 {Tags:["reset.objectMarker"]}
 
 # Paper Generators
 clone 68 27 -129 68 28 -122 102 27 -129
@@ -297,3 +297,5 @@ setblock 88 16 -105 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:
 setblock 192 15 -147 minecraft:red_terracotta replace
 setblock 192 15 -146 minecraft:oak_button[face=wall,facing=south] replace
 setblock 192 16 -146 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+
+kill @e[type=minecraft:marker,tag=reset.objectMarker]

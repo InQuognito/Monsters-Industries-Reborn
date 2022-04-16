@@ -1,33 +1,33 @@
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.paper run clear @s minecraft:paper{new:1} 0
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.paper run clear @s minecraft:paper{new:1} 0
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.coal run clear @s minecraft:coal{new:1} 0
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.coal run clear @s minecraft:coal{new:1} 0
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.bone run clear @s minecraft:bone{new:1} 0
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.bone run clear @s minecraft:bone{new:1} 0
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.gunpowder run clear @s minecraft:gunpowder{new:1} 0
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.gunpowder run clear @s minecraft:gunpowder{new:1} 0
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.spiderEye run clear @s minecraft:spider_eye{new:1} 0
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.spiderEye run clear @s minecraft:spider_eye{new:1} 0
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.slimeball run clear @s minecraft:slime_ball{new:1} 0
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.slimeball run clear @s minecraft:slime_ball{new:1} 0
-execute if score #team1 bankAccount matches 0 if entity @s[team=team1] store result score #team1 ct.netherite run clear @s minecraft:netherite_ingot{new:1} 0
-execute if score #team2 bankAccount matches 0 if entity @s[team=team2] store result score #team2 ct.netherite run clear @s minecraft:netherite_ingot{new:1} 0
+execute if score #team1BankAccount temp matches 0 if entity @s[team=team1] store result score #team1 ct.paper run clear @s minecraft:paper{new:1} 0
+execute if score #team2BankAccount temp matches 0 if entity @s[team=team2] store result score #team2 ct.paper run clear @s minecraft:paper{new:1} 0
+execute if score #team1BankAccount temp matches 0 if entity @s[team=team1] store result score #team1 ct.coal run clear @s minecraft:coal{new:1} 0
+execute if score #team2BankAccount temp matches 0 if entity @s[team=team2] store result score #team2 ct.coal run clear @s minecraft:coal{new:1} 0
+execute if score #team1BankAccount temp matches 0 if entity @s[team=team1] store result score #team1 ct.bone run clear @s minecraft:bone{new:1} 0
+execute if score #team2BankAccount temp matches 0 if entity @s[team=team2] store result score #team2 ct.bone run clear @s minecraft:bone{new:1} 0
+execute if score #team1BankAccount temp matches 0 if entity @s[team=team1] store result score #team1 ct.gunpowder run clear @s minecraft:gunpowder{new:1} 0
+execute if score #team2BankAccount temp matches 0 if entity @s[team=team2] store result score #team2 ct.gunpowder run clear @s minecraft:gunpowder{new:1} 0
+execute if score #team1BankAccount temp matches 0 if entity @s[team=team1] store result score #team1 ct.spiderEye run clear @s minecraft:spider_eye{new:1} 0
+execute if score #team2BankAccount temp matches 0 if entity @s[team=team2] store result score #team2 ct.spiderEye run clear @s minecraft:spider_eye{new:1} 0
+execute if score #team1BankAccount temp matches 0 if entity @s[team=team1] store result score #team1 ct.slimeball run clear @s minecraft:slime_ball{new:1} 0
+execute if score #team2BankAccount temp matches 0 if entity @s[team=team2] store result score #team2 ct.slimeball run clear @s minecraft:slime_ball{new:1} 0
+execute if score #team1BankAccount temp matches 0 if entity @s[team=team1] store result score #team1 ct.netherite run clear @s minecraft:netherite_ingot{new:1} 0
+execute if score #team2BankAccount temp matches 0 if entity @s[team=team2] store result score #team2 ct.netherite run clear @s minecraft:netherite_ingot{new:1} 0
 execute store result score #tokenCount temp run clear @s minecraft:emerald 0
 
-execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper = @s ct.paper
-execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper = @s ct.paper
-execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.coal = @s ct.coal
-execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.coal = @s ct.coal
-execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.bone = @s ct.bone
-execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.bone = @s ct.bone
-execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.gunpowder = @s ct.gunpowder
-execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.gunpowder = @s ct.gunpowder
-execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEye = @s ct.spiderEye
-execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEye = @s ct.spiderEye
-execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.slimeball = @s ct.slimeball
-execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.slimeball = @s ct.slimeball
-execute if score #team1 bankAccount matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.netherite = @s ct.netherite
-execute if score #team2 bankAccount matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.netherite = @s ct.netherite
+execute if score #team1BankAccount temp matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.paper = @s ct.paper
+execute if score #team2BankAccount temp matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.paper = @s ct.paper
+execute if score #team1BankAccount temp matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.coal = @s ct.coal
+execute if score #team2BankAccount temp matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.coal = @s ct.coal
+execute if score #team1BankAccount temp matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.bone = @s ct.bone
+execute if score #team2BankAccount temp matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.bone = @s ct.bone
+execute if score #team1BankAccount temp matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.gunpowder = @s ct.gunpowder
+execute if score #team2BankAccount temp matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.gunpowder = @s ct.gunpowder
+execute if score #team1BankAccount temp matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.spiderEye = @s ct.spiderEye
+execute if score #team2BankAccount temp matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.spiderEye = @s ct.spiderEye
+execute if score #team1BankAccount temp matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.slimeball = @s ct.slimeball
+execute if score #team2BankAccount temp matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.slimeball = @s ct.slimeball
+execute if score #team1BankAccount temp matches 1 if entity @s[team=team1] run scoreboard players operation #team1 ct.netherite = @s ct.netherite
+execute if score #team2BankAccount temp matches 1 if entity @s[team=team2] run scoreboard players operation #team2 ct.netherite = @s ct.netherite
 
 execute if entity @s[team=team1] run scoreboard players operation #temp stock = $team1 stock
 execute if entity @s[team=team2] run scoreboard players operation #temp stock = $team2 stock

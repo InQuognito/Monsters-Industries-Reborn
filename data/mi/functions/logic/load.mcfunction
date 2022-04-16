@@ -25,3 +25,5 @@ execute if score #resetType resetType matches 2 run tellraw @a {"text":"The game
 scoreboard players set #resetType resetType 1
 
 function mi:logic/timer_tick
+
+forceload add 0 0 0 0

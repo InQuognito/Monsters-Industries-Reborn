@@ -1,8 +1,5 @@
 scoreboard players reset * map
 
-scoreboard players set #team1BankAccount temp 0
-scoreboard players set #team2BankAccount temp 0
-
 scoreboard players set #team1 employees 0
 scoreboard players set #team2 employees 0
 
@@ -20,6 +17,9 @@ scoreboard players set #team2 sentryCount 0
 
 scoreboard players set $team1 stock 0
 scoreboard players set $team2 stock 0
+
+scoreboard players set #team1BankAccount temp 0
+scoreboard players set #team2BankAccount temp 0
 
 scoreboard players set #team1MaxHealth temp 0
 scoreboard players set #team2MaxHealth temp 0

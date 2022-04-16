@@ -150,17 +150,6 @@ execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function m
 tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -133.5 90.0 0.0
 execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/management
 
-# Bank Account
-fill 74 28 -120 74 28 -121 minecraft:air replace
-setblock 74 20 -117 minecraft:redstone_lamp replace
-setblock 75 20 -117 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 75 19 -117 minecraft:birch_button[facing=east] replace
-
-fill 206 28 -131 206 28 -130 minecraft:air replace
-setblock 206 20 -134 minecraft:redstone_lamp replace
-setblock 205 20 -134 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Bank Account","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Bank Account\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Creates a limited capacity bank account to store items in, saving inventory space.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 205 19 -134 minecraft:spruce_button[facing=west] replace
-
 # Sentries
 execute unless score $rushMode mode matches 1 run setblock 79 30 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
 execute unless score $rushMode mode matches 1 run setblock 79 28 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy

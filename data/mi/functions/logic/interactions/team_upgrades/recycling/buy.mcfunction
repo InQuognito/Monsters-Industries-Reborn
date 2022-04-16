@@ -2,11 +2,8 @@ execute if entity @s[team=team1] run scoreboard players set @a[team=team1] recyc
 execute if entity @s[team=team2] run scoreboard players set @a[team=team2] recycling 1
 
 data merge block ^ ^1 ^ {Text2:'{"text":"[ MAX ]"}',Text3:''}
-say updated sign
 setblock ^ ^1 ^-1 minecraft:sea_lantern replace
-say set sea lantern
 setblock ^ ^ ^ minecraft:air replace
-say set air over button
 
 tag @s add self
 title @s actionbar [{"text":"You have purchased ","color":"green"},{"text":"Recycling","color":"gold"},{"text":"!","color":"green"}]
@@ -17,3 +14,5 @@ tag @s remove self
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #recycling price
 function mi:logic/currency/apply_price
+
+say recycling buy

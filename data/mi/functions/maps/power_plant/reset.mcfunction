@@ -124,37 +124,31 @@ setblock 158 19 -158 minecraft:gravel replace
 setblock 154 19 -160 minecraft:oak_button[face=wall,facing=west] replace
 setblock 154 20 -160 minecraft:oak_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#sabotageBarricade","objective":"price"}},{"text":" Paper"}]'} destroy
 
-# Max Health
+# Team Upgrades
 tp @e[type=minecraft:marker,tag=reset.objectMarker] 74.5 20.5 -104.5 -90.0 0.0
 execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
-
 tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -145.5 90.0 0.0
 execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/max_health
 
-# Swiftness
 tp @e[type=minecraft:marker,tag=reset.objectMarker] 74.5 20.5 -107.5 -90.0 0.0
 execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
-
-tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -142.5 -90.0 0.0
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -142.5 90.0 0.0
 execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/swiftness
 
-# Management
-#setblock 74 20 -108 minecraft:redstone_lamp replace
-#setblock 75 20 -108 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
-#setblock 75 19 -108 minecraft:birch_button[facing=east] replace
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 74.5 20.5 -110.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/bank_account
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -139.5 90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/bank_account
 
-#setblock 206 20 -143 minecraft:redstone_lamp replace
-#setblock 205 20 -143 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Swiftness","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Swiftness\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Increases movemment speed by a small amount.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#swiftness1","objective":"price"}},{"text":" Paper"}]'} destroy
-#setblock 205 19 -143 minecraft:spruce_button[facing=west] replace
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 74.5 20.5 -113.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/recycling
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -136.5 90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/recycling
 
-# Recycling
-setblock 74 20 -114 minecraft:redstone_lamp replace
-setblock 75 20 -114 minecraft:birch_wall_sign[facing=east]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'[{"score":{"name":"#recycling","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 75 19 -114 minecraft:birch_button[facing=east] replace
-
-setblock 206 20 -137 minecraft:redstone_lamp replace
-setblock 205 20 -137 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Recycling","clickEvent":{"action":"run_command","value":"tellraw @s [\\"\\",{\\"text\\":\\"Recycling\\",\\"color\\":\\"gold\\"},{\\"text\\":\\" - \\",\\"color\\":\\"dark_gray\\"},{\\"text\\":\\"Allows mobs you kill to drop resources.\\",\\"color\\":\\"yellow\\"}]"}}',Text2:'{"text":"[ 0 / 1 ]"}',Text3:'[{"score":{"name":"#recycling","objective":"price"}},{"text":" Paper"}]'} destroy
-setblock 205 19 -137 minecraft:spruce_button[facing=west] replace
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 74.5 20.5 -116.5 -90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/management
+tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -133.5 90.0 0.0
+execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/management
 
 # Bank Account
 fill 74 28 -120 74 28 -121 minecraft:air replace

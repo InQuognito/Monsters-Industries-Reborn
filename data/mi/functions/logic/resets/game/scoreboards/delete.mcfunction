@@ -39,6 +39,7 @@ scoreboard objectives remove production.spiderEye
 #scoreboard objectives remove random
 scoreboard objectives remove recycling
 #scoreboard objectives remove resetType
+scoreboard objectives remove respawn
 scoreboard objectives remove sentryCount
 scoreboard objectives remove shop
 scoreboard objectives remove spadeLevel

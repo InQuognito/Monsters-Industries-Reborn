@@ -35,7 +35,7 @@ clear @a
 effect clear @a
 effect give @a minecraft:instant_health 1 50 true
 
-execute as @a[team=!spectators] run function mi:logic/replace_items
+execute as @a[team=!spectators] run function mi:logic/restore_items
 
 function mi:logic/reset_lever
 

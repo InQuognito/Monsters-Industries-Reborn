@@ -13,5 +13,6 @@ execute if entity @s[team=team2] run tellraw @a[team=team2,tag=!self] [{"text":"
 tag @s remove self
 
 function mi:logic/currency/reset_temp_prices
-scoreboard players operation #clearPaper temp = #maxHealth5 price
+scoreboard players operation #clearPaper temp = #maxHealth5Paper price
+scoreboard players operation #clearSlimeball temp = #maxHealth5Slimeball price
 function mi:logic/currency/apply_price

@@ -84,11 +84,6 @@ execute if score $rushMode mode matches 1 run fill 75 28 -114 75 29 -110 minecra
 execute if score $rushMode mode matches 1 run setblock 205 30 -139 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:'{"text":"Wall Street"}',Text3:'{"text":"Disabled"}'} destroy
 execute if score $rushMode mode matches 1 run fill 205 28 -141 205 29 -137 minecraft:air replace
 
-# Employees
-setblock 87 28 -136 minecraft:chest[facing=south] destroy
-
-setblock 193 28 -116 minecraft:chest[facing=north] destroy
-
 # Barricade 1
 clone 100 14 -79 102 16 -78 100 14 -98
 setblock 101 16 -97 minecraft:oak_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Clear Barricade"}',Text3:'[{"score":{"name":"#barricade1","objective":"price"}},{"text":" Paper"}]'} destroy

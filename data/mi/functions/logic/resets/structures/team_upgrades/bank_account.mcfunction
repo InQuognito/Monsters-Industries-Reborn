@@ -5,3 +5,6 @@ execute if entity @s[y_rotation=-90.0] run setblock ^ ^-1 ^1 minecraft:birch_but
 execute if entity @s[y_rotation=90.0] run setblock ^ ^-1 ^1 minecraft:spruce_button[face=wall,facing=west] replace
 
 setblock ^ ^ ^ minecraft:redstone_lamp[lit=false] replace
+
+setblock 87 28 -136 minecraft:chest[facing=south] destroy
+setblock 193 28 -116 minecraft:chest[facing=north] destroy

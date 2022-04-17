@@ -174,11 +174,25 @@ execute positioned 75.5 19.5 -110.5 if block ~ ~ ~ #minecraft:buttons[powered=tr
 execute positioned 75.5 19.5 -113.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/recycling
 execute positioned 75.5 19.5 -116.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/management
 
+execute positioned 74.5 29.5 -130.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/management/paper
+execute positioned 74.5 29.5 -131.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/management/coal
+execute positioned 74.5 29.5 -132.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/management/bone
+execute positioned 74.5 29.5 -133.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/management/spider_eye
+execute positioned 74.5 29.5 -134.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/management/gunpowder
+execute positioned 74.5 29.5 -135.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/tick/inputs/team_upgrades/management/slimeball
+
 execute positioned 205.5 19.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/max_health
 execute positioned 205.5 19.5 -142.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/swiftness
 execute positioned 205.5 19.5 -139.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/bank_account
 execute positioned 205.5 19.5 -136.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/recycling
 execute positioned 205.5 19.5 -133.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/management
+
+execute positioned 206.5 29.5 -119.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/management/paper
+execute positioned 206.5 29.5 -118.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/management/coal
+execute positioned 206.5 29.5 -117.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/management/bone
+execute positioned 206.5 29.5 -116.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/management/spider_eye
+execute positioned 206.5 29.5 -115.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/management/gunpowder
+execute positioned 206.5 29.5 -114.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/tick/inputs/team_upgrades/management/slimeball
 
 # Wall Street
 execute positioned 75.5 28.5 -109.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/others/buy_stock1_try

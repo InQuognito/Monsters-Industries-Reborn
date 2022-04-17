@@ -32,4 +32,4 @@ execute if entity @e[tag=team2,tag=mobShopBuy,tag=creeper] run function mi:maps/
 execute if entity @e[tag=team2,tag=mobShopBuy,tag=slime] run function mi:maps/power_plant/logic/mob_shop/team2/prices/slime
 execute if entity @e[tag=team2,tag=mobShopBuy,tag=phantom] run function mi:maps/power_plant/logic/mob_shop/team2/prices/phantom
 execute if entity @e[tag=team2,tag=mobShopBuy,tag=villager] run function mi:maps/power_plant/logic/mob_shop/team2/prices/villager
-execute if entity @e[tag=team1,tag=mobShopBuy,tag=neuronWorm] run function mi:maps/power_plant/logic/mob_shop/team1/prices/neuron_worm
+execute if entity @e[tag=team2,tag=mobShopBuy,tag=neuronWorm] run function mi:maps/power_plant/logic/mob_shop/team2/prices/neuron_worm

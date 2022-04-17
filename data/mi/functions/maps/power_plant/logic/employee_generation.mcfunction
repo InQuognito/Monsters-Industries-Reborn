@@ -40,14 +40,14 @@ scoreboard players reset #employeeGain temp
 execute store result score #team2LowTier employees run execute if entity @e[type=minecraft:villager,team=team2,tag=employee]
 execute store result score #team2HighTier employees run execute if entity @e[type=minecraft:zombified_piglin,team=team2,tag=employee]
 
-execute if score #team1EmployeeResource employees matches 1 run scoreboard players operation #team2LowTier temp = #team2LowTier employees
-execute if score #team1EmployeeResource employees matches 1 run scoreboard players operation #team2LowTier temp *= #employeeGenerationAmount vars
-execute if score #team1EmployeeResource employees matches 1 run scoreboard players operation #team2LowTier temp /= #4 integers
+execute if score #team2EmployeeResource employees matches 1 run scoreboard players operation #team2LowTier temp = #team2LowTier employees
+execute if score #team2EmployeeResource employees matches 1 run scoreboard players operation #team2LowTier temp *= #employeeGenerationAmount vars
+execute if score #team2EmployeeResource employees matches 1 run scoreboard players operation #team2LowTier temp /= #4 integers
 scoreboard players operation #team2HighTier temp = #team2HighTier employees
 scoreboard players operation #team2HighTier temp *= #employeeGenerationAmount vars
 execute if score #team2EmployeeResource employees matches 2.. run scoreboard players operation #team2HighTier temp /= #3 integers
 
-execute if score #team1EmployeeResource employees matches 1 run scoreboard players operation #employeeGain temp += #team2LowTier temp
+execute if score #team2EmployeeResource employees matches 1 run scoreboard players operation #employeeGain temp += #team2LowTier temp
 scoreboard players operation #employeeGain temp += #team2HighTier temp
 
 scoreboard players operation #employeeResource temp = #team2EmployeeResource employees

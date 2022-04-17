@@ -19,6 +19,140 @@
 							"function": "minecraft:set_nbt",
 							"tag": "{new:1}"
 						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "#employeeResource"
+								},
+								"score": "temp"
+							},
+							"range": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "#employeeResource"
+								},
+								"score": "temp"
+							},
+							"range": 2
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "#employeeResource"
+								},
+								"score": "temp"
+							},
+							"range": 3
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spider_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "#employeeResource"
+								},
+								"score": "temp"
+							},
+							"range": 4
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "#employeeResource"
+								},
+								"score": "temp"
+							},
+							"range": 5
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{new:1}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "#employeeResource"
+								},
+								"score": "temp"
+							},
+							"range": 6
+						}
 					]
 				}
 			]

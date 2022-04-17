@@ -3,8 +3,8 @@ scoreboard players reset * map
 scoreboard players set #team1 employees 0
 scoreboard players set #team2 employees 0
 
-scoreboard players set #team1EmployeeResource employees 1
-scoreboard players set #team2EmployeeResource employees 1
+scoreboard players set #team1EmployeeResource temp 1
+scoreboard players set #team2EmployeeResource temp 1
 
 scoreboard players set #team1 enchantment 0
 scoreboard players set #team2 enchantment 0

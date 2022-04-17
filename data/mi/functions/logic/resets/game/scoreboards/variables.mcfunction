@@ -236,7 +236,7 @@ scoreboard players set #bankAccount1 price 576
 scoreboard players set #bankAccount2 price 384
 scoreboard players set #bankAccount3 price 768
 
-scoreboard players set #management price 1500
+scoreboard players set #management price 16
 
 scoreboard players set #maxHealth1 price 384
 scoreboard players set #maxHealth2 price 576

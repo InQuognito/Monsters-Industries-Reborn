@@ -9,7 +9,12 @@ scoreboard objectives remove ct.slimeball
 scoreboard objectives remove ct.spiderEye
 scoreboard objectives remove ct.tokens
 scoreboard objectives remove employees
+scoreboard objectives remove employeeBone
+scoreboard objectives remove employeeCoal
+scoreboard objectives remove employeeGunpowder
 scoreboard objectives remove employeePaper
+scoreboard objectives remove employeeSlimeball
+scoreboard objectives remove employeeSpiderEye
 scoreboard objectives remove enchantment
 scoreboard objectives remove forge
 scoreboard objectives remove harvest.bone

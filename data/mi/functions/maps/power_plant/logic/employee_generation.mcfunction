@@ -8,7 +8,7 @@ execute if score #team1EmployeeResource temp matches 1 run scoreboard players op
 execute if score #team1EmployeeResource temp matches 1 run scoreboard players operation #team1LowTier temp /= #4 integers
 scoreboard players operation #team1HighTier temp = #team1HighTier employees
 scoreboard players operation #team1HighTier temp *= #employeeGenerationAmount vars
-execute if score #team1EmployeeResource temp matches 2.. run scoreboard players operation #team1HighTier temp /= #3 integers
+execute if score #team1EmployeeResource temp matches 2.. run scoreboard players operation #team1HighTier temp /= #8 integers
 
 execute if score #team1EmployeeResource temp matches 1 run scoreboard players operation #employeeGain temp += #team1LowTier temp
 scoreboard players operation #employeeGain temp += #team1HighTier temp
@@ -45,7 +45,7 @@ execute if score #team2EmployeeResource temp matches 1 run scoreboard players op
 execute if score #team2EmployeeResource temp matches 1 run scoreboard players operation #team2LowTier temp /= #4 integers
 scoreboard players operation #team2HighTier temp = #team2HighTier employees
 scoreboard players operation #team2HighTier temp *= #employeeGenerationAmount vars
-execute if score #team2EmployeeResource temp matches 2.. run scoreboard players operation #team2HighTier temp /= #3 integers
+execute if score #team2EmployeeResource temp matches 2.. run scoreboard players operation #team2HighTier temp /= #8 integers
 
 execute if score #team2EmployeeResource temp matches 1 run scoreboard players operation #employeeGain temp += #team2LowTier temp
 scoreboard players operation #employeeGain temp += #team2HighTier temp

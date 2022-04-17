@@ -9,7 +9,12 @@ scoreboard objectives add ct.slimeball dummy
 scoreboard objectives add ct.spiderEye dummy
 scoreboard objectives add ct.tokens dummy
 scoreboard objectives add employees dummy
+scoreboard objectives add employeeBone dummy
+scoreboard objectives add employeeCoal dummy
+scoreboard objectives add employeeGunpowder dummy
 scoreboard objectives add employeePaper dummy
+scoreboard objectives add employeeSlimeball dummy
+scoreboard objectives add employeeSpiderEye dummy
 scoreboard objectives add enchantment dummy
 scoreboard objectives add forge dummy
 scoreboard objectives add harvest.bone minecraft.mined:minecraft.podzol

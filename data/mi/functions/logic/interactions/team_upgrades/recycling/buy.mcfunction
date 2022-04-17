@@ -14,5 +14,3 @@ tag @s remove self
 function mi:logic/currency/reset_temp_prices
 scoreboard players operation #clearPaper temp = #recycling price
 function mi:logic/currency/apply_price
-
-say recycling buy

@@ -1,5 +1,15 @@
 [
 	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Credit Card",
+			"color": "red",
+			"bold": false,
+			"italic": false
+		}
+	},
+	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [],

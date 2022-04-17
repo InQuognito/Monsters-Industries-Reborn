@@ -15,8 +15,8 @@ execute if entity @s[team=team1] run tellraw @a[team=team1,tag=!self] [{"text":"
 execute if entity @s[team=team2] run tellraw @a[team=team2,tag=!self] [{"text":"Your teammate has purchased a ","color":"green"},{"text":"Personal Bank Account","color":"gold"},{"text":"!","color":"green"}]
 tag @s remove self
 
-execute if entity @s[team=team1] run give @a[team=team1] minecraft:copper_ingot{credit_card:1,display:{Name:'[{"text":"Credit Card","italic":false,"color":"aqua","underlined":true,"bold":true}]'}} 1
-execute if entity @s[team=team2] run give @a[team=team2] minecraft:copper_ingot{credit_card:1,display:{Name:'[{"text":"Credit Card","italic":false,"color":"red","underlined":true,"bold":true}]'}} 1
+execute if entity @s[team=team1] as @a[team=team1] run function mi:logic/credit_card
+execute if entity @s[team=team2] as @a[team=team2] run function mi:logic/credit_card
 
 function mi:logic/resources/transfer_to_bank_account/check
 

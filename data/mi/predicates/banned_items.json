@@ -54,6 +54,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Item:{id:\"minecraft:diamond_sword\"}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Item:{id:\"minecraft:flint_and_steel\"}}"
 			}
 		},
@@ -124,6 +131,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Item:{id:\"minecraft:iron_sword\"}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Item:{id:\"minecraft:leather_boots\"}}"
 			}
 		},
@@ -180,6 +194,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Item:{id:\"minecraft:netherite_sword\"}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Item:{id:\"minecraft:stone_pickaxe\"}}"
 			}
 		},
@@ -188,6 +209,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Item:{id:\"minecraft:stone_shovel\"}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Item:{id:\"minecraft:stone_sword\"}}"
 			}
 		},
 		{
@@ -209,6 +237,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Item:{id:\"minecraft:wooden_shovel\"}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Item:{id:\"minecraft:wooden_sword\"}}"
 			}
 		},
 		{

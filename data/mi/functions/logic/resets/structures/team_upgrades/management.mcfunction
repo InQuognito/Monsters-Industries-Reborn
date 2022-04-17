@@ -7,4 +7,4 @@ execute if entity @s[y_rotation=90.0] run setblock ^ ^-1 ^1 minecraft:spruce_but
 setblock ^ ^ ^ minecraft:redstone_lamp[lit=false] replace
 
 fill 74 28 -136 74 29 -131 minecraft:air replace
-fill 206 27 -120 206 28 -115 minecraft:air replace
+fill 206 28 -120 206 29 -115 minecraft:air replace

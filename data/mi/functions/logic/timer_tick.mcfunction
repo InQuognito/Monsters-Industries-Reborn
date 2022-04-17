@@ -14,7 +14,7 @@ execute if score $gameStage temp matches 2.. as @a[team=!spectators,nbt=!{Invent
 execute if score $gameStage temp matches 2.. if score #team1BankAccount temp matches 1.. as @a[team=team1,nbt=!{Inventory:[{id:"minecraft:copper_ingot",tag:{creditCard:1}}]}] run scoreboard players add @s timer.creditCard 1
 execute if score $gameStage temp matches 2.. if score #team2BankAccount temp matches 1.. as @a[team=team2,nbt=!{Inventory:[{id:"minecraft:copper_ingot",tag:{creditCard:1}}]}] run scoreboard players add @s timer.creditCard 1
 
-execute if score $gameStage temp matches 2.. as @a[team=!spectators,scores={timer.itemShop=10..},nbt={Inventory:[{Slot:8b,id:"minecraft:air"}]}] run function mi:logic/book
+execute if score $gameStage temp matches 2.. as @a[team=!spectators,scores={timer.itemShop=10..}] run function mi:logic/book
 execute if score $gameStage temp matches 2.. if score #team1BankAccount temp matches 1.. as @a[team=team1,scores={timer.creditCard=10..}] run function mi:logic/credit_card
 execute if score $gameStage temp matches 2.. if score #team2BankAccount temp matches 1.. as @a[team=team2,scores={timer.creditCard=10..}] run function mi:logic/credit_card
 

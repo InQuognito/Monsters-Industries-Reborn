@@ -1,4 +1,5 @@
 function mi:logic/convert_currency_scoreboards
+function mi:logic/get_sword_level
 
 execute if score @s swordLevel matches 2.. run title @s actionbar [{"text":"You already own an ","color":"red"},{"text":"Iron Sword","color":"white"},{"text":"!","color":"red"}]
 

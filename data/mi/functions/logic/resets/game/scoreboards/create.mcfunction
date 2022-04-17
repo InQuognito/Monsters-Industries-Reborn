@@ -52,5 +52,7 @@ scoreboard objectives add stock dummy
 scoreboard objectives add swordLevel dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy
+scoreboard objectives add timer.creditCard dummy
+scoreboard objectives add timer.itemShop dummy
 scoreboard objectives add vars dummy
 scoreboard objectives add vexHealth dummy

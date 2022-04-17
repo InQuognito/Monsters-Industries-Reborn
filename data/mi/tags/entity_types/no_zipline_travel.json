@@ -1,0 +1,11 @@
+{
+	"values": [
+		"#mi:projectiles",
+		"minecraft:iron_golem",
+		"minecraft:item",
+		"minecraft:minecart",
+		"minecraft:player",
+		"minecraft:vex",
+		"minecraft:wither"
+	]
+}

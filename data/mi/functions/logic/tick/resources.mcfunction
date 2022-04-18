@@ -1,8 +1,8 @@
-execute unless score #team1FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team1.coal] run setblock ~ ~ ~ minecraft:coal_ore keep
-execute unless score #team2FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team2.coal] run setblock ~ ~ ~ minecraft:coal_ore keep
+execute as @a[scores={harvest.coal=1..}] run function mi:logic/resources/coal
 
-execute unless score #team1FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team1.bone] run setblock ~ ~ ~ minecraft:podzol keep
-execute unless score #team2FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team2.bone] run setblock ~ ~ ~ minecraft:podzol keep
+execute as @a[scores={harvest.bone=1..}] run function mi:logic/resources/bone
+
+execute as @a[scores={harvest.gunpowder=1..}] run function mi:logic/resources/gunpowder
 
 execute if score #team1Gunpowder timer matches 1.. run scoreboard players remove #team1Gunpowder timer 1
 execute if score #team2Gunpowder timer matches 1.. run scoreboard players remove #team2Gunpowder timer 1

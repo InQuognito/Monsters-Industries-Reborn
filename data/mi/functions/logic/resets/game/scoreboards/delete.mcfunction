@@ -17,6 +17,9 @@ scoreboard objectives remove employeeSlimeball
 scoreboard objectives remove employeeSpiderEye
 scoreboard objectives remove enchantment
 scoreboard objectives remove forge
+scoreboard objectives remove harvest.bone
+scoreboard objectives remove harvest.coal
+scoreboard objectives remove harvest.gunpowder
 scoreboard objectives remove health
 scoreboard objectives remove healthMax
 scoreboard objectives remove healthMult

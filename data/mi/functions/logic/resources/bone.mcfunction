@@ -16,4 +16,7 @@ tellraw @s[tag=getBoneFortune] {"text":"You feel the luck empower you and double
 scoreboard players set @s[tag=getBoneFortune] production.bone 2
 tag @s remove getBoneFortune
 
-advancement revoke @s only mi:utility/harvest_bone
+execute unless score #team1FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team1.bone] run setblock ~ ~ ~ minecraft:podzol keep
+execute unless score #team2FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team2.bone] run setblock ~ ~ ~ minecraft:podzol keep
+
+scoreboard players reset @s harvest.bone

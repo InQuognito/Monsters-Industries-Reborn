@@ -17,4 +17,7 @@ tellraw @s[tag=getCoalFortune] {"text":"You feel the luck empower you and double
 scoreboard players set @s[tag=getCoalFortune] production.coal 2
 tag @s remove getCoalFortune
 
-advancement revoke @s only mi:utility/harvest_coal
+execute unless score #team1FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team1.coal] run setblock ~ ~ ~ minecraft:coal_ore keep
+execute unless score #team2FactoryShutdown temp matches 1 at @e[type=minecraft:marker,tag=location.team2.coal] run setblock ~ ~ ~ minecraft:coal_ore keep
+
+scoreboard players reset @s harvest.coal

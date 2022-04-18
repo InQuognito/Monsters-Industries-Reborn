@@ -84,13 +84,9 @@ execute positioned 192.5 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=t
 execute positioned 192.5 15.5 -145.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:oak_button[face=wall,facing=south] replace
 
 # Quantum Tunnel
-execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team1QuantumTunnel temp matches 1 as @p[team=team1] run function mi:logic/interactions/others/quantum_tunnel_buy_try
-execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team1QuantumTunnel temp matches 1 as @p[team=team1] run function mi:logic/fusion/repeat_previous
-execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=south] replace
+execute positioned 86.5 20.5 -154.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:maps/power_plant/logic/tick/inputs/quantum_tunnel/team1
 
-execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] unless score #team2QuantumTunnel temp matches 1 as @p[team=team2] run function mi:logic/interactions/others/quantum_tunnel_buy_try
-execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if score #team2QuantumTunnel temp matches 1 as @p[team=team2] run function mi:logic/fusion/repeat_previous
-execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=north] replace
+execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/logic/tick/inputs/quantum_tunnel/team2
 
 # Sabotages
 execute positioned 132.5 21.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/factory_shutdown/try

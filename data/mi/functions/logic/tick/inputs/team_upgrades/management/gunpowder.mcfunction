@@ -1,5 +1,4 @@
-execute if entity @s[team=team1] run tp @e[type=minecraft:marker,tag=inputs.objectMarker] ^ ^ ^ -90.0 0.0
-execute if entity @s[team=team2] run tp @e[type=minecraft:marker,tag=inputs.objectMarker] ^ ^ ^ 90.0 0.0
+function mi:logic/prepare_input/east_west
 
 execute if entity @s[team=team1] run scoreboard players set #team1EmployeeResource temp 5
 execute if entity @s[team=team2] run scoreboard players set #team2EmployeeResource temp 5

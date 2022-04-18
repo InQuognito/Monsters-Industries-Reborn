@@ -1,7 +1,5 @@
 function mi:logic/convert_currency_scoreboards
 
-execute store result score #tokenCount temp run clear @s minecraft:emerald 0
-
 execute unless score #team1Interval forge matches ..10 run title @s[team=team1] actionbar {"text":"You have already reached the maximum interval!!","color":"red"}
 execute unless score #team2Interval forge matches ..10 run title @s[team=team2] actionbar {"text":"You have already reached the maximum interval!!","color":"red"}
 

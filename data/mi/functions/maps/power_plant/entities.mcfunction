@@ -8,7 +8,7 @@ summon minecraft:marker 92.5 16.5 -158.5 {Tags:["location.team1.coal"]}
 summon minecraft:marker 188.5 16.5 -91.5 {Tags:["location.team2.coal"]}
 
 summon minecraft:marker 113.5 18.5 -84.5 {Tags:["location.team1.bone"]}
-summon minecraft:marker 168.5 18.5 -171.5 {Tags:["location.team2.bone"]}
+summon minecraft:marker 168.5 18.5 -169.5 {Tags:["location.team2.bone"]}
 
 summon minecraft:marker 134.5 19.5 -153.5 {Tags:["location.team1.gunpowder"]}
 summon minecraft:marker 146.5 19.5 -99.5 {Tags:["location.team2.gunpowder"]}

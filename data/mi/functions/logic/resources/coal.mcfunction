@@ -10,7 +10,10 @@ execute if score #bankAccount temp matches 2.. run function mi:logic/currency/ad
 
 function mi:logic/update_credit_card
 
-execute at @s run playsound minecraft:entity.item.pickup block @s
+execute if score #bankAccount temp matches 0 at @s run playsound minecraft:entity.item.pickup block @s
+execute if score #bankAccount temp matches 1 if score @s ct.coal < #coalMax vars at @s run playsound minecraft:entity.item.pickup block @s
+execute if score #bankAccount temp matches 2 if score #temp ct.coal < #coalMaxScaled vars at @s run playsound minecraft:entity.item.pickup block @s
+execute if score #bankAccount temp matches 3 at @s run playsound minecraft:entity.item.pickup block @s
 
 execute if predicate mi:chance_0_5 run tag @s[scores={production.coal=1}] add getCoalFortune
 tellraw @s[tag=getCoalFortune] {"text":"You feel the luck empower you and double your coal output!","color":"green"}

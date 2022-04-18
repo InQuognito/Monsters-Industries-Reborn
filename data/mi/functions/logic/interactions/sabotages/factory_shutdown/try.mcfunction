@@ -1,5 +1,8 @@
-execute unless score $team1 stock >= #factoryShutdown price run title @s[team=team1] actionbar [{"text":"You do not have enough stock to purchase ","color":"red"},{"text":"Factory Shutdown","color":"white"},{"text":"!","color":"red"}]
-execute unless score $team2 stock >= #factoryShutdown price run title @s[team=team2] actionbar [{"text":"You do not have enough stock to purchase ","color":"red"},{"text":"Factory Shutdown","color":"white"},{"text":"!","color":"red"}]
+function mi:logic/interactions/sabotages/prepare_input
 
-execute if score $powerPlant map matches 1 if entity @s[team=team1] if score $team1 stock >= #factoryShutdown price run function mi:maps/power_plant/logic/interactions/sabotages/factory_shutdown/buy_team1
-execute if score $powerPlant map matches 1 if entity @s[team=team2] if score $team2 stock >= #factoryShutdown price run function mi:maps/power_plant/logic/interactions/sabotages/factory_shutdown/buy_team2
+execute unless score $temp stock >= #factoryShutdown price run title @s actionbar [{"text":"You do not have enough stock to purchase ","color":"red"},{"text":"Factory Shutdown","color":"white"},{"text":"!","color":"red"}]
+
+execute if score $temp stock >= #factoryShutdown price at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/sabotages/factory_shutdown/buy
+
+execute if entity @s[team=team1] at @e[type=minecraft:marker,tag=inputs.objectMarker] run setblock ^ ^ ^ minecraft:birch_button[face=wall,facing=west] replace
+execute if entity @s[team=team2] at @e[type=minecraft:marker,tag=inputs.objectMarker] run setblock ^ ^ ^ minecraft:spruce_button[face=wall,facing=east] replace

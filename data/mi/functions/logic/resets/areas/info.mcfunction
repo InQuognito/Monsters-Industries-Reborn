@@ -1,6 +1,6 @@
 # Join Teams
-summon minecraft:area_effect_cloud -28.5 7.0 -113.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Join Team 1","color":"aqua","bold":true}',CustomNameVisible:1b}
-summon minecraft:area_effect_cloud -28.5 7.0 -103.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Join Team 2","color":"red","bold":true}',CustomNameVisible:1b}
+summon minecraft:area_effect_cloud -28.5 7.0 -113.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Join Team Aqua","color":"aqua","bold":true}',CustomNameVisible:1b}
+summon minecraft:area_effect_cloud -28.5 7.0 -103.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Join Team Red","color":"red","bold":true}',CustomNameVisible:1b}
 
 # Core
 summon minecraft:area_effect_cloud -26.5 7.0 -90.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Core","color":"white","bold":true}',CustomNameVisible:1b}

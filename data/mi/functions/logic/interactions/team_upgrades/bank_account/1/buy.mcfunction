@@ -6,8 +6,8 @@ execute if entity @s[team=team2] run setblock 193 28 -116 minecraft:black_wool r
 
 data merge block ^ ^1 ^ {Color:"black",Text2:'{"text":"[ 1 / 3 ]"}',Text3:'[{"score":{"name":"#bankAccount2","objective":"price"}},{"text":" Paper"}]'}
 
-execute if entity @s[team=team1] positioned 87.5 27.5 -135.5 run function mi:maps/power_plant/logic/resources/transfer_to_bank_account_employees
-execute if entity @s[team=team2] positioned 193.5 27.5 -115.5 run function mi:maps/power_plant/logic/resources/transfer_to_bank_account_employees
+execute if entity @s[team=team1] positioned 87.5 27.5 -135.5 run function mi:logic/transfer_to_bank_account_employees
+execute if entity @s[team=team2] positioned 193.5 27.5 -115.5 run function mi:logic/transfer_to_bank_account_employees
 
 tag @s add self
 title @s actionbar [{"text":"You have purchased a ","color":"green"},{"text":"Personal Bank Account","color":"gold"},{"text":"!","color":"green"}]

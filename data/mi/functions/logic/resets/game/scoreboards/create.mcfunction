@@ -17,9 +17,6 @@ scoreboard objectives add employeeSlimeball dummy
 scoreboard objectives add employeeSpiderEye dummy
 scoreboard objectives add enchantment dummy
 scoreboard objectives add forge dummy
-scoreboard objectives add harvest.bone minecraft.mined:minecraft.podzol
-scoreboard objectives add harvest.coal minecraft.mined:minecraft.coal_ore
-scoreboard objectives add harvest.gp minecraft.used:minecraft.flint_and_steel
 scoreboard objectives add health dummy
 scoreboard objectives add healthMax dummy
 scoreboard objectives add healthMult dummy

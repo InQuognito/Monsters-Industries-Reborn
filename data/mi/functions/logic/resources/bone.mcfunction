@@ -16,4 +16,4 @@ tellraw @s[tag=getBoneFortune] {"text":"You feel the luck empower you and double
 scoreboard players set @s[tag=getBoneFortune] production.bone 2
 tag @s remove getBoneFortune
 
-scoreboard players set @s harvest.bone 0
+advancement revoke @s only mi:utility/harvest_bone

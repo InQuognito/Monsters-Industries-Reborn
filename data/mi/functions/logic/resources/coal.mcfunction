@@ -17,4 +17,4 @@ tellraw @s[tag=getCoalFortune] {"text":"You feel the luck empower you and double
 scoreboard players set @s[tag=getCoalFortune] production.coal 2
 tag @s remove getCoalFortune
 
-scoreboard players set @s harvest.coal 0
+advancement revoke @s only mi:utility/harvest_coal

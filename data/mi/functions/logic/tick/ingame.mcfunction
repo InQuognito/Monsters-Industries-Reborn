@@ -5,6 +5,7 @@ function mi:logic/tick/dragons_breath
 function mi:logic/tick/items
 execute as @e[type=minecraft:zombie,tag=necromancer] run function mi:logic/tick/necromancer/tick
 execute as @e[type=minecraft:skeleton,tag=necroMinion] run function mi:logic/tick/necromancer/minion_tick
+function mi:logic/tick/resources
 function mi:logic/tick/respawn
 function mi:logic/tick/sabotages
 function mi:logic/tick/shop

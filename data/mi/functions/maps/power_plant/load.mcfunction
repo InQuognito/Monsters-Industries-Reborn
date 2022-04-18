@@ -22,6 +22,15 @@ summon minecraft:marker 155.5 19.5 -82.5 {Tags:["location.team2.spiderEye"]}
 summon minecraft:marker 105.5 13.5 -118.5 {Tags:["location.team1.slimeball"]}
 summon minecraft:marker 175.5 13.5 -131.5 {Tags:["location.team2.slimeball"]}
 
+summon minecraft:marker 76.7 16.15 -115.25 {Tags:["location.team1.forge.spawner"]}
+summon minecraft:marker 76.7 12.15 -115.25 {Tags:["location.team1.forge.conveyor1"]}
+summon minecraft:marker 76.7 12.15 -117.4 {Tags:["location.team1.forge.furnace"]}
+summon minecraft:marker 76.7 12.15 -120.3 {Tags:["location.team1.forge.conveyor2"]}
+summon minecraft:marker 79.7 12.15 -120.3 {Tags:["location.team1.forge.piston"]}
+summon minecraft:marker 82.7 12.06 -120.3 {Tags:["location.team1.forge.conveyor3"]}
+summon minecraft:marker 82.7 12.06 -117.3 {Tags:["location.team1.forge.blastFurnace"]}
+summon minecraft:marker 82.7 12.06 -115.4 {Tags:["location.team1.forge.receptacle"]}
+
 summon minecraft:marker 115.5 27.5 -124.5 {Tags:["location.directExposure.team1"]}
 summon minecraft:marker 165.5 27.5 -125.5 {Tags:["location.directExposure.team2"]}
 summon minecraft:marker 110.5 27.5 -123.5 {Tags:["location.directDeposit.team1.spawner"]}

@@ -86,8 +86,10 @@ scoreboard players set #4 integers 4
 scoreboard players set #5 integers 5
 scoreboard players set #8 integers 8
 scoreboard players set #10 integers 10
+scoreboard players set #15 integers 15
 scoreboard players set #16 integers 16
 scoreboard players set #32 integers 32
 scoreboard players set #60 integers 60
 scoreboard players set #64 integers 64
+scoreboard players set #80 integers 80
 scoreboard players set #100 integers 100

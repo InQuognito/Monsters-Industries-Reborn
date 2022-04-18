@@ -2,6 +2,31 @@ scoreboard players set $powerPlant map 1
 
 forceload add 48 -82 232 -172
 
+summon minecraft:marker 102.5 27.5 -128.5 {Tags:["location.team1.paper1"]}
+summon minecraft:marker 102.5 27.5 -121.5 {Tags:["location.team1.paper2"]}
+summon minecraft:marker 178.5 27.5 -121.5 {Tags:["location.team2.paper1"]}
+summon minecraft:marker 178.5 27.5 -128.5 {Tags:["location.team2.paper2"]}
+
+summon minecraft:marker 92.5 16.5 -158.5 {Tags:["location.team1.coal"]}
+summon minecraft:marker 188.5 16.5 -91.5 {Tags:["location.team2.coal"]}
+
+summon minecraft:marker 113.5 18.5 -84.5 {Tags:["location.team1.bone"]}
+summon minecraft:marker 168.5 18.5 -169.5 {Tags:["location.team2.bone"]}
+
+summon minecraft:marker 134.5 19.5 -153.5 {Tags:["location.team1.gunpowder"]}
+summon minecraft:marker 146.5 19.5 -99.5 {Tags:["location.team2.gunpowder"]}
+
+summon minecraft:marker 125.5 19.5 -170.5 {Tags:["location.team1.spiderEye"]}
+summon minecraft:marker 155.5 19.5 -82.5 {Tags:["location.team2.spiderEye"]}
+
+summon minecraft:marker 105.5 13.5 -118.5 {Tags:["location.team1.slimeball"]}
+summon minecraft:marker 175.5 13.5 -131.5 {Tags:["location.team2.slimeball"]}
+
+summon minecraft:marker 115.5 27.5 -124.5 {Tags:["location.directExposure.team1"]}
+summon minecraft:marker 165.5 27.5 -125.5 {Tags:["location.directExposure.team2"]}
+summon minecraft:marker 110.5 27.5 -123.5 {Tags:["location.directDeposit.team1.spawner"]}
+summon minecraft:marker 170.5 27.5 -123.5 {Tags:["location.directDeposit.team1.receptacle"]}
+
 team modify team1 color aqua
 team modify team2 color red
 

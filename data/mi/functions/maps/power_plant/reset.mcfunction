@@ -6,19 +6,21 @@ clone 68 27 -129 68 28 -122 102 27 -129
 clone 212 27 -129 212 28 -122 178 27 -129
 
 # Coal Generators
-setblock 93 16 -159 minecraft:air replace
+execute at @e[tag=location.team1.coal] run setblock ~ ~ ~ minecraft:coal_ore replace
 
-setblock 187 16 -92 minecraft:air replace
+execute at @e[tag=location.team2.coal] run setblock ~ ~ ~ minecraft:coal_ore replace
 
 # Bone Generators
-setblock 113 19 -85 minecraft:birch_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
+execute at @e[tag=location.team1.bone] run setblock ~ ~ ~ minecraft:podzol
+execute at @e[tag=location.team1.bone] run setblock ~ ~1 ~ minecraft:birch_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
 
-setblock 168 19 -170 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
+execute at @e[tag=location.team2.bone] run setblock ~ ~ ~ minecraft:podzol
+execute at @e[tag=location.team2.bone] run setblock ~ ~1 ~ minecraft:spruce_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Like this"}',Text2:'{"text":"headstone?"}',Text3:'{"text":"Give us a call"}',Text4:'{"text":"at 1-800-DEAD"}'} destroy
 
 # Gunpowder Generators
-setblock 134 19 -154 minecraft:coal_block replace
+execute at @e[tag=location.team1.gunpowder] run setblock 134 19 -154 minecraft:coal_block replace
 
-setblock 146 19 -100 minecraft:coal_block replace
+execute at @e[tag=location.team1.gunpowder] run setblock 146 19 -100 minecraft:coal_block replace
 
 # Spider Eye Generators
 clone 124 19 -179 129 20 -174 124 19 -171

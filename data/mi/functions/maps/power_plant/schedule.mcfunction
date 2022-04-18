@@ -1,13 +1,3 @@
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/bulwark_cooldown_team1
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/bulwark_cooldown_team2
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/cloaking_field_cooldown_team1
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/cloaking_field_cooldown_team2
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/direct_exposure_cooldown_team1
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/direct_exposure_cooldown_team2
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/factory_shutdown_end_team1
-schedule clear mi:maps/power_plant/logic/interactions/sabotages/factory_shutdown_end_team2
-schedule clear mi:maps/power_plant/logic/resources/extinguish_fire_team1
-schedule clear mi:maps/power_plant/logic/resources/extinguish_fire_team2
 schedule clear mi:maps/power_plant/logic/cover_forfeit_button
 schedule clear mi:maps/power_plant/logic/employee_generation
 schedule clear mi:maps/power_plant/logic/forge/summon_resource_team1

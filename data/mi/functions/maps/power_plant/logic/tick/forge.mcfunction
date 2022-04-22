@@ -61,7 +61,7 @@ tag @e[tag=forgeRawIngot,x=198.7,y=13.06,z=-133.3,distance=..1] add forgeRefined
 tag @e[tag=forgeRefinedIngot,x=198.7,y=13.06,z=-133.3,distance=..1] remove forgeRawIngot
 
 tag @e[tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1] add killIngot
-execute positioned 199.5 13.5 -134.5 as @p[team=team2] run function mi:logic/resources/netherite
+execute at @e[tag=location.team2.forge.receptacle] if entity @e[tag=killIngot,distance=..0.1] positioned 199.5 13.5 -134.5 as @p[team=team2] run function mi:logic/resources/netherite
 
 # Stage Changes
 execute as @e[tag=forgeRawBlock,nbt=!{HandItems:[{id:"minecraft:iron_block",Count:1b}]}] run data merge entity @s {HandItems:[{id:"iron_block",Count:1b}]}

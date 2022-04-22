@@ -216,8 +216,8 @@ scoreboard players set #nuke price 300
 execute if score $stockLimit stock matches ..500 run scoreboard players operation #nuke price /= #2 integers
 execute if score $stockLimit stock matches ..250 run scoreboard players operation #nuke price /= #2 integers
 scoreboard players set #cloakingField price 75
-execute if score $stockLimit stock matches ..500 run scoreboard players operation #cloaking price /= #2 integers
-execute if score $stockLimit stock matches ..250 run scoreboard players operation #cloaking price /= #2 integers
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #cloakingField price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #cloakingField price /= #2 integers
 scoreboard players set #bulwark price 75
 execute if score $stockLimit stock matches ..500 run scoreboard players operation #bulwark price /= #2 integers
 execute if score $stockLimit stock matches ..250 run scoreboard players operation #bulwark price /= #2 integers

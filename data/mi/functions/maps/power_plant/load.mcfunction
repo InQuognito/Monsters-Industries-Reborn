@@ -35,6 +35,8 @@ summon minecraft:marker 115.5 27.5 -124.5 {Tags:["location.directExposure.team1"
 summon minecraft:marker 165.5 27.5 -125.5 {Tags:["location.directExposure.team2"]}
 summon minecraft:marker 110.5 27.5 -123.5 {Tags:["location.directDeposit.team1.spawner"]}
 summon minecraft:marker 170.5 27.5 -123.5 {Tags:["location.directDeposit.team1.receptacle"]}
+summon minecraft:marker 160.5 28.5 -125.5 {Tags:["location.summonWither.team1"]}
+summon minecraft:marker 120.5 28.5 -124.5 {Tags:["location.summonWither.team2"]}
 
 team modify team1 color aqua
 team modify team2 color red

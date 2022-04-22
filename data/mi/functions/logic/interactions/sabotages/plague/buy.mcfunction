@@ -1,8 +1,8 @@
 execute if entity @s[team=team1] run scoreboard players operation $team1 stock -= #plague price
 execute if entity @s[team=team2] run scoreboard players operation $team2 stock -= #plague price
 
-execute if entity @s[team=team1] as @a[team=team2] run attribute @s minecraft:generic.max_health modifier add 11111111-1111-1111-1111-111111111111 "plague" -.5 multiply
-execute if entity @s[team=team2] as @a[team=team1] run attribute @s minecraft:generic.max_health modifier add 11111111-1111-1111-1111-111111111111 "plague" -.5 multiply
+execute if entity @s[team=team1] as @a[team=team2] run attribute @s minecraft:generic.max_health modifier add 11111111-1111-1111-1111-111111111111 "plague" -.5 multiply_base
+execute if entity @s[team=team2] as @a[team=team1] run attribute @s minecraft:generic.max_health modifier add 11111111-1111-1111-1111-111111111111 "plague" -.5 multiply_base
 
 execute if entity @s[team=team1] run tellraw @a[team=team1] {"text":"Plague has been activated!","color":"green"}
 execute if entity @s[team=team1] run tellraw @a[team=team2] {"text":"The opponent has activated Plague!","color":"red"}

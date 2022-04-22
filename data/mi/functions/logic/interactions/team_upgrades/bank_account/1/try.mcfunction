@@ -4,4 +4,4 @@ execute unless score #temp ct.paper >= #bankAccount1 price run title @s actionba
 
 execute if score #temp ct.paper >= #bankAccount1 price run function mi:logic/interactions/team_upgrades/bank_account/1/buy
 
-execute unless score #temp ct.paper >= #bankAccount1 price at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/team_upgrades/reset_input
+execute at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/team_upgrades/reset_input

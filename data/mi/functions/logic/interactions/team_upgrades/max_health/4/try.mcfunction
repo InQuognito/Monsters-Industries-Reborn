@@ -5,4 +5,4 @@ execute unless score #temp ct.slimeball >= #maxHealth4Slimeball price run title 
 
 execute if score #temp ct.paper >= #maxHealth4Paper price if score #temp ct.slimeball >= #maxHealth4Slimeball price run function mi:logic/interactions/team_upgrades/max_health/4/buy
 
-execute unless score #temp ct.paper >= #maxHealth4Paper price unless score #temp ct.slimeball >= #maxHealth4Slimeball price at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/team_upgrades/reset_input
+execute at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/team_upgrades/reset_input

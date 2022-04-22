@@ -12,5 +12,4 @@ execute if entity @s[team=team2] run tellraw @a[team=team1] {"text":"The opponen
 execute if entity @s[team=team1] run schedule function mi:logic/interactions/sabotages/plague/remove_team2 300s
 execute if entity @s[team=team2] run schedule function mi:logic/interactions/sabotages/plague/remove_team1 300s
 
-setblock ^ ^ ^-1 minecraft:red_concrete replace
-setblock ^ ^ ^ minecraft:air replace
+function mi:logic/interactions/sabotages/single_use_bought

@@ -25,7 +25,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:3847130},Unbreakable:1,HideFlags:127}}",
+		"tag": "{display:{color:3847130},Unbreakable:1,HideFlags:127}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -38,7 +38,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:11546150},Unbreakable:1,HideFlags:127}}",
+		"tag": "{display:{color:11546150},Unbreakable:1,HideFlags:127}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

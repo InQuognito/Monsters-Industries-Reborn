@@ -12,5 +12,4 @@ execute if entity @s[team=team1] run tellraw @a[team=team2] {"text":"The opponen
 execute if entity @s[team=team2] run tellraw @a[team=team2] {"text":"The Wither has been summoned!","color":"green"}
 execute if entity @s[team=team2] run tellraw @a[team=team1] {"text":"The opponent has summoned the Wither!","color":"red"}
 
-execute at @e[type=minecraft:marker,tag=inputs.objectMarker] run setblock ^ ^ ^-1 minecraft:red_concrete replace
-execute at @e[type=minecraft:marker,tag=inputs.objectMarker] run setblock ^ ^ ^ minecraft:air replace
+execute at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/sabotages/single_use_bought

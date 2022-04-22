@@ -49,7 +49,7 @@ execute positioned 91.5 21.5 -153.5 if block ~ ~ ~ #minecraft:buttons[powered=tr
 execute positioned 189.5 21.5 -96.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:maps/power_plant/logic/fusion/start_team2
 execute positioned 189.5 21.5 -96.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:spruce_button[face=wall,facing=north] replace
 
-# Monster Tokens
+# Tokens
 execute positioned 102.5 20.5 -163.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/others/monster_tokens/coal_buy_try
 execute positioned 102.5 20.5 -163.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:birch_button[face=wall,facing=east] replace
 execute positioned 102.5 20.5 -164.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/others/monster_tokens/bone_buy_try

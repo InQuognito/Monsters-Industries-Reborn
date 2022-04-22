@@ -148,11 +148,11 @@ tp @e[type=minecraft:marker,tag=reset.objectMarker] 206.5 20.5 -133.5 90.0 0.0
 execute as @e[type=minecraft:marker,tag=reset.objectMarker] at @s run function mi:logic/resets/structures/team_upgrades/management
 
 # Sentries
-execute unless score $rushMode mode matches 1 run setblock 79 30 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+execute unless score $rushMode mode matches 1 run setblock 79 30 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Tokens"}]'} destroy
 execute unless score $rushMode mode matches 1 run setblock 79 28 -103 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
 execute unless score $rushMode mode matches 1 run setblock 79 29 -103 minecraft:birch_button[facing=north] replace
 
-execute unless score $rushMode mode matches 1 run setblock 201 30 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+execute unless score $rushMode mode matches 1 run setblock 201 30 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Deploy Sentry"}',Text3:'[{"score":{"name":"#sentry","objective":"price"}},{"text":" Tokens"}]'} destroy
 execute unless score $rushMode mode matches 1 run setblock 201 28 -148 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Sentry Count"}',Text3:'{"text":"[ 0 / 10 ]"}'} destroy
 execute unless score $rushMode mode matches 1 run setblock 201 29 -148 minecraft:spruce_button[facing=south] replace
 
@@ -226,11 +226,11 @@ fill 172 28 -127 172 28 -124 minecraft:black_stained_glass_pane[north=true,south
 fill 172 29 -127 172 30 -124 minecraft:red_stained_glass_pane[north=true,south=true] replace
 
 # Enchantments
-setblock 136 20 -127 minecraft:warped_wall_sign[facing=south]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 136 20 -127 minecraft:warped_wall_sign[facing=south]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Tokens"}]'} destroy
 setblock 136 20 -124 minecraft:warped_wall_sign[facing=north]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
 setblock 136 19 -124 minecraft:warped_button[facing=north] replace
 
-setblock 144 20 -124 minecraft:crimson_wall_sign[facing=north]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 144 20 -124 minecraft:crimson_wall_sign[facing=north]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Tokens"}]'} destroy
 setblock 144 20 -127 minecraft:crimson_wall_sign[facing=south]{Color:"black",Text1:'{"text":"Luck Modifier"}',Text2:'{"text":"[ 0 / 3 ]"}',Text3:'[{"score":{"name":"#enchantmentLuckPaper","objective":"price"}},{"text":" Paper"}]',Text4:'[{"score":{"name":"#enchantmentLuckNetherite","objective":"price"}},{"text":" Netherite"}]'} destroy
 setblock 144 19 -127 minecraft:crimson_button[facing=south] replace
 
@@ -248,13 +248,13 @@ fill 187 20 -152 190 22 -152 minecraft:air replace
 # Quantum Tunnel
 setblock 86 20 -156 minecraft:red_concrete replace
 setblock 86 20 -155 minecraft:birch_button[face=wall,facing=south] replace
-setblock 86 21 -155 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Quantum Tunnel"}',Text3:'[{"score":{"name":"#quantumTunnel","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 86 21 -155 minecraft:birch_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Quantum Tunnel"}',Text3:'[{"score":{"name":"#quantumTunnel","objective":"price"}},{"text":" Tokens"}]'} destroy
 
 setblock 194 20 -95 minecraft:red_terracotta replace
 setblock 194 20 -96 minecraft:spruce_button[face=wall,facing=north] replace
-setblock 194 21 -96 minecraft:spruce_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Quantum Tunnel"}',Text3:'[{"score":{"name":"#quantumTunnel","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 194 21 -96 minecraft:spruce_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Quantum Tunnel"}',Text3:'[{"score":{"name":"#quantumTunnel","objective":"price"}},{"text":" Tokens"}]'} destroy
 
-# Monster Tokens
+# Tokens
 setblock 102 22 -166 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'{"text":"Monster Token"}',Text3:'{"text":"Exchange"}'} destroy
 setblock 102 21 -164 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenCoal","objective":"price"}},{"text":" Coal"}]'} destroy
 setblock 102 21 -165 minecraft:birch_wall_sign[facing=east]{Color:"black",Text2:'[{"score":{"name":"#monsterTokenPaper","objective":"price"}},{"text":" Paper"}]',Text3:'[{"score":{"name":"#monsterTokenBone","objective":"price"}},{"text":" Bones"}]'} destroy
@@ -272,10 +272,10 @@ setblock 178 21 -84 minecraft:spruce_wall_sign[facing=west]{Color:"black",Text2:
 # Neuron Worms
 setblock 88 15 -104 minecraft:red_concrete replace
 setblock 88 15 -105 minecraft:oak_button[face=wall,facing=north] replace
-setblock 88 16 -105 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 88 16 -105 minecraft:birch_wall_sign[facing=north]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Tokens"}]'} destroy
 
 setblock 192 15 -147 minecraft:red_terracotta replace
 setblock 192 15 -146 minecraft:oak_button[face=wall,facing=south] replace
-setblock 192 16 -146 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Monster Tokens"}]'} destroy
+setblock 192 16 -146 minecraft:spruce_wall_sign[facing=south]{Color:"black",Text2:'{"text":"Neuron Worm"}',Text3:'[{"score":{"name":"#neuronWorm","objective":"price"}},{"text":" Tokens"}]'} destroy
 
 kill @e[type=minecraft:marker,tag=reset.reset.objectMarker]

@@ -143,7 +143,7 @@ scoreboard players set #killPercent vars 10
 scoreboard players operation #kill vars = $stockLimit stock
 scoreboard players operation #kill vars /= #killPercent vars
 
-# Monster Tokens
+# Tokens
 scoreboard players set #monsterTokenPaper price 64
 scoreboard players set #monsterTokenCoal price 64
 scoreboard players set #monsterTokenBone price 48

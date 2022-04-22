@@ -3,6 +3,8 @@ function mi:logic/resets/game/tags
 
 gamemode adventure @a
 execute as @a run attribute @s minecraft:generic.max_health base set 20
+function mi:logic/interactions/sabotages/plague/remove_team1
+function mi:logic/interactions/sabotages/plague/remove_team1
 clear @a
 
 team empty team1

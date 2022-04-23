@@ -38,8 +38,8 @@ execute as @e[tag=team1,tag=forgeConveyor1] at @s run tp @s ~ ~ ~-0.01
 execute as @e[tag=team1,tag=forgeConveyor2] at @s run tp @s ~0.01 ~ ~
 execute as @e[tag=team1,tag=forgeConveyor3] at @s run tp @s ~ ~ ~0.01
 
-scoreboard players remove #team1Forge timer 1
-execute if score #team1Forge timer matches ..0 run function mi:logic/forge/summon_resource
+scoreboard players remove $team1Forge timer 1
+execute if score $team1Forge timer matches ..0 run function mi:logic/forge/summon_resource
 
 # Tag Changes
 execute at @e[tag=location.team2.forge.conveyor1] run tag @e[tag=forgeFalling,distance=..1] add forgeConveyor1

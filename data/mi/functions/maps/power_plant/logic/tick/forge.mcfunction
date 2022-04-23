@@ -1,29 +1,29 @@
 # Tag Changes
-execute at @e[tag=location.team1.forge.conveyor1] run tag @e[tag=forgeFalling,distance=..0.1] add forgeConveyor1
-execute at @e[tag=location.team1.forge.conveyor1] run tag @e[tag=forgeFalling,distance=..0.1] remove forgeFalling
+execute at @e[tag=location.team1.forge.conveyor1] run tag @e[tag=forgeFalling,distance=..1] add forgeConveyor1
+execute at @e[tag=location.team1.forge.conveyor1] run tag @e[tag=forgeFalling,distance=..1] remove forgeFalling
 
-execute at @e[tag=location.team1.forge.furnace] run tag @e[tag=forgeRawOre,distance=..0.1] add forgeRawBlock
-execute at @e[tag=location.team1.forge.furnace] run tag @e[tag=forgeRawBlock,distance=..0.1] remove forgeRawOre
+execute at @e[tag=location.team1.forge.furnace] run tag @e[tag=forgeRawOre,distance=..1] add forgeRawBlock
+execute at @e[tag=location.team1.forge.furnace] run tag @e[tag=forgeRawBlock,distance=..1] remove forgeRawOre
 
-execute at @e[tag=location.team1.forge.conveyor2] run tag @e[tag=forgeConveyor1,distance=..0.1] add forgeConveyor2
-execute at @e[tag=location.team1.forge.conveyor2] run tag @e[tag=forgeConveyor1,distance=..0.1] remove forgeConveyor1
+execute at @e[tag=location.team1.forge.conveyor2] run tag @e[tag=forgeConveyor1,distance=..1] add forgeConveyor2
+execute at @e[tag=location.team1.forge.conveyor2] run tag @e[tag=forgeConveyor1,distance=..1] remove forgeConveyor1
 
-execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..0.1] run setblock 79 15 -121 minecraft:piston[facing=down,extended=true] replace
-execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..0.1] run setblock 79 14 -121 minecraft:piston_head[facing=down] replace
-execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..0.1] run setblock 79 15 -121 minecraft:piston[facing=down,extended=false] replace
-execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..0.1] run setblock 79 14 -121 minecraft:air replace
+execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..1] run setblock 79 15 -121 minecraft:piston[facing=down,extended=true] replace
+execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..1] run setblock 79 14 -121 minecraft:piston_head[facing=down] replace
+execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..1] run setblock 79 15 -121 minecraft:piston[facing=down,extended=false] replace
+execute at @e[tag=location.team1.forge.piston] run execute if entity @e[tag=forgeRawBlock,distance=..1] run setblock 79 14 -121 minecraft:air replace
 
-execute at @e[tag=location.team1.forge.piston] run tag @e[tag=forgeRawBlock,distance=..0.1] add forgeRawIngot
-execute at @e[tag=location.team1.forge.piston] run tag @e[tag=forgeRawIngot,distance=..0.1] remove forgeRawBlock
+execute at @e[tag=location.team1.forge.piston] run tag @e[tag=forgeRawBlock,distance=..1] add forgeRawIngot
+execute at @e[tag=location.team1.forge.piston] run tag @e[tag=forgeRawIngot,distance=..1] remove forgeRawBlock
 
-execute at @e[tag=location.team1.forge.conveyor3] run tag @e[tag=forgeConveyor2,distance=..0.1] add forgeConveyor3
-execute at @e[tag=location.team1.forge.conveyor3] run tag @e[tag=forgeConveyor2,distance=..0.1] remove forgeConveyor2
+execute at @e[tag=location.team1.forge.conveyor3] run tag @e[tag=forgeConveyor2,distance=..1] add forgeConveyor3
+execute at @e[tag=location.team1.forge.conveyor3] run tag @e[tag=forgeConveyor2,distance=..1] remove forgeConveyor2
 
-execute at @e[tag=location.team1.forge.blastFurnace] run tag @e[tag=forgeRawIngot,distance=..0.1] add forgeRefinedIngot
-execute at @e[tag=location.team1.forge.blastFurnace] run tag @e[tag=forgeRefinedIngot,distance=..0.1] remove forgeRawIngot
+execute at @e[tag=location.team1.forge.blastFurnace] run tag @e[tag=forgeRawIngot,distance=..1] add forgeRefinedIngot
+execute at @e[tag=location.team1.forge.blastFurnace] run tag @e[tag=forgeRefinedIngot,distance=..1] remove forgeRawIngot
 
-execute at @e[tag=location.team1.forge.receptacle] run tag @e[tag=forgeRefinedIngot,distance=..0.1] add killIngot
-execute at @e[tag=location.team1.forge.receptacle] if entity @e[tag=killIngot,distance=..0.1] positioned 81.5 13.5 -115.5 as @p[team=team1] run function mi:logic/resources/netherite
+execute at @e[tag=location.team1.forge.receptacle] run tag @e[tag=forgeRefinedIngot,distance=..1] add killIngot
+execute at @e[tag=location.team1.forge.receptacle] if entity @e[tag=killIngot,distance=..1] positioned 81.5 13.5 -115.5 as @p[team=team1] run function mi:logic/resources/netherite
 
 # Stage Changes
 execute as @e[tag=forgeRawBlock,nbt=!{HandItems:[{id:"minecraft:iron_block",Count:1b}]}] run data merge entity @s {HandItems:[{id:"iron_block",Count:1b}]}
@@ -61,7 +61,7 @@ tag @e[tag=forgeRawIngot,x=198.7,y=13.06,z=-133.3,distance=..1] add forgeRefined
 tag @e[tag=forgeRefinedIngot,x=198.7,y=13.06,z=-133.3,distance=..1] remove forgeRawIngot
 
 tag @e[tag=forgeRefinedIngot,x=198.7,y=13.06,z=-135.4,distance=..1] add killIngot
-execute at @e[tag=location.team2.forge.receptacle] if entity @e[tag=killIngot,distance=..0.1] positioned 199.5 13.5 -134.5 as @p[team=team2] run function mi:logic/resources/netherite
+execute at @e[tag=location.team2.forge.receptacle] if entity @e[tag=killIngot,distance=..1] positioned 199.5 13.5 -134.5 as @p[team=team2] run function mi:logic/resources/netherite
 
 # Stage Changes
 execute as @e[tag=forgeRawBlock,nbt=!{HandItems:[{id:"minecraft:iron_block",Count:1b}]}] run data merge entity @s {HandItems:[{id:"iron_block",Count:1b}]}

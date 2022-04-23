@@ -93,3 +93,4 @@ scoreboard players set #60 integers 60
 scoreboard players set #64 integers 64
 scoreboard players set #80 integers 80
 scoreboard players set #150 integers 150
+scoreboard players set #600 integers 600

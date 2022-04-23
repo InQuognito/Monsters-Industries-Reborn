@@ -32,10 +32,10 @@ execute as @e[tag=forgeRawIngot] at @s run tp @s ~ 13.06 ~
 execute as @e[tag=forgeRefinedIngot,nbt=!{HandItems:[{id:"minecraft:netherite_ingot",Count:1b}]}] run data merge entity @s {HandItems:[{id:"netherite_ingot",Count:1b}]}
 
 # Conveyor Changes
-execute as @e[tag=forgeFalling] at @s run tp @s ~ ~-0.05 ~
-execute as @e[tag=forgeConveyor1] at @s run tp @s ~ ~ ~-0.01
-execute as @e[tag=forgeConveyor2] at @s run tp @s ~0.01 ~ ~
-execute as @e[tag=forgeConveyor3] at @s run tp @s ~ ~ ~0.01
+execute as @e[tag=team1,tag=forgeFalling] at @s run tp @s ~ ~-0.05 ~
+execute as @e[tag=team1,tag=forgeConveyor1] at @s run tp @s ~ ~ ~-0.01
+execute as @e[tag=team1,tag=forgeConveyor2] at @s run tp @s ~0.01 ~ ~
+execute as @e[tag=team1,tag=forgeConveyor3] at @s run tp @s ~ ~ ~0.01
 
 # Tag Changes
 tag @e[tag=forgeFalling,x=204.7,y=12.15,z=-134.25,distance=..1] remove forgeFalling
@@ -70,7 +70,7 @@ execute as @e[tag=forgeRawIngot] at @s run tp @s ~ 13.06 ~
 execute as @e[tag=forgeRefinedIngot,nbt=!{HandItems:[{id:"minecraft:netherite_ingot",Count:1b}]}] run data merge entity @s {HandItems:[{id:"minecraft:netherite_ingot",Count:1b}]}
 
 # Conveyor Changes
-execute as @e[tag=forgeFalling] at @s run tp @s ~ ~-0.05 ~
-execute as @e[tag=forgeConveyor1] at @s run tp @s ~ ~ ~0.01
-execute as @e[tag=forgeConveyor2] at @s run tp @s ~-0.01 ~ ~
-execute as @e[tag=forgeConveyor3] at @s run tp @s ~ ~ ~-0.01
+execute as @e[tag=team2,tag=forgeFalling] at @s run tp @s ~ ~-0.05 ~
+execute as @e[tag=team2,tag=forgeConveyor1] at @s run tp @s ~ ~ ~0.01
+execute as @e[tag=team2,tag=forgeConveyor2] at @s run tp @s ~-0.01 ~ ~
+execute as @e[tag=team2,tag=forgeConveyor3] at @s run tp @s ~ ~ ~-0.01

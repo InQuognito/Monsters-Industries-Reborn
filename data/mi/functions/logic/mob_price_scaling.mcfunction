@@ -1,5 +1,5 @@
 scoreboard players operation #costMult temp = $timer.Seconds timer
-scoreboard players operation #costMult temp /= #100 integers
+scoreboard players operation #costMult temp /= #150 integers
 
 scoreboard players operation #zombieScaledPaper price = #zombieBasePaper price
 execute unless score $rushMode mode matches 1 run scoreboard players operation #zombieScaledPaper price += #costMult temp
@@ -58,4 +58,4 @@ scoreboard players operation #villagerScaledPaper price = #villagerBasePaper pri
 execute unless score $rushMode mode matches 1 run scoreboard players operation #villagerScaledPaper price += #costMult temp
 
 scoreboard players operation #neuronWormScaledToken price = #neuronWormBaseToken price
-execute unless score $rushMode mode matches 1 run scoreboard players operation #neuronWormScaledToken price += #costMult temp
+#execute unless score $rushMode mode matches 1 run scoreboard players operation #neuronWormScaledToken price += #costMult temp

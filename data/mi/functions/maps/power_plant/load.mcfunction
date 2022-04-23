@@ -1,5 +1,4 @@
 scoreboard players set $powerPlant map 1
-
 forceload add 48 -82 232 -172
 
 summon minecraft:marker 102.5 27.5 -128.5 {Tags:["location.team1.paper1"]}
@@ -30,6 +29,15 @@ summon minecraft:marker 79.7 12.15 -120.3 {Tags:["location.team1.forge.piston"]}
 summon minecraft:marker 82.7 12.06 -120.3 {Tags:["location.team1.forge.conveyor3"]}
 summon minecraft:marker 82.7 12.06 -117.3 {Tags:["location.team1.forge.blastFurnace"]}
 summon minecraft:marker 82.7 12.06 -115.4 {Tags:["location.team1.forge.receptacle"]}
+
+summon minecraft:marker 204.7 16.15 -134.25 {Tags:["location.team2.forge.spawner"]}
+summon minecraft:marker 204.7 12.15 -134.25 {Tags:["location.team2.forge.conveyor1"]}
+summon minecraft:marker 204.7 12.15 -132.4 {Tags:["location.team2.forge.furnace"]}
+summon minecraft:marker 204.7 12.15 -129.3 {Tags:["location.team2.forge.conveyor2"]}
+summon minecraft:marker 201.7 12.15 -129.3 {Tags:["location.team2.forge.piston"]}
+summon minecraft:marker 198.7 13.06 -130.3 {Tags:["location.team2.forge.conveyor3"]}
+summon minecraft:marker 198.7 13.06 -133.3 {Tags:["location.team2.forge.blastFurnace"]}
+summon minecraft:marker 198.7 13.06 -135.4 {Tags:["location.team2.forge.receptacle"]}
 
 summon minecraft:marker 115.5 27.5 -124.5 {Tags:["location.directExposure.team1"]}
 summon minecraft:marker 165.5 27.5 -125.5 {Tags:["location.directExposure.team2"]}

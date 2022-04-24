@@ -43,6 +43,7 @@ function mi:logic/pre_game/map_voting/random
 
 summon minecraft:marker 0.0 0.0 0.0 {Tags:["inputs.objectMarker"]}
 
+execute as @a run attribute @s minecraft:generic.attack_damage base set 2.0
 execute as @a run attribute @s minecraft:generic.attack_speed base set 4.0
 
 function mi:logic/employees/generation

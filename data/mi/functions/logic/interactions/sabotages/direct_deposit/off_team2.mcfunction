@@ -1,3 +1,6 @@
+scoreboard players reset #team2DirectDeposit temp
+scoreboard players reset #team2DirectDeposit timer
+
 setblock 110 27 -127 minecraft:white_concrete replace
 
 setblock 170 27 -127 minecraft:stone_bricks replace

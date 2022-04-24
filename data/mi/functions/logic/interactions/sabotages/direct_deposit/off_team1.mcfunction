@@ -1,6 +1,5 @@
-setblock 110 27 -124 minecraft:white_concrete replace
-
-setblock 170 27 -124 minecraft:stone_bricks replace
+scoreboard players reset #team1DirectDeposit temp
+scoreboard players reset #team1DirectDeposit timer
 
 fill 109 31 -124 171 31 -124 minecraft:air replace
 fill 140 30 -125 140 31 -123 minecraft:barrier replace

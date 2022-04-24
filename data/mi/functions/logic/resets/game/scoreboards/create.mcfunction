@@ -39,7 +39,6 @@ scoreboard objectives add production.slimeball dummy
 scoreboard objectives add production.spiderEye dummy
 scoreboard objectives add random dummy
 scoreboard objectives add recycling dummy
-scoreboard objectives add resetType dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add sentryCount dummy
 scoreboard objectives add shop trigger

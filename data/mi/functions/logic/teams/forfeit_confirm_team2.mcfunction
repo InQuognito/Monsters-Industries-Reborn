@@ -1,3 +1,3 @@
-scoreboard players set #forfeit resetType 1
+scoreboard players set #forfeit temp 1
 
 function mi:logic/teams/team1_win

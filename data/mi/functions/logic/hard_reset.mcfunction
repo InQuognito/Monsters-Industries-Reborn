@@ -1,3 +1,4 @@
+scoreboard objectives remove random
 scoreboard objectives remove stats.currency
 scoreboard objectives remove stats.deaths
 scoreboard objectives remove stats.gPlayed
@@ -9,5 +10,4 @@ xp set @a 0 points
 
 advancement revoke @a everything
 
-scoreboard players set #resetType resetType 2
 function mi:logic/load

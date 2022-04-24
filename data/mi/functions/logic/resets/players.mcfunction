@@ -5,6 +5,8 @@ gamemode adventure @a
 execute as @a run attribute @s minecraft:generic.max_health base set 20
 execute as @a run attribute @s minecraft:generic.max_health modifier remove 11111111-1111-1111-1111-111111111111
 
+execute as @a run attribute @s minecraft:generic.attack_speed base set 0.0
+
 clear @a
 
 team empty team1

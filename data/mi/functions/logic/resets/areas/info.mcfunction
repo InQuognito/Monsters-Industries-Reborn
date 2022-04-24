@@ -1,7 +1,3 @@
-# Join Teams
-summon minecraft:area_effect_cloud -28.5 7.0 -113.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Join Team Aqua","color":"aqua","bold":true}',CustomNameVisible:1b}
-summon minecraft:area_effect_cloud -28.5 7.0 -103.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Join Team Red","color":"red","bold":true}',CustomNameVisible:1b}
-
 # Core
 summon minecraft:area_effect_cloud -26.5 7.0 -90.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Core","color":"white","bold":true}',CustomNameVisible:1b}
 setblock -27 6 -92 minecraft:birch_wall_sign[facing=west]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/execute as @p run function mi:logic/info/core/how_to_win"}}',Text2:'{"text":"How to Win"}'} destroy

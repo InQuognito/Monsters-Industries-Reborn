@@ -1,3 +1,7 @@
+# Join Teams
+summon minecraft:area_effect_cloud -28.5 7.0 -113.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Team Aqua","color":"aqua","bold":true}',CustomNameVisible:1b}
+summon minecraft:area_effect_cloud -28.5 7.0 -103.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Join Team Red","color":"red","bold":true}',CustomNameVisible:1b}
+
 # Settings Labels In Lobby
 setblock -25 8 -109 minecraft:birch_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Mode:"}',Text3:'{"text":"Casual","clickEvent":{"action":"run_command","value":"tellraw @s [{\\"text\\":\\"Casual:\\",\\"color\\":\\"gold\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Respawns\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"Keep Inventory\\",\\"color\\":\\"gray\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"- \\",\\"color\\":\\"yellow\\"},{\\"text\\":\\"\\\\\\"Normal\\\\\\" Game\\",\\"color\\":\\"gray\\"}]"}}'} destroy
 setblock -25 8 -108 minecraft:birch_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Stock Limit:"}',Text3:'{"text":"1000","clickEvent":{"action":"run_command","value":"tellraw @s [{\\"text\\":\\"Stock Limit:\\",\\"color\\":\\"gold\\"},{\\"text\\":\\"\\\\n\\"},{\\"text\\":\\"The amount of points needed to win the game.\\",\\"color\\":\\"gray\\"}]"}}'} destroy

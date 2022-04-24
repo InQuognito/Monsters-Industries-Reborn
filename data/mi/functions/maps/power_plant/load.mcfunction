@@ -45,6 +45,7 @@ summon minecraft:marker 198.7 13.06 -130.3 {Tags:["location.team2.forge.conveyor
 summon minecraft:marker 198.7 13.06 -133.3 {Tags:["location.team2.forge.blastFurnace"]}
 summon minecraft:marker 198.7 13.06 -135.4 {Tags:["location.team2.forge.receptacle"]}
 
+summon minecraft:marker 87.5 28.5 -135.5 {Tags:["location.team1.employee.receptacle"]}
 summon minecraft:marker 97.5 28.0 -149.5 {Tags:["location.team1.employee1"]}
 summon minecraft:marker 97.5 28.0 -144.5 {Tags:["location.team1.employee2"]}
 summon minecraft:marker 97.5 28.0 -139.5 {Tags:["location.team1.employee3"]}
@@ -57,6 +58,7 @@ summon minecraft:marker 85.5 28.0 -139.5 {Tags:["location.team1.employee9"]}
 summon minecraft:marker 79.5 28.0 -144.5 {Tags:["location.team1.employee10"]}
 summon minecraft:marker 79.5 28.0 -139.5 {Tags:["location.team1.employee11"]}
 
+summon minecraft:marker 193.5 28.5 -115.5 {Tags:["location.team2.employee.receptacle"]}
 summon minecraft:marker 183.5 28.0 -101.5 {Tags:["location.team2.employee1"]}
 summon minecraft:marker 183.5 28.0 -106.5 {Tags:["location.team2.employee2"]}
 summon minecraft:marker 183.5 28.0 -111.5 {Tags:["location.team2.employee3"]}

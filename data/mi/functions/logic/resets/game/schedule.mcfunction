@@ -1,8 +1,7 @@
+schedule clear mi:logic/employees/generation
 schedule clear mi:logic/post_game/end
 schedule clear mi:logic/interactions/sabotages/bulwark/remove_team1
 schedule clear mi:logic/interactions/sabotages/bulwark/remove_team2
-schedule clear mi:logic/interactions/sabotages/cloaking_field/remove_team1
-schedule clear mi:logic/interactions/sabotages/cloaking_field/remove_team2
 schedule clear mi:logic/interactions/sabotages/plague/remove_team1
 schedule clear mi:logic/interactions/sabotages/plague/remove_team2
 schedule clear mi:logic/load

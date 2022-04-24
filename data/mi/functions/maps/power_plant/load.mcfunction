@@ -106,5 +106,3 @@ tp @a[team=team1] 97.0 28.0 -125.0 270.0 0.0
 tp @a[team=team2] 184.0 28.0 -125.0 90.0 0.0
 execute if entity @a[team=!spectators] as @a[team=spectators] run tp @s @r[team=!spectators]
 execute unless entity @a[team=!spectators] run tp @a[team=spectators] 140.5 43.0 -125.0 180.0 90.0
-
-function mi:maps/power_plant/logic/employee_generation

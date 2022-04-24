@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"team1": {
+		"click_lever": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {

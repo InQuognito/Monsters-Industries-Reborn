@@ -1,7 +1,7 @@
 execute if score $powerPlant map matches 1 run function mi:maps/power_plant/logic/tick
 
 function mi:logic/tick/attributes
-function mi:logic/tick/dragons_breath
+function mi:logic/tick/dragons_breath/check
 function mi:logic/tick/items
 execute as @e[type=minecraft:zombie,tag=necromancer] run function mi:logic/tick/necromancer/tick
 execute as @e[type=minecraft:skeleton,tag=necroMinion] run function mi:logic/tick/necromancer/minion_tick

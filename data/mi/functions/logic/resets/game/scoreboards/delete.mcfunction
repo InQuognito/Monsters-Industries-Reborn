@@ -54,5 +54,6 @@ scoreboard objectives remove temp
 scoreboard objectives remove timer
 scoreboard objectives remove timer.creditCard
 scoreboard objectives remove timer.itemShop
+scoreboard objectives remove useItem
 scoreboard objectives remove vars
 scoreboard objectives remove vexHealth

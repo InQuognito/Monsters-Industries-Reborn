@@ -16,3 +16,11 @@ execute as @a[team=team1] if score #team1BankAccount temp matches 1.. run functi
 execute as @a[team=team2] if score #team2BankAccount temp matches 1.. run function mi:logic/resources/transfer_to_bank_account/check
 
 execute as @e[type=#mi:mobs] run function mi:logic/health/health_check
+
+scoreboard players operation $team1StockPercent temp = $team1 stock
+scoreboard players operation $team1StockPercent temp *= #100 integers
+scoreboard players operation $team1StockPercent temp /= $stockLimit stock
+
+scoreboard players operation $team2StockPercent temp = $team2 stock
+scoreboard players operation $team2StockPercent temp *= #100 integers
+scoreboard players operation $team2StockPercent temp /= $stockLimit stock

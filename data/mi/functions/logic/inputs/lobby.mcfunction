@@ -34,8 +34,5 @@ execute positioned -24.5 6.5 -106.5 if block ~ ~ ~ #minecraft:buttons[powered=tr
 execute positioned -24.5 6.5 -108.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[advancements={mi:utility/click_button=true}] run function mi:logic/start_check
 execute positioned -24.5 6.5 -108.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run setblock ~ ~ ~ minecraft:stone_button[face=wall,facing=west]
 
-# Trapdoors
-execute positioned -28.5 9 -112.5 if block ~ ~ ~ minecraft:acacia_trapdoor[open=false] run setblock ~ ~ ~ minecraft:acacia_trapdoor[facing=south,half=top,open=true]
-execute positioned -28.5 8 -113.5 if block ~ ~ ~ minecraft:acacia_trapdoor[open=true] run setblock ~ ~ ~ minecraft:acacia_trapdoor[facing=south,half=top,open=false]
-execute positioned -28.5 9 -104.5 if block ~ ~ ~ minecraft:oak_trapdoor[open=false] run setblock ~ ~ ~ minecraft:oak_trapdoor[facing=north,half=top,open=true]
-execute positioned -28.5 8 -103.5 if block ~ ~ ~ minecraft:oak_trapdoor[open=true] run setblock ~ ~ ~ minecraft:oak_trapdoor[facing=north,half=top,open=false]
+# Settings
+function mi:logic/inputs/settings

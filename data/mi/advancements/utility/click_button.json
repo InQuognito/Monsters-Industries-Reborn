@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "mi:logic/click_button"
+		"function": "mi:logic/inputs/check"
 	}
 }

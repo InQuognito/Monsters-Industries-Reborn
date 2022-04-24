@@ -11,5 +11,8 @@
 				}
 			}
 		}
+	},
+	"rewards": {
+		"function": "mi:logic/click_button"
 	}
 }

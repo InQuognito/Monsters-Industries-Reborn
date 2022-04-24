@@ -29,6 +29,7 @@ scoreboard objectives remove lighterLevel
 scoreboard objectives remove map
 scoreboard objectives remove mode
 scoreboard objectives remove pickaxeLevel
+scoreboard objectives remove pos
 scoreboard objectives remove price
 scoreboard objectives remove production.bone
 scoreboard objectives remove production.coal

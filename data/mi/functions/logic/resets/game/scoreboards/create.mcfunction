@@ -29,6 +29,7 @@ scoreboard objectives add lighterLevel dummy
 scoreboard objectives add map dummy
 scoreboard objectives add mode dummy
 scoreboard objectives add pickaxeLevel dummy
+scoreboard objectives add pos dummy
 scoreboard objectives add price dummy
 scoreboard objectives add production.bone dummy
 scoreboard objectives add production.coal dummy

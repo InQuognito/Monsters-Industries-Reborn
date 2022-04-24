@@ -4,4 +4,4 @@ execute unless score #tokenCount temp >= #management price run title @s actionba
 
 execute if score #tokenCount temp >= #management price run function mi:logic/interactions/team_upgrades/management/buy
 
-execute at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/team_upgrades/reset_input
+execute unless score #tokenCount temp >= #management price at @e[type=minecraft:marker,tag=inputs.objectMarker] run function mi:logic/interactions/team_upgrades/reset_input

@@ -20,5 +20,5 @@ execute store result entity @e[tag=projectile,limit=1] Motion[2] double 0.00125 
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
-clear @s minecraft:carrot_on_a_stick{dragonsBreath:1}
+clear @s minecraft:carrot_on_a_stick{dragonsBreath:1} 1
 scoreboard players reset @s useItem

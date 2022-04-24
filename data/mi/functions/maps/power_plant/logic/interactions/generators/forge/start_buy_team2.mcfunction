@@ -1,5 +1,5 @@
 scoreboard players set #team2 forge 1
-function mi:maps/power_plant/logic/forge/summon_resource_team2
+function mi:logic/forge/summon_resource
 
 setblock 204 14 -133 minecraft:furnace[facing=west,lit=true]{Lock:"ae88"} destroy
 setblock 201 15 -130 minecraft:piston[facing=down] replace

@@ -203,9 +203,9 @@ scoreboard players operation #netheriteMaxTeam2 vars *= #team2Amount temp
 scoreboard players set #factoryShutdown price 150
 execute if score $stockLimit stock matches ..500 run scoreboard players operation #factoryShutdown price /= #2 integers
 execute if score $stockLimit stock matches ..250 run scoreboard players operation #factoryShutdown price /= #2 integers
-scoreboard players set #equipmentMalfunction price 150
-execute if score $stockLimit stock matches ..500 run scoreboard players operation #equipmentMalfunction price /= #2 integers
-execute if score $stockLimit stock matches ..250 run scoreboard players operation #equipmentMalfunction price /= #2 integers
+scoreboard players set #securityBreach price 150
+execute if score $stockLimit stock matches ..500 run scoreboard players operation #securityBreach price /= #2 integers
+execute if score $stockLimit stock matches ..250 run scoreboard players operation #securityBreach price /= #2 integers
 scoreboard players set #plague price 200
 execute if score $stockLimit stock matches ..500 run scoreboard players operation #plague price /= #2 integers
 execute if score $stockLimit stock matches ..250 run scoreboard players operation #plague price /= #2 integers

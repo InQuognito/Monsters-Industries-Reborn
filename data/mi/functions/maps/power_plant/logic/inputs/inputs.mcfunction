@@ -90,7 +90,7 @@ execute positioned 194.5 20.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=tr
 
 # Sabotages
 execute positioned 132.5 21.5 -95.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/factory_shutdown/try
-execute positioned 132.5 21.5 -94.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/equipment_malfunction/try
+execute positioned 132.5 21.5 -94.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/security_breach/try
 execute positioned 132.5 21.5 -93.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/plague/try
 execute positioned 132.5 21.5 -92.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/summon_wither/try
 execute positioned 132.5 21.5 -91.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/nuke/try
@@ -101,7 +101,7 @@ execute positioned 132.5 19.5 -92.5 if block ~ ~ ~ #minecraft:buttons[powered=tr
 execute positioned 132.5 19.5 -91.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team1] run function mi:logic/interactions/sabotages/direct_deposit/try
 
 execute positioned 148.5 21.5 -157.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/factory_shutdown/try
-execute positioned 148.5 21.5 -158.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/equipment_malfunction/try
+execute positioned 148.5 21.5 -158.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/security_breach/try
 execute positioned 148.5 21.5 -159.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/plague/try
 execute positioned 148.5 21.5 -160.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/summon_wither/try
 execute positioned 148.5 21.5 -161.5 if block ~ ~ ~ #minecraft:buttons[powered=true] as @p[team=team2] run function mi:logic/interactions/sabotages/nuke/try

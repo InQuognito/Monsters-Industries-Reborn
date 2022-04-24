@@ -18,13 +18,8 @@ setblock -27 5 -88 minecraft:birch_wall_sign[facing=west]{Text1:'{"text":"","cli
 setblock -27 5 -87 minecraft:birch_wall_sign[facing=west]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/execute as @p run function mi:logic/info/resources/slimeball"}}',Text2:'{"text":"Slimeballs"}'} destroy
 setblock -27 5 -86 minecraft:birch_wall_sign[facing=west]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/execute as @p run function mi:logic/info/resources/netherite"}}',Text2:'{"text":"Netherite"}'} destroy
 
-
-
 # Areas
 summon minecraft:area_effect_cloud -30.5 7.0 -90.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Areas","color":"white","bold":true}',CustomNameVisible:1b}
 setblock -31 6 -90 minecraft:birch_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/execute as @p run function mi:logic/info/areas/main_building"}}',Text2:'{"text":"Main Building"}'} destroy
 setblock -31 6 -91 minecraft:birch_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/execute as @p run function mi:logic/info/areas/outside"}}',Text2:'{"text":"Outside"}'} destroy
 setblock -31 6 -92 minecraft:birch_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/execute as @p run function mi:logic/info/areas/basement"}}',Text2:'{"text":"Basement"}'} destroy
-
-# Interactables
-summon minecraft:area_effect_cloud -30.5 7.0 -86.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"text":"Interactables","color":"white","bold":true}',CustomNameVisible:1b}

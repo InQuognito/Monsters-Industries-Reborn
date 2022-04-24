@@ -45,6 +45,30 @@ summon minecraft:marker 198.7 13.06 -130.3 {Tags:["location.team2.forge.conveyor
 summon minecraft:marker 198.7 13.06 -133.3 {Tags:["location.team2.forge.blastFurnace"]}
 summon minecraft:marker 198.7 13.06 -135.4 {Tags:["location.team2.forge.receptacle"]}
 
+summon minecraft:marker 97.5 28.0 -149.5 {Tags:["location.team1.employee1"]}
+summon minecraft:marker 97.5 28.0 -144.5 {Tags:["location.team1.employee2"]}
+summon minecraft:marker 97.5 28.0 -139.5 {Tags:["location.team1.employee3"]}
+summon minecraft:marker 91.5 28.0 -149.5 {Tags:["location.team1.employee4"]}
+summon minecraft:marker 91.5 28.0 -144.5 {Tags:["location.team1.employee5"]}
+summon minecraft:marker 91.5 28.0 -139.5 {Tags:["location.team1.employee6"]}
+summon minecraft:marker 85.5 28.0 -149.5 {Tags:["location.team1.employee7"]}
+summon minecraft:marker 85.5 28.0 -144.5 {Tags:["location.team1.employee8"]}
+summon minecraft:marker 85.5 28.0 -139.5 {Tags:["location.team1.employee9"]}
+summon minecraft:marker 79.5 28.0 -144.5 {Tags:["location.team1.employee10"]}
+summon minecraft:marker 79.5 28.0 -139.5 {Tags:["location.team1.employee11"]}
+
+summon minecraft:marker 183.5 28.0 -101.5 {Tags:["location.team2.employee1"]}
+summon minecraft:marker 183.5 28.0 -106.5 {Tags:["location.team2.employee2"]}
+summon minecraft:marker 183.5 28.0 -111.5 {Tags:["location.team2.employee3"]}
+summon minecraft:marker 189.5 28.0 -101.5 {Tags:["location.team2.employee4"]}
+summon minecraft:marker 189.5 28.0 -106.5 {Tags:["location.team2.employee5"]}
+summon minecraft:marker 189.5 28.0 -111.5 {Tags:["location.team2.employee6"]}
+summon minecraft:marker 195.5 28.0 -101.5 {Tags:["location.team2.employee7"]}
+summon minecraft:marker 195.5 28.0 -106.5 {Tags:["location.team2.employee8"]}
+summon minecraft:marker 195.5 28.0 -111.5 {Tags:["location.team2.employee9"]}
+summon minecraft:marker 201.5 28.0 -106.5 {Tags:["location.team2.employee10"]}
+summon minecraft:marker 201.5 28.0 -111.5 {Tags:["location.team2.employee11"]}
+
 summon minecraft:marker 115.5 27.5 -124.5 {Tags:["location.directExposure.team1"]}
 
 summon minecraft:marker 165.5 27.5 -125.5 {Tags:["location.directExposure.team2"]}

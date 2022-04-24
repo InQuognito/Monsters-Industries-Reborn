@@ -219,11 +219,11 @@ fill 109 31 -124 171 31 -124 minecraft:air replace
 fill 171 31 -127 109 31 -127 minecraft:air replace
 fill 140 30 -128 140 31 -123 minecraft:barrier replace
 
-fill 108 28 -124 108 29 -127 minecraft:white_stained_glass_pane[north=true,south=true] replace
-fill 108 30 -124 108 30 -127 minecraft:light_blue_stained_glass_pane[north=true,south=true] replace
+fill 108 28 -123 108 29 -128 minecraft:white_stained_glass_pane[north=true,south=true] replace
+fill 108 30 -123 108 30 -128 minecraft:light_blue_stained_glass_pane[north=true,south=true] replace
 
-fill 172 28 -127 172 28 -124 minecraft:black_stained_glass_pane[north=true,south=true] replace
-fill 172 29 -127 172 30 -124 minecraft:red_stained_glass_pane[north=true,south=true] replace
+fill 172 28 -128 172 28 -123 minecraft:black_stained_glass_pane[north=true,south=true] replace
+fill 172 29 -128 172 30 -123 minecraft:red_stained_glass_pane[north=true,south=true] replace
 
 # Enchantments
 setblock 136 20 -127 minecraft:warped_wall_sign[facing=south]{Color:"black",Text2:'[{"score":{"name":"#enchanting","objective":"price"}},{"text":" Tokens"}]'} destroy
